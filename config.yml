@@ -1,0 +1,55 @@
+version: 1.2
+# history:
+# 1.1 pattern added
+# 1.2 data_selection added
+
+path:
+  url_domain: https://digitalcollection.zhaw.ch/oai/request/
+  repo_config: /zhawDIGCOLconfig
+  repo_sdgs: /data/sdgs
+  repo_code: /zhawDIGCOLimport
+  repo_urls: dc_urls.json
+  repo_files: /dc_raw_
+  # path_raw: /extdata/raw
+  path_data_raw: /data/raw
+  path_data: /data
+  # path_transformed: /extdata/transformed
+  path_data_transformed: /data/transformed
+  path_sdg: /extdata/sdg
+
+  import_data: /zhawDIGCOLimport/data
+  import_r: /zhawDIGCOLimport/R
+  import_test: /zhawDIGCOLimport/test
+
+  libs:
+    [magrittr,
+    dplyr,
+    purrr,
+    here,
+    urltools,
+    XML]
+
+pattern:
+  files_raw: "^.*_raw_.*\\.(xml|XML)"
+  files_sdg: "^S.{3,4}.(xlsx|XLSX)"
+  files_transformed: "^.*_transformed_.*\\.(json|JSON)"
+  files_dfm_csv: "^.*_dfm_.*\\.(csv|CSV)"
+  files_dfm_json: "^.*_dfm_.*\\.(json|JSON)"
+  
+data_selection:
+  [id,
+  handle,
+  date,
+  language,
+  title,
+  authors,
+  subject,
+  #description,
+  type,
+  #relation,
+  #rights,
+  #publisher,
+  #format,
+  bid,
+  year,
+  for_data_analysis]
