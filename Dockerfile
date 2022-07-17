@@ -13,10 +13,10 @@ RUN apt-get update -qq \
   && rm -rf /var/lib/apt/lists/*
 
 # R packages needed by the services 
-RUN R -e 'install.packages(c("magrittr", "yaml", "plumber", "forcats", "dplyr", "stringr", "jsonlite", "readr", "tidyr", "quanteda", "openxlsx", "qpcR")' \
-  && rm -rf /tmp/* 
+RUN R -e 'install.packages(c("magrittr", "yaml", "plumber", "forcats", "dplyr", "stringr", "jsonlite", "readr", "tidyr", "quanteda", "openxlsx", "qpcR"))' \
+ && rm -rf /tmp/*
 
-# Volume definition on the host and withing the container 
+# Volume definition on the host and within the container 
 COPY config.yml /usr
 COPY /data/. /usr/data 
 COPY /src/. /usr/src 
