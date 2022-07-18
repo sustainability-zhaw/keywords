@@ -28,4 +28,5 @@ WORKDIR /usr
 # CMD Rscript plumber.R
 
 # launch the plumbered R file 
-CMD ["Rscript src/dc_sdgs_mapping.R"]
+# CMD ["Rscript src/dc_sdgs_mapping.R"]
+CMD ["Rscript src/hello.R"]
