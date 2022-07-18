@@ -1,6 +1,6 @@
-FROM docker
-COPY --from=docker/buildx-bin:latest /buildx /usr/libexec/docker/cli-plugins/docker-buildx
-RUN docker buildx version
+# FROM docker
+# COPY --from=docker/buildx-bin:latest /buildx /usr/libexec/docker/cli-plugins/docker-buildx
+# RUN docker buildx version
 
 # start from rstudio/plumber image 
 FROM rstudio/plumber AS builder 
