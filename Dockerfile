@@ -16,16 +16,18 @@ RUN apt-get update -qq \
 RUN R -e 'install.packages(c("magrittr", "yaml", "plumber", "forcats", "dplyr", "stringr", "jsonlite", "readr", "tidyr", "quanteda", "openxlsx", "qpcR"))' \
  && rm -rf /tmp/*
 
+# set the container work directory 
+WORKDIR /usr
+
 # Volume definition on the host and within the container 
 COPY config.yml /usr
 COPY /data/. /usr/data 
 COPY /src/. /usr/src 
 
-# set the container work directory 
-WORKDIR /usr
-
 # VOLUME ["/usr/src"]
 # CMD Rscript plumber.R
+
+RUN R -e "install.packages('libcurl:latest')"
 
 # launch the plumbered R file 
 # CMD ["Rscript src/dc_sdgs_mapping.R"]
