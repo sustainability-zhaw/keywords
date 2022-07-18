@@ -3,7 +3,7 @@
 # RUN docker buildx version
 
 # start from rstudio/plumber image 
-FROM rstudio/plumber AS builder 
+FROM rstudio/plumber:latest
 
 # general update check, additional installation needed 
 RUN apt-get update -qq \
@@ -28,4 +28,4 @@ WORKDIR /usr
 # CMD Rscript plumber.R
 
 # launch the plumbered R file 
-CMD ["src/dc_sdgs_mapping.R"]
+CMD ["Rscript src/dc_sdgs_mapping.R"]
