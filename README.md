@@ -28,8 +28,8 @@ b) docker buildx build --platform linux/amd64,linux/arm64 -t ghcr.io/sustainabil
 ## Testing
 Test the service using the following command. 
 ```
-docker run -itd -p 80:80 --entrypoint /bin/sh ghcr.io/sustainability-zhaw/sdg-validation:latest
-curl localhost/hello
+docker run -itd -p 6922:80 --entrypoint /bin/sh ghcr.io/sustainability-zhaw/sdg-validation:latest
+curl localhost/dc_mapping
 ```
 
 ## Pushing the package to Git
@@ -49,3 +49,10 @@ like the docker image pull command
 ```
 docker pull ghcr.io/sustainability-zhaw/hello-package:latest
 ```
+
+## ssh to the multimico cluster
+In order to reach the cluster we need to ssh into one of the cluster servers. e.g to 'clt-lab-n-1171'
+```
+ssh multimico@clt-lab-n-1171.zhaw.ch
+```
+`multimico`stands for the username and `clt-lab-n-1171.zhaw.ch`for the server to reach
