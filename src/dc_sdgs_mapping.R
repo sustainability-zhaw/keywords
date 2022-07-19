@@ -24,6 +24,7 @@ function() {
 }
 
 #* @get /wdir
-function(wokd = wd) {
-  return(wokd)
+#* #* @param workdir
+function(workdir = wd) {
+  return(workdir)
 }
