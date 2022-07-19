@@ -10,7 +10,7 @@ wd = getwd()
 
 #* @get /wd
 #* @param workdir = wd
-function() {
+function(workdir) {
   return(workdir)
 }
 
