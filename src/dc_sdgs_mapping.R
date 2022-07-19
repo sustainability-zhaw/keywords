@@ -1,3 +1,4 @@
 library(plumber)
-library(qpcR)
+# library(qpcR)
 
+`%>%` = magrittr::`%>%` 
