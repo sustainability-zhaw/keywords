@@ -23,8 +23,14 @@ function() {
   return("config")
 }
 
+#* @get /wd
+#* @param workdir
+function(workdir = getwd()) {
+  return(workdir)
+}
+
 #* @get /wdir
-#* #* @param workdir
+#* @param workdir
 function(workdir = wd) {
   return(workdir)
 }
