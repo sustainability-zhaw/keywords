@@ -8,7 +8,7 @@ library(plumber)
 # setwd(stringr::str_c(host, repo))
 # setwd(stringr::str_c(getwd(), "../")
 # wd = here::here()
-wd = here::set_here(path='..')
+wd = here::set_here(path='../')
 # wd = getwd()
 
 #* @get /wd
