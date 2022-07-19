@@ -1,0 +1,2286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="static/style.xsl"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-06-08T16:56:58Z</responseDate>
+  <request verb="ListRecords" resumptionToken="oai_dc////24800">https://digitalcollection.zhaw.ch/oai/request/</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/8620</identifier>
+        <datestamp>2019-06-25T10:36:44Z</datestamp>
+        <setSpec>com_11475_1071</setSpec>
+        <setSpec>com_11475_2</setSpec>
+        <setSpec>col_11475_1073</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Mitarbeitende beurteilen</dc:title>
+          <dc:creator>Werkmann-Karcher, Birgit</dc:creator>
+          <dc:subject>Leistungsbeurteilung</dc:subject>
+          <dc:subject>Feedback</dc:subject>
+          <dc:subject>Kompetenzbeurteilung</dc:subject>
+          <dc:subject>658.3: Personalmanagement</dc:subject>
+          <dc:date>2018-07-26T14:48:39Z</dc:date>
+          <dc:date>2018-07-26T14:48:39Z</dc:date>
+          <dc:date>2013</dc:date>
+          <dc:type>Buchbeitrag</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.1007/978-3-642-34357-5_13</dc:identifier>
+          <dc:identifier>info:doi/10.1007/978-3-642-34357-5_13</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/8620</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/8620</dc:identifier>
+          <dc:identifier>info:hdl/11475/8620</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Handbuch Angewandte Psychologie für Führungskräfte : Führungskompetenz und Führungswissen</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Springer</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/13473</identifier>
+        <datestamp>2021-03-04T12:57:02Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Langfristiger Unternehmenserfolg = Strategie + Innovationen + CRM</dc:title>
+          <dc:creator>Rüttimann, René</dc:creator>
+          <dc:subject>Unternehmenserfolg</dc:subject>
+          <dc:subject>CRM</dc:subject>
+          <dc:subject>658.8: Marketingmanagement</dc:subject>
+          <dc:date>2018-12-04T13:36:57Z</dc:date>
+          <dc:date>2018-12-04T13:36:57Z</dc:date>
+          <dc:date>2008</dc:date>
+          <dc:type>Buchbeitrag</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/13473</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/13473</dc:identifier>
+          <dc:identifier>info:hdl/11475/13473</dc:identifier>
+          <dc:identifier>urn:isbn:978-3-85743-728-1</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Customer Relationship Management : neue CRM-Best-Practice-Fallstudien und -Konzepte zu Prozessen, Organisation, Mitarbeiterführung und Technologie</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>IO Industrielle Organisation</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/10025</identifier>
+        <datestamp>2019-09-24T13:10:05Z</datestamp>
+        <setSpec>com_11475_1068</setSpec>
+        <setSpec>com_11475_1</setSpec>
+        <setSpec>col_11475_1069</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Vorreden der Zukunft : Nietzsches Rhetorik einer kommenden Philosophie</dc:title>
+          <dc:creator>Müller Farguell, Roger W.</dc:creator>
+          <dc:subject>Rhetorik</dc:subject>
+          <dc:subject>Literaturwissenschaft</dc:subject>
+          <dc:subject>Philosophie</dc:subject>
+          <dc:subject>100: Philosophie</dc:subject>
+          <dc:subject>808: Rhetorik und Schreiben</dc:subject>
+          <dc:date>2018-08-30T10:25:36Z</dc:date>
+          <dc:date>2018-08-30T10:25:36Z</dc:date>
+          <dc:date>1999</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/10025</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/10025</dc:identifier>
+          <dc:identifier>info:hdl/11475/10025</dc:identifier>
+          <dc:identifier>urn:issn:0342-1422</dc:identifier>
+          <dc:identifier>urn:issn:1613-0790</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Nietzsche-Studien</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>De Gruyter</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/138</identifier>
+        <datestamp>2019-09-20T09:49:11Z</datestamp>
+        <setSpec>com_11475_1095</setSpec>
+        <setSpec>com_11475_8</setSpec>
+        <setSpec>col_11475_48</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Der Sozialdienst des Universitätsspitals Zürich als Wertschöpfungs-Center</dc:title>
+          <dc:creator>Frost-Ebinger, Silvia</dc:creator>
+          <dc:subject>Strategieentwicklung</dc:subject>
+          <dc:subject>Sozialdienst</dc:subject>
+          <dc:subject>Wertschöpfung</dc:subject>
+          <dc:subject>Total Quality Management</dc:subject>
+          <dc:subject>360: Soziale Probleme und Sozialversicherungen</dc:subject>
+          <dc:description>Der Sozialdienst des Universitätsspitals Zürich (USZ) wird neu als Wertschöpfungs-Center konzeptualisiert. Dieses geht davon aus, dass die Wertschöpfung eines internen Dienstleisters durch die Ausrichtung am Erfolgsdreieck – Strategie und Effektivität / Qualität und Dienstleistung / Wirtschaftlichkeit und Wertschöpfung – generiert wird. Es lehnt sich dabei an das Wertschöpfungs-Center für Personaldienstleistungen von Wunderer und von Arx (2002) an, welches auf dem Qualitätsmodell des Total Quality Managements (TQM) beruht. &#13;
+&#13;
+Der durch den Sozialdienst USZ durchgeführte Strategieentwicklungsprozess zur Ermittlung der konkreten Angebote des Sozialen Wertschöpfungs-Centers folgt dem Modell von Sander und Bauer (2006). Das zukünftige Center muss seine sozialen Angebote auf die relevanten Umwelttrends, das USZ als Gesamtorganisation und die wichtigsten Anspruchsgruppen ausrichten. Dies alles immer unter Abgleichung mit dem gesellschaftlichen Auftrag professioneller Sozialarbeit, welcher im Berufskodex der Professionellen Sozialen Arbeit Schweiz ausformuliert ist. Dieser bildet die normative Grundlage des Sozialen Wertschöpfungs-Centers und definiert die Grundsätze des zu bearbeitenden sozialen Gegenstandes.&#13;
+&#13;
+Als Ergebnis entsteht ein Soziales Wertschöpfungs-Center, welches aus je einem Service-Center Rehabilitation, Beratung und Care und einem Sozialen Expertencenter besteht. Die Rehabilitationsdienstleistungen werden in einer eigenen Einheit angeboten, da die Effizienz durch den teilweisen Einsatz von Sachbearbeitenden und dem Fokus auf der Prozessgeschwindigkeit erhöht werden kann. In der Folge kommt es zu einer Senkung der Kosten (Wertschöpfungsbeitrag). Im Service-Center Beratung und Care werden prioritär Dienstleistungen erbracht, welche der Definition von sozialen Problemen entsprechen und den optimalen Spitalaustritt der Patienten – als erfolgskritischen Faktor für das USZ – begünstigen. Durch das Soziale Expertencenter werden soziale Dienstleistungen und Produkte erbracht, welche relevant sind für die Gesamtführung des USZ. Dieses Center hat das Potenzial zum Profit-Center durch den externen Verkauf gewisser Produkte und Dienstleistungen. &#13;
+&#13;
+In jedem der drei Center werden die Wertschöpfungs-Dimensionen "Management" (WAS ist zu tun?), "Service" (WIE ist es zu tun?) und "Business" (KOSTEN) mittels geeigneter Instrumente ermittelt und überprüft.</dc:description>
+          <dc:date>2015-07-10T12:05:06Z</dc:date>
+          <dc:date>2015-07-10T12:05:06Z</dc:date>
+          <dc:date>2010</dc:date>
+          <dc:type>Thesis: Master</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-138</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-138</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/138</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/138</dc:identifier>
+          <dc:identifier>info:hdl/11475/138</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:format>61 S.</dc:format>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>ZHAW Zürcher Hochschule für Angewandte Wissenschaften</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/11801</identifier>
+        <datestamp>2021-03-04T12:56:49Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Developing sustainably responsible strategies in business</dc:title>
+          <dc:creator>Schüz, Mathias</dc:creator>
+          <dc:subject>Business</dc:subject>
+          <dc:subject>Management</dc:subject>
+          <dc:subject>Practice</dc:subject>
+          <dc:subject>Strategy</dc:subject>
+          <dc:subject>658.4: Leitendes Management</dc:subject>
+          <dc:description>This chapter provides the reader with a better understanding of how companies can assess their strategic options for business development in order to comply with demands from different environments. For this, it clarifies the deeper meaning and interrelation of fundamental terms such as sustainability, responsibility and ethics. Furthermore, it discloses the significance of sustainably responsible activities for the long-term success of business strategies. Participants of this course can:&#13;
+- Learn how to gain a competitive advantage by developing sustainable strategies that cope with the different challenges of economic, social and ecological issues&#13;
+- Develop strategies that cope with threats and exploit opportunities by applying strengths and compensating for weaknesses&#13;
+- Understand the deeper meaning of responsibility, sustainability and ethics &#13;
+- Check whether a strategic option is in compliance with demands for sustainable corporate responsibility.</dc:description>
+          <dc:date>2018-10-15T10:18:19Z</dc:date>
+          <dc:date>2018-10-15T10:18:19Z</dc:date>
+          <dc:date>2014</dc:date>
+          <dc:type>Buchbeitrag</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/11801</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/11801</dc:identifier>
+          <dc:identifier>info:hdl/11475/11801</dc:identifier>
+          <dc:identifier>urn:isbn:978-1-78353-120-2</dc:identifier>
+          <dc:identifier>urn:isbn:978-1-78353-121-9</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>The business student's guide to sustainable management : principles and practice</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Greenleaf</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/4011</identifier>
+        <datestamp>2019-12-16T07:28:34Z</datestamp>
+        <setSpec>com_11475_1071</setSpec>
+        <setSpec>com_11475_2</setSpec>
+        <setSpec>col_11475_1073</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Associations between family relationships and symptoms/strengths at kindergarten age : what is the role of children's parental representations?</dc:title>
+          <dc:creator>Stadelmann, Stephanie</dc:creator>
+          <dc:creator>Perren, Sonja</dc:creator>
+          <dc:creator>von Wyl, Agnes</dc:creator>
+          <dc:creator>von Klitzing, Kai</dc:creator>
+          <dc:subject>Kindergarten age</dc:subject>
+          <dc:subject>Parental representation</dc:subject>
+          <dc:subject>Play narrative</dc:subject>
+          <dc:subject>Family environment</dc:subject>
+          <dc:subject>Psychopathology</dc:subject>
+          <dc:subject>Symptom</dc:subject>
+          <dc:subject>Pro-social behaviour</dc:subject>
+          <dc:subject>155: Differentielle Psychologie und Entwicklungspsychologie</dc:subject>
+          <dc:subject>306: Kultur</dc:subject>
+          <dc:subject>618.92: Pädiatrie</dc:subject>
+          <dc:description>Background: The quality of the family relationships plays an important role in the development of children’s psychopathology and in their socio-emotional development. This longitudinal study aims to investigate whether family relationships are related to children’s symptoms/strengths at kindergarten, and whether family relationships are predictors of changes in children’s symptoms/strengths between 5 and 6. Our main interest is to examine the role of children’s parental representations.&#13;
+Methods: One hundred and fifty-three kindergarten children (67 girls, 86 boys) participated in this study. Children’s parental representations were assessed using a story stem task (age 5). The family environment was assessed using parents’ ratings (age 5). A multi-informant approach (parent, teacher, child) was employed to assess children’s symptoms/strengths at 5 and 6. Children were interviewed using a standardized puppet interview. Parents and teachers completed questionnaires. &#13;
+Results: Children’s parental representations as well as the family environment were associated with children’s symptoms/strengths at 5 and 6. When controlled for gender, children’s representations were the only predictor of changes in symptoms/strengths between 5 and 6. A large number of negative parental representations at 5 predicted an increase in conduct problems. A large number of positive parental representations at 5 predicted an increase in pro-social behaviour. In terms of emotional symptoms and hyperactivity/ inattention, symptoms at 5 were the only predictor for symptoms one year later. &#13;
+Conclusions: Our results suggest that kindergarten children’s narrative representations may elaborate the processes underlying the expression of child disturbance and strengths, and underline the relevance of the play and narration of young children for diagnostics and therapy.</dc:description>
+          <dc:date>2018-03-16T13:12:11Z</dc:date>
+          <dc:date>2018-03-16T13:12:11Z</dc:date>
+          <dc:date>2007-10</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.1111/j.1469-7610.2007.01813.x</dc:identifier>
+          <dc:identifier>info:doi/10.1111/j.1469-7610.2007.01813.x</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/4011</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/4011</dc:identifier>
+          <dc:identifier>info:hdl/11475/4011</dc:identifier>
+          <dc:identifier>urn:issn:0021-9630</dc:identifier>
+          <dc:identifier>urn:issn:1469-7610</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Journal of Child Psychology and Psychiatry</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Wiley</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/16183</identifier>
+        <datestamp>2020-02-21T11:44:35Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Mehr Fundraising-Erfolg an Museen : die Beziehung zwischen Governance und Fundraising Performance</dc:title>
+          <dc:creator>Betzler, Diana</dc:creator>
+          <dc:subject>Museum</dc:subject>
+          <dc:subject>Fundraising</dc:subject>
+          <dc:subject>Governance</dc:subject>
+          <dc:subject>306: Kultur</dc:subject>
+          <dc:subject>658.1: Organisation und Finanzen</dc:subject>
+          <dc:date>2019-03-20T14:41:25Z</dc:date>
+          <dc:date>2019-03-20T14:41:25Z</dc:date>
+          <dc:date>2012</dc:date>
+          <dc:type>Konferenz: Sonstiges</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/16183</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/16183</dc:identifier>
+          <dc:identifier>info:hdl/11475/16183</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>10. Internationales NPO-Forschungscolloquium, Fribourg, 29.-30. März 2012</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/22635</identifier>
+        <datestamp>2021-06-11T13:19:48Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Linearized continuous Galerkin hp-FEM applied to nonlinear initial value problems</dc:title>
+          <dc:creator>Amrein, Mario</dc:creator>
+          <dc:subject>Galerkin method</dc:subject>
+          <dc:subject>High-order method</dc:subject>
+          <dc:subject>510: Mathematik</dc:subject>
+          <dc:description>In this note we consider the continuous Galerkin time-stepping method of arbitrary order as a possible discretization scheme of nonlinear initial value problems. In addition, we develop and generalize a well-known existing result for the discrete solution by applying a general linearizing procedure to the nonlinear discrete scheme including also the simplified Newton solution procedure. In particular, the presented existence results are implied by choosing sufficient small time steps locally. Furthermore, the established existence results are independent of the local approximation order. Moreover, we will see that the proposed solution scheme is able to significantly reduce the number of iterations. Finally, based on existing and well-known a priori error estimates for the discrete solution, we present some numerical experiments that highlight the proposed results of this note.</dc:description>
+          <dc:date>2021-06-11T13:19:47Z</dc:date>
+          <dc:date>2021-06-11T13:19:47Z</dc:date>
+          <dc:date>2021-03-23</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.1002/mma.7351</dc:identifier>
+          <dc:identifier>info:doi/10.1002/mma.7351</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/22635</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/22635</dc:identifier>
+          <dc:identifier>info:hdl/11475/22635</dc:identifier>
+          <dc:identifier>urn:issn:0170-4214</dc:identifier>
+          <dc:identifier>urn:issn:1099-1476</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Mathematical Methods in the Applied Sciences</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Wiley</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/9520</identifier>
+        <datestamp>2019-06-24T10:54:14Z</datestamp>
+        <setSpec>com_11475_1080</setSpec>
+        <setSpec>com_11475_3</setSpec>
+        <setSpec>col_11475_1081</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Der diabetische Fuss : Vorsorge - was können Sie selber tun</dc:title>
+          <dc:creator>Keller-Senn, Anita</dc:creator>
+          <dc:creator>Imhof, Lorenz</dc:creator>
+          <dc:subject>610.73: Pflege</dc:subject>
+          <dc:subject>616: Innere Medizin und Krankheiten</dc:subject>
+          <dc:date>2018-08-24T06:58:51Z</dc:date>
+          <dc:date>2018-08-24T06:58:51Z</dc:date>
+          <dc:date>2011</dc:date>
+          <dc:type>Buch</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/9520</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/9520</dc:identifier>
+          <dc:identifier>info:hdl/11475/9520</dc:identifier>
+          <dc:identifier>urn:isbn:978-3-905983-02-9</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>ZHAW Zürcher Hochschule für Angewandte Wissenschaften</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/24485</identifier>
+        <datestamp>2022-03-04T13:51:48Z</datestamp>
+        <setSpec>com_11475_1068</setSpec>
+        <setSpec>com_11475_1</setSpec>
+        <setSpec>col_11475_1069</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Results of the COVIDisc project on the production, perception, and reception of COVID-19 discourses</dc:title>
+          <dc:creator>Dreesen, Philipp</dc:creator>
+          <dc:creator>Krasselt, Julia</dc:creator>
+          <dc:subject>Triangulation</dc:subject>
+          <dc:subject>Covid-19 discourse</dc:subject>
+          <dc:subject>Young adults</dc:subject>
+          <dc:subject>Cluster</dc:subject>
+          <dc:subject>401.4: Terminologie, Diskursanalyse, Pragmatik</dc:subject>
+          <dc:subject>614: Public Health und Gesundheitsförderung</dc:subject>
+          <dc:description>The containment of the COVID-19 pandemic relies heavily on the communication between public health organizations and individual social groups (Azizi et al. 2020). Therefore, public discourses and discursive practices of specific audiences play a crucial role in the policy implementation during a pandemic. The SNSF-funded COVIDisc project focused on 15- 34-year-olds in German- and Italian-speaking Switzerland. This age group is very mobile and socially active, and society demands solidary behavior. For that reason, it is particularly important to reach this group through communication (cf. Friemel/Geber 2021).&#13;
+&#13;
+The project is based on a triangulated research design (Dreesen &amp; Stücheli-Herlach 2019) including (1) a corpus-centered discourse analysis including media and Twitter data (production of discourse), (2) survey and interviews with 15-34-year-olds (perception of discourse), and (3) expert interviews (reflection of discourse).&#13;
+&#13;
+We will present the project’s main results, e.g., how COVID-19 was perceived in the first weeks of 2020 and how a common ground emerges. We will show how the dangerousness and potential lethality of the virus is perceived by younger individuals and what experts said about their learning of key strategic principles of actors in public communication. We show how the group of 15-34-year-olds is constructed through patterns of language use and how they learn about COVID-19. Furthermore, it can be shown that solidarity is a discourse topic during lockdown, but communicating solidarity is one of the biggest challenges for public communication actors. This is related to discourse positions: Who sends out information, who disseminates it, and who remains unheard.</dc:description>
+          <dc:date>2022-03-04T13:51:48Z</dc:date>
+          <dc:date>2022-03-04T13:51:48Z</dc:date>
+          <dc:date>2022-02-18</dc:date>
+          <dc:type>Konferenz: Sonstiges</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://philippdreesen.de/onewebmedia/Dreesen_Krasselt_Results_COVIDisc_18022022.pdf</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/24485</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Forum of Applied Linguistics in Switzerland, VALS-ASLA, online, 18 february 2022</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/15531</identifier>
+        <datestamp>2020-02-13T12:22:13Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Diagnose von und Umgang mit Schülerfehlern als Facette der professionellen Kompetenz von Lehrkräften</dc:title>
+          <dc:creator>Baumgartner, Alexander</dc:creator>
+          <dc:subject>371: Schulen und schulische Tätigkeiten</dc:subject>
+          <dc:date>2019-02-20T14:40:02Z</dc:date>
+          <dc:date>2019-02-20T14:40:02Z</dc:date>
+          <dc:date>2014</dc:date>
+          <dc:type>Konferenz: Poster</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/15531</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/15531</dc:identifier>
+          <dc:identifier>info:hdl/11475/15531</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>2. Netzwerktagung des Netzwerks Bildungsforschung der Baden-Württemberg Stiftung, Bad Urach, 7. Mai 2014</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/20431</identifier>
+        <datestamp>2020-08-31T08:55:18Z</datestamp>
+        <setSpec>com_11475_1089</setSpec>
+        <setSpec>com_11475_6</setSpec>
+        <setSpec>col_11475_1090</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>AdsISee : advertisement detection and tracking for sponsorship evaluation in soccer matches</dc:title>
+          <dc:creator>Westermann, Alexander</dc:creator>
+          <dc:creator>Krayer, Philipp</dc:creator>
+          <dc:creator>Weiler, Andreas</dc:creator>
+          <dc:subject>005: Computerprogrammierung, Programme und Daten</dc:subject>
+          <dc:date>2020-08-31T08:55:18Z</dc:date>
+          <dc:date>2020-08-31T08:55:18Z</dc:date>
+          <dc:date>2020</dc:date>
+          <dc:type>Konferenz: Paper</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/20431</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/20431</dc:identifier>
+          <dc:identifier>info:hdl/11475/20431</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Proceedings of the DARLI-AP 2020 : Data Analytics Solutions for Real-Life Applications Workshop of the EDBT/ICDT 2020 Joint Conference</dc:relation>
+          <dc:relation>EDBT/ICDT 2020 Joint Conference, Copenhagen, Denmark, 30 March 2020</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/22703</identifier>
+        <datestamp>2021-06-24T03:01:16Z</datestamp>
+        <setSpec>com_11475_236</setSpec>
+        <setSpec>com_11475_2</setSpec>
+        <setSpec>col_11475_8947</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Telefonische Beratung in der BSLB : Chancen und Schwierigkeiten in Bezug auf die Beziehungsgestaltung</dc:title>
+          <dc:creator>Eberle, Marlene</dc:creator>
+          <dc:subject>370: Bildung und Erziehung</dc:subject>
+          <dc:description>Die vorliegende Arbeit geht der Fragestellung nach, wie die Beziehungsgestaltung bei der Telefonberatung im Vergleich zur Präsenzberatung gelingen kann und was Chancen und Stolpersteine der jeweiligen Beratungsform sein können. Es werden Vorschläge erarbeitet, unter welchen Bedingungen oder mit welchen Mitteln die Beziehungsgestaltung in der Berufs-, Studien- und Laufbahnberatung (BSLB) übers Telefon verbessert werden kann. Des Weiteren wird auf die Klärung des Anliegens sowie die Kommunikation zwischen ratsuchender und beratender Person bei der telefonischen Beratung eingegangen. Diese Thematik gewann mit dem Ausbruch der COVID-19-Pandemie im Frühjahr 2020 an besonderer Relevanz für die BSLB, da Präsenzberatungen zeitweise nicht mehr möglich waren.&#13;
+&#13;
+Im empirischen Teil der vorliegenden Arbeit werden die oben genannten Forschungsfragen überprüft und ausgewertet. Mittels eines Interviewleitfadens werden mit aus Theorie und Praxis abgeleiteter Kategorien Expert*inneninterviews mit fünf Beratungspersonen durchgeführt, die über langjährige Erfahrung in der BSLB verfügen. Anschliessend werden die Ergebnisse der Untersuchung diskutiert und durch Zitate aus den Interviews gestützt. Schliesslich wer-den aus der Interpretation der Ergebnisse Handlungsempfehlungen für den Umgang mit Distanzberatung im Sinne der Beziehungsgestaltung abgeleitet.</dc:description>
+          <dc:date>2021-06-23T11:51:59Z</dc:date>
+          <dc:date>2021-06-23T11:51:59Z</dc:date>
+          <dc:date>2020</dc:date>
+          <dc:type>Thesis: Master</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-22703</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-22703</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/22703</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/22703</dc:identifier>
+          <dc:identifier>info:hdl/11475/22703</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+          <dc:format>49 S.</dc:format>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>Zürcher Hochschule für Angewandte Wissenschaften</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/7275</identifier>
+        <datestamp>2020-05-13T03:00:44Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Koordinationspflichtige Bauvorhaben bei Schutzobjekten : zur Umsetzung von Art. 25a RPG am Beispiel des Zürcher Rechts, mit besonderer Berücksichtigung der Erstellung von Solaranlagen</dc:title>
+          <dc:creator>Abegg, Andreas</dc:creator>
+          <dc:creator>Dörig, Leonie</dc:creator>
+          <dc:subject>343: Öffentliches Recht (CH), Sachen-, Finanz-, Steuer- und Wirtschaftsrecht</dc:subject>
+          <dc:description>Seit dem 1. Mai 2014 sind Solaranlagen auf Dächern nicht mehr baubewilligungspflichtig, sondern unterliegen nur noch einer Meldepflicht. Unklar ist, ob und inwiefern dies auch für Solaranlagen auf Denkmälern gelten kann. Der vorliegende Band nimmt diese Frage zum Anlass für eine Untersuchung, wann und wie baurechtliche mit denkmalpflegerischen Entscheiden nach Art. 25a RPG zu koordinieren sind. Besonderes Augenmerk wird dabei erstens der reichhaltigen bundesgerichtlichen Rechtsprechung und zweitens der Umsetzung im Kanton Zürich geschenkt.</dc:description>
+          <dc:date>2018-06-25T14:29:07Z</dc:date>
+          <dc:date>2018-06-25T14:29:07Z</dc:date>
+          <dc:date>2017</dc:date>
+          <dc:type>Buch</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-7275</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-7275</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/7275</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/7275</dc:identifier>
+          <dc:identifier>info:hdl/11475/7275</dc:identifier>
+          <dc:identifier>urn:isbn:978-3-03751-922-6</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Schriften zum Energierecht</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:format>79 S.</dc:format>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>Dike</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/21383</identifier>
+        <datestamp>2021-01-21T14:12:07Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Massnahmen bei unberechtigtem Nichterscheinen am Arbeitsplatz</dc:title>
+          <dc:creator>Vögeli Galli, Nicole</dc:creator>
+          <dc:creator>Bergamin, Carolina</dc:creator>
+          <dc:subject>344: Öffentliches Recht (CH), Arbeits-, Sozial-, Bildungs- und Kulturrecht</dc:subject>
+          <dc:description>Das Fernbleiben eines Mitarbeitenden vom Arbeitsplatz stellt eine grobe Verletzung der arbeitsvertraglichen Hauptpflicht — Arbeitsleistung — dar (OR 319). Die Konsequenzen für den Mitarbeitenden hängen primär davon ab, ob er unberechtigt oder berechtigt gefehlt hat.</dc:description>
+          <dc:date>2021-01-21T14:12:07Z</dc:date>
+          <dc:date>2021-01-21T14:12:07Z</dc:date>
+          <dc:date>2020-07</dc:date>
+          <dc:type>Beitrag in Magazin oder Zeitung</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/21383</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/21383</dc:identifier>
+          <dc:identifier>info:hdl/11475/21383</dc:identifier>
+          <dc:identifier>urn:issn:1664-5693</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Personal Schweiz</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>WEKA</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/13855</identifier>
+        <datestamp>2022-01-20T09:51:01Z</datestamp>
+        <setSpec>com_11475_1083</setSpec>
+        <setSpec>com_11475_4</setSpec>
+        <setSpec>col_11475_1084</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>2D viscoelastic thrombosis model for stented aneurysms</dc:title>
+          <dc:creator>Egger, Julian</dc:creator>
+          <dc:creator>Szczerba, Dominik</dc:creator>
+          <dc:creator>Rüfenacht, Daniel</dc:creator>
+          <dc:creator>Szekely, Gabor</dc:creator>
+          <dc:creator>Hirsch, Sven</dc:creator>
+          <dc:subject>616: Innere Medizin und Krankheiten</dc:subject>
+          <dc:date>2018-12-14T15:02:12Z</dc:date>
+          <dc:date>2018-12-14T15:02:12Z</dc:date>
+          <dc:date>2014</dc:date>
+          <dc:type>Konferenz: Sonstiges</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/13855</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/13855</dc:identifier>
+          <dc:identifier>info:hdl/11475/13855</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>7th World Congress of Biomechanics, Boston, USA, 06-11 July 2014</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/21085</identifier>
+        <datestamp>2020-12-19T04:00:49Z</datestamp>
+        <setSpec>com_11475_1083</setSpec>
+        <setSpec>com_11475_4</setSpec>
+        <setSpec>col_11475_1084</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Evolution of the polyphenol and terpene content, antioxidant activity and plant morphology of eight different fiber-type cultivars of Cannabis sativa L. cultivated at three sowing densities</dc:title>
+          <dc:creator>André, Amandine</dc:creator>
+          <dc:creator>Leupin, Marianne</dc:creator>
+          <dc:creator>Kneubühl, Markus</dc:creator>
+          <dc:creator>Pedan, Vasilisa</dc:creator>
+          <dc:creator>Chetschik, Irene</dc:creator>
+          <dc:subject>Fibre-type hemp</dc:subject>
+          <dc:subject>Flavonoid</dc:subject>
+          <dc:subject>Plant morphology</dc:subject>
+          <dc:subject>Polyphenol</dc:subject>
+          <dc:subject>Terpene</dc:subject>
+          <dc:subject>571: Physiologie und verwandte Themen</dc:subject>
+          <dc:subject>580: Pflanzen (Botanik)</dc:subject>
+          <dc:description>The chemical composition of the inflorescences of eight different fibre-type Cannabis sativa L. cultivars grown in Switzerland was monitored for different sowing densities over the season 2019. HPLC-MS, GC-MS and GC-FID, as well as spectrophotometric techniques were used to measure the total phenolic content (TPC) and the antioxidative activity of the inflorescence extracts, and to characterise and quantify the flavonoids and terpenes produced by the different cultivars over different sowing densities from July to September 2019. The main finding of the present study is that the TPC, as well as the individual flavonoids and terpenes, were mainly influenced by the harvest period and the phenological stage of the plant. The content of polyphenols and flavonoids decrease during the flower development for all cultivars studied. The terpene content increased with maturation. The monoterpenes/sesquiterpenes ratio also changed between the early flowering (majority of sesquiterpenes) and the end of flowering (majority of monoterpenes). The sowing density showed an impact on plant morphology, a low density such as 30 seeds/m2 influencing the production of bigger flowers, thus increasing the yield of polyphenols and terpenes production. Therefore, hemp inflorescences can be regarded as valuable by-products of fibre production, for their valorisation in the food and beverage industry in addition to cosmetics and perfumery.</dc:description>
+          <dc:date>2020-12-18T09:37:52Z</dc:date>
+          <dc:date>2020-12-18T09:37:52Z</dc:date>
+          <dc:date>2020</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.3390/plants9121740</dc:identifier>
+          <dc:identifier>https://doi.org/10.21256/zhaw-21085</dc:identifier>
+          <dc:identifier>info:doi/10.3390/plants9121740</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-21085</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/21085</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/21085</dc:identifier>
+          <dc:identifier>info:hdl/11475/21085</dc:identifier>
+          <dc:identifier>urn:issn:2223-7747</dc:identifier>
+          <dc:identifier>33317167</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Plants</dc:relation>
+          <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>MDPI</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/23953</identifier>
+        <datestamp>2022-01-21T04:03:48Z</datestamp>
+        <setSpec>com_11475_1083</setSpec>
+        <setSpec>com_11475_4</setSpec>
+        <setSpec>col_11475_1084</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Impact of selected baking and vacuum cooling parameters on the quality of toast bread</dc:title>
+          <dc:creator>Kinner, Mathias</dc:creator>
+          <dc:creator>Rüegg, Ramona</dc:creator>
+          <dc:creator>Weber, Claudia A.</dc:creator>
+          <dc:creator>Buchli, Jürg</dc:creator>
+          <dc:creator>Durrer, Ludwig</dc:creator>
+          <dc:creator>Müller, Nadina</dc:creator>
+          <dc:subject>Vacuum cooling</dc:subject>
+          <dc:subject>Toast bread</dc:subject>
+          <dc:subject>Oven temperature</dc:subject>
+          <dc:subject>Core temperature</dc:subject>
+          <dc:subject>664: Lebensmitteltechnologie</dc:subject>
+          <dc:description>Erworben im Rahmen der Schweizer Nationallizenzen (http://www.nationallizenzen.ch)​</dc:description>
+          <dc:description>Vacuum cooling of baked goods can deliver many advantages in terms of product quality and productivity, such as higher volumes and shorter cooling times. However, the associated high costs and the need to adjust baking protocols are of relevance and more information is needed. This paper examines the influence of two main baking protocol parameters on the quality of toast bread, i.e. oven temperature and baking time reduction. Resulting toast bread characteristics including specific bread volume, concavity, browning index, crust and crumb hardness and aw-value were analysed as well as process-dependent core temperature and water loss. In order to compensate for water loss during vacuum cooling and still achieve optimal toast bread quality, a final bread core temperature of 98 °C at the end of baking gave best results, regardless of oven temperature. It was further shown that cooling time can be reduced by a factor of 10 if the baking protocol is optimally adjusted, hinting at a huge potential to increase productivity for industrial applications. In summary, it can be stated that vacuum cooling requires a tailored reduction in baking time in order to compensate for water loss from vacuum cooling while retaining sufficient structural cohesion to resist deformation of the bread.</dc:description>
+          <dc:date>2022-01-20T10:32:47Z</dc:date>
+          <dc:date>2022-01-20T10:32:47Z</dc:date>
+          <dc:date>2021-12</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.1007/s13197-020-04945-x</dc:identifier>
+          <dc:identifier>https://doi.org/10.21256/zhaw-23953</dc:identifier>
+          <dc:identifier>info:doi/10.1007/s13197-020-04945-x</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-23953</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/23953</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/23953</dc:identifier>
+          <dc:identifier>info:hdl/11475/23953</dc:identifier>
+          <dc:identifier>urn:issn:0022-1155</dc:identifier>
+          <dc:identifier>urn:issn:0975-8402</dc:identifier>
+          <dc:identifier>34629522</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Journal of Food Science and Technology</dc:relation>
+          <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>Springer</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/21498</identifier>
+        <datestamp>2021-03-25T10:07:22Z</datestamp>
+        <setSpec>com_11475_1096</setSpec>
+        <setSpec>com_11475_8</setSpec>
+        <setSpec>col_11475_1097</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Kinderperspektiven auf Abbruchprozesse in der Pflegekinderhilfe : Chancen und Belastungen, Bewältigungsstrategien und Handlungsbedarfe für die Praxis</dc:title>
+          <dc:creator>Bombach, Clara</dc:creator>
+          <dc:creator>Reimer, Daniela</dc:creator>
+          <dc:subject>Pflegekinder</dc:subject>
+          <dc:subject>Abbruch</dc:subject>
+          <dc:subject>Kinderperspektive</dc:subject>
+          <dc:subject>362.7: Jugendhilfe</dc:subject>
+          <dc:date>2021-01-28T13:44:45Z</dc:date>
+          <dc:date>2021-01-28T13:44:45Z</dc:date>
+          <dc:date>2020</dc:date>
+          <dc:type>Buchbeitrag</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/21498</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/21498</dc:identifier>
+          <dc:identifier>info:hdl/11475/21498</dc:identifier>
+          <dc:identifier>urn:isbn:978-3-7799-3956-6</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Abbrüche von Pflegeverhältnissen im Kindes- und Jugendalter</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Beltz Juventa</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/21364</identifier>
+        <datestamp>2021-01-21T11:26:41Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Distance Leadership : die virtuelle Zusammenarbeit erfolgreich gestalten</dc:title>
+          <dc:creator>Rawitzer, Heike</dc:creator>
+          <dc:creator>Hefti, Jacques</dc:creator>
+          <dc:subject>658.4: Leitendes Management</dc:subject>
+          <dc:description>Die Covid-19-Krise forderte von vielen Führungskräften, innerhalb kürzester Zeit mit ihren Teams in den Remote-Modus zu gehen. Dabei zeigte sich, dass das Führen auf Distanz ungleich komplexer und anspruchsvoller ist. Die virtuelle Zusammenarbeit hat ihre ganz eigenen Herausforderungen und verlangt neue Strategien und Kompetenzen von den Führungskräften.</dc:description>
+          <dc:date>2021-01-21T11:26:41Z</dc:date>
+          <dc:date>2021-01-21T11:26:41Z</dc:date>
+          <dc:date>2020</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/21364</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/21364</dc:identifier>
+          <dc:identifier>info:hdl/11475/21364</dc:identifier>
+          <dc:identifier>urn:issn:0722-7485</dc:identifier>
+          <dc:identifier>urn:issn:0044-3212</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Zeitschrift Führung + Organisation</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Schäffer-Poeschel</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/4584</identifier>
+        <datestamp>2021-09-21T13:30:29Z</datestamp>
+        <setSpec>com_11475_1089</setSpec>
+        <setSpec>com_11475_6</setSpec>
+        <setSpec>col_11475_1090</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>1st workshop on applications of financial mathematics in banks and other financial institutions</dc:title>
+          <dc:creator>Breymann, Wolfgang</dc:creator>
+          <dc:subject>Data</dc:subject>
+          <dc:subject>Stress test</dc:subject>
+          <dc:subject>Financial modeling</dc:subject>
+          <dc:subject>Risk assessment</dc:subject>
+          <dc:subject>332.1: Banken</dc:subject>
+          <dc:description>Vorlesung gehalten im Rahmen von: "1st Workshop on Applications of Financial Mathematics in Banks and Other Financial Institutions: a Two Days Workshop, Faculty of Mathematical Sciences, University of Tabriz, Tabriz, 10–11 May 2016"</dc:description>
+          <dc:date>2018-04-03T12:26:43Z</dc:date>
+          <dc:date>2018-04-03T12:26:43Z</dc:date>
+          <dc:date>2016</dc:date>
+          <dc:type>Vorlesung</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/4584</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/4584</dc:identifier>
+          <dc:identifier>info:hdl/11475/4584</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/5274</identifier>
+        <datestamp>2019-09-19T14:50:03Z</datestamp>
+        <setSpec>com_11475_1071</setSpec>
+        <setSpec>com_11475_2</setSpec>
+        <setSpec>col_11475_1073</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Jugendliche Ausbildungsabbrecher und selbstgefährdendes Verhalten</dc:title>
+          <dc:creator>Süss, Daniel</dc:creator>
+          <dc:creator>Neuenschwander, Markus P.</dc:creator>
+          <dc:subject>Persönlichkeitsentwicklung</dc:subject>
+          <dc:subject>Entwicklung im Jugendalter</dc:subject>
+          <dc:subject>Lehrabbruch</dc:subject>
+          <dc:subject>Lehrzeit</dc:subject>
+          <dc:subject>Selbstzerstörerisches Verhalten</dc:subject>
+          <dc:subject>155: Differentielle Psychologie und Entwicklungspsychologie</dc:subject>
+          <dc:subject>370: Bildung und Erziehung</dc:subject>
+          <dc:subject>616.8: Neurologie und Krankheiten des Nervensystems</dc:subject>
+          <dc:description>Zwischenbericht zum BAG-Forschungsprojekt 94-8046</dc:description>
+          <dc:date>2018-04-13T12:02:59Z</dc:date>
+          <dc:date>2018-04-13T12:02:59Z</dc:date>
+          <dc:date>1995</dc:date>
+          <dc:type>Working Paper – Gutachten – Studie</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/5274</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/5274</dc:identifier>
+          <dc:identifier>info:hdl/11475/5274</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Universität Bern</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/3402</identifier>
+        <datestamp>2020-02-24T14:01:52Z</datestamp>
+        <setSpec>com_11475_1089</setSpec>
+        <setSpec>com_11475_6</setSpec>
+        <setSpec>col_11475_1090</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Using state variables to model the response of tumour cells to radiation and heat : a novel multi-hit-repair approach</dc:title>
+          <dc:creator>Scheidegger, Stephan</dc:creator>
+          <dc:creator>Fuchs, Hans Ulrich</dc:creator>
+          <dc:creator>Zaugg, Kathrin</dc:creator>
+          <dc:creator>Bodis, Stephan</dc:creator>
+          <dc:creator>Füchslin, Rudolf Marcel</dc:creator>
+          <dc:subject>615: Pharmakologie und Therapeutik</dc:subject>
+          <dc:description>In order to overcome the limitations of the linear-quadratic model and include synergistic effects of heat and radiation, a novel radiobiological model is proposed. The model is based on a chain of cell populations which are characterized by the number of radiation induced damages (hits). Cells can shift downward along the chain by collecting hits and upward by a repair process. The repair process is governed by a repair probability which depends upon state variables used for a simplistic description of the impact of heat and radiation upon repair proteins. Based on the parameters used, populations up to 4-5 hits are relevant for the calculation of the survival. The model describes intuitively the mathematical behaviour of apoptotic and non-apoptotic cell death. Linear-quadratic-linear behaviour of the logarithmic cell survival, fractionation, and (with one exception) the dose rate dependencies are described correctly. The model covers the time gap dependence of the synergistic cell killing due to combined application of heat and radiation, but further validation of the proposed approach based on experimental data is needed. However, the model offers a work bench for testing different biological concepts of damage induction, repair, and statistical approaches for calculating the variables of state.</dc:description>
+          <dc:date>2018-03-07T08:12:20Z</dc:date>
+          <dc:date>2018-03-07T08:12:20Z</dc:date>
+          <dc:date>2013</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-1765</dc:identifier>
+          <dc:identifier>https://doi.org/10.1155/2013/587543</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-1765</dc:identifier>
+          <dc:identifier>info:doi/10.1155/2013/587543</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/3402</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/3402</dc:identifier>
+          <dc:identifier>info:hdl/11475/3402</dc:identifier>
+          <dc:identifier>urn:issn:1748-670X</dc:identifier>
+          <dc:identifier>urn:issn:1748-6718</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Computational and Mathematical Methods in Medicine</dc:relation>
+          <dc:rights>http://creativecommons.org/licenses/by/3.0/</dc:rights>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>Hindawi</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/3518</identifier>
+        <datestamp>2020-03-05T09:01:01Z</datestamp>
+        <setSpec>com_11475_1068</setSpec>
+        <setSpec>com_11475_1</setSpec>
+        <setSpec>col_11475_1069</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Entrepreneurial Storytelling als narrative Organisationspraxis im Kontext von Kultur und Kreativwirtschaft</dc:title>
+          <dc:creator>Borghoff, Birgitta</dc:creator>
+          <dc:subject>Entrepreneurial Storytelling</dc:subject>
+          <dc:subject>Kultur</dc:subject>
+          <dc:subject>Digitalisierung</dc:subject>
+          <dc:subject>Kreativwirtschaft</dc:subject>
+          <dc:subject>306: Kultur</dc:subject>
+          <dc:subject>808: Rhetorik und Schreiben</dc:subject>
+          <dc:description>Referat gehalten am 9. Oktober 2017&#13;
+Interdisziplinäres Symposium der Universität Regensburg im Rahmen des Projektes "eKulturPortal" (gefördert vom Bundesministerium für Wirtschaft und Energie, Förderlinie Mittelstand-Digital).</dc:description>
+          <dc:date>2018-03-07T15:19:01Z</dc:date>
+          <dc:date>2018-03-07T15:19:01Z</dc:date>
+          <dc:date>2017-10-09</dc:date>
+          <dc:type>Konferenz: Sonstiges</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/3518</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/3518</dc:identifier>
+          <dc:identifier>info:hdl/11475/3518</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Interdisziplinäres Symposium «Die Zukunft des Kulturbetriebs in der digitalisierten Gesellschaft», Regensburg, Deutschland, 9.-10. Oktober 2017</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/15632</identifier>
+        <datestamp>2021-07-07T12:56:21Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Governance, risk management und compliance (GRC) im Krankenhaus : Auslegeordnung eines Problems</dc:title>
+          <dc:creator>Krey, Mike</dc:creator>
+          <dc:subject>Krankenhaus</dc:subject>
+          <dc:subject>IT</dc:subject>
+          <dc:subject>GRC</dc:subject>
+          <dc:subject>004: Informatik</dc:subject>
+          <dc:subject>362.11: Krankenhäuser und verwandte Einrichtungen</dc:subject>
+          <dc:description>Der Einsatz von Informationstechnologie (IT) gewinnt im Gesundheitswesen, insbesondere in der medizinischen Leistungserbringung und den begleitenden administrativen Prozessen, zunehmend an Bedeutung. Umso wichtiger wird es insbesondere für die Krankenhäuser sich mit dem effizienten Einsatz Ihrer IT auseinander zu setzten. Governance, Risk Management and Compliance (GRC) als Auslegeordnung für die Krankenhaus Informatik fasst dabei die drei wichtigsten Handlungsebenen für einen erfolgreichen Umgang mit der IT zusammen. Die heutige Krankenhaus Informatik muss sich bei der Umsetzung dieser Handlungsebenen mit einer hochgradig komplexen Verteilung von Beziehungsebenen befassen: Vernetzung innerhalb des Krankenhauses und mit seinen angeschlossenen Stakeholdern, Einhaltung von gesetzlichen und gesellschaftlichen Regeln, Beachtung und Unterstützung von Krankenhausabteilungen und deren Zielen und Vorgaben sowie Umsetzung, Kontrolle und Einhaltung von krankenhausweiten Prozesszielen. In jedem Vorgang innerhalb des Krankenhauses treten die verschiedensten Ausprägungen dieser Einflüsse miteinander in Beziehung und liefern individuelle Anforderungen an die Krankenhaus Informatik. Anlass für die vorliegende Erhebung zum Status Quo der Ausprägung von GRC im Schweizer Krankenhausumfeld waren u.a.: Wachsender Kostendruck, verstärkte Wettbewerbssituation durch die DRG Einführung und Wegfall der Kantonalen Behandlungsgrenzen 2012. Schweizer CIOs und IT-­-Leiter universitärer, kantonaler und privater Krankenhäuser wurden dabei sowohl zu Ihrem Umgang mit den GRC Handlungsebenen als auch zu den Herausforderungen auf der Beziehungsebene befragt. Die Befragung gab dabei Aufschluss über die Verbreitung und den Nutzungsgrad von Best Practices (u.a. ITIL, CobiT), die Rolle der IT im Krankenhaus und organisatorische Konzepte zur Umsetzung von GRC.</dc:description>
+          <dc:date>2019-02-25T14:55:59Z</dc:date>
+          <dc:date>2019-02-25T14:55:59Z</dc:date>
+          <dc:date>2011</dc:date>
+          <dc:type>Konferenz: Sonstiges</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/15632</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/15632</dc:identifier>
+          <dc:identifier>info:hdl/11475/15632</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>56. GMDS Jahrestagung Workshop: IT Governance und IT Servicemanagement im Gesundheitswesen,  Mainz, Deutschland, 26.-29. September 2011</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/6453</identifier>
+        <datestamp>2020-02-21T11:44:35Z</datestamp>
+        <setSpec>com_11475_1071</setSpec>
+        <setSpec>com_11475_2</setSpec>
+        <setSpec>col_11475_1073</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Wie soziale Medien das Körperbild von Jugendlichen beeinflussen können</dc:title>
+          <dc:creator>Suter, Lilian</dc:creator>
+          <dc:subject>158: Angewandte Psychologie</dc:subject>
+          <dc:subject>302: Soziale Interaktion</dc:subject>
+          <dc:date>2018-06-01T13:07:26Z</dc:date>
+          <dc:date>2018-06-01T13:07:26Z</dc:date>
+          <dc:date>2016</dc:date>
+          <dc:type>Konferenz: Sonstiges</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/6453</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/6453</dc:identifier>
+          <dc:identifier>info:hdl/11475/6453</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>1. Rheintaler Lehrlingsforum, Oberriet/Rorschach, 17. Feburar 2016</dc:relation>
+          <dc:rights>Not specified</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/16626</identifier>
+        <datestamp>2021-03-04T12:57:05Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Ökologische Aspekte der Betriebwirtschaftslehre : Semesterbericht des Studienreformprojektes ÖWBL</dc:title>
+          <dc:creator>Pichel, Kerstin</dc:creator>
+          <dc:creator>Gminder, U.</dc:creator>
+          <dc:creator>Reinhold, C.</dc:creator>
+          <dc:creator>Wüstenhagen, R.</dc:creator>
+          <dc:subject>378: Hochschulbildung</dc:subject>
+          <dc:subject>650: Management</dc:subject>
+          <dc:date>2019-04-15T12:17:22Z</dc:date>
+          <dc:date>2019-04-15T12:17:22Z</dc:date>
+          <dc:date>1994</dc:date>
+          <dc:type>Working Paper – Gutachten – Studie</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/16626</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/16626</dc:identifier>
+          <dc:identifier>info:hdl/11475/16626</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Diskussionspapier der Wirtschaftswissenschaftlichen Dokumentation der TU Berlin</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Technische Universität Berlin</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/21550</identifier>
+        <datestamp>2021-12-15T13:36:29Z</datestamp>
+        <setSpec>com_11475_1089</setSpec>
+        <setSpec>com_11475_6</setSpec>
+        <setSpec>col_11475_1090</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>ZHAW-InIT at GermEval 2020 task 4 : low-resource speech-to-text</dc:title>
+          <dc:creator>Büchi, Matthias</dc:creator>
+          <dc:creator>Ulasik, Malgorzata Anna</dc:creator>
+          <dc:creator>Hürlimann, Manuela</dc:creator>
+          <dc:creator>Benites de Azevedo e Souza, Fernando</dc:creator>
+          <dc:creator>von Däniken, Pius</dc:creator>
+          <dc:creator>Cieliebak, Mark</dc:creator>
+          <dc:subject>410.285: Computerlinguistik</dc:subject>
+          <dc:description>This  paper  presents  the  contribution  of ZHAW-InIT  to  Task  4  ”Low-Resource STT” at GermEval 2020.  The goal of the task is to develop a system for translating Swiss  German  dialect  speech  into  Standard German text in the domain of parliamentary debates.  Our approach is based on Jasper, a CNN Acoustic Model, which we fine-tune on the task data. We enhance the  base  system  with  an  extended  Language  Model  containing  in-domain  data and speed perturbation and run further experiments with post-processing. Our submission  achieved  first  place  with  a  final Word Error Rate of 40.29%.</dc:description>
+          <dc:date>2021-02-04T13:11:33Z</dc:date>
+          <dc:date>2021-02-04T13:11:33Z</dc:date>
+          <dc:date>2020-06</dc:date>
+          <dc:type>Konferenz: Paper</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-21550</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-21550</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/21550</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/21550</dc:identifier>
+          <dc:identifier>info:hdl/11475/21550</dc:identifier>
+          <dc:identifier>urn:issn:1613-0073</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Proceedings of the 5th Swiss Text Analytics Conference (SwissText) &amp; 16th Conference on Natural Language Processing (KONVENS)</dc:relation>
+          <dc:relation>5th SwissText &amp; 16th KONVENS Joint Conference, Zurich (online), 24-25 June 2020</dc:relation>
+          <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>CEUR Workshop Proceedings</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/12955</identifier>
+        <datestamp>2021-03-01T09:42:10Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Leading modern arts and cultural organizations : what roles does it take?</dc:title>
+          <dc:creator>Labaronne, Leticia</dc:creator>
+          <dc:creator>Müller, Andrea</dc:creator>
+          <dc:subject>Organizational behavior</dc:subject>
+          <dc:subject>Leadership</dc:subject>
+          <dc:subject>Management role</dc:subject>
+          <dc:subject>658.4: Leitendes Management</dc:subject>
+          <dc:description>The literature on leadership, non-profit, and arts management have discussed many topics in relation to the leading of arts and cultural organizations (ACOs) such as leadership style or leadership structure. The question concerning what today’s leaders in the arts and cultural sector actually do, how they interpret their roles and which implicit theories and concepts underlie their behavior has been less investigated. This paper aims to further understand leadership in the nonprofit arts and cultural sector by investigating the management roles that leaders take up. Thereby, we draw on Mintzberg's Management Roles and approach research with a qualitative design, conducting in-depth interviews for data collection. Our findings suggest that leaders in ACOs mostly take up roles related to interpersonal exchange and decision-making as well as, increasingly, self-leadership and self-management roles that we cluster under a (new) “personal” category, which is not foreseen in the traditional roles proposed by Mintzberg.</dc:description>
+          <dc:date>2018-11-16T15:05:48Z</dc:date>
+          <dc:date>2018-11-16T15:05:48Z</dc:date>
+          <dc:date>2017</dc:date>
+          <dc:type>Konferenz: Paper</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/12955</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/12955</dc:identifier>
+          <dc:identifier>info:hdl/11475/12955</dc:identifier>
+          <dc:identifier>urn:isbn:978-7-900845-18-4</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>AIMAC 2017</dc:relation>
+          <dc:relation>14th International Conference on Arts and Cultural Management AIMAC, Beijing, 24-28 Juni 2017</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Peking University</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/2073</identifier>
+        <datestamp>2021-01-06T08:57:23Z</datestamp>
+        <setSpec>com_11475_1083</setSpec>
+        <setSpec>com_11475_4</setSpec>
+        <setSpec>col_11475_1084</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Evaluation of the accessibility of selected packaging by comparison of quantitative measurements of the opening forces and qualitative surveys through focus group studies</dc:title>
+          <dc:creator>Miescher, Susanna</dc:creator>
+          <dc:creator>Brombach, Christine</dc:creator>
+          <dc:creator>Artigas, Gràcia</dc:creator>
+          <dc:creator>Järvenpää, Eila</dc:creator>
+          <dc:creator>Steinemann, Nina</dc:creator>
+          <dc:creator>Ziesemer, Katrin</dc:creator>
+          <dc:creator>Yildirim, Selçuk</dc:creator>
+          <dc:subject>Easy open</dc:subject>
+          <dc:subject>Packaging</dc:subject>
+          <dc:subject>658.5: Produktionssteuerung</dc:subject>
+          <dc:description>It can be expected that many elderly people have impaired opening capacity of food packaging bearing in mind the changes in functionality and physical strength that occur during ageing. This study determined the relation of the quantitative force required to open selected food packaging systems with findings derived from qualitative focus group studies to retrieve comprehensive information on the specific needs of seniors. The focus group studies revealed that the assessment of the ease of opening is very subjective and can vary from objective measurements. The quantitative measurement of the force required to open the ‘easy to open’ thermoformed tray resulted in considerably higher peel initiation forces of 22.50 ± 1.62N compared to the standard tray (12.80 ± 1.93 N). However, the packaging type was still felt to be easier to open because of the enlarged tab and peeling corner, which was said to be easy to grip. Conversely, the stand-up pouches with twist-off caps could only be opened with difficulty because of the small caps and the difficulty in breaking seals, despite the substantially lower opening forces of 0.46 ± 0.06Nm compared with the other torque closures. The evaluation of a package was found to be only partly dependent on the required opening force but strongly influenced by various design factors and consumer’s expectations as well as experiences.</dc:description>
+          <dc:date>2018-01-17T08:03:18Z</dc:date>
+          <dc:date>2018-01-17T08:03:18Z</dc:date>
+          <dc:date>2016</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-2682</dc:identifier>
+          <dc:identifier>https://doi.org/10.1002/pts.2237</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-2682</dc:identifier>
+          <dc:identifier>info:doi/10.1002/pts.2237</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/2073</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/2073</dc:identifier>
+          <dc:identifier>info:hdl/11475/2073</dc:identifier>
+          <dc:identifier>urn:issn:0894-3214</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Packaging Technology and Science</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>Wiley</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/11143</identifier>
+        <datestamp>2020-02-24T12:44:00Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>A nurse-delivered, clinic-based intervention to address intimate partner violence among low-income women in Mexico City : findings from a cluster randomized controlled trial</dc:title>
+          <dc:creator>Gupta, Jhumka</dc:creator>
+          <dc:creator>Falb, Kathryn L.</dc:creator>
+          <dc:creator>Ponta, Oriana</dc:creator>
+          <dc:creator>Xuan, Ziming</dc:creator>
+          <dc:creator>Campos, Paola Abril</dc:creator>
+          <dc:creator>Gomez, Annabel Arellano</dc:creator>
+          <dc:creator>Valades, Jimena</dc:creator>
+          <dc:creator>Cariño, Gisele</dc:creator>
+          <dc:creator>Olavarrieta, Claudia Diaz</dc:creator>
+          <dc:subject>Health sector</dc:subject>
+          <dc:subject>Intimate partner violence</dc:subject>
+          <dc:subject>Violence against women</dc:subject>
+          <dc:subject>Quality of life</dc:subject>
+          <dc:subject>306: Kultur</dc:subject>
+          <dc:subject>610.73: Pflege</dc:subject>
+          <dc:description>Background: Rigorous evaluations of health sector interventions addressing intimate partner violence (IPV) in low- and middle-income countries are lacking. We aimed to assess whether an enhanced nurse-delivered intervention would reduce IPV and improve levels of safety planning behaviors, use of community resources, reproductive coercion, and mental quality of life.
+
+Methods: We randomized 42 public health clinics in Mexico City to treatment or control arms. In treatment clinics, women received the nurse-delivered session (IPV screening, supportive referrals, health/safety risk assessments) at baseline (T1), and a booster counselling session after 3 months (T2). In control clinics, women received screening and a referral card from nurses. Surveys were conducted at T1, T2, and T3 (15 months from baseline). Our main outcome was past-year physical and sexual IPV. Intent-to-treat analyses were conducted via three-level random intercepts models to evaluate the interaction term for treatment status by time.
+
+Results: Between April and October 2013, 950 women (480 in control clinics, 470 in treatment clinics) with recent IPV experiences enrolled in the study. While reductions in IPV were observed for both women enrolled in treatment (OR, 0.40; 95% CI, 0.28-0.55; P &lt; 0.01) and control (OR, 0.51; 95% CI, 0.36-0.72; P &lt; 0.01) clinics at T3 (July to December 2014), no significant treatment effects were observed (OR, 0.78; 95% CI, 0.49-1.24; P = 0.30). At T2 (July to December 2013), women in treatment clinics reported significant improvements, compared to women in control clinics, in mental quality of life (β, 1.45; 95% CI, 0.14-2.75; P = 0.03) and safety planning behaviors (β, 0.41; 95% CI, 0.02-0.79; P = 0.04).
+
+Conclusion: While reductions in IPV levels were seen among women in both treatment and control clinics, the enhanced nurse intervention was no more effective in reducing IPV. The enhanced nursing intervention may offer short-term improvements in addressing safety planning and mental quality of life. Nurses can play a supportive role in assisting women with IPV experiences.</dc:description>
+          <dc:date>2018-09-27T12:01:20Z</dc:date>
+          <dc:date>2018-09-27T12:01:20Z</dc:date>
+          <dc:date>2017</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-4718</dc:identifier>
+          <dc:identifier>https://doi.org/10.1186/s12916-017-0880-y</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-4718</dc:identifier>
+          <dc:identifier>info:doi/10.1186/s12916-017-0880-y</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/11143</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/11143</dc:identifier>
+          <dc:identifier>info:hdl/11475/11143</dc:identifier>
+          <dc:identifier>urn:issn:1741-7015</dc:identifier>
+          <dc:identifier>28697769</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>BMC Medicine</dc:relation>
+          <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>BioMed Central</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/9305</identifier>
+        <datestamp>2020-03-05T14:53:12Z</datestamp>
+        <setSpec>com_11475_1089</setSpec>
+        <setSpec>com_11475_6</setSpec>
+        <setSpec>col_11475_1090</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Nachhaltige Beschichtungen - wo stehen wir?</dc:title>
+          <dc:creator>Winkler, Martin</dc:creator>
+          <dc:subject>660: Technische Chemie</dc:subject>
+          <dc:date>2018-08-21T13:19:14Z</dc:date>
+          <dc:date>2018-08-21T13:19:14Z</dc:date>
+          <dc:date>2018-06-07</dc:date>
+          <dc:type>Konferenz: Sonstiges</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/9305</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/9305</dc:identifier>
+          <dc:identifier>info:hdl/11475/9305</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Winterthurer Oberflächentag, Winterthur, 07. Juni 2018</dc:relation>
+          <dc:rights>Not specified</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/3836</identifier>
+        <datestamp>2019-12-13T13:18:26Z</datestamp>
+        <setSpec>com_11475_1071</setSpec>
+        <setSpec>com_11475_2</setSpec>
+        <setSpec>col_11475_1073</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Der ewige Streit ums Fernsehen</dc:title>
+          <dc:creator>Süss, Daniel</dc:creator>
+          <dc:subject>302: Soziale Interaktion</dc:subject>
+          <dc:description>Rubrik : Ratgeber Medien</dc:description>
+          <dc:date>2018-03-14T15:10:13Z</dc:date>
+          <dc:date>2018-03-14T15:10:13Z</dc:date>
+          <dc:date>2011-09</dc:date>
+          <dc:type>Beitrag in Magazin oder Zeitung</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-1789</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-1789</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/3836</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/3836</dc:identifier>
+          <dc:identifier>info:hdl/11475/3836</dc:identifier>
+          <dc:identifier>urn:issn:1424-8824</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>ElternMagazin: Fritz+Fränzi</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>Fritz und Fränzi</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/20633</identifier>
+        <datestamp>2022-02-17T15:36:10Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>It’s time for women refugees to have a seat at the table</dc:title>
+          <dc:creator>Dufresne, Alexandra</dc:creator>
+          <dc:subject>305: Soziale Gruppen</dc:subject>
+          <dc:description>Why do some conferences on refugee integration not feature any refugee speakers? On International Women’s Day, two women with different perspectives explain the challenges of making female refugees seen and heard in the integration process.</dc:description>
+          <dc:date>2020-10-15T12:36:28Z</dc:date>
+          <dc:date>2020-10-15T12:36:28Z</dc:date>
+          <dc:date>2020-03-08</dc:date>
+          <dc:type>Beitrag in Magazin oder Zeitung</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://www.swissinfo.ch/eng/international-women-s-day_it-s-time-for-women-refugees-to-have-a-seat-at-the-table/45603038</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/20633</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>SWI swissinfo.ch</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>SWI swissinfo.ch</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/16659</identifier>
+        <datestamp>2020-06-11T07:31:36Z</datestamp>
+        <setSpec>com_11475_1068</setSpec>
+        <setSpec>com_11475_1</setSpec>
+        <setSpec>col_11475_1069</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Strategische Organisationskommunikation in der digitalen Transformation : Herausforderungen und Status Quo</dc:title>
+          <dc:creator>Rosenberger Staub, Nicole</dc:creator>
+          <dc:creator>Niederhäuser, Markus</dc:creator>
+          <dc:subject>Digitale Transformation</dc:subject>
+          <dc:subject>Strategische Kommunikation</dc:subject>
+          <dc:subject>302: Soziale Interaktion</dc:subject>
+          <dc:date>2019-04-17T14:05:17Z</dc:date>
+          <dc:date>2019-04-17T14:05:17Z</dc:date>
+          <dc:date>2019</dc:date>
+          <dc:type>Konferenz: Sonstiges</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/16659</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/16659</dc:identifier>
+          <dc:identifier>info:hdl/11475/16659</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Jahrestagung der SACM-SGKM, St. Gallen, 04.-05. April 2019</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Schweizerische Gesellschaft für Kommunikations- und Medienwissenschaft</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/5310</identifier>
+        <datestamp>2021-12-15T13:36:28Z</datestamp>
+        <setSpec>com_11475_1068</setSpec>
+        <setSpec>com_11475_1</setSpec>
+        <setSpec>col_11475_1069</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Respeaking : loss, addition and change of information during the transfer process</dc:title>
+          <dc:creator>Jekat, Susanne Johanna</dc:creator>
+          <dc:creator>Darmstätter, Anne B.</dc:creator>
+          <dc:creator>Linder, Gion</dc:creator>
+          <dc:subject>Respeaking</dc:subject>
+          <dc:subject>Media for all</dc:subject>
+          <dc:subject>Live subtitles</dc:subject>
+          <dc:subject>418.02: Translationswissenschaft</dc:subject>
+          <dc:date>2018-04-16T14:02:47Z</dc:date>
+          <dc:date>2018-04-16T14:02:47Z</dc:date>
+          <dc:date>2009</dc:date>
+          <dc:type>Konferenz: Sonstiges</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/5310</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/5310</dc:identifier>
+          <dc:identifier>info:hdl/11475/5310</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>3rd International Media for All Conference «Quality made to measure», Antwerp, Belgium, 22-24 October 2009</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/8296</identifier>
+        <datestamp>2020-02-12T11:47:43Z</datestamp>
+        <setSpec>com_11475_1080</setSpec>
+        <setSpec>com_11475_3</setSpec>
+        <setSpec>col_11475_1081</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Telefonisches Nachgespräch durch die Hebamme : ein Hebammenprojekt mit Evaluation der Gebärabteilung des Universitätsspitals Zürich</dc:title>
+          <dc:creator>Aeberli, Regula</dc:creator>
+          <dc:creator>Meier Käppeli, Barbara Katharina</dc:creator>
+          <dc:creator>La Marca-Ghaemmaghami, Pearl</dc:creator>
+          <dc:creator>Günthard, Barbara</dc:creator>
+          <dc:creator>Zimmermann, Roland</dc:creator>
+          <dc:creator>Pehlke-Milde, Jessica</dc:creator>
+          <dc:creator>Grylka, Susanne</dc:creator>
+          <dc:subject>618: Geburtsmedizin und Hebammenarbeit</dc:subject>
+          <dc:description>1. Preis Kategorie Hebammenprojekte</dc:description>
+          <dc:date>2018-07-18T12:17:12Z</dc:date>
+          <dc:date>2018-07-18T12:17:12Z</dc:date>
+          <dc:date>2018-05-17</dc:date>
+          <dc:type>Konferenz: Poster</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-3889</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-3889</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/8296</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/8296</dc:identifier>
+          <dc:identifier>info:hdl/11475/8296</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>1. Schweizerischer Perinatalkongress, Baden, 17. Mai 2018</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>ZHAW Zürcher Hochschule für Angewandte Wissenschaften</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/8798</identifier>
+        <datestamp>2020-03-04T14:06:09Z</datestamp>
+        <setSpec>com_11475_1089</setSpec>
+        <setSpec>com_11475_6</setSpec>
+        <setSpec>col_11475_1090</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Interdisziplinäre Forschung und Entwicklung in der Aviatik</dc:title>
+          <dc:creator>Guillaume, Michel</dc:creator>
+          <dc:subject>620: Ingenieurwesen</dc:subject>
+          <dc:description>Air Vehicle: Advanced Structure &amp; Aerodynamics, Electrical Plane&#13;
+Air Traffic Management: Virtual Controller, Virtual Tower, Full Automation, Single Sky&#13;
+Airport Infrastructure: CO2 neutral from home to airport, higher efficiency</dc:description>
+          <dc:date>2018-08-02T13:34:36Z</dc:date>
+          <dc:date>2018-08-02T13:34:36Z</dc:date>
+          <dc:date>2013</dc:date>
+          <dc:type>Konferenz: Sonstiges</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/8798</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/8798</dc:identifier>
+          <dc:identifier>info:hdl/11475/8798</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>AERO 2013, Friederichshafen, Deutschland, 24-27 April 2013</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/3405</identifier>
+        <datestamp>2020-02-24T14:08:00Z</datestamp>
+        <setSpec>com_11475_1083</setSpec>
+        <setSpec>com_11475_4</setSpec>
+        <setSpec>col_11475_1084</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>A service-oriented perspective of facility management</dc:title>
+          <dc:creator>Coenen, Christian</dc:creator>
+          <dc:creator>von Felten, Daniel</dc:creator>
+          <dc:subject>Facility Management</dc:subject>
+          <dc:subject>Research</dc:subject>
+          <dc:subject>Services Management</dc:subject>
+          <dc:subject>658.2: Facility Management</dc:subject>
+          <dc:subject>658.8: Marketingmanagement</dc:subject>
+          <dc:description>Purpose: The purpose of this article is to provide a service-oriented understanding of the field of facility management (FM) and describe the role that services management plays in successful FM. Even though the definitions for FM by European Committee for Standardisation include the term “service” several times, there remains a need for an established management understanding that reflects the service character of FM, while also accounting for its multidimensional management challenges.
+
+Design/methodology/approach: This goal is achieved by applying the main characteristics of services management to FM, describing the service-specific perspectives of FM, analyzing the specific quality attributes of FM as a service management discipline and introducing important services management implications for FM.
+
+Findings: The article describes in detail how FM can benefit from taking a services management perspective and gives useful implications for managers in the following key fields of action: process management, tangibility management, personnel management and relationship management.
+
+Originality/value: Services management knowledge and expertise have the potential to position FM as an even more professional business discipline.</dc:description>
+          <dc:date>2018-03-07T08:17:46Z</dc:date>
+          <dc:date>2018-03-07T08:17:46Z</dc:date>
+          <dc:date>2014</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.1108/F-09-2012-0068</dc:identifier>
+          <dc:identifier>info:doi/10.1108/F-09-2012-0068</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/3405</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/3405</dc:identifier>
+          <dc:identifier>info:hdl/11475/3405</dc:identifier>
+          <dc:identifier>urn:issn:0263-2772</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Facilities</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Emerald</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/23812</identifier>
+        <datestamp>2021-12-22T13:37:42Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Kommentar zu Art. 175 SchKG</dc:title>
+          <dc:creator>Giroud, Roger</dc:creator>
+          <dc:creator>Theus Simoni, Fabiana</dc:creator>
+          <dc:subject>346: Privatrecht (CH)</dc:subject>
+          <dc:date>2021-12-22T13:37:41Z</dc:date>
+          <dc:date>2021-12-22T13:37:41Z</dc:date>
+          <dc:date>2021</dc:date>
+          <dc:type>Buchbeitrag</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/23812</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/23812</dc:identifier>
+          <dc:identifier>info:hdl/11475/23812</dc:identifier>
+          <dc:identifier>urn:isbn:978-3-7190-3165-7</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Basler Kommentar : Bundesgesetz über Schuldbetreibung und Konkurs</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Helbing &amp; Lichtenhahn</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/11050</identifier>
+        <datestamp>2021-07-07T12:56:01Z</datestamp>
+        <setSpec>com_11475_1096</setSpec>
+        <setSpec>com_11475_8</setSpec>
+        <setSpec>col_11475_1097</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Processes leading to breakdown of foster care placements</dc:title>
+          <dc:creator>Cameron, Claire</dc:creator>
+          <dc:creator>Bombach, Clara</dc:creator>
+          <dc:creator>Jespersen, Andy</dc:creator>
+          <dc:creator>Stohler, Renate</dc:creator>
+          <dc:subject>362.7: Jugendhilfe</dc:subject>
+          <dc:date>2018-09-26T13:13:45Z</dc:date>
+          <dc:date>2018-09-26T13:13:45Z</dc:date>
+          <dc:date>2015-09-17</dc:date>
+          <dc:type>Konferenz: Sonstiges</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/11050</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/11050</dc:identifier>
+          <dc:identifier>info:hdl/11475/11050</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>8th International Foster Care Research Conference, Siegen, Germany, 17-18 September 2015</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Universität Siegen</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/22790</identifier>
+        <datestamp>2021-07-12T09:44:16Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>On the identification, evaluation and treatment of risks in smart homes : a systematic literature review</dc:title>
+          <dc:creator>Iten, Raphael</dc:creator>
+          <dc:creator>Wagner, Joël</dc:creator>
+          <dc:creator>Zeier Röschmann, Angela</dc:creator>
+          <dc:subject>Insurance</dc:subject>
+          <dc:subject>Risk evaluation</dc:subject>
+          <dc:subject>Risk identification</dc:subject>
+          <dc:subject>Risk treatment</dc:subject>
+          <dc:subject>360: Soziale Probleme und Sozialversicherungen</dc:subject>
+          <dc:description>The emergence of smart technologies in homes comes with various services and functions for everyday life. While a smart home (SH) is associated with great potential in terms of comfort and risk treatment, it also introduces new and alters existing risks. Despite a growing number of academic studies on SH risks, research is fragmented with regard to its focus on certain disciplines and is still rather technology-focused. In this paper, we fill this gap by providing a comprehensive understanding of relevant risks through a systematic literature review. Following the guidelines of the PRISMA reporting protocol, we search 1196 academic and practitioners’ publications related to household risks or risk perceptions of SH users. A final set of 59 records results in three main themes. They include (1) a synthesis of pre-existing and emerging risks sketching the new risk landscape of SH households, (2) a discussion of the prevailing risk evaluation methods, and (3) a presentation of SH-related risk treatment options with a particular emphasis on insurance. We specify the influence of SH on risks and risk perception, and highlight the relevance of analyzing the interconnection of risks in complex systems, such as SH. Our review lays the basis for assessing SH risks and for enabling more comprehensive and effective risk management optimization.</dc:description>
+          <dc:date>2021-07-09T07:04:31Z</dc:date>
+          <dc:date>2021-07-09T07:04:31Z</dc:date>
+          <dc:date>2021</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.3390/risks9060113</dc:identifier>
+          <dc:identifier>https://doi.org/10.21256/zhaw-22790</dc:identifier>
+          <dc:identifier>info:doi/10.3390/risks9060113</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-22790</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/22790</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/22790</dc:identifier>
+          <dc:identifier>info:hdl/11475/22790</dc:identifier>
+          <dc:identifier>urn:issn:2227-9091</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Risks</dc:relation>
+          <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>MDPI</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/23858</identifier>
+        <datestamp>2022-01-08T04:03:41Z</datestamp>
+        <setSpec>com_11475_1083</setSpec>
+        <setSpec>com_11475_4</setSpec>
+        <setSpec>col_11475_1084</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Erzwungene Abstinenz und freiwillige Suffizienz in der Corona-Zeit</dc:title>
+          <dc:creator>Jenny, Annette</dc:creator>
+          <dc:creator>Skelton, Rahel</dc:creator>
+          <dc:subject>Suffizienz</dc:subject>
+          <dc:subject>Wohlbefinden</dc:subject>
+          <dc:subject>Suffizienzpolitik</dc:subject>
+          <dc:subject>Psychologische Akzeptanz</dc:subject>
+          <dc:subject>Umweltfreundliches Verhalten</dc:subject>
+          <dc:subject>333.7: Landflächen, Naturerholungsgebiete</dc:subject>
+          <dc:description>Mit der vorliegenden Studie wurde untersucht, wie erzwungene und freiwillige Suffizienzpraktiken während der Corona-Zeit erlebt wurden, wie ausgeprägt die Akzeptanz von Suffizienzpolitik nach dieser Zeit ist und welche Rahmbedingungen von der Bevölkerung als notwendig erachtet werden, damit systemisch verortete Suffizienzmassnahmen besser akzeptiert werden. Zur Beantwortung der Fragestellungen wurde Anfang Juni 2021 eine Bevölkerungsbefragung bei 834 Personen in der Deutsch- und Westschweiz online durchgeführt. &#13;
+Die Ergebnisse zeigen, dass verschiedene suffizienzbezogene Verhaltenweisen aufgrund von Corona freiwillig von bis zu einem Viertel der Bevölkerung häufiger gezeigt wurden. Es zeigt sich auch, dass sich das Wohlbefinden der Befragten über die Pandemiezeit insgesamt leicht verschlechtert hat. Die Wahrnehmung eines Zwangs korreliert dabei mit dem Wohlbefinden – je mehr Zwang eine Person bezüglich der Einschränkung ihrer Aktivitäten wahrgenommen hat, desto geringer war die subjektive Lebensqualität und desto mehr negative respektive weniger positive Emotionen wurden wahrgenommen.&#13;
+Staatliche Massnahmen zur Bekämpfung des Klimawandels werden grundsätzlich begrüsst. Für viele der in dieser Befragung thematisierten Massnahmen ist Akzeptanz vorhanden. Interpersonelle Gerechtigkeitsfragen (wer profitiert/wer ist betroffen), Kompensationsmassnahmen für Niedrigverdienende und das Erkennen der Relevanz für das Klima sind dabei die wichtigsten Einflussfaktoren auf die Akzeptanz.&#13;
+Mit Blick auf die Förderung von Suffizienz kann folgendes festgehalten werden: Die Ergebnisse zeigen, dass eine wichtige Rahmenbedingung für suffiziente Verhaltensweisen ein ausreichendes Mass an Zeit ist. Die Corona-Pandemie hat zumindest für einen Teil der Bevölkerung diese Rahmenbedingung geliefert. Für die Förderung von entsprechenden Verhaltensweisen muss diese Rahmenbedingung also auch ausserhalb einer Pandemie gegeben sein. Weiter sind Suffizienzpolitikmassnahmen kein so grosses Tabu, wie oft angenommen wird. Sie haben einen recht starken Rückhalt in der Bevölkerung, sofern sie so gestaltet sind, dass nicht nur einzelne betroffen sind oder profitieren, Kompensationen für Niedrigverdienende gewährleistet sind sowie die Relevanz für das Klima nachvollziehbar ist. Entsprechend müssen bei der Einführung von solchen Massnahmen Gerechtigkeitsfragen thematisiert und Kompensationsmassnahmen geprüft werden. Des Weiteren muss schlüssig aufgezeigt sein, welche Relevanz die Massnahme für die Bekämpfung des Klimawandels hat.</dc:description>
+          <dc:date>2022-01-07T13:05:10Z</dc:date>
+          <dc:date>2022-01-07T13:05:10Z</dc:date>
+          <dc:date>2021-11</dc:date>
+          <dc:type>Working Paper – Gutachten – Studie</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-23858</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-23858</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/23858</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/23858</dc:identifier>
+          <dc:identifier>info:hdl/11475/23858</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:format>37 S.</dc:format>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>ZHAW Zürcher Hochschule für Angewandte Wissenschaften</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/2879</identifier>
+        <datestamp>2020-01-07T10:53:35Z</datestamp>
+        <setSpec>com_11475_1068</setSpec>
+        <setSpec>com_11475_1</setSpec>
+        <setSpec>col_11475_1069</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Redenschreiber in Schweizer Organisationen : Tätigkeiten, Rollen und Entwicklungen</dc:title>
+          <dc:creator>Schäfer, Martina</dc:creator>
+          <dc:creator>Keel, Guido</dc:creator>
+          <dc:subject>Redenschreiber</dc:subject>
+          <dc:subject>808: Rhetorik und Schreiben</dc:subject>
+          <dc:description>Der vorliegende Artikel untersucht die Tätigkeit, den Kontext, die Proﬁle und Rollen von Redenschreiber in Schweizer Organisationen. Eine quantitative Online-Befragung von Redenschreiberinnen und Redenschreibern in Unternehmen und öffentlichen Verwaltungen erlaubt einen vertiefenden Blick in das Berufsfeld. Die Daten enthüllen ein grosses Spektrum verschiedener Proﬁle und Ausprägungen der Tätigkeit.</dc:description>
+          <dc:date>2018-02-20T15:59:25Z</dc:date>
+          <dc:date>2018-02-20T15:59:25Z</dc:date>
+          <dc:date>2015</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.1016/j.scoms.2015.08.001</dc:identifier>
+          <dc:identifier>info:doi/10.1016/j.scoms.2015.08.001</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/2879</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/2879</dc:identifier>
+          <dc:identifier>info:hdl/11475/2879</dc:identifier>
+          <dc:identifier>urn:issn:1424-4896</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Studies in Communication Sciences</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Seimso</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/5498</identifier>
+        <datestamp>2020-03-04T10:17:38Z</datestamp>
+        <setSpec>com_11475_1083</setSpec>
+        <setSpec>com_11475_4</setSpec>
+        <setSpec>col_11475_1084</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Rapid estimation of total polyphenols in coffee brews by flow injection analysis with colorimetric detection</dc:title>
+          <dc:creator>Petrozzi, Sergio</dc:creator>
+          <dc:creator>D'Ambrosio, Lucio</dc:creator>
+          <dc:creator>Yeretzian, Chahan</dc:creator>
+          <dc:subject>663: Getränketechnologie</dc:subject>
+          <dc:date>2018-04-23T14:40:23Z</dc:date>
+          <dc:date>2018-04-23T14:40:23Z</dc:date>
+          <dc:date>2010</dc:date>
+          <dc:type>Konferenz: Sonstiges</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/5498</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/5498</dc:identifier>
+          <dc:identifier>info:hdl/11475/5498</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Fall Meeting of the Swiss Chemical Society, Zurich, 16 September 2010</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/1820</identifier>
+        <datestamp>2020-02-14T15:12:55Z</datestamp>
+        <setSpec>com_11475_1089</setSpec>
+        <setSpec>com_11475_6</setSpec>
+        <setSpec>col_11475_1090</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Schutz der Privatsphäre aus Benutzersicht</dc:title>
+          <dc:creator>Rennhard, Marc</dc:creator>
+          <dc:subject>IS</dc:subject>
+          <dc:subject>InIT</dc:subject>
+          <dc:subject>005: Computerprogrammierung, Programme und Daten</dc:subject>
+          <dc:description>Der Schutz der Privatsphäre ist heute im Internet im Allgemeinen überhaupt nicht gegeben. Die Präsentation deckt die Schwachstellen auf und beschreibt Techniken, wie man sich als Internetbenutzer besser schützen kann. Dabei wird auf das Platform for Privacy Preferences Project (P3P) und Anonymisierungstechniken eingegangen.</dc:description>
+          <dc:date>2017-12-13T15:37:11Z</dc:date>
+          <dc:date>2017-12-13T15:37:11Z</dc:date>
+          <dc:date>2004-10-26</dc:date>
+          <dc:type>Konferenz: Sonstiges</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/1820</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/1820</dc:identifier>
+          <dc:identifier>info:hdl/11475/1820</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>IT-Security Forum #3, Winterthur, 26. Oktober 2004</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/933</identifier>
+        <datestamp>2019-09-11T15:33:03Z</datestamp>
+        <setSpec>com_11475_236</setSpec>
+        <setSpec>com_11475_2</setSpec>
+        <setSpec>col_11475_238</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Prävalenz psychischer Erkrankungen bei Erwachsenen in den Wohneinrichtungen der Stadt Zürich : eine epidemiologische Studie über den psychischen Gesundheitszustand von BewohnerInnen im Bereich Wohnintegration für Erwachsene</dc:title>
+          <dc:creator>Jaun, Andreas</dc:creator>
+          <dc:subject>150: Psychologie</dc:subject>
+          <dc:date>2015-08-11T16:14:11Z</dc:date>
+          <dc:date>2015-08-11T16:14:11Z</dc:date>
+          <dc:date>2013</dc:date>
+          <dc:type>Thesis: Master</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-933</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-933</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/933</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/933</dc:identifier>
+          <dc:identifier>info:hdl/11475/933</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>ZHAW Zürcher Hochschule für Angewandte Wissenschaften</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/21838</identifier>
+        <datestamp>2022-02-22T12:56:35Z</datestamp>
+        <setSpec>com_11475_1080</setSpec>
+        <setSpec>com_11475_3</setSpec>
+        <setSpec>col_11475_1081</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Personalized nutrition and social justice : ethical considerations within four future scenarios applying the perspective of Nussbaum’s capabilities approach</dc:title>
+          <dc:creator>Nordström, Karin</dc:creator>
+          <dc:creator>Gossens, Joe</dc:creator>
+          <dc:subject>Personalised nutrition</dc:subject>
+          <dc:subject>Ethics</dc:subject>
+          <dc:subject>Social justice</dc:subject>
+          <dc:subject>613.2: Diätetik</dc:subject>
+          <dc:description>The idea of personalized nutrition (PN) is to give tailored dietary advice based on personal health-related data, i.e. phenotoype, genotype, or lifestyle. PN may be seen as part of a general trend towards personalised health care and currently various types of business models are already offering such services in the market. This paper explores ethical issues of PN by examining how PN services within the contextual environment of four future scenarios about health and nutrition in Europe might affect aspects of social justice according to Martha Nussbaum’s capability approach. The scenarios have been created by a mixed group of stakeholders and experts in three consecutive workshops. This resulted in the definition of four future scenarios within a scenario space consisting of two variables: the ‘logic of health care systems’ and ‘conception of health’. Within each scenario, PN is likely to play a more or less important role in improving health by influencing food consumption patterns in society. Nussbaum’s capability approach implies a concept of social justice as a function of a minimum standard of human dignity. This denotes an account for equality in terms of a minimum of entitlements. However, also the ability of achieving individual objectives is essential for social justice. Personalisation advice in health and food consumption patterns, as aimed for by PN, is therefore acceptable provided a minimum of entitlements is guaranteed to all members of a society, and at the same time freedom concerning personal preferences is respected. Potential variation of how different people might benefit from PN should therefore be consistent with the minimum required as defined by the list of capabilities.</dc:description>
+          <dc:date>2021-02-25T09:13:21Z</dc:date>
+          <dc:date>2021-02-25T09:13:21Z</dc:date>
+          <dc:date>2015</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.1007/s10806-015-9589-0</dc:identifier>
+          <dc:identifier>info:doi/10.1007/s10806-015-9589-0</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/21838</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/21838</dc:identifier>
+          <dc:identifier>info:hdl/11475/21838</dc:identifier>
+          <dc:identifier>urn:issn:1187-7863</dc:identifier>
+          <dc:identifier>urn:issn:1573-322X</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Journal of Agricultural and Environmental Ethics</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Springer</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/13245</identifier>
+        <datestamp>2019-10-02T07:58:35Z</datestamp>
+        <setSpec>com_11475_1089</setSpec>
+        <setSpec>com_11475_6</setSpec>
+        <setSpec>col_11475_1090</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Erneuerbare Mobilität, solarer Individualverkehr</dc:title>
+          <dc:title>Renewable mobility, solar passenger transport</dc:title>
+          <dc:creator>Baumgartner, Franz</dc:creator>
+          <dc:creator>Schär, Daniel</dc:creator>
+          <dc:subject>380: Kommunikation und Verkehr</dc:subject>
+          <dc:date>2018-11-26T16:02:20Z</dc:date>
+          <dc:date>2018-11-26T16:02:20Z</dc:date>
+          <dc:date>2014</dc:date>
+          <dc:type>Buchbeitrag</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/13245</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/13245</dc:identifier>
+          <dc:identifier>info:hdl/11475/13245</dc:identifier>
+          <dc:identifier>urn:isbn:3-86581-455-7</dc:identifier>
+          <dc:identifier>urn:isbn:978-3-86581-455-5</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Regenerative Region : Energie- und Klimaatlas Bodensee-Alpenrhein</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>oekom Verlag</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/21365</identifier>
+        <datestamp>2021-01-21T11:28:38Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Esports sponsorship : an empirical examination of esports consumers’ perceptions of non-endemic sponsors</dc:title>
+          <dc:creator>Hüttermann, Marcel</dc:creator>
+          <dc:creator>Trail, Galen T.</dc:creator>
+          <dc:creator>Pizzo, Anthony D.</dc:creator>
+          <dc:creator>Stallone, Valerio</dc:creator>
+          <dc:subject>Spectator</dc:subject>
+          <dc:subject>Sponsorship</dc:subject>
+          <dc:subject>Sports management</dc:subject>
+          <dc:subject>eSports</dc:subject>
+          <dc:subject>Motive</dc:subject>
+          <dc:subject>658.8: Marketingmanagement</dc:subject>
+          <dc:subject>700: Künste und Unterhaltung</dc:subject>
+          <dc:description>Traditional sport organizations and their sponsors are beginning to embrace esports, but the effectiveness of non-endemic sponsorships in esports remains uncertain. Esports consumers are notoriously hostile to organizations they perceive as seeking to exploit them – including the growing ranks of non-endemics seeking to capitalize on the youth- and tech-centric esports industry. The purpose of this study is to evaluate esports consumers’ perceptions of non-endemic sponsorships. We adapt a well established sport sponsorship model to the context of esports to test key relationships’ salience to sponsors. We demonstrate that non-endemic sponsors can benefit from esports team sponsorship through enhanced attitudes, perceived goodwill, and product purchase intentions. Moreover, we find that there is only a small effect of esports brand attitude on attitude toward the sponsor, yet a larger effect on perceived goodwill and product purchase intentions. This suggests that firms with limited marketing budgets can benefit from increased goodwill and purchase intentions by sponsoring emerging esports teams who provide low-cost sponsorship opportunities.</dc:description>
+          <dc:date>2021-01-21T11:28:38Z</dc:date>
+          <dc:date>2021-01-21T11:28:38Z</dc:date>
+          <dc:date>2020</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.1080/24704067.2020.1846906</dc:identifier>
+          <dc:identifier>info:doi/10.1080/24704067.2020.1846906</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/21365</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/21365</dc:identifier>
+          <dc:identifier>info:hdl/11475/21365</dc:identifier>
+          <dc:identifier>urn:issn:2470-4067</dc:identifier>
+          <dc:identifier>urn:issn:2470-4075</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Journal of Global Sport Management</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Taylor &amp; Francis</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/12752</identifier>
+        <datestamp>2021-09-21T13:39:59Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Distributional effects of the Australian renewable energy target (RET) through wholesale and retail electricity price impacts</dc:title>
+          <dc:creator>Cludius, Johanna</dc:creator>
+          <dc:creator>Forrest, Sam</dc:creator>
+          <dc:creator>MacGill, Iain</dc:creator>
+          <dc:subject>Renewable energy</dc:subject>
+          <dc:subject>Electricity market</dc:subject>
+          <dc:subject>Distributional effects</dc:subject>
+          <dc:subject>333.79: Energie</dc:subject>
+          <dc:description>The Australian Renewable Energy Target (RET) has spurred significant investment in renewable electricity generation, notably wind power, over the past decade. This paper considers distributional implications of the RET for different energy users. Using time-series regression, we show that the increasing amount of wind energy has placed considerable downward pressure on wholesale electricity prices through the so-called merit order effect. On the other hand, RET costs are passed on to consumers in the form of retail electricity price premiums. Our findings highlight likely significant redistributive transfers between different energy user classes under current RET arrangements. In particular, some energy-intensive industries are benefiting from lower wholesale electricity prices whilst being largely exempted from contributing to the costs of the scheme. By contrast, many households are paying significant RET pass through costs whilst not necessarily benefiting from lower wholesale prices. A more equitable distribution of RET costs and benefits could be achieved by reviewing the scope and extent of industry exemptions and ensuring that methodologies to estimate wholesale price components in regulated electricity tariffs reflect more closely actual market conditions. More generally, these findings support the growing international appreciation that policy makers need to integrate distributional assessments into policy design and implementation.</dc:description>
+          <dc:date>2018-11-13T15:18:54Z</dc:date>
+          <dc:date>2018-11-13T15:18:54Z</dc:date>
+          <dc:date>2014</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.1016/j.enpol.2014.04.008</dc:identifier>
+          <dc:identifier>info:doi/10.1016/j.enpol.2014.04.008</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/12752</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/12752</dc:identifier>
+          <dc:identifier>info:hdl/11475/12752</dc:identifier>
+          <dc:identifier>urn:issn:0301-4215</dc:identifier>
+          <dc:identifier>urn:issn:1873-6777</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Energy Policy</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Elsevier</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/14582</identifier>
+        <datestamp>2019-09-24T14:48:16Z</datestamp>
+        <setSpec>com_11475_1083</setSpec>
+        <setSpec>com_11475_4</setSpec>
+        <setSpec>col_11475_1084</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>pH-responsive pickering foams generated by surfactant-free soft hydrogel particles</dc:title>
+          <dc:creator>Wu, Dalin</dc:creator>
+          <dc:creator>Mihali, Voichita</dc:creator>
+          <dc:creator>Honciuc, Andrei</dc:creator>
+          <dc:subject>540: Chemie</dc:subject>
+          <dc:description>Pickering foams are foams stabilized by particles and are generally known to have good stability. A special subclass of particle-stabilized foams includes stimuli-responsive Pickering foams that can be formed or deconstructed by applying an external stimuli or changing the environmental conditions; such intelligent particles could find use in many practical applications. Here, we synthesized surfactant-free biocompatible poly[2(diethylamino)ethyl methacrylate] (PDEAEMA) hydrogel particles (HGPs) by emulsion polymerization. The morphology, structure, and surface charge of the HGPs were characterized by TEM, DLS, and the zeta potential, respectively. We have observed that the pH values of the aqueous solution have a strong influence on the formation of the Pickering foams in the presence of PDEAEMA HGPs. Namely, at pH values ≤4.0 no Pickering foams were produced, while at pH values &gt;4.0 stable Pickering foams were formed. Moreover, the height, size and bubble size distribution of Pickering foams are strongly influenced by the pH values of aqueous solution and PDEAEMA HGPs concentration. The formed Pickering foams in basic aqueous solution can all be conveniently deconstructed by changing the pH values to below 4.0. Interestingly, the dried lamellas of the Pickering foams were constituted by either monolayers or multilayers of PDEAEMA HGPs as demonstrated by SEM.</dc:description>
+          <dc:date>2019-01-23T15:45:26Z</dc:date>
+          <dc:date>2019-01-23T15:45:26Z</dc:date>
+          <dc:date>2019</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.1021/acs.langmuir.8b03342</dc:identifier>
+          <dc:identifier>info:doi/10.1021/acs.langmuir.8b03342</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/14582</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/14582</dc:identifier>
+          <dc:identifier>info:hdl/11475/14582</dc:identifier>
+          <dc:identifier>urn:issn:0743-7463</dc:identifier>
+          <dc:identifier>urn:issn:1520-5827</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Langmuir</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>American Chemical Society</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/6588</identifier>
+        <datestamp>2020-02-14T15:13:44Z</datestamp>
+        <setSpec>com_11475_1083</setSpec>
+        <setSpec>com_11475_4</setSpec>
+        <setSpec>col_11475_1084</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Biolistic transformation of Botryotinia fuckeliana and Venturia inaequalis</dc:title>
+          <dc:creator>Bodmer, M.</dc:creator>
+          <dc:creator>Koeller, W.</dc:creator>
+          <dc:creator>Smith, F.D.</dc:creator>
+          <dc:creator>Hilber, Urs</dc:creator>
+          <dc:subject>571: Physiologie und verwandte Themen</dc:subject>
+          <dc:date>2018-06-06T09:40:21Z</dc:date>
+          <dc:date>2018-06-06T09:40:21Z</dc:date>
+          <dc:date>1993</dc:date>
+          <dc:type>Konferenz: Poster</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/6588</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/6588</dc:identifier>
+          <dc:identifier>info:hdl/11475/6588</dc:identifier>
+          <dc:identifier>urn:isbn:9780660580388</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>6th International Congress of Plant Pathology : Abstracts</dc:relation>
+          <dc:relation>6th International Congress of Plant Pathology, Montreal, Canada, 28 July - 6 August 1993</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/20326</identifier>
+        <datestamp>2021-01-27T13:35:04Z</datestamp>
+        <setSpec>com_11475_32</setSpec>
+        <setSpec>com_11475_1094</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_46</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Nutzerorientierte digitale Kommunikation von Compliance-Inhalten</dc:title>
+          <dc:creator>Krauskopf, Patrick</dc:creator>
+          <dc:creator>Hardegger, Daniel</dc:creator>
+          <dc:creator>Schlimok, Christian</dc:creator>
+          <dc:subject>Compliance</dc:subject>
+          <dc:subject>Digitalisierung</dc:subject>
+          <dc:subject>658.1: Organisation und Finanzen</dc:subject>
+          <dc:description>Im Rahmen dieser explorativen Fallstudie wurde untersucht, was die Erwartungen an eine digitale nutzerorientierte Compliance und Bedürfnisse kleinerer und mittlerer Organisationen, insbesondere KMUs (kleinere und mittlere Unternehmen) sowie der mit ihnen verbundenen Stakeholder resp. Stakeholdergruppen sind. Denn die Digitalisierung erlaubt es, Compliance-Inhalte zu personalisieren und in Bezug auf die jeweiligen Bedürfnisse und Anforderungen der jeweiligen NutzerInnen verfügbar zu machen. Die Daten der Studie wurden im Rahmen von Interviews sowie einem Design-Thinking-Workshop mit ausgewählten Compliance-ExpertInnen, Verantwortlichen und -NutzerInnen gewonnen. Alle Daten wurden vertraulich behandelt und alle in dieser Studie zitierten Studienteilnehmenden haben der Zitierung ausdrücklich zugestimmt. Sie geben hier nur ihre persönliche Sicht wieder.&#13;
+Aus den Interviews wurden fünf Prototypen, sogenannte Personas, abgeleitet, für eine Gruppe von NutzerInnen mit konkret ausgeprägten Eigenschaften und einem konkreten Nutzungsverhalten, welche die Bedürfnisse und Anforderungen an die Compliance darstellen. Im Rahmen des Workshops und in Bezugnahme auf die aus den Interviews hervorgegangenen Personas wurden vier Compliance-Systeme für digitale Compliance-Lösungen entwickelt. Die aus den beiden Prozessen abgeleiteten Erkenntnisse wurden schliesslich zusammengefasst, woraus nicht nur erste Hypothesen abgeleitet werden konnten, sondern es wurde auch möglich, drei Lösungsebenen für digitale Compliance-Inhalte abzuleiten. Während die Hypothese in nun folgenden Studien weiter zu vertiefen wäre, können die abgeleiteten Lösungsebenen als Basis dienen für die Entwicklung entsprechender digitaler Compliance-Systeme, die die Bedürfnisse von Organisationen und der mit ihnen verbundenen Stakeholder resp. Stakeholdergruppen erfüllen.</dc:description>
+          <dc:date>2020-08-10T08:54:41Z</dc:date>
+          <dc:date>2020-08-10T08:54:41Z</dc:date>
+          <dc:date>2019-03</dc:date>
+          <dc:type>Working Paper – Gutachten – Studie</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-20326</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-20326</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/20326</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/20326</dc:identifier>
+          <dc:identifier>info:hdl/11475/20326</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:format>24 S.</dc:format>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>ZHAW Zürcher Hochschule für Angewandte Wissenschaften</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/13526</identifier>
+        <datestamp>2020-02-25T07:45:00Z</datestamp>
+        <setSpec>com_11475_1068</setSpec>
+        <setSpec>com_11475_1</setSpec>
+        <setSpec>col_11475_1069</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Mehrsprachige Gesundheitsversorgung : Sprachliche Aspekte der professionellen Identität von «international doctors»</dc:title>
+          <dc:creator>Hohenstein, Christiane</dc:creator>
+          <dc:creator>Lévy-Tödter, Magdalène</dc:creator>
+          <dc:subject>Medical communication</dc:subject>
+          <dc:subject>Multilingual health communication</dc:subject>
+          <dc:subject>International doctors</dc:subject>
+          <dc:subject>Professional identity</dc:subject>
+          <dc:subject>302: Soziale Interaktion</dc:subject>
+          <dc:subject>610: Medizin und Gesundheit</dc:subject>
+          <dc:description>Ärztemangel führte in Deutschland und der Schweiz zu internationalen Rekrutierungen und Ärztemigration. Seit 2012 haben in der Schweiz jährlich mehr als 50% der neu akkreditierten Fachärzte ihr Diplom und ihre postgraduale Spezialisierung im Ausland erworben. Berichte über Kommunikationsprobleme (z. B. fremder Akzent, fehlender spezifischer Wortschatz, fehlende sprachliche Handlungsmuster) führten in der Schweiz u. a. zu politischen Massnahmen, um die Zahl der im Inland ausgebildeten Medizinerinnen und Mediziner zu erhöhen. Eine kritische Neubewertung auch der ethischen Aspekte von Ärztemigration steht noch am Anfang. Nicht beforscht wurde bislang, welche Auswirkungen sie auf das professionelle Selbstbild von Ärzten und Ärztinnen hat. Welche Rolle spielen Sprache und sprachliche Reflexion bei der Anpassung einer "mehrsprachigen beruflichen Identität"?
+Ärztinnen und Ärzte, Psychologen und Therapeutinnen, die in einem Land praktizieren, das nicht ihr Herkunftsland ist, in dem sie als „Ausländer“ oder als Mensch mit Migrationshintergrund angesehen werden, und die in der Arzt-Patienten-Kommunikation bzw. der Therapeuten-Klienten-Kommunikation entweder die Sprache des Patienten/ der Klientin als L2 oder eine gemeinsame Lingua Franca (z. B. Englisch) verwenden, können als ‚international doctors’ bezeichnet werden. Sie treten als ausgebildete medizinische Fachleute in eine neue Sprachgemeinschaft und Gesellschaft ein und haben fortan ein allophones oder mehrsprachiges Arbeitsumfeld, in dem eine andere Sprache als ihre L1 Arbeits- und Amtssprache ist. Da die Entwicklung einer "beruflichen Identität" als Teil des Ausbildungsprozesses zum Arzt angesehen wird, stellt sich die Frage, welche Veränderungen des ‚professional self’ diese grosse Gruppe von “international doctors” durch das Arbeiten in einer L2 erfährt. 
+Die qualitative Studie basiert auf Interviews mit Ärztinnen und Ärzten, Psychologinnen und Therapeuten, die in Deutschland und der deutschsprachigen Schweiz mehrsprachig bzw. in einer L2 arbeiten. Komplementierend wurden einige Audioaufnahmen von Patienten- bzw. Klienten-Gesprächen der Interviewten erhoben. Die Daten eröffnen Einblicke in die professionelle Interaktion in einem mehrsprachigen Gesundheitssystem ohne die Hilfe von Dolmetschenden.</dc:description>
+          <dc:date>2018-12-05T12:49:18Z</dc:date>
+          <dc:date>2018-12-05T12:49:18Z</dc:date>
+          <dc:date>2018-10</dc:date>
+          <dc:type>Konferenz: Poster</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-4920</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-4920</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/13526</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/13526</dc:identifier>
+          <dc:identifier>info:hdl/11475/13526</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>13. Internationale Tagung zur Funktionalen Pragmatik, Winterthur, 4.-6. Oktober 2018</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>ZHAW Zürcher Hochschule für Angewandte Wissenschaften</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/19180</identifier>
+        <datestamp>2021-09-21T13:39:20Z</datestamp>
+        <setSpec>com_11475_1089</setSpec>
+        <setSpec>com_11475_6</setSpec>
+        <setSpec>col_11475_1090</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>A detailed review on current status of energy efficiency improvement in the Swiss industry sector</dc:title>
+          <dc:creator>Zuberi, M. Jibran S.</dc:creator>
+          <dc:creator>Santoro, Marina</dc:creator>
+          <dc:creator>Eberle, Armin</dc:creator>
+          <dc:creator>Bhadbhade, Navdeep</dc:creator>
+          <dc:creator>Sulzer, Sabine</dc:creator>
+          <dc:creator>Wellig, Beat</dc:creator>
+          <dc:creator>Patel, Martin K.</dc:creator>
+          <dc:subject>Physical activity levels</dc:subject>
+          <dc:subject>Energy efficiency index</dc:subject>
+          <dc:subject>Energy efficiency targets</dc:subject>
+          <dc:subject>Industry</dc:subject>
+          <dc:subject>Switzerland</dc:subject>
+          <dc:subject>333.79: Energie</dc:subject>
+          <dc:description>While quantitative methods for tracking the evolution of energy efficiency (EE) in industry do exist, these cannot always be directly applied, mainly due to lack of data on physical activity levels, as encountered in Switzerland. Therefore, a bottom-up method is developed and tested for estimating the sectoral physical activity levels in Switzerland. On this basis, sector-specific EE indices are determined. The results show that during the period 2009–2016, EE improved most in the paper sector (3.3% p.a.), followed by minerals (2.3% p.a.) and food (1.6% p.a.) sectors while the levels have remained approximately unchanged in chemical and metal sectors. Furthermore, the annual change in final energy demand was decomposed into changes of physical production, price levels and EE. The analysis concluded that only the food sector performed well according to all performance indicators. The detailed analysis of the Swiss target agreements’ data has revealed major final energy savings in chemical and food sectors during the period 2000–2016. Among the different categories of EE measures, process related measures have proven to yield the highest energy savings across all sectors. The results indicate the successful implementation of EE measures in Swiss industry, favored by the relatively strict Swiss regulatory framework and its target agreement mechanism.</dc:description>
+          <dc:date>2020-01-23T15:36:34Z</dc:date>
+          <dc:date>2020-01-23T15:36:34Z</dc:date>
+          <dc:date>2019-12-11</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.1016/j.enpol.2019.111162</dc:identifier>
+          <dc:identifier>https://doi.org/10.21256/zhaw-19180</dc:identifier>
+          <dc:identifier>info:doi/10.1016/j.enpol.2019.111162</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-19180</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/19180</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/19180</dc:identifier>
+          <dc:identifier>info:hdl/11475/19180</dc:identifier>
+          <dc:identifier>urn:issn:0301-4215</dc:identifier>
+          <dc:identifier>urn:issn:1873-6777</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Energy Policy</dc:relation>
+          <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>Elsevier</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/12460</identifier>
+        <datestamp>2019-12-16T07:28:35Z</datestamp>
+        <setSpec>com_11475_1080</setSpec>
+        <setSpec>com_11475_3</setSpec>
+        <setSpec>col_11475_1081</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Health and living situation of community-dwelling persons 80+ in Switzerland : preliminary results</dc:title>
+          <dc:creator>Imhof, Lorenz</dc:creator>
+          <dc:creator>Naef Brand, Rahel</dc:creator>
+          <dc:creator>Höfliger, J.</dc:creator>
+          <dc:creator>Trechsel, B.</dc:creator>
+          <dc:creator>Wellauer, R.</dc:creator>
+          <dc:creator>Mahrer Imhof, Romy</dc:creator>
+          <dc:subject>305: Soziale Gruppen</dc:subject>
+          <dc:subject>610: Medizin und Gesundheit</dc:subject>
+          <dc:date>2018-11-01T15:02:42Z</dc:date>
+          <dc:date>2018-11-01T15:02:42Z</dc:date>
+          <dc:date>2010-01</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/12460</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/12460</dc:identifier>
+          <dc:identifier>info:hdl/11475/12460</dc:identifier>
+          <dc:identifier>urn:issn:0962-1067</dc:identifier>
+          <dc:identifier>urn:issn:1365-2702</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Journal of Clinical Nursing</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Wiley</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/17519</identifier>
+        <datestamp>2021-04-14T03:00:41Z</datestamp>
+        <setSpec>com_11475_1096</setSpec>
+        <setSpec>com_11475_8</setSpec>
+        <setSpec>col_11475_1097</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Research report: Updated review and developments in jihadist radicalisation in Switzerland : updated version of an exploratory study on prevention and intervention</dc:title>
+          <dc:creator>Eser Davolio, Miryam</dc:creator>
+          <dc:creator>Schneuwly Purdie, Mallory</dc:creator>
+          <dc:creator>Merz, Fabien</dc:creator>
+          <dc:creator>Saal, Johannes</dc:creator>
+          <dc:creator>Rether, Ayesha</dc:creator>
+          <dc:subject>Extremism</dc:subject>
+          <dc:subject>Prevention</dc:subject>
+          <dc:subject>303: Soziale Prozesse</dc:subject>
+          <dc:subject>362: Gesundheits- und Sozialdienste</dc:subject>
+          <dc:description>Based on the study ‘Background to jihadist radicalisation in Switzerland’ (Eser Davolio et al. 2015 with a sample of 66 jihadist-motivated travellers), the research status and current level of data available are analysed using an increased sample of jihadist-motivated persons. In comparison to studies from neighbouring countries, a largely similar picture emerges in terms of relevant push and pull factors. Male, Muslim, second-generation persons aged between 21 and 35 years of age with a relatively low level of education and links to peers with similar orientation are overrepresented in the sample. Particular importance is also attached to the phenomenon of conversion. In view of the fact that around 40% of the persons surveyed (N=130) receive state welfare benefits, relevant follow-up questions are raised here with regard to resocialisation and reintegration. In relation to the challenges in the prison system, the interviews with prison directors show that considerations are made and strategies applied regarding placement, execution of sentence, separation and institutional and individual monitoring when dealing with radicalised jihadist inmates. As long periods of pretrial detention are common in such cases, there is generally little scope for measures, such as therapy and reintegration. Concepts for dealing with radicalised inmates and promoting resocialisation and disengagement must be developed, approaches regarding cantonal ‘core extremism groups’ or the involvement of Muslim spiritual advisers must be further elaborated and monitoring of potential risks – particularly concerning the protection of potentially endangered fellow inmates – must be driven forward. As far as prevention is concerned, the extremism specialist units have increased from two in 2015 to nine now and the bridge-building specialist units from three to eight (as at May 2019). In particular, cities and cantons which experienced high levels of jihadist radicalisation have recruited specialists and developed expertise on prevention. As low-threshold points of contact, they can usually clear up the uncertainties that radicalisation phenomena or associated situations can trigger and contribute towards resolving issues by advising the persons involved as second-level prevention. In contrast, the bridgebuilding specialist units primarily focus on building trust and dialogue with mosque associations as well as providing information in the field of asylum as part of radicalisation prevention. This means they play a key link role between the Muslim organisations and the police and other administrative bodies. In summary, individual cantons and cities expanded prevention units between May 2015 and May 2019, but they are still far from available nationwide in the overall context of Switzerland. While progress has been made and experience accumulated in prevention and intervention, there are still gaps in the fields of disengagement and reintegration of radicalised jihadist persons.</dc:description>
+          <dc:date>2019-07-17T12:47:42Z</dc:date>
+          <dc:date>2019-07-17T12:47:42Z</dc:date>
+          <dc:date>2019-06</dc:date>
+          <dc:type>Working Paper – Gutachten – Studie</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-17519</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-17519</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/17519</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/17519</dc:identifier>
+          <dc:identifier>info:hdl/11475/17519</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:format>49 S.</dc:format>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>ZHAW Zürcher Hochschule für Angewandte Wissenschaften</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/12707</identifier>
+        <datestamp>2019-12-16T07:28:02Z</datestamp>
+        <setSpec>com_11475_1092</setSpec>
+        <setSpec>com_11475_7</setSpec>
+        <setSpec>col_11475_1093</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>An examination of the causes for retail stockouts</dc:title>
+          <dc:creator>Ehrenthal, Joachim</dc:creator>
+          <dc:creator>Stölzle, Wolfgang</dc:creator>
+          <dc:subject>Instore logistics</dc:subject>
+          <dc:subject>Operations management</dc:subject>
+          <dc:subject>Retail operations</dc:subject>
+          <dc:subject>Retailing</dc:subject>
+          <dc:subject>Stockouts</dc:subject>
+          <dc:subject>658.5: Produktionssteuerung</dc:subject>
+          <dc:description>Purpose: The purpose of this paper is to increase our understanding of the causes for stockouts in retailing.&#13;
+&#13;
+Design/methodology/approach: Mixed methods study, using instore observations, interviews with key informants in consumer goods and retailing, and a field study of stockouts and their causes in multiple wholesale stores over two years. &#13;
+&#13;
+Findings: The results indicate that the causes for stockouts are specific to retailer, store, category and item. Improvements to store operations and the coordination of store delivery and shelf replenishment are most effective in reducing stockouts. Manual audits of stockouts and their causes benefit instore execution and provide the level of detail necessary for management to prioritize areas of improvement. &#13;
+&#13;
+Research limitations/implications: Future research may investigate the operational and cost impact of incorporating demand seasonality in shelf replenishment that may lead to an improved coordination of replenishment and demand cycles. &#13;
+&#13;
+Practical implications: A procedure is proposed to help store managers reduce stockouts well below the global average of 8.3 percent. &#13;
+&#13;
+Originality/value: The paper extends the literature by providing a comprehensive set of itemized causes of retail stockouts and reflects implications for sales‐data driven research. It adds to the emergent research that applies service‐dominant logic to retail stockout research.</dc:description>
+          <dc:date>2018-11-09T10:22:32Z</dc:date>
+          <dc:date>2018-11-09T10:22:32Z</dc:date>
+          <dc:date>2013</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.1108/09600031311293255</dc:identifier>
+          <dc:identifier>info:doi/10.1108/09600031311293255</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/12707</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/12707</dc:identifier>
+          <dc:identifier>info:hdl/11475/12707</dc:identifier>
+          <dc:identifier>urn:issn:0960-0035</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>International Journal of Physical Distribution &amp; Logistics Management</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>Emerald</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/23624</identifier>
+        <datestamp>2021-12-02T13:15:45Z</datestamp>
+        <setSpec>com_11475_1089</setSpec>
+        <setSpec>com_11475_6</setSpec>
+        <setSpec>col_11475_1090</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>INODE : building an end-to-end data exploration system in practice</dc:title>
+          <dc:creator>Amer-Yahia, Sihem</dc:creator>
+          <dc:creator>Koutrika, Georgia</dc:creator>
+          <dc:creator>Braschler, Martin</dc:creator>
+          <dc:creator>Calvanese, Diego</dc:creator>
+          <dc:creator>Lanti, Davide</dc:creator>
+          <dc:creator>Lücke-Tieke, Hendrik</dc:creator>
+          <dc:creator>Mosca, Alessandro</dc:creator>
+          <dc:creator>Mendes de Farias, Tarcisio</dc:creator>
+          <dc:creator>Papadopoulos, Dimitris</dc:creator>
+          <dc:creator>Patil, Yogendra</dc:creator>
+          <dc:creator>Rull, Guillem</dc:creator>
+          <dc:creator>Smith, Ellery</dc:creator>
+          <dc:creator>Skoutas, Dimitrios</dc:creator>
+          <dc:creator>Subramanian, Srividya</dc:creator>
+          <dc:creator>Stockinger, Kurt</dc:creator>
+          <dc:subject>Databases</dc:subject>
+          <dc:subject>Data exploration</dc:subject>
+          <dc:subject>Machine learning</dc:subject>
+          <dc:subject>005: Computerprogrammierung, Programme und Daten</dc:subject>
+          <dc:subject>006: Spezielle Computerverfahren</dc:subject>
+          <dc:description>A full-fledged data exploration system must combine different access modalities with a powerful concept of guiding the user in the exploration process, by being reactive and anticipative both for data discovery and for data linking. Such systems are a real opportunity for our community to cater to users with different domain and data science expertise. &#13;
+We introduce INODE - an end-to-end data exploration system - that leverages, on the one hand, Machine Learning and, on the other hand, semantics for the purpose of Data Management (DM). Our vision is to develop a classic unified, comprehensive platform that provides extensive access to open datasets, and we demonstrate it in three significant use cases in the fields of Cancer Biomarker Research, Research and Innovation Policy Making, and Astrophysics. INODE offers sustainable services in (a) data modeling and linking, (b) integrated query processing using natural language, (c) guidance, and (d) data exploration through visualization, thus facilitating the user in discovering new insights. We demonstrate that our system is uniquely accessible to a wide range of users from larger scientific communities to the public. Finally, we briefly illustrate how this work paves the way for new research opportunities in DM.</dc:description>
+          <dc:date>2021-11-29T14:48:14Z</dc:date>
+          <dc:date>2021-11-29T14:48:14Z</dc:date>
+          <dc:date>2021-12</dc:date>
+          <dc:type>Beitrag in wissenschaftlicher Zeitschrift</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.21256/zhaw-23624</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-23624</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/23624</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/23624</dc:identifier>
+          <dc:identifier>info:hdl/11475/23624</dc:identifier>
+          <dc:identifier>urn:issn:0163-5808</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>SIGMOD Record</dc:relation>
+          <dc:rights>Not specified</dc:rights>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>Association for Computing Machinery</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/19497</identifier>
+        <datestamp>2020-09-10T08:35:11Z</datestamp>
+        <setSpec>com_11475_1089</setSpec>
+        <setSpec>com_11475_6</setSpec>
+        <setSpec>col_11475_1090</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>A flexible software architecture concept for the creation of accessible PDF documents</dc:title>
+          <dc:creator>Darvishy, Alireza</dc:creator>
+          <dc:creator>Hutter, Hans-Peter</dc:creator>
+          <dc:creator>Horvath, Alexander</dc:creator>
+          <dc:creator>Dorigo, Martin</dc:creator>
+          <dc:subject>Document accessibility</dc:subject>
+          <dc:subject>Automatic generation of accessible PDF</dc:subject>
+          <dc:subject>Screen reader</dc:subject>
+          <dc:subject>Visual impairment</dc:subject>
+          <dc:subject>Tagged PDF</dc:subject>
+          <dc:subject>Software architecture</dc:subject>
+          <dc:subject>005: Computerprogrammierung, Programme und Daten</dc:subject>
+          <dc:description>This paper presents a flexible software architecture concept that allows the automatic generation of fully accessible PDF documents originating from various authoring tools such as Adobe InDesign or Microsoft Word. The architecture can be extended to include any authoring tools capable of creating PDF documents. For each authoring tool, a software accessibility plug-in must be implemented which analyzes the logical structure of the document and creates an XML representation of it. This XML file is used in combination with an untagged non-accessible PDF to create an accessible PDF version of the document. The implemented accessibility plug-in prototype allows authors of documents to check for accessibility issues while creating their documents and add the additional semantic information needed to generate a fully accessible PDF document.</dc:description>
+          <dc:date>2020-02-19T14:55:33Z</dc:date>
+          <dc:date>2020-02-19T14:55:33Z</dc:date>
+          <dc:date>2010</dc:date>
+          <dc:type>Konferenz: Paper</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://doi.org/10.1007/978-3-642-14097-6_8</dc:identifier>
+          <dc:identifier>https://doi.org/10.21256/zhaw-19497</dc:identifier>
+          <dc:identifier>info:doi/10.1007/978-3-642-14097-6_8</dc:identifier>
+          <dc:identifier>info:doi/10.21256/zhaw-19497</dc:identifier>
+          <dc:identifier>https://hdl.handle.net/11475/19497</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/19497</dc:identifier>
+          <dc:identifier>info:hdl/11475/19497</dc:identifier>
+          <dc:identifier>urn:isbn:978-3-642-14096-9</dc:identifier>
+          <dc:identifier>urn:isbn:978-3-642-14097-6</dc:identifier>
+          <dc:identifier>urn:issn:0302-9743</dc:identifier>
+          <dc:identifier>urn:issn:1611-3349</dc:identifier>
+          <dc:language>en</dc:language>
+          <dc:relation>Computers Helping People with Special Needs</dc:relation>
+          <dc:relation>12th International Conference on Computers for Handicapped Persons (ICCHP), Vienna, Austria, 14-16 July 2010</dc:relation>
+          <dc:relation>Lecture Notes in Computer Science</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:format>application/pdf</dc:format>
+          <dc:publisher>Springer</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/11972</identifier>
+        <datestamp>2018-10-18T14:03:17Z</datestamp>
+        <setSpec>com_11475_1096</setSpec>
+        <setSpec>com_11475_8</setSpec>
+        <setSpec>col_11475_1097</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Wenn Kinder antworten : Erfahrungen mit der standardisierten Befragung von 8- bis 9-Jährigen</dc:title>
+          <dc:creator>Haunberger, Sigrid</dc:creator>
+          <dc:subject>000: Allgemeines und Wissenschaft</dc:subject>
+          <dc:subject>305: Soziale Gruppen</dc:subject>
+          <dc:date>2018-10-18T14:03:16Z</dc:date>
+          <dc:date>2018-10-18T14:03:16Z</dc:date>
+          <dc:date>2007</dc:date>
+          <dc:type>Buchbeitrag</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://hdl.handle.net/11475/11972</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/11972</dc:identifier>
+          <dc:identifier>info:hdl/11475/11972</dc:identifier>
+          <dc:identifier>urn:isbn:978-3-531-15417-6</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>Kinderleben : Start in die Grundschule</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:publisher>VS Verlag für Sozialwissenschaften</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:digitalcollection.zhaw.ch:11475/22257</identifier>
+        <datestamp>2021-04-15T13:39:06Z</datestamp>
+        <setSpec>com_11475_1089</setSpec>
+        <setSpec>com_11475_6</setSpec>
+        <setSpec>col_11475_1090</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Energieeffizienzprogramme : Lehren aus und für die Schweiz</dc:title>
+          <dc:creator>Patel, Martin</dc:creator>
+          <dc:creator>Broc, Jean-Sébastien</dc:creator>
+          <dc:creator>Cabrera, Daniel</dc:creator>
+          <dc:creator>Haein, Cho</dc:creator>
+          <dc:creator>Eberle, Armin</dc:creator>
+          <dc:creator>Federici, Alessandro</dc:creator>
+          <dc:creator>Freyre, Alisa</dc:creator>
+          <dc:creator>Jeanneret, Cédric</dc:creator>
+          <dc:creator>Krysiak, Frank</dc:creator>
+          <dc:creator>Narula, Kapil</dc:creator>
+          <dc:creator>Oikonomou, Vlasis</dc:creator>
+          <dc:creator>Yilmaz, Selin</dc:creator>
+          <dc:subject>Energie</dc:subject>
+          <dc:subject>Energieeffizienz</dc:subject>
+          <dc:subject>Energieeffizienzprogramme</dc:subject>
+          <dc:subject>Energiepolitik</dc:subject>
+          <dc:subject>SCCER CREST</dc:subject>
+          <dc:subject>333.79: Energie</dc:subject>
+          <dc:description>Der Übergang zu erneuerbaren Energieträgern und die Einsparung von Energie sind wesentliche Bestandteile der Energie- und Klimapolitik. Energieeinsparungen können entweder durch erhöhte Energieeffizienz oder durch eine Reduktion der Nachfrage nach Energiedienstleistungen erzielt werden. In der Schweiz, wie auch der EU und den USA, ist die Verbesserung der Energieeffizienz ein zentraler Bestandteil der Politikmassnahmen. Das Potenzial von Energieeffizienzsteigerungen auszuschöpfen ist aber eine Herausforderung. Energieeffizienzprogramme (EEPs) schaffen Anreize für die Einführung energieeffizienter Lösungen. Sie können von Energieversorgungsunternehmen (EVUs) und anderen staatlichen oder nichtstaatlichen Einrichtungen umgesetzt werden. Weltweit betreiben Energieversorgungsunternehmen (EVUs) derartige EEPs in mehr als 50 Versorgungsgebieten im Rahmen von Energieeffizienzverpflichtungen oder Energieeffizienz-Ressourcenstandards. Dieses White Paper fasst die Forschung im Rahmen des SCCER CREST zusammen und leitet Lehren für die Schweiz ab.</dc:description>
+          <dc:date>2021-04-15T13:39:06Z</dc:date>
+          <dc:date>2021-04-15T13:39:06Z</dc:date>
+          <dc:date>2021-03</dc:date>
+          <dc:type>Working Paper – Gutachten – Studie</dc:type>
+          <dc:type>Text</dc:type>
+          <dc:identifier>https://www.sccer-crest.ch/fileadmin/user_upload/White_Paper_10_2021_Energieeffizienzprogramme.pdf</dc:identifier>
+          <dc:identifier>https://digitalcollection.zhaw.ch/handle/11475/22257</dc:identifier>
+          <dc:language>de</dc:language>
+          <dc:relation>SCCER CREST White Paper</dc:relation>
+          <dc:rights>Licence according to publishing contract</dc:rights>
+          <dc:format>18 S.</dc:format>
+          <dc:publisher>SCCER CREST</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <resumptionToken completeListSize="24863" cursor="248"/>
+  </ListRecords>
+</OAI-PMH>
