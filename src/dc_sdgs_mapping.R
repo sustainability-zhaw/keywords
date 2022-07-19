@@ -15,8 +15,13 @@ wd = getwd()
 
 config <- yaml::read_yaml(stringr::str_c(wd, "/config.yml")) 
 
+#* @get /hello
+function() {
+  return("Hello World")
+}
+
 #* @get /config
-function(config = config) {
+function() {
   return("config")
 }
 
