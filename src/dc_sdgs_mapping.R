@@ -17,10 +17,4 @@ function(workdir=wd) {
   return(workdir)
 }
 
-config <- yaml::read_yaml(stringr::str_c(wd, "../config.yml"))
-
-#* @get /config
-# #* @param cf
-# function(cf = config) {
-#   return(cf)
-# }
+# config <- yaml::read_yaml(stringr::str_c(wd, "../config.yml"))
