@@ -138,8 +138,8 @@ function(fconfig = config){
 # 
 ####################################################
 #* @get /import_sdgs_from_git
-#* @param sdg:int 
-#* @param list_with_posteriors: bool
+#* @param sdg
+#* @param list_with_posteriors
 function(sdg = 1, list_with_posteriors = FALSE) {
 # import_sdgs_from_git <- function(sdg = 1, list_with_posteriors = FALSE) {
 
