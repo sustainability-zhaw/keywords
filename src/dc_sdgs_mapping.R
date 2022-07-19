@@ -20,7 +20,7 @@ function() {
 
 #* @get /config
 function() {
-  return("config")
+  return(config)
 }
 
 #* @get /wd
