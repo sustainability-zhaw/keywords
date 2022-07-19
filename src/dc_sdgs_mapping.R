@@ -140,7 +140,7 @@ function(fconfig = config){
 ####################################################
 #* @get /import_sdgs_from_git
 function() {
-  RCurl::getURL(stringr::str_c("https://raw.githubusercontent.com/sustainability-zhaw/keywords/main/no_posteriors/sdg1.csv"),
+  RCurl::getURL(stringr::str_c("https://raw.githubusercontent.com/sustainability-zhaw/keywords/main/no_posterior/sdg1.csv"),
               .encoding = "UTF-8") %>%
   # read.csv(text = ., sep = ";", header = FALSE) %>%
   # tidyr::as_tibble(.name_repair = "minimal") %>%
