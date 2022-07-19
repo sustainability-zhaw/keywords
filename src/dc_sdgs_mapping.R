@@ -150,7 +150,7 @@ function(sdg = 1, list_with_posteriors = FALSE) {
   prior_posterior_full_tibble <<-
     sdg %>%
     purrr::map(., function(x){
-      x = 1
+      # x = 1
       sdg_name <<- stringr::str_c("SDG", x)
       filename <- stringr::str_c("SDG", x, ".csv")
       if (list_with_posteriors == TRUE){
@@ -164,36 +164,38 @@ function(sdg = 1, list_with_posteriors = FALSE) {
         tidyr::as_tibble(.name_repair = "minimal")
     }) %>%
     do.call(rbind.data.frame, .)
+  
+  return(prior_posterior_full_tibble)}
 
-  # extract priors, all languages and concatenate
-  single_sdg_prior <-
-    prior_posterior_full_tibble[,c(2,4,6,8)] %>%
-    unlist() %>%
-    stringr::str_replace_all("NA", "") %>%
-    stringr::str_replace_na("") %>%
-    stringr::str_replace_all("\\s{2,}", "") %>%
-    stringr::str_trim(side = "both")%>%
-    dplyr::tibble(prior = .)
-
-  # extract posteriors, all languages and concatenate
-  single_sdg_posterior <-
-    prior_posterior_full_tibble[,c(3,5,7,9)] %>%
-    unlist() %>%
-    stringr::str_replace_all("NA", "") %>%
-    stringr::str_replace_na("") %>%
-    stringr::str_replace("\\s{2,}", "") %>%
-    stringr::str_trim(side = "both")%>%
-    dplyr::tibble(posterior = .)
-
-  n <- max(length(single_sdg_prior), length(single_sdg_posterior))
-  length(single_sdg_prior) <- n
-  length(single_sdg_posterior) <- n
-
-  return(list(sdg_name = sdg_name,
-              value = cbind(prior = single_sdg_prior$prior,
-                            posterior = single_sdg_posterior$posterior))
-  )
-}
+  # # extract priors, all languages and concatenate
+  # single_sdg_prior <-
+  #   prior_posterior_full_tibble[,c(2,4,6,8)] %>%
+  #   unlist() %>%
+  #   stringr::str_replace_all("NA", "") %>%
+  #   stringr::str_replace_na("") %>%
+  #   stringr::str_replace_all("\\s{2,}", "") %>%
+  #   stringr::str_trim(side = "both")%>%
+  #   dplyr::tibble(prior = .)
+  # 
+  # # extract posteriors, all languages and concatenate
+  # single_sdg_posterior <-
+  #   prior_posterior_full_tibble[,c(3,5,7,9)] %>%
+  #   unlist() %>%
+  #   stringr::str_replace_all("NA", "") %>%
+  #   stringr::str_replace_na("") %>%
+  #   stringr::str_replace("\\s{2,}", "") %>%
+  #   stringr::str_trim(side = "both")%>%
+  #   dplyr::tibble(posterior = .)
+  # 
+  # n <- max(length(single_sdg_prior), length(single_sdg_posterior))
+  # length(single_sdg_prior) <- n
+  # length(single_sdg_posterior) <- n
+  # 
+  # return(list(sdg_name = sdg_name,
+  #             value = cbind(prior = single_sdg_prior$prior,
+  #                           posterior = single_sdg_posterior$posterior))
+  # )
+# }
 
 # View(import_sdgs_from_git(1, FALSE))
 
