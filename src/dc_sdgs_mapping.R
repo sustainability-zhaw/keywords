@@ -136,15 +136,16 @@ function(fconfig = config){
 # import_sdg_xlsx()
 # 
 # 
+a <- RCurl::getURL(stringr::str_c("https://raw.githubusercontent.com/sustainability-zhaw/keywords/main/no_posterior/sdg1.csv"),
+                   .encoding = "UTF-8") %>%
+  read.csv(text = ., sep = ";", header = FALSE) %>%
+  tidyr::as_tibble(.name_repair = "minimal")
 
 ####################################################
 #* @get /import_sdgs_from_git
-function() {
-  RCurl::getURL(stringr::str_c("https://raw.githubusercontent.com/sustainability-zhaw/keywords/main/no_posterior/sdg1.csv"),
-              .encoding = "UTF-8") %>%
-  # read.csv(text = ., sep = ";", header = FALSE) %>%
-  # tidyr::as_tibble(.name_repair = "minimal") %>%
-  return()
+#* @param sdg_text
+function(sdg_text = a) {
+  return(sdg_text)
   }
 
 # ####################################################
