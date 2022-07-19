@@ -16,21 +16,3 @@ config <- yaml::read_yaml(stringr::str_c(wd, "/config.yml"))
 function() {
   return("Hello World2")
 }
-
-
-#* @get /config
-function() {
-  return(config)
-}
-
-#* @get /wd
-#* @param workdir
-function(workdir = getwd()) {
-  return(workdir)
-}
-
-#* @get /wdir
-#* @param workdir
-function(workdir = wd) {
-  return(workdir)
-}
