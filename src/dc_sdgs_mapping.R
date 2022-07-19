@@ -7,3 +7,5 @@ library(plumber)
 
 # setwd(stringr::str_c(host, repo))
 wd = getwd()
+
+config <- yaml::read_yaml(stringr::str_c(wd, "/config.yml"))
