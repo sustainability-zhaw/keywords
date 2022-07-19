@@ -21,7 +21,7 @@ function(workdir=wdir) {
 #* @get /conf
 #* @param wd
 function(wd=wdir) {
-  # s = stringr::str_c(wd, "/config.yml")
+  s = stringr::str_c(wd, "/config.yml")
   # s = yaml::read_yaml(stringr::str_c(wd, "/config.yml"))
-  return(wd)
+  return(s)
 }
