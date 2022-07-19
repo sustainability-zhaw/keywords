@@ -2,8 +2,8 @@ library(plumber)
 
 `%>%` = magrittr::`%>%` 
 
-host <- "/Users/bajk/documents/Github/sustainability/"
-repo <- "keywords/"
+# host <- "/Users/bajk/documents/Github/sustainability/"
+# repo <- "keywords/"
 
-setwd(stringr::str_c(host, repo))
+# setwd(stringr::str_c(host, repo))
 wd = getwd()
