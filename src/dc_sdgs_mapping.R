@@ -14,7 +14,8 @@ wd = getwd()
 #* @get /wd
 #* @param workdir
 function(workdir=wd) {
-  s = stringr::str_c(workdir, "../config.yml")
+  s = stringr::str_c("../", getwd(), "/config.yml")
+  # s = stringr::str_c(workdir, "/config.yml")
   return(s)
 }
 
