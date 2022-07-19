@@ -9,8 +9,8 @@ library(plumber)
 wd = getwd()
 
 #* @get /wd
-#* @param workdir
-function(workdir=wd) {
+#* @param workdir = wd
+function() {
   return(workdir)
 }
 
