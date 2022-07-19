@@ -13,7 +13,7 @@ RUN apt-get update -qq \
   && rm -rf /var/lib/apt/lists/*
 
 # R packages needed by the services 
-RUN R -e 'install.packages(c("magrittr", "yaml", "plumber", "forcats", "dplyr", "stringr", "jsonlite", "readr", "tidyr", "quanteda", "openxlsx", "qpcR"))' \
+RUN R -e 'install.packages(c("magrittr", "yaml", "plumber", "qpcR", "forcats", "dplyr", "stringr", "jsonlite", "readr", "tidyr", "quanteda", "openxlsx"))' \
  && rm -rf /tmp/*
 
 # set the container work directory 
