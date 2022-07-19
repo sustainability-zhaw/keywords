@@ -14,7 +14,7 @@ library(plumber)
 # wd <- ".."
 
 setwd('..')
-wdir = getwd()
+wd = getwd()
 
 config <- yaml::read_yaml(stringr::str_c(wd, "/config.yml")) 
 
