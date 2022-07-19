@@ -6,7 +6,8 @@ library(plumber)
 # repo <- "keywords/"
 
 # setwd(stringr::str_c(host, repo))
-wd = setwd("../")
+setwd("/..")
+wd = getwd()
 
 #* @get /wd
 #* @param workdir
