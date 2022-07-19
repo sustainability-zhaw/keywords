@@ -136,36 +136,48 @@ function(fconfig = config){
 # import_sdg_xlsx()
 # 
 # 
+
 ####################################################
 #* @get /import_sdgs_from_git
-#* @param sdg
-#* @param list_with_posteriors
-function(sdg = 1, list_with_posteriors = FALSE) {
-# import_sdgs_from_git <- function(sdg = 1, list_with_posteriors = FALSE) {
 
-  # sdg = 1
-  # list_with_posteriors = FALSE
+function() {
+RCurl::getURL(stringr::str_c("https://raw.githubusercontent.com/sustainability-zhaw/keywords/main/no_posteriors/sdg1.csv"),
+              .encoding = "UTF-8") %>%
+  read.csv(text = ., sep = ";", header = FALSE) %>%
+  tidyr::as_tibble(.name_repair = "minimal") %>%
+  return()
+  }
 
-  # Loop over all sdgs
-  prior_posterior_full_tibble <<-
-    sdg %>%
-    purrr::map(., function(x){
-      # x = 1
-      sdg_name <<- stringr::str_c("SDG", x)
-      filename <- stringr::str_c("SDG", x, ".csv")
-      if (list_with_posteriors == TRUE){
-        type = "with_posterior"
-      } else {
-        type = "no_posterior"
-      }
-      RCurl::getURL(stringr::str_c("https://raw.githubusercontent.com/sustainability-zhaw/keywords/main/", type, "/", filename),
-                    .encoding = "UTF-8") %>%
-        read.csv(text = ., sep = ";", header = FALSE) %>%
-        tidyr::as_tibble(.name_repair = "minimal")
-    }) %>%
-    do.call(rbind.data.frame, .)
-  
-  return(prior_posterior_full_tibble)}
+# ####################################################
+# #* @get /import_sdgs_from_git
+# #* @param sdg
+# #* @param list_with_posteriors
+# function(sdg = 1, list_with_posteriors = FALSE) {
+# # import_sdgs_from_git <- function(sdg = 1, list_with_posteriors = FALSE) {
+# 
+#   # sdg = 1
+#   # list_with_posteriors = FALSE
+# 
+#   # Loop over all sdgs
+#   prior_posterior_full_tibble <<-
+#     sdg %>%
+#     purrr::map(., function(x){
+#       # x = 1
+#       sdg_name <<- stringr::str_c("SDG", x)
+#       filename <- stringr::str_c("SDG", x, ".csv")
+#       if (list_with_posteriors == TRUE){
+#         type = "with_posterior"
+#       } else {
+#         type = "no_posterior"
+#       }
+#       RCurl::getURL(stringr::str_c("https://raw.githubusercontent.com/sustainability-zhaw/keywords/main/", type, "/", filename),
+#                     .encoding = "UTF-8") %>%
+#         read.csv(text = ., sep = ";", header = FALSE) %>%
+#         tidyr::as_tibble(.name_repair = "minimal")
+#     }) %>%
+#     do.call(rbind.data.frame, .)
+#   
+#   return(prior_posterior_full_tibble)}
 
   # # extract priors, all languages and concatenate
   # single_sdg_prior <-
