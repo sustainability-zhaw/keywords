@@ -143,75 +143,78 @@ function(dataIn = import_data(),
     dplyr::as_tibble() %>%
     dplyr::mutate(doc_id = as.numeric("0"))
 
-  
-  
-  # # Christians super simples beispiel um alle SDG Dateien von GH zu laden
-  # tidyr::tibble(
-  #   sdg = 1:16,
-  #   priorT = TRUE,
-  #   priorF = FALSE) %>%
-  #   tidyr::pivot_longer(startsWith("prior")) %>%
-  #   dplyr::group_by(sdg, name) %>%
-  #   dplyr::mutate(
-  #     data = import_sdgs_from_git(sdg, value) %>% list(),) %>%
-  #   dplyr::ungroup()
-  
-  # Main mapping routine
-  # sdgIn %>%
-  # purrr::map(., function(prior_posterior_list) {
-  # prior_posterior_list <- sdgIn # for debug
-  
-  prior_posterior_list <- sdgIn
-  
-  # Extract the sdg name
-  sdg_name <<-
-    prior_posterior_list$sdg_name
-  
-  # Extract the prior - posterior tibble
-  prior_posterior_tibble <-
-    prior_posterior_list$value %>%
-    dplyr::as_tibble() %>%
-    dplyr::select(1,2)
-  
-  # extract the prior vector
-  sdg_prior <-
-    prior_posterior_tibble$prior
-  
-  # extract the posterior vector
-  sdg_posterior <-
-    prior_posterior_tibble$posterior
-  
-  # detect all expression excluding sdgs
-  sdg_prior_NOT_priors <-
-    prior_posterior_tibble[sdg_prior %>%
-                             stringr::str_starts(pattern = "NOT ", negate = FALSE),]
-  
-  # detect all expression excluding sdgs
-  sdg_prior_NOT_prior <-
-    sdg_prior_NOT_priors %>%
-    dplyr::pull(prior) %>%
-    stringr::str_remove_all("^NOT") %>%
-    stringr::str_trim() %>%
-    as.list() %>%
-    unlist(., recursive = TRUE, use.names = TRUE) %>%
-    c("")
-  
-  # create a matching excluding n-gram for all keywords
-  prior_ngram_NOT <-
-    quanteda::kwic(corp,
-                   pattern = quanteda::phrase(sdg_prior_NOT_prior),
-                   separator = " ",
-                   case_insensitive = FALSE)
-  
-  
-  text_prior_by_not_reduced <-
-    dplyr::anti_join(quanteda::convert(corp, to = "data.frame"),
-                     prior_ngram_NOT,
-                     by = c("doc_id" = "docname"))
-  
-  return(text_prior_by_not_reduced)
-  
+  return(sdgIn)
 }
+
+#   # # Christians super simples beispiel um alle SDG Dateien von GH zu laden
+#   # tidyr::tibble(
+#   #   sdg = 1:16,
+#   #   priorT = TRUE,
+#   #   priorF = FALSE) %>%
+#   #   tidyr::pivot_longer(startsWith("prior")) %>%
+#   #   dplyr::group_by(sdg, name) %>%
+#   #   dplyr::mutate(
+#   #     data = import_sdgs_from_git(sdg, value) %>% list(),) %>%
+#   #   dplyr::ungroup()
+#   
+#   # Main mapping routine
+#   # sdgIn %>%
+#   # purrr::map(., function(prior_posterior_list) {
+#   # prior_posterior_list <- sdgIn # for debug
+#   
+#   prior_posterior_list <- sdgIn
+#   
+#   # Extract the sdg name
+#   sdg_name <<-
+#     prior_posterior_list$sdg_name
+#   
+#   # Extract the prior - posterior tibble
+#   prior_posterior_tibble <-
+#     prior_posterior_list$value %>%
+#     dplyr::as_tibble() %>%
+#     dplyr::select(1,2)
+#   
+#   # extract the prior vector
+#   sdg_prior <-
+#     prior_posterior_tibble$prior
+#   
+#   # extract the posterior vector
+#   sdg_posterior <-
+#     prior_posterior_tibble$posterior
+#   
+#   # detect all expression excluding sdgs
+#   sdg_prior_NOT_priors <-
+#     prior_posterior_tibble[sdg_prior %>%
+#                              stringr::str_starts(pattern = "NOT ", negate = FALSE),]
+#   
+#   # detect all expression excluding sdgs
+#   sdg_prior_NOT_prior <-
+#     sdg_prior_NOT_priors %>%
+#     dplyr::pull(prior) %>%
+#     stringr::str_remove_all("^NOT") %>%
+#     stringr::str_trim() %>%
+#     as.list() %>%
+#     unlist(., recursive = TRUE, use.names = TRUE) %>%
+#     c("")
+#   
+#   # create a matching excluding n-gram for all keywords
+#   prior_ngram_NOT <-
+#     quanteda::kwic(corp,
+#                    pattern = quanteda::phrase(sdg_prior_NOT_prior),
+#                    separator = " ",
+#                    case_insensitive = FALSE)
+#   
+#   
+#   text_prior_by_not_reduced <-
+#     dplyr::anti_join(quanteda::convert(corp, to = "data.frame"),
+#                      prior_ngram_NOT,
+#                      by = c("doc_id" = "docname"))
+#   
+#   return(text_prior_by_not_reduced)
+#   
+# }
+
+
 # 
 #   # wranggled corpus creation
 #   corp <-
