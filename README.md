@@ -23,7 +23,12 @@ docker pull ghcr.io/sustainability-zhaw/sdg-validation:latest
 ## Windows Setup
 
 ### Docker installation
-Go to ´docs.docker.com/desktop/install/windows-install´
+Go to the docker install webpage and download **Docker Desktop for Window** by clicking on it
+``` 
+docs.docker.com/desktop/install/windows-install
+```
+Double-click the downloaded file `Docker Desktop Installer.exe` and `Run`.
+Agree to use WLS 2 instead of Hyper-V and `Add shortcut to desktop` when prompted.
 
 ## Launching the sdg mapping service
 
