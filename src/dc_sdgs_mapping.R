@@ -49,7 +49,7 @@ import_data <- function(fconfig = config){
 # #* @param list_with_posteriors
 # function(sdg = 1, list_with_posteriors = FALSE) {
 import_sdgs_from_git <- 
-  function(sdg = 1, list_with_posteriors = FALSE) {
+  function(sdg, list_with_posteriors) {
 
   # sdg = 1
   # list_with_posteriors = FALSE
@@ -106,14 +106,14 @@ import_sdgs_from_git <-
 # View(import_sdgs_from_git(1, FALSE))
 
 ####################################################
-#* @get /dc_mapping
-#* @param dataIn
-#* @param sdgIn
-#* @param fconfig
-function(dataIn = import_data(), 
-         sdgIn = import_sdgs_from_git(1, FALSE), 
-         fconfig = config) {
-# mapping_data <- function(dataIn, sdgIn, fconfig) {
+# #* @get /dc_mapping
+# #* @param dataIn
+# #* @param sdgIn
+# #* @param fconfig
+# function(dataIn = import_data(), 
+#          sdgIn = import_sdgs_from_git(1, FALSE), 
+#          fconfig = config) {
+mapping_data <- function(dataIn, sdgIn, fconfig) {
 
   # dataIn = import_data()
   # sdgIn = import_sdgs_from_git(1, FALSE)
@@ -540,18 +540,32 @@ export_data <- function(data = data_mapped, output = "console") {
 # export_data(output = "json")
 
 
+# #* @get /dc_mapping
+# #* @param dataIn
+# #* @param sdgIn
+# #* @param fconfig
+# function(dataIn = import_data(), 
+#          sdgIn = import_sdgs_from_git(1, FALSE), 
+#          fconfig = config) {
 
- #  function(sdg = 1, list_with_posteriors = FALSE, output = "console", fconfig = config){
- #  # # data_mapped <- mapping_data(import_data(), sdgIn = import_sdg_xlsx(), config)
- #  data_mapped <- mapping_data(dataIn = import_data(),
- #                              sdgIn = import_sdgs_from_git(sdg, list_with_posteriors),
- #                              fconfig
- #                              )
- #  
- # # export_data(data = data_mapped, output)
-# }
+#* @get /dc_mapping
+#* @param sdg
+#* @param list_with_posteriors
+#* @param output
+  function(sdg = 1, 
+           dataIn = import_data(),
+           list_with_posteriors = FALSE,
+           sdgIn = import_sdgs_from_git(sdg, list_with_posteriors),
+           output = "console", 
+           fconfig = config) {
+  data_mapped <- mapping_data(dataIn = import_data(),
+                              sdgIn = import_sdgs_from_git(sdg, list_with_posteriors),
+                              fconfig
+                              )
+  export_data(data = data_mapped, output)
+}
 
-#* @get /hello2
+#* @get /test
 function() {
-  return("Hello World2")
+  return("testrun succeded")
 }
