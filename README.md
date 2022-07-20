@@ -20,6 +20,11 @@ docker buildx build --platform linux/amd64,linux/arm64 -t ghcr.io/sustainability
 docker pull ghcr.io/sustainability-zhaw/sdg-validation:latest
 ```
 
+## Windows Setup
+
+### Docker installation
+Go to ´docs.docker.com/desktop/install/windows-install´
+
 ## Launching the sdg mapping service
 
 One can test the frontend using the following command. 
