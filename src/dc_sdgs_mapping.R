@@ -633,12 +633,12 @@ export_data <- function(data = data_mapped, output = "console") {
 #* @param fconfig
   function(sdg = 1, list_with_posteriors = FALSE, output = "console", fconfig = config){
   # # data_mapped <- mapping_data(import_data(), sdgIn = import_sdg_xlsx(), config)
-  data_mapped <- mapping_data(dataIn=import_data(),
-                              sdgIn = import_sdgs_from_git(sdg,
-                                                           list_with_posteriors),
-                              fconfig = config)
-  export_data(data = data_mapped,
-              output)
+  data_mapped <- mapping_data(dataIn = import_data(),
+                              sdgIn = import_sdgs_from_git(sdg, list_with_posteriors),
+                              fconfig
+                              )
+  
+ # export_data(data = data_mapped, output)
 }
 
 #* @get /hello2
