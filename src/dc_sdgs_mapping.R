@@ -19,10 +19,10 @@ wd = getwd()
 config <- yaml::read_yaml(stringr::str_c(wd, "/config.yml")) 
 
 ####################################################
-#* @get /import_data
-#* @param fconfig
-function(fconfig = config){
-  # import_data <- function(fconfig = config){
+# #* @get /import_data
+# #* @param fconfig
+# function(fconfig = config){
+import_data <- function(fconfig = config){
   fpath_transformed = fconfig$path$path_data_transformed
   ffiles_transformed = fconfig$pattern$files_transformed
 
@@ -44,11 +44,11 @@ function(fconfig = config){
 # 
 
 ####################################################
-#* @get /import_sdgs_from_git
-#* @param sdg
-#* @param list_with_posteriors
-function(sdg = 1, list_with_posteriors = FALSE) {
-# import_sdgs_from_git <- function(sdg = 1, list_with_posteriors = FALSE) {
+# #* @get /import_sdgs_from_git
+# #* @param sdg
+# #* @param list_with_posteriors
+# function(sdg = 1, list_with_posteriors = FALSE) {
+import_sdgs_from_git <- function(sdg = 1, list_with_posteriors = FALSE) {
 
   # sdg = 1
   # list_with_posteriors = FALSE
@@ -103,102 +103,6 @@ function(sdg = 1, list_with_posteriors = FALSE) {
 }
 
 # View(import_sdgs_from_git(1, FALSE))
-
-
-# ####################################################
-# import_sdg_xlsx <- function(fwd = wd, fconfig = config) {
-#   
-#   # fwd = wd
-#   # fconfig = config
-#   
-#   base::tryCatch({
-#     sdgs_xmlsx <- 
-#       stringr::str_c(stringr::str_c(fwd,
-#                                     fconfig$path$repo_sdgs,
-#                                     "/",
-#                                     base::list.files(stringr::str_c(fwd, 
-#                                                                     fconfig$path$repo_sdgs), 
-#                                                      fconfig$pattern$files_sdg))) #%>%
-#     
-#       # sdg_xlsx <- dgs_xmlsx
-# 
-#     sdgs_xmlsx %>%
-#       purrr::map(., function(sdg_xlsx) {
-#         
-#         # extract the sdg name
-#         sdg_name <<-
-#           stringr::str_split(sdg_xlsx, pattern = "/") %>%
-#           base::unlist() %>%
-#           utils::tail(1) %>%
-#           stringr::str_split(pattern = "\\.") %>%
-#           base::unlist() %>%
-#           utils::head(1) %>%
-#           base::tolower()
-#     
-#         # read each sdg excel file and extract the in the excel sheet consolidated list od sdgs
-#       single_sdg_prior <<-
-#           c(2,4,6,8) %>%
-#           purrr::map(., function(col) {
-#             openxlsx::read.xlsx(
-#               xlsxFile = sdg_xlsx,
-#               sheet = "all",
-#               na.strings = "na",
-#               colNames = FALSE,
-#               startRow = 1,
-#               skipEmptyRows = FALSE,
-#               # cols = 1)
-#               cols = col)
-#           }) %>%
-#           base::unlist() %>%
-#           stringr::str_replace("NA", "") %>%
-#           stringr::str_replace("\\s{2,}", "") %>%
-#           stringr::str_trim(side = "both")%>%
-#           dplyr::tibble(prior = .)
-#     
-#         # read all postriors from the SDG containing Excel file
-#       single_sdg_posterior <<-
-#           c(3,5,7,9) %>%
-#           purrr::map(., function(col) {
-#             openxlsx::read.xlsx(
-#               xlsxFile = sdg_xlsx,
-#               sheet = "all",
-#               na.strings = "na",
-#               colNames = FALSE,
-#               startRow = 1,
-#               skipEmptyRows = FALSE,
-#               cols = col)
-#           }) %>%
-#           base::unlist() %>%
-#           stringr::str_replace("NA", "") %>%
-#         stringr::str_replace("\\s{2,}", "") %>%
-#         stringr::str_trim(side = "both")%>%
-#           dplyr::tibble(posterior = .)
-#       
-#         n <- max(length(single_sdg_prior), length(single_sdg_posterior))
-#         length(single_sdg_prior) <- n                      
-#         length(single_sdg_posterior) <- n
-# 
-#         return(list(sdg_name = sdg_name,
-#                     value = cbind(prior = single_sdg_prior$prior,
-#                                             posterior = single_sdg_posterior$posterior))
-#              # value = qpcR:::cbind.na(prior = single_sdg_prior$prior,
-#              #                         posterior = single_sdg_posterior$posterior))
-#         )
-#       })
-#         
-#     },
-#     error = function(cond) {
-#       base::message(stringr::str_c("import_sdg{} error message: ",
-#                                    cond))
-#       return(NA)
-#     }
-#   )
-# }
-# 
-# # debug
-# import_sdg_xlsx()
-# 
-# 
 
 ####################################################
 #* @get /dc_mapping
