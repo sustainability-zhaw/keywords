@@ -269,7 +269,7 @@ export_data <- function(data = data_mapped, output = "console") {
  #                              )
  #  
  # # export_data(data = data_mapped, output)
-}
+# }
 
 #* @get /hello2
 function() {
