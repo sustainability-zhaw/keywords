@@ -172,47 +172,45 @@ function(dataIn = import_data(),
     dplyr::as_tibble() %>%
     dplyr::select(1,2)
 
-  return(prior_posterior_tibble)
+  # extract the prior vector
+  sdg_prior <-
+    prior_posterior_tibble$prior
+
+  # extract the posterior vector
+  sdg_posterior <-
+    prior_posterior_tibble$posterior
+
+  # detect all expression excluding sdgs
+  sdg_prior_NOT_priors <-
+    prior_posterior_tibble[sdg_prior %>%
+                             stringr::str_starts(pattern = "NOT ", negate = FALSE),]
+
+  # detect all expression excluding sdgs
+  sdg_prior_NOT_prior <-
+    sdg_prior_NOT_priors %>%
+    dplyr::pull(prior) %>%
+    stringr::str_remove_all("^NOT") %>%
+    stringr::str_trim() %>%
+    as.list() %>%
+    unlist(., recursive = TRUE, use.names = TRUE) %>%
+    c("")
+
+  # create a matching excluding n-gram for all keywords
+  prior_ngram_NOT <-
+    quanteda::kwic(corp,
+                   pattern = quanteda::phrase(sdg_prior_NOT_prior),
+                   separator = " ",
+                   case_insensitive = FALSE)
+
+
+  text_prior_by_not_reduced <-
+    dplyr::anti_join(quanteda::convert(corp, to = "data.frame"),
+                     prior_ngram_NOT,
+                     by = c("doc_id" = "docname"))
+
+  return(text_prior_by_not_reduced)
+
 }
-#   # extract the prior vector
-#   sdg_prior <-
-#     prior_posterior_tibble$prior
-#   
-#   # extract the posterior vector
-#   sdg_posterior <-
-#     prior_posterior_tibble$posterior
-#   
-#   # detect all expression excluding sdgs
-#   sdg_prior_NOT_priors <-
-#     prior_posterior_tibble[sdg_prior %>%
-#                              stringr::str_starts(pattern = "NOT ", negate = FALSE),]
-#   
-#   # detect all expression excluding sdgs
-#   sdg_prior_NOT_prior <-
-#     sdg_prior_NOT_priors %>%
-#     dplyr::pull(prior) %>%
-#     stringr::str_remove_all("^NOT") %>%
-#     stringr::str_trim() %>%
-#     as.list() %>%
-#     unlist(., recursive = TRUE, use.names = TRUE) %>%
-#     c("")
-#   
-#   # create a matching excluding n-gram for all keywords
-#   prior_ngram_NOT <-
-#     quanteda::kwic(corp,
-#                    pattern = quanteda::phrase(sdg_prior_NOT_prior),
-#                    separator = " ",
-#                    case_insensitive = FALSE)
-#   
-#   
-#   text_prior_by_not_reduced <-
-#     dplyr::anti_join(quanteda::convert(corp, to = "data.frame"),
-#                      prior_ngram_NOT,
-#                      by = c("doc_id" = "docname"))
-#   
-#   return(text_prior_by_not_reduced)
-#   
-# }
 
 
 # 
