@@ -214,17 +214,15 @@ function(dataIn = import_data(),
   # sdgIn = import_sdgs_from_git(1, FALSE)
   # # sdgIn = import_sdg_xlsx()
   # fconfig = config
-  return(config)
+
+  fpath_transformed = fconfig$path$path_data_transformed
+  fpath_repo = fconfig$path$path_data_raw
+  fpath_data = fconfig$path$path_data
+  frepo_sdg = fconfig$path$repo_sdgs
+  ffiles_transformed = fconfig$pattern$files_transformed
+  ffiles_sdg = fconfig$pattern$files_sdg
+
 }
-
-  # fpath_transformed = fconfig$path$path_data_transformed
-  # fpath_repo = fconfig$path$path_data_raw
-  # fpath_data = fconfig$path$path_data
-  # frepo_sdg = fconfig$path$repo_sdgs
-  # ffiles_transformed = fconfig$pattern$files_transformed
-  # ffiles_sdg = fconfig$pattern$files_sdg
-  
-
 
 
 # test <- function(dataIn = import_data(),
