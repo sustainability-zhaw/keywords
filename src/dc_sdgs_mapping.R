@@ -227,19 +227,20 @@ function(dataIn = import_data(),
     dataIn$for_data_analysis[] %>%
     stringr::str_replace_all("\\t", " ")
   
-  # Basic corpus creation
-  corp <- quanteda::corpus(text2analyse,
-                           meta = list())
-  
-  # split the corpus into sentenses
-  corp <- quanteda::corpus_reshape(corp, to = "sentences", remove_punct = FALSE)
-  
-  # empty dataframe
-  sdg_match = matrix(ncol = 0, nrow = 0) %>%
-    dplyr::as_tibble() %>%
-    dplyr::mutate(doc_id = as.numeric("0"))
-  
 }
+#   # Basic corpus creation
+#   corp <- quanteda::corpus(text2analyse,
+#                            meta = list())
+#   
+#   # split the corpus into sentenses
+#   corp <- quanteda::corpus_reshape(corp, to = "sentences", remove_punct = FALSE)
+#   
+#   # empty dataframe
+#   sdg_match = matrix(ncol = 0, nrow = 0) %>%
+#     dplyr::as_tibble() %>%
+#     dplyr::mutate(doc_id = as.numeric("0"))
+#   
+# }
 
 
 # test <- function(dataIn = import_data(),
