@@ -9,10 +9,12 @@ The mapping process runs in a Docker container and is deployed locally in a web 
 
 The mapping process is embedded into a docker container that is designed to be hosted *behind* a reverse proxy server. That proxy server maintains authentication and SSL-Termination. Neverthless in the current version the docker container will run on a user local docker installation. Therefore several installation steps are necessary and are discussed further down in this document.
 
-## Production environment
-
 No user interface is implemented. Instead, all setup commands are executed via the command line in a terminal program.
 
+## Development environment
+
+Only experienced developers should use these two commend, since they rebuild the whole container und provide it on the users local machoine. 
+In order to run the sdg mapping service there is NO need to change anything on the folder structure or on the code!
 ```
 docker buildx build --platform linux/amd64,linux/arm64 -t ghcr.io/sustainability-zhaw/sdg-validation:latest --push .
 docker pull ghcr.io/sustainability-zhaw/sdg-validation:latest
