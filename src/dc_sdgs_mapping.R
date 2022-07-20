@@ -222,12 +222,14 @@ function(dataIn = import_data(),
   ffiles_transformed = fconfig$pattern$files_transformed
   ffiles_sdg = fconfig$pattern$files_sdg
 
-  # prepare the text to become the corpus
-  text2analyse <-
-    dataIn$for_data_analysis[] %>%
-    stringr::str_replace_all("\\t", " ")
-  
+  return(dataIn)
 }
+
+# # prepare the text to become the corpus
+# text2analyse <-
+#   dataIn$for_data_analysis[] %>%
+#   stringr::str_replace_all("\\t", " ")
+#
 #   # Basic corpus creation
 #   corp <- quanteda::corpus(text2analyse,
 #                            meta = list())
