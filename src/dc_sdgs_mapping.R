@@ -1,27 +1,14 @@
 library(plumber)
-# 
-# library(ghql)
-# library(qpcR)
 
 `%>%` = magrittr::`%>%` 
-
-# host <- "/Users/bajk/documents/Github/sustainability/"
-# repo <- "dc_test/"
-
-# setwd(stringr::str_c(host, repo))
-# wd = getwd()
-
-# wd <- ".."
 
 setwd('..')
 wd = getwd()
 
+# import config parameters
 config <- yaml::read_yaml(stringr::str_c(wd, "/config.yml")) 
 
 ####################################################
-# #* @get /import_data
-# #* @param fconfig
-# function(fconfig = config){
 import_data <- function(fconfig = config){
   fpath_transformed = fconfig$path$path_data_transformed
   ffiles_transformed = fconfig$pattern$files_transformed
@@ -34,31 +21,21 @@ import_data <- function(fconfig = config){
     jsonlite::fromJSON(., flatten = FALSE) %>%
     dplyr::as_tibble() %>%
     dplyr::mutate(doc_id = seq.int(nrow(.))) %>%
-    dplyr::ungroup() #%>%
-    # utils::head(100)
+    dplyr::ungroup() 
 
   return(dc_prepared_data)
 }
 
-# # View(import_data())
-# 
+# View(import_data())
+
 
 ####################################################
-# #* @get /import_sdgs_from_git
-# #* @param sdg
-# #* @param list_with_posteriors
-# function(sdg = 1, list_with_posteriors = FALSE) {
 import_sdgs_from_git <- 
   function(sdg, list_with_posteriors) {
-
-  # sdg = 1
-  # list_with_posteriors = FALSE
-
   # Loop over all sdgs
   prior_posterior_full_tibble <<-
     sdg %>%
     purrr::map(., function(x){
-      # x = 1
       sdg_name <<- stringr::str_c("SDG", x)
       filename <- stringr::str_c("SDG", x, ".csv")
       if (list_with_posteriors == TRUE){
@@ -93,7 +70,9 @@ import_sdgs_from_git <-
       stringr::str_trim(side = "both")%>%
       dplyr::tibble(posterior = .)
     
-    n <- max(length(single_sdg_prior), length(single_sdg_posterior))
+    # Adjusting two dataframes to the same dimensions
+    n <- max(length(single_sdg_prior), 
+             length(single_sdg_posterior))
     length(single_sdg_prior) <- n
     length(single_sdg_posterior) <- n
     
@@ -106,20 +85,7 @@ import_sdgs_from_git <-
 # View(import_sdgs_from_git(1, FALSE))
 
 ####################################################
-# #* @get /dc_mapping
-# #* @param dataIn
-# #* @param sdgIn
-# #* @param fconfig
-# function(dataIn = import_data(), 
-#          sdgIn = import_sdgs_from_git(1, FALSE), 
-#          fconfig = config) {
 mapping_data <- function(dataIn, sdgIn, fconfig) {
-
-  # dataIn = import_data()
-  # sdgIn = import_sdgs_from_git(1, FALSE)
-  # # sdgIn = import_sdg_xlsx()
-  # fconfig = config
-
   fpath_transformed = fconfig$path$path_data_transformed
   fpath_repo = fconfig$path$path_data_raw
   fpath_data = fconfig$path$path_data
@@ -160,6 +126,7 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
   # purrr::map(., function(prior_posterior_list) {
   # prior_posterior_list <- sdgIn # for debug
 
+  # Version with only one selectable sdg 
   prior_posterior_list <- sdgIn
 
   # Extract the sdg name
@@ -208,7 +175,6 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
                      prior_ngram_NOT,
                      by = c("doc_id" = "docname"))
 
-
   # wranggled corpus creation
   corp <-
     quanteda::corpus(text_prior_by_not_reduced, meta = list())
@@ -216,28 +182,6 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
   # split the corpus into sentenses
   corp <-
     quanteda::corpus_reshape(corp, to = "sentences", remove_punct = FALSE)
-
-
-  ###################### create a list containing all text blocks (sentenses) id's with text where the prior-posterior conditions states
-  # that this text block should be excluded.
-
-
-  # # detect all expression excluding sdgs
-  # sdg_prior_NOT_posterior <-
-  #   prior_posterior_tibble %>%
-  #     dplyr::mutate(
-  #       negate_post = posterior %>%
-  #         stringr::str_detect("^\\s*NOT ",
-  #                             negate = FALSE),
-  #       negate_post = ifelse(
-  #         is.na(negate_post),
-  #         FALSE,
-  #         negate_post
-  #       ),
-  #       posterior = posterior %>%
-  #         stringr::str_replace("^\\s*NOT ",
-  #                              "")
-  #     )
 
   # detect all expression excluding sdgs
   sdg_prior_NOT_posterior <-
@@ -253,8 +197,7 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
     sdg_prior_NOT_posterior %>%
     dplyr::pull(prior) %>%
     as.list() %>%
-    unlist(., recursive = TRUE, use.names = TRUE) #%>%
-  # c("")
+    unlist(., recursive = TRUE, use.names = TRUE)
 
   # detect all textblockes where the posterior starts with "NOT"
   sdg_prior_NOT_posterior_posterior <-
@@ -263,8 +206,7 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
     stringr::str_remove_all("^NOT") %>%
     stringr::str_trim() %>%
     as.list() %>%
-    unlist(., recursive = TRUE, use.names = TRUE) #%>%
-  # c("")
+    unlist(., recursive = TRUE, use.names = TRUE)
 
   # name the created excluding sdg matrix
   sdg_prior_NOT_posterior_tibble <-
@@ -294,7 +236,6 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
   } else{
     prior_ngram_NOT_tibble = dplyr::tibble(doc_id = "", prior = "")
   }
-  # prior_ngram_NOT_tibble
 
   if (length(sdg_prior_NOT_posterior_posterior) > 0 && all(!is.na(sdg_prior_NOT_posterior_posterior))) {
     # create a matching excluding n-gram for all keywords
@@ -343,12 +284,10 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
   corp <-
     quanteda::corpus_reshape(corp, to = "sentences", remove_punct = FALSE)
 
-
   # create the prior list having no posterior
   sdg_prior_no_posterior <-
     prior_posterior_tibble %>%
     dplyr::filter(posterior == "") %>%
-    # dplyr::add_row(prior = "a", posterior = "a") %>%
     dplyr::pull(prior) %>%
     as.list() %>%
     unlist(recursive = TRUE, use.names = TRUE) %>%
@@ -381,8 +320,6 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
     prior_posterior_tibble %>%
     dplyr::filter(posterior != "")
 
-  # sdg_prior_and_posterior
-
   # cummulated list of all priors
   sdg_prior_and_posterior_prior <-
     sdg_prior_and_posterior %>%
@@ -397,9 +334,6 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
     as.list() %>%
     unlist(recursive = TRUE, use.names = TRUE)
 
-  # sdg_prior_and_posterior_posterior
-
-
   if (length(sdg_prior_and_posterior_posterior) > 0) {
 
     # create a matching n-gram for all conditions
@@ -408,7 +342,6 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
                      pattern = quanteda::phrase(sdg_prior_and_posterior_prior),
                      separator = " ",
                      case_insensitive = FALSE)
-
 
     # convert the found posteriors to a tibble
     posterior_prior_tibble <-
@@ -422,14 +355,12 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
       ) %>%
       dplyr::distinct()
 
-
     # create a matchin n-gram for all conditions
     posterior_posterior_ngram <-
       quanteda::kwic(corp,
                      pattern = quanteda::phrase(sdg_prior_and_posterior_posterior),
                      separator = " ",
                      case_insensitive = FALSE)
-    # posterior_posterior_ngram
 
     # creating a list containing posteriors only
     posterior_posterior_tibble <-
@@ -456,7 +387,6 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
                        posterior_joined %>% dplyr::as_tibble(),
                        by = c("doc_id", "prior")) %>%
       dplyr::select("doc_id", "prior", "posterior")
-
 
     # prior_posterior_joined[is.na(prior_posterior_joined)] <- 0
 
@@ -486,8 +416,6 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
   # Prepare the sdg matching result for export
   prior_posterior_match_tibble  <-
     prior_posterior_full_tibble %>%
-    # dplyr::select(doc_id,
-    #               prior, posterior) %>%
     dplyr::group_by(doc_id) %>%
     dplyr::summarise(prior = prior, posterior,
                      "{base::as.symbol(sdg_name)}" := 1,) %>%
@@ -497,7 +425,6 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
     dplyr::distinct()
 
   sdg_match <- prior_posterior_match_tibble
-  # dplyr::bind_rows(sdg_match, prior_posterior_match_tibble)
 
   data_matched_result <-
     dplyr::inner_join(dataIn,
@@ -507,19 +434,8 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
   return(data_matched_result)
 }
 
-# test <- function(dataIn = import_data(),
-#                  sdg = 1,
-#                  list_with_posteriors = FALSE,
-#                  output = "console",
-#                  fconfig = config){
-#
-#   mapping_data(dataIn, sdgIn = import_sdgs_from_git(sdg, list_with_posteriors), fconfig)
-# }
-#
-# View(test())
-
-
-export_data <- function(data = data_mapped, output = "console") {
+##################################################
+export_data <- function(data = data_mapped, output) {
    #  # # Export the resulting data
   output = tolower(output)
   switch(output,
@@ -531,6 +447,7 @@ export_data <- function(data = data_mapped, output = "console") {
              base::as.data.frame() %>%
              jsonlite::toJSON()  %>%
              base::write(x = ., file = stringr::str_c(wd,"/data/dc_",sdg_name,".json"))
+           return(stringr::str_c(wd,"/data/dc_",sdg_name,".json"))
          },
          console={
            return(data)
@@ -538,15 +455,6 @@ export_data <- function(data = data_mapped, output = "console") {
   }
 
 # export_data(output = "json")
-
-
-# #* @get /dc_mapping
-# #* @param dataIn
-# #* @param sdgIn
-# #* @param fconfig
-# function(dataIn = import_data(), 
-#          sdgIn = import_sdgs_from_git(1, FALSE), 
-#          fconfig = config) {
 
 #* @get /dc_mapping
 #* @param sdg
@@ -567,5 +475,5 @@ export_data <- function(data = data_mapped, output = "console") {
 
 #* @get /test
 function() {
-  return("testrun succeded")
+  return("code preparation succeded")
 }
