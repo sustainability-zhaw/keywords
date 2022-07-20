@@ -48,7 +48,8 @@ import_data <- function(fconfig = config){
 # #* @param sdg
 # #* @param list_with_posteriors
 # function(sdg = 1, list_with_posteriors = FALSE) {
-import_sdgs_from_git <- function(sdg = 1, list_with_posteriors = FALSE) {
+import_sdgs_from_git <- 
+  function(sdg = 1, list_with_posteriors = FALSE) {
 
   # sdg = 1
   # list_with_posteriors = FALSE
@@ -143,37 +144,36 @@ function(dataIn = import_data(),
     dplyr::as_tibble() %>%
     dplyr::mutate(doc_id = as.numeric("0"))
 
-  return(sdgIn)
-}
+  # # Christians super simples beispiel um alle SDG Dateien von GH zu laden
+  # tidyr::tibble(
+  #   sdg = 1:16,
+  #   priorT = TRUE,
+  #   priorF = FALSE) %>%
+  #   tidyr::pivot_longer(startsWith("prior")) %>%
+  #   dplyr::group_by(sdg, name) %>%
+  #   dplyr::mutate(
+  #     data = import_sdgs_from_git(sdg, value) %>% list(),) %>%
+  #   dplyr::ungroup()
 
-#   # # Christians super simples beispiel um alle SDG Dateien von GH zu laden
-#   # tidyr::tibble(
-#   #   sdg = 1:16,
-#   #   priorT = TRUE,
-#   #   priorF = FALSE) %>%
-#   #   tidyr::pivot_longer(startsWith("prior")) %>%
-#   #   dplyr::group_by(sdg, name) %>%
-#   #   dplyr::mutate(
-#   #     data = import_sdgs_from_git(sdg, value) %>% list(),) %>%
-#   #   dplyr::ungroup()
-#   
-#   # Main mapping routine
-#   # sdgIn %>%
-#   # purrr::map(., function(prior_posterior_list) {
-#   # prior_posterior_list <- sdgIn # for debug
-#   
-#   prior_posterior_list <- sdgIn
-#   
-#   # Extract the sdg name
-#   sdg_name <<-
-#     prior_posterior_list$sdg_name
-#   
-#   # Extract the prior - posterior tibble
-#   prior_posterior_tibble <-
-#     prior_posterior_list$value %>%
-#     dplyr::as_tibble() %>%
-#     dplyr::select(1,2)
-#   
+  # Main mapping routine
+  # sdgIn %>%
+  # purrr::map(., function(prior_posterior_list) {
+  # prior_posterior_list <- sdgIn # for debug
+
+  prior_posterior_list <- sdgIn
+
+  # Extract the sdg name
+  sdg_name <<-
+    prior_posterior_list$sdg_name
+
+  # Extract the prior - posterior tibble
+  prior_posterior_tibble <-
+    prior_posterior_list$value %>%
+    dplyr::as_tibble() %>%
+    dplyr::select(1,2)
+
+  return(prior_posterior_tibble)
+}
 #   # extract the prior vector
 #   sdg_prior <-
 #     prior_posterior_tibble$prior
