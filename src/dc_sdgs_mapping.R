@@ -208,69 +208,68 @@ function(dataIn = import_data(),
                      prior_ngram_NOT,
                      by = c("doc_id" = "docname"))
 
-  return(text_prior_by_not_reduced)
 
+  # wranggled corpus creation
+  corp <-
+    quanteda::corpus(text_prior_by_not_reduced, meta = list())
+
+  # split the corpus into sentenses
+  corp <-
+    quanteda::corpus_reshape(corp, to = "sentences", remove_punct = FALSE)
+
+
+  ###################### create a list containing all text blocks (sentenses) id's with text where the prior-posterior conditions states
+  # that this text block should be excluded.
+
+
+  # # detect all expression excluding sdgs
+  # sdg_prior_NOT_posterior <-
+  #   prior_posterior_tibble %>%
+  #     dplyr::mutate(
+  #       negate_post = posterior %>%
+  #         stringr::str_detect("^\\s*NOT ",
+  #                             negate = FALSE),
+  #       negate_post = ifelse(
+  #         is.na(negate_post),
+  #         FALSE,
+  #         negate_post
+  #       ),
+  #       posterior = posterior %>%
+  #         stringr::str_replace("^\\s*NOT ",
+  #                              "")
+  #     )
+
+  # detect all expression excluding sdgs
+  sdg_prior_NOT_posterior <-
+    prior_posterior_tibble %>%
+    dplyr::mutate(
+      posterior = prior_posterior_tibble$posterior %>%
+        as.logical(.)
+    ) %>%
+    dplyr::filter(posterior != "")
+
+
+  sdg_prior_NOT_posterior_prior <-
+    sdg_prior_NOT_posterior %>%
+    dplyr::pull(prior) %>%
+    as.list() %>%
+    unlist(., recursive = TRUE, use.names = TRUE) #%>%
+  # c("")
+
+  # detect all textblockes where the posterior starts with "NOT"
+  sdg_prior_NOT_posterior_posterior <-
+    sdg_prior_NOT_posterior %>%
+    dplyr::pull(posterior) %>%
+    stringr::str_remove_all("^NOT") %>%
+    stringr::str_trim() %>%
+    as.list() %>%
+    unlist(., recursive = TRUE, use.names = TRUE) #%>%
+  # c("")
+  
+  return(sdg_prior_NOT_posterior_posterior)
+  
 }
 
-
-# 
-#   # wranggled corpus creation
-#   corp <-
-#     quanteda::corpus(text_prior_by_not_reduced, meta = list())
-#   
-#   # split the corpus into sentenses
-#   corp <-
-#     quanteda::corpus_reshape(corp, to = "sentences", remove_punct = FALSE)
-#   
-#   
-#   ###################### create a list containing all text blocks (sentenses) id's with text where the prior-posterior conditions states
-#   # that this text block should be excluded.
-#   
-#   
-#   # # detect all expression excluding sdgs
-#   # sdg_prior_NOT_posterior <-
-#   #   prior_posterior_tibble %>%
-#   #     dplyr::mutate(
-#   #       negate_post = posterior %>%
-#   #         stringr::str_detect("^\\s*NOT ",
-#   #                             negate = FALSE),
-#   #       negate_post = ifelse(
-#   #         is.na(negate_post),
-#   #         FALSE,
-#   #         negate_post
-#   #       ),
-#   #       posterior = posterior %>%
-#   #         stringr::str_replace("^\\s*NOT ",
-#   #                              "")
-#   #     )
-#   
-#   # detect all expression excluding sdgs
-#   sdg_prior_NOT_posterior <-
-#     prior_posterior_tibble %>%
-#     dplyr::mutate(
-#       posterior = prior_posterior_tibble$posterior %>%
-#         as.logical(.)
-#     ) %>%
-#     dplyr::filter(posterior != "")
-#   
-#   
-#   sdg_prior_NOT_posterior_prior <-
-#     sdg_prior_NOT_posterior %>%
-#     dplyr::pull(prior) %>%
-#     as.list() %>%
-#     unlist(., recursive = TRUE, use.names = TRUE) #%>%
-#   # c("")
-#   
-#   # detect all textblockes where the posterior starts with "NOT"
-#   sdg_prior_NOT_posterior_posterior <-
-#     sdg_prior_NOT_posterior %>%
-#     dplyr::pull(posterior) %>%
-#     stringr::str_remove_all("^NOT") %>%
-#     stringr::str_trim() %>%
-#     as.list() %>%
-#     unlist(., recursive = TRUE, use.names = TRUE) #%>%
-#   # c("")
-#   
 #   # name the created excluding sdg matrix
 #   sdg_prior_NOT_posterior_tibble <-
 #     dplyr::tibble(prior = sdg_prior_NOT_posterior_prior,
