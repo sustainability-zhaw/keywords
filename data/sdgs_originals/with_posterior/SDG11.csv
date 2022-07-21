@@ -1,0 +1,45 @@
+﻿c1;city;human settlement*;stadt;menschliche Siedlung*;ville;établissement humain*;città;insediamento umano*
+c2;human settlement*;urban;menschliche Siedlung*;städtisch;établissement humain*;urbain;insediamento umano*;urbano
+c3;human settlement*;metropoli*;menschliche Siedlung*;Metropole;établissement humain*;métropoles*;insediamento umano*;metropoli*
+c4;human settlement*;town*;menschliche Siedlung*;St*dt*;établissement humain*;ville*;insediamento umano*;città*
+c5;human settlement*;municipal*;menschliche Siedlung*;Gemeinde*;établissement humain*;municipale*;insediamento umano*;comunale*
+c6;gentrification;NA;Gentrifizierung;NA;gentrification;NA;gentrificazione;NA
+c7;congestion;NA;Verkehrsstau;NA;congestion;NA;congestione;NA
+c8;transportation;NA;Verkehr;NA;transport;NA;trasporto;NA
+c9;public transport;NA;öffentlicher Verkehr;NA;transport public;NA;trasporto pubblico;NA
+c10;housing;urban;Wohnen;städtisch;logement;urbain;abitazioni;urbano
+c11;housing;metropoli*;Wohnen;Metropole;logement;métropoles*;abitazioni;metropoli*
+c12;housing;town*;Wohnen;St*dt*;logement;ville*;abitazione;città*
+c13;housing;municipal*;Wohnen;Gemeinde*;logement;municipal;abitazioni;comunale*
+c14;slum*;NA;Slum*;NA;bidonville;NA;slum*;NA
+c15;sendai framework;NA;sendai-rahmenprogramm;NA;cadre de sendai;NA;quadro di riferimento sendai;NA
+c16;Disaster Risk Reduction;NA;Reduzierung des Katastrophenrisikos;NA;Réduction des risques de catastrophes;NA;Riduzione del rischio di catastrofi;NA
+c17;DRR;NA;DRR;NA;RRC;NA;DRR;NA
+c18;smart city;NA;intelligente St*dt*;NA;ville intelligente;NA;città intelligente;NA
+c19;resilient building*;NA;Widerstandsfähiges Bauen*;NA;bâtiment résilient;NA;edificio resiliente*;NA
+c20;sustainable building*;NA;Nachhaltiges Bauen*;NA;bâtiment durable;NA;edificio sostenibile*;NA
+c21;building design*;NA;Gebäudeplanung*;NA;conception de bâtiments*;NA;progettazione di edifici*;NA
+c22;urbani?ation;NA;Stadtentwicklung;NA;urbani?ation;NA;urbanizzazione;NA
+c23;zero*energy building*;NA;Null*Energie-Gebäude*;NA;bâtiment zéro*énergie;NA;edificio a energia zero;NA
+c24;basic*service;NA;Basis*dienstleistung;NA;service*de base;NA;servizio di base;NA
+c25;governance;NA;Verwaltung;NA;gouvernance;NA;governance;NA
+c26;citizen participation;NA;Bürgerbeteiligung;NA;participation des citoyens;NA;partecipazione dei cittadini;NA
+c27;collaborative planning;NA;kollaborative Planung;NA;planification collaborative;NA;pianificazione collaborativa;NA
+c28;participatory planning;NA;partizipative Planung;NA;planification participative;NA;pianificazione partecipata;NA
+c29;inclusiveness;NA;Inklusivität;NA;inclusivité;NA;inclusività;NA
+c30;cultural heritage;NA;kulturelles Erbe;NA;patrimoine culturel;NA;patrimonio culturale;NA
+c31;natural heritage;NA;Naturerbe;NA;patrimoine naturel;NA;patrimonio naturale;NA
+c32;UNESCO;NA;UNESCO;NA;UNESCO;NA;UNESCO;NA
+c33;disaster;NA;Katastrophe;NA;catastrophe;NA;disastro;NA
+c34;ecological footprint;NA;ökologischer Fußabdruck;NA;empreinte écologique;NA;impronta ecologica;NA
+c35;environmental footprint;NA;ökologischer Fußabdruck;NA;empreinte écologique;NA;impronta ambientale;NA
+c36;waste;NA;Abfall;NA;déchets;NA;rifiuti;NA
+c37;pollution;NA;Verschmutzung;NA;pollution;NA;inquinamento;NA
+c38;pollutant*;NA;Schadstoff*;NA;polluant;NA;inquinante*;NA
+c39;waste water;NA;Abwässer;NA;eaux usées;NA;acqua di scarico;NA
+c40;recycling;NA;Recycling;NA;recyclage;NA;riciclo;NA
+c41;circular economy;NA;Kreislaufwirtschaft;NA;économie circulaire;NA;economia circolare;NA
+c42;air quality;NA;Luftqualität;NA;qualité de l'air;NA;qualità dell'aria;NA
+c43;green space*;NA;Grünflächen*;NA;espaces verts;NA;spazio verde*;NA
+c44;nature inclusive;NA;Inklusive Natur;NA;nature inclusive;NA;natura inclusiva;NA
+c45;nature inclusive building*;NA;Naturverträgliches Bauen*;NA;bâtiments respectueux de la nature;NA;edificio inclusivo della natura*;NA

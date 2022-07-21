@@ -1,0 +1,49 @@
+﻿c1;school;attendance;Schule;Anwesenheit;école;présence;scuola;frequenza
+c2;education*;enrol*ment;Ausbildung*;Einschreibung*;l'éducation;inscription;istruzione*;iscrizione
+c3;school attendance;inclusive education;Schulbesuch;inklusive Bildung;fréquentation scolaire;éducation inclusive;frequenza scolastica;educazione inclusiva
+c4;school enrol*ment;NA;Einschulung*;NA;inscription à l'école;NA;iscrizione a scuola;NA
+c5;school safety;NA;Sicherheit in der Schule;NA;sécurité à l'école;NA;sicurezza a scuola;NA
+c6;safety in school;NA;Sicherheit in der Schule;NA;sécurité à l'école;NA;sicurezza a scuola;NA
+c7;inclusive education;NA;Inklusive Bildung;NA;éducation inclusive;NA;educazione inclusiva;NA
+c8;educational *quality;NA;Bildungs*Qualität;NA;qualité de l'enseignement;NA;qualità dell'istruzione;NA
+c9;educational enrol*ment;NA;Bildungsbeteiligung;NA;inscription à l'école;NA;iscrizione all'istruzione;NA
+c10;adult literacy;NA;Alphabetisierung von Erwachsenen;NA;alphabétisation des adultes;NA;alfabetizzazione degli adulti;NA
+c11;numeracy rate;NA;Alphabetisierungsrate;NA;taux de numératie;NA;tasso di calcolo;NA
+c12;educational environment;NA;Bildungsumfeld;NA;environnement éducatif;NA;ambiente educativo;NA
+c13;educational access;NA;Zugang zur Bildung;NA;accès à éducation;NA;accesso all'istruzione;NA
+c14;development aid;teacher training;Entwicklungshilfe;Lehrerausbildung;aide au développement;formation des enseignants;aiuto allo sviluppo;formazione degli insegnanti
+c15;early childhood education;NA;Frühkindliche Bildung;NA;éducation de la petite enfance;NA;educazione della prima infanzia;NA
+c16;basic education;NA;Grundbildung;NA;éducation de base;NA;istruzione di base;NA
+c17;affordable education;NA;Erschwingliche Bildung;NA;éducation abordable;NA;istruzione a prezzi accessibili;NA
+c18;educational financial aid;NA;Finanzielle Unterstützung für Bildung;NA;aide financière à l'éducation;NA;aiuti finanziari all'istruzione;NA
+c19;learning opportunities;gender disparities;Lernangebote;Geschlechterdisparitäten;éducation de base;disparités entre les sexes;opportunità di apprendimento;disparità di genere
+c20;learning opportunities;empowerment;Lernangebote;Ermächtigung;opportunités d'apprentissage;autonomisation;opportunità di apprendimento;empowerment
+c21;youth empowerment;NA;Befähigung der Jugend;NA;autonomisation des jeunes;NA;emancipazione dei giovani;NA
+c22;women empowerment;NA;Ermächtigung von Frauen;NA;autonomisation des femmes;NA;emancipazione femminile;NA
+c23;equal opportunities;NA;Chancengleichheit;NA;égalité des chances;NA;pari opportunità;NA
+c24;child labo*r;NA;Kinderarbeit*r;NA;travail des enfants;NA;lavoro minorile;NA
+c25;discriminatory;NA;diskriminierend;NA;discriminatoire;NA;discriminatorio;NA
+c26;educational gap;NA;Bildungslücke;NA;fossé éducatif;NA;divario educativo;NA
+c27;poverty trap;schooling;Armutsfalle;Schulbildung;piège de la pauvreté;scolarisation;trappola della povertà;scolarizzazione
+c28;special education needs;NA;besondere Bildungsbedürfnisse;NA;besoins éducatifs spéciaux;NA;bisogni educativi speciali;NA
+c29;inclusive education system;NA;integratives Bildungssystem;NA;système éducatif inclusif;NA;sistema educativo inclusivo;NA
+c30;schooling;NA;Schulbildung;NA;scolarité;NA;scolarizzazione;NA
+c31;gender disparities;NA;geschlechtsspezifische Ungleichheiten;NA;disparités entre les sexes;NA;disparità di genere;NA
+c32;ethnic disparities;NA;ethnische Ungleichheiten;NA;disparités ethniques;NA;disparità etniche;NA
+c33;racial disparities;NA;rassische Ungleichheiten;NA;disparités raciales;NA;disparità razziali;NA
+c34;education exclusion;NA;Ausgrenzung im Bildungswesen;NA;exclusion de l'éducation;NA;esclusione dall'istruzione;NA
+c35;education dropouts;NA;Bildungsabbrecher;NA;décrochage scolaire;NA;abbandono scolastico;NA
+c36;global citizenship;NA;Weltbürgerschaft;NA;citoyenneté mondiale;NA;cittadinanza globale;NA
+c37;sustainable development education;NA;Bildung für nachhaltige Entwicklung;NA;éducation au développement durable;NA;educazione allo sviluppo sostenibile;NA
+c38;environmental education;NA;Umweltbildung;NA;éducation à l'environnement;NA;educazione ambientale;NA
+c39;education policy;NA;Bildungspolitik;NA;politique d'éducation;NA;politica educativa;NA
+c40;educational policies;NA;Bildungspolitik;NA;politiques éducatives;NA;politiche educative;NA
+c41;international education;NA;internationale Bildung;NA;éducation internationale;NA;educazione internazionale;NA
+c42;education* reform;developing countries;Reform der Bildung*;Entwicklungsländer;réforme de l'éducation;pays en développement;riforma dell'istruzione*;Paesi in via di sviluppo
+c43;educational governance;NA;Bildungspolitik;NA;gouvernance de l'éducation;NA;governance educativa;NA
+c44;developing countries;NA;Entwicklungsländer;NA;pays en développement;NA;paesi in via di sviluppo;NA
+c45;school effects;NA;Auswirkungen auf die Schule;NA;effets de l'école;NA;effetti della scuola;NA
+c46;education expenditure;NA;Bildungsausgaben;NA;dans l'éducation;NA;spesa per l'istruzione;NA
+c47;foreign aid;NA;Auslandshilfe;NA;aide aide étrangère;NA;aiuti esteri;NA
+c48;teacher training;developing countries;Lehrerausbildung;Entwicklungsländer;formation des enseignants;pays en développement;formazione degli insegnanti;paesi in via di sviluppo
+c49;teacher attrition;AND NOT  {health literacy} ;Lehrerfluktuation;AND NOT {Gesundheitskompetenz} ;attrition des enseignants;ET PAS {compétence en matière de santé} ;abbandono degli insegnanti;E NON {alfabetizzazione sanitaria} 

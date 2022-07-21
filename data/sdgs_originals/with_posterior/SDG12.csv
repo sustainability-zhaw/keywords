@@ -1,0 +1,52 @@
+﻿c1;environmental pollution;NA;Umweltverschmutzung;NA;pollution environnementale;NA;inquinamento ambientale;NA
+c2;hazardous waste;NA;gefährlicher Abfall;NA;déchets dangereux;NA;rifiuti pericolosi;NA
+c3;hazardous chemical*;NA;gefährliche Chemikalie*;NA;produit chimique dangereux;NA;prodotto chimico pericoloso*;NA
+c5;toxic chemical;NA;giftige Chemikalie;NA;produit chimique toxique;NA;prodotto chimico tossico;NA
+c6;toxic chemicals;NA;giftige Chemikalien;NA;produits chimiques toxiques;NA;sostanze chimiche tossiche;NA
+c7;chemical pollution;NA;chemische Verschmutzung;NA;pollution chimique;NA;inquinamento chimico;NA
+c8;ozone depletion;NA;Zerstörung der Ozonschicht;NA;appauvrissement de la couche d'ozone;NA;impoverimento dell'ozono;NA
+c9;pesticide pollution;NA;Verschmutzung durch Pestizide;NA;pollution par les pesticides;NA;inquinamento da pesticidi;NA
+c10;pesticide stress;NA;Pestizidbelastung;NA;stress dû aux pesticides;NA;stress da pesticidi;NA
+c11;pesticide reduction;NA;Reduzierung von Pestiziden;NA;réduction des pesticides;NA;riduzione dei pesticidi;NA
+c12;life cycle assessment;NA;Ökobilanz;NA;évaluation du cycle de vie;NA;valutazione del ciclo di vita;NA
+c13;life*cycle analysis*;NA;Lebens*Kreislauf-Analyse*;NA;analyse du cycle de vie;NA;analisi del ciclo di vita*;NA
+c17;low*carbon economy;NA;kohlenstoffarme Wirtschaft;NA;économie à faible émission de carbone;NA;economia a basso contenuto di carbonio;NA
+c19;environmental footprint;NA;ökologischer Fußabdruck;NA;empreinte environnementale;NA;impronta ambientale;NA
+c20;material footprint;NA;materieller Fußabdruck;NA;empreinte matérielle;NA;impronta dei materiali;NA
+c21;harvest efficiency;NA;Ernteeffizienz;NA;efficacité de la récolte;NA;efficienza del raccolto;NA
+c22;solid waste;NA;Feststoffabfall;NA;déchets solides;NA;rifiuti solidi;NA
+c23;waste generation;NA;Abfallerzeugung;NA;production de déchets;NA;produzione di rifiuti;NA
+c24;corporate social responsibility;NA;Soziale Verantwortung der Unternehmen;NA;responsabilité sociale des entreprises;NA;responsabilità sociale d'impresa;NA
+c25;corporate sustainability;NA;unternehmerische Nachhaltigkeit;NA;durabilité des entreprises;NA;sostenibilità aziendale;NA
+c26;consumer behavio*r*;NA;Verbraucherverhalten*r*;NA;comportement du consommateur;NA;comportamento dei consumatori;NA
+c30;waste recycling;NA;Abfallrecycling;NA;recyclage des déchets;NA;riciclo dei rifiuti;NA
+c31;resource recycling;NA;Ressourcenrecycling;NA;recyclage des ressources;NA;riciclo delle risorse;NA
+c32;resource reuse;NA;Wiederverwendung von Ressourcen;NA;réutilisation des ressources;NA;riutilizzo delle risorse;NA
+c33;biobased economy;NA;biobasierte Wirtschaft;NA;économie biosourcée;NA;economia biobased;NA
+c34;zero waste;NA;Null Abfall;NA;zéro déchet;NA;rifiuti zero;NA
+c35;sustainability label;NA;Nachhaltigkeitskennzeichnung;NA;label de durabilité;NA;etichetta di sostenibilità;NA
+c36;sustainability labelling;NA;Nachhaltigkeitskennzeichnung;NA;étiquetage de durabilité;NA;etichettatura di sostenibilità;NA
+c37;global resource extraction;NA;Globale Ressourcengewinnung;NA;extraction des ressources mondiales;NA;estrazione globale delle risorse;NA
+c38;material flow accounting;NA;Materialflussrechnung;NA;comptabilité des flux de matières;NA;contabilità dei flussi di materiale;NA
+c39;societal metabolism;NA;gesellschaftlicher Stoffwechsel;NA;métabolisme sociétal;NA;metabolismo sociale;NA
+c40;food spill;NA;Lebensmittelverschwendung;NA;déversement de nourriture;NA;fuoriuscita di cibo;NA
+c41;resource spill;NA;Ressourcenverschwendung;NA;déversement de ressources;NA;fuoriuscita di risorse;NA
+c42;resource efficiency;NA;Ressourceneffizienz;NA;efficacité des ressources;NA;efficienza delle risorse;NA
+c43;sustainable food consumption;NA;Nachhaltiger Lebensmittelkonsum;NA;consommation alimentaire durable;NA;consumo alimentare sostenibile;NA
+c44;green consumption;NA;grüner Konsum;NA;consommation verte;NA;consumo verde;NA
+c45;sustainable supply chain;NA;Nachhaltige Lieferkette;NA;chaîne d'approvisionnement durable;NA;filiera sostenibile;NA
+c46;circular economy;NA;Kreislaufwirtschaft;NA;économie circulaire;NA;economia circolare;NA
+c47;cradle to cradle;NA;Von der Wiege bis zur Wiege;NA;du berceau au berceau;NA;dalla culla alla culla;NA
+c48;sustainable procurement;NA;Nachhaltige Beschaffung;NA;approvisionnement durable;NA;acquisti sostenibili;NA
+c49;sustainable tourism;NA;Nachhaltiger Tourismus;NA;tourisme durable;NA;turismo sostenibile;NA
+c50;fossil-fuel subsidies;NA;Subventionen für fossile Brennstoffe;NA;subventions aux combustibles fossiles;NA;sussidi ai combustibili fossili;NA
+c51;fossil-fuel expenditure;NA;Ausgaben für fossile Brennstoffe;NA;dépenses en combustibles fossiles;NA;spesa per i combustibili fossili;NA
+c52;sustainability label*;NA;Nachhaltigkeitslabel*;NA;label de durabilité;NA;marchio di sostenibilità*;NA
+c54;consumption;resource use;Verbrauch;Ressourcennutzung;consommation;utilisation des ressources;consumo;uso delle risorse
+c55;consumption;spill;Verbrauch;Auslaufen;consommation;déversement;consumo;fuoriuscita
+c57;production;resource use;Produktion;Ressourcennutzung;production;utilisation des ressources;produzione;utilizzo delle risorse
+c58;production;spill;Produktion;Auslaufen;production;déversement;produzione;fuoriuscita
+c62;wireless * network*;NA;drahtloses * Netzwerk*;NA;réseau sans fil*;NA;rete wireless*;NA
+c64;wireless;NA;drahtlos;NA;sans fil;NA;senza fili;NA
+c65;disease;NA;Krankheit;NA;maladie;NA;malattia;NA
+c66;astrophysics;NA;Astrophysik;NA;astrophysique;NA;astrofisica;NA
