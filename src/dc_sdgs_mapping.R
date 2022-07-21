@@ -2,29 +2,31 @@ library(plumber)
 
 `%>%` = magrittr::`%>%` 
 
-setwd("/Users/bajk/Dropbox/Mac/Documents/GitHub/sustainability/keywords")
-# setwd('..')
+# setwd("/Users/bajk/Dropbox/Mac/Documents/GitHub/sustainability/keywords")
+
+setwd('..')
 wd = getwd()
 
 # import config parameters
 config <- yaml::read_yaml(stringr::str_c(wd, "/config.yml")) 
 
 ####################################################
-import_data <- function(fconfig = config){
-  fpath_transformed = fconfig$path$path_data_transformed
-  ffiles_transformed = fconfig$pattern$files_transformed
-
-  dc_prepared_data <-
-    base::list.files(stringr::str_c(wd, fpath_transformed), ffiles_transformed) %>%
-    stringr::str_c(stringr::str_c(wd, fpath_transformed), ., sep = .Platform$file.sep) %>%
-    stringr::str_sort(decreasing = T) %>%
-    .[[1]] %>%
-    jsonlite::fromJSON(., flatten = FALSE) %>%
-    dplyr::as_tibble() %>%
-    dplyr::mutate(doc_id = seq.int(nrow(.))) %>%
-    dplyr::ungroup() 
-
-  return(dc_prepared_data)
+import_data <- 
+  function(fconfig = config){
+    fpath_transformed = fconfig$path$path_data_transformed
+    ffiles_transformed = fconfig$pattern$files_transformed
+  
+    dc_prepared_data <-
+      base::list.files(stringr::str_c(wd, fpath_transformed), ffiles_transformed) %>%
+      stringr::str_c(stringr::str_c(wd, fpath_transformed), ., sep = .Platform$file.sep) %>%
+      stringr::str_sort(decreasing = T) %>%
+      .[[1]] %>%
+      jsonlite::fromJSON(., flatten = FALSE) %>%
+      dplyr::as_tibble() %>%
+      dplyr::mutate(doc_id = seq.int(nrow(.))) %>%
+      dplyr::ungroup() 
+  
+    return(dc_prepared_data)
 }
 
 # View(import_data())
@@ -95,13 +97,14 @@ import_sdgs_from_git <-
 # View(import_sdgs_from_git(1, FALSE), config)
 
 ####################################################
-mapping_data <- function(dataIn, sdgIn, fconfig) {
-  fpath_transformed = fconfig$path$path_data_transformed
-  fpath_repo = fconfig$path$path_data_raw
-  fpath_data = fconfig$path$path_data
-  frepo_sdg = fconfig$path$repo_sdgs
-  ffiles_transformed = fconfig$pattern$files_transformed
-  ffiles_sdg = fconfig$pattern$files_sdg
+mapping_data <- 
+  function(dataIn, sdgIn, fconfig) {
+    fpath_transformed = fconfig$path$path_data_transformed
+    fpath_repo = fconfig$path$path_data_raw
+    fpath_data = fconfig$path$path_data
+    frepo_sdg = fconfig$path$repo_sdgs
+    ffiles_transformed = fconfig$pattern$files_transformed
+    ffiles_sdg = fconfig$pattern$files_sdg
 
   # prepare the text to become the corpus
   text2analyse <-
@@ -445,16 +448,20 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
 }
 
 ##################################################
-export_data <- 
-  function(data = data_mapped, output, list_with_posteriors) {
+export_data <-
+  function(data, fwd, fsdg, foutput, list_with_posteriors) {
    #  # # Export the resulting data
 
-  posterior_mapping_path = ""
-  ifelse(list_with_posteriors = TRUE, 
-         posterior_mapping_path = "sdgs_with_posterior",
-         posterior_mapping_path = "sdgs_no posterior")
+    posterior_mapping_path = ""
+    if (list_with_posteriors == TRUE){
+      posterior_mapping_path = "sdgs_with_posterior/"}
+    else{
+      posterior_mapping_path = "sdgs_no posterior/"
+    }
+
+  foutput = tolower(foutput)
+  sdg_name = stringr::str_c("sdg_", fsdg)
   
-  output = tolower(output)
   switch(output,
          csv={
            write.table(data, file = stringr::str_c(wd,"/data/mapped/", posterior_mapping_path, "dc_",sdg_name,".csv"), row.names = F, col.names = F, sep = '\t')
@@ -477,18 +484,25 @@ export_data <-
 #* @param sdg
 #* @param list_with_posteriors
 #* @param output
-  function(sdg = 1, 
+  function(sdg = 1,
            dataIn = import_data(),
            list_with_posteriors = FALSE,
            sdgIn = import_sdgs_from_git(sdg, list_with_posteriors),
-           output = "console", 
+           output = "console",
            fconfig = config) {
-  data_mapped <- mapping_data(dataIn = import_data(),
-                              sdgIn = import_sdgs_from_git(sdg, list_with_posteriors),
-                              fconfig
-                              )
-  export_data(data = data_mapped, output, list_with_posteriors)
-}
+
+    data_mapped <- mapping_data(dataIn, 
+                                sdgIn, 
+                                fconfig)
+    
+    return(data_mapped)
+    
+    # export_data(data = data_mapped, 
+    #             fwd = wd, 
+    #             fsdg = sdg, 
+    #             foutput = output, 
+    #             list_with_posteriors)
+  }
 
 #* @get /test
 function() {
