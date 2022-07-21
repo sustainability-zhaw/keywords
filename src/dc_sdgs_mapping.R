@@ -2,7 +2,8 @@ library(plumber)
 
 `%>%` = magrittr::`%>%` 
 
-setwd('..')
+setwd("/Users/bajk/Dropbox/Mac/Documents/GitHub/sustainability/keywords")
+# setwd('..')
 wd = getwd()
 
 # import config parameters
@@ -31,20 +32,29 @@ import_data <- function(fconfig = config){
 
 ####################################################
 import_sdgs_from_git <- 
-  function(sdg, list_with_posteriors) {
-  # Loop over all sdgs
-  prior_posterior_full_tibble <<-
-    sdg %>%
-    purrr::map(., function(x){
-      sdg_name <<- stringr::str_c("SDG", x)
-      filename <- stringr::str_c("SDG", x, ".csv")
-      if (list_with_posteriors == TRUE){
-        type = "with_posterior"
-      } else {
-        type = "no_posterior"
-      }
-      RCurl::getURL(stringr::str_c("https://raw.githubusercontent.com/sustainability-zhaw/keywords/main/", type, "/", filename),
-                    .encoding = "UTF-8") %>%
+  function(sdg, list_with_posteriors, fconfig = config) {
+    
+    # sdg = 1
+    # list_with_posteriors = FALSE
+    # fconfig = config
+    
+    fpath_git = fconfig$path$repo_git
+    fpath_sdgs = fconfig$path$repo_sdgs
+    fpath_git_sdg = stringr::str_c(fpath_git,fpath_sdgs)
+    
+    # Loop over all sdgs
+    prior_posterior_full_tibble <<-
+      sdg %>%
+      purrr::map(., function(x){
+        sdg_name <<- stringr::str_c("SDG", x)
+        filename <- stringr::str_c("SDG", x, ".csv")
+        if (list_with_posteriors == TRUE){
+          type = "with_posterior"
+        } else {
+          type = "no_posterior"
+        }
+        RCurl::getURL(stringr::str_c(fpath_git_sdg, type, "/", filename),
+                      .encoding = "UTF-8") %>%
         read.csv(text = ., sep = ";", header = FALSE) %>%
         tidyr::as_tibble(.name_repair = "minimal")
     }) %>%
@@ -59,7 +69,7 @@ import_sdgs_from_git <-
       stringr::str_replace_all("\\s{2,}", "") %>%
       stringr::str_trim(side = "both")%>%
       dplyr::tibble(prior = .)
-    
+
     # extract posteriors, all languages and concatenate
     single_sdg_posterior <-
       prior_posterior_full_tibble[,c(3,5,7,9)] %>%
@@ -69,20 +79,20 @@ import_sdgs_from_git <-
       stringr::str_replace("\\s{2,}", "") %>%
       stringr::str_trim(side = "both")%>%
       dplyr::tibble(posterior = .)
-    
+
     # Adjusting two dataframes to the same dimensions
-    n <- max(length(single_sdg_prior), 
+    n <- max(length(single_sdg_prior),
              length(single_sdg_posterior))
     length(single_sdg_prior) <- n
     length(single_sdg_posterior) <- n
-    
+
     return(list(sdg_name = sdg_name,
                 value = cbind(prior = single_sdg_prior$prior,
                               posterior = single_sdg_posterior$posterior))
     )
 }
 
-# View(import_sdgs_from_git(1, FALSE))
+# View(import_sdgs_from_git(1, FALSE), config)
 
 ####################################################
 mapping_data <- function(dataIn, sdgIn, fconfig) {

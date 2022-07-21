@@ -6,7 +6,8 @@ version: 1.2
 path:
   url_domain: https://digitalcollection.zhaw.ch/oai/request/
   repo_config: /zhawDIGCOLconfig
-  repo_sdgs: /data/sdgs
+  repo_sdgs: data/sdgs/
+  repo_git: https://raw.githubusercontent.com/sustainability-zhaw/keywords/main/
   repo_code: /zhawDIGCOLimport
   repo_urls: dc_urls.json
   repo_files: /dc_raw_
