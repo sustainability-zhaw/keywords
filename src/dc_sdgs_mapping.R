@@ -435,19 +435,26 @@ mapping_data <- function(dataIn, sdgIn, fconfig) {
 }
 
 ##################################################
-export_data <- function(data = data_mapped, output) {
+export_data <- 
+  function(data = data_mapped, output, list_with_posteriors) {
    #  # # Export the resulting data
+
+  posterior_mapping_path = ""
+  ifelse(list_with_posteriors = TRUE, 
+         posterior_mapping_path = "sdgs_with_posterior",
+         posterior_mapping_path = "sdgs_no posterior")
+  
   output = tolower(output)
   switch(output,
          csv={
-           write.table(data, file = stringr::str_c(wd,"/data/dc_",sdg_name,".csv"), row.names = F, col.names = F, sep = '\t')
+           write.table(data, file = stringr::str_c(wd,"/data/mapped/", posterior_mapping_path, "dc_",sdg_name,".csv"), row.names = F, col.names = F, sep = '\t')
            },
          json={
            data %>%
              base::as.data.frame() %>%
              jsonlite::toJSON()  %>%
-             base::write(x = ., file = stringr::str_c(wd,"/data/dc_",sdg_name,".json"))
-           return(stringr::str_c(wd,"/data/dc_",sdg_name,".json"))
+             base::write(x = ., file = stringr::str_c(wd,"/data/mapped/", posterior_mapping_path, "dc_",sdg_name,".json"))
+           return(stringr::str_c(wd,"/data/mapped/", posterior_mapping_path, "dc_",sdg_name,".json"))
          },
          console={
            return(data)
@@ -470,7 +477,7 @@ export_data <- function(data = data_mapped, output) {
                               sdgIn = import_sdgs_from_git(sdg, list_with_posteriors),
                               fconfig
                               )
-  export_data(data = data_mapped, output)
+  export_data(data = data_mapped, output, list_with_posteriors)
 }
 
 #* @get /test
