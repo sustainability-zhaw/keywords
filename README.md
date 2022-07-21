@@ -38,7 +38,7 @@ You might see several Windiows Error prompts. Follow them and accept the propose
 One can test the frontend using the following command. 
 
 ```
-docker run --rm -d -p 8080:80 --name sdgmapping ghcr.io/sustainability-zhaw/sdg-validation:latest
+docker run --rm -d -p 80:8000 --name sdgmapping ghcr.io/sustainability-zhaw/sdg-validation:latest
 ```
 
 ## Developoment 
