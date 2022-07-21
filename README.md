@@ -33,13 +33,14 @@ After successful installation, the laptop must be restarted. Confirm the prompt.
 After rebooting you should see Docker Desktop Icon.
 You might see several Windiows Error prompts. Follow them and accept the proposed actions.
 
-## Launching the sdg mapping service
+## Starting the SDG mapping service
 
-One can test the frontend using the following command. 
-
+The SDG mapping service is started with the following command. The --rm parameter tells Docker that the service, which is visible in the Docker desktop as a container, will be removed after exposing the mapping results and must be restarted for another mapping run.
 ```
 docker run --rm -d -p 80:8000 --name sdgmapping ghcr.io/sustainability-zhaw/sdg-validation:latest
 ```
+The second way to start the SDG mapping service is from Docker Desktop. Select `Images` in the left vertical bar of Docker Desktop and select the row with the image you want to create a container from. On the right side of the selected row, you will see a blue button named `Run`. Click on it and expand the `Optional settings`. Enter a suitable container name and type `80` as `host port`. To verify that the container is running, switch from `Images` to `Containers`. You should see a container with the chosen name running on port 80 and specifying a time in the `Started` field.
+## 
 
 ## Developoment 
 
