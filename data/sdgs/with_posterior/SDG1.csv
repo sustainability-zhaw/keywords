@@ -1,14 +1,14 @@
-﻿c1;extreme poverty;NA;extreme Armut;NA;extrême pauvreté;NA;povertà estrema;NA
+﻿c1;extreme poverty;NOT;extreme Armut;NA;extrême pauvreté;NA;povertà estrema;NA
 c2;poverty alleviation;NA;Linderung der Armut;NA;réduction de la pauvreté;NA;riduzione della povertà;NA
 c3;poverty eradication;NA;Ausrottung der Armut;NA;éradication de la pauvreté;NA;sradicamento della povertà;NA
-c4;poverty reduction;NOT ecological engineering;Armutsbekämpfung;NA;réduction de la pauvreté;NA;riduzione della povertà;NA
+c4;poverty reduction;NA;Armutsbekämpfung;NA;réduction de la pauvreté;NA;riduzione della povertà;NA
 c5;international poverty line;NA;Internationale Armutsgrenze;NA;seuil de pauvreté international;NA;soglia di povertà internazionale;NA
 c6;financial aid;poverty;Finanzielle Hilfe;Armut;aide financière;pauvreté;aiuto finanziario;povertà
 c9;financial aid;poor;Finanzielle Hilfe;NA;aide financière;pauvres;aiuto finanziario;poveri
 c10;financial aid;north-south divide;Finanzielle Hilfe;Nord-Süd-Gefälle;aide financière;fracture nord-sud;aiuto finanziario;divario nord-sud
-c11;financial development;poverty;Finanzielle Entwicklung ;Armut;développement financier ;pauvreté;sviluppo finanziario ;povertà
+c11;financial development ;poverty;Finanzielle Entwicklung ;Armut;développement financier ;pauvreté;sviluppo finanziario ;povertà
 c12;financial empowerment;NA;finanzielle Befähigung;NA;autonomisation financière;NA;empowerment finanziario;NA
-c13;distributional effect*;NOT emissions trading;Verteilungseffekt*;NA;effet distributif*;NA;effetto distributivo*;NA
+c13;distributional effect*;NA;Verteilungseffekt*;NA;effet distributif*;NA;effetto distributivo*;NA
 c14;child labo*r;NA;Kinderarbeit*r;NA;travail des enfants;NA;lavoro minorile;NA
 c15;development aid;NA;Entwicklungshilfe;NA;aide au développement;NA;aiuto allo sviluppo;NA
 c16;social protection system*;NA;Sozialschutzsystem*;NA;système de protection sociale*;NA;sistema di protezione sociale*;NA
@@ -16,20 +16,6 @@ c17;social protection;access;Sozialer Schutz;Zugang;protection sociale;accès;pr
 c18;micro*financ*;NA;Mikro*Finanzierung*;NA;micro*financement;NA;micro*finanza;NA
 c19;resilience of the poor;NA;Resilienz der Armen;NA;résilience des pauvres;NA;resilienza dei poveri;NA
 c20;safety net;poor;Sicherheitsnetz;schlecht;filet de sécurité;pauvre;rete di sicurezza;povero
-c21;vulnerable;NOT ill health;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
+c21;vulnerable;NA;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
 c22;economic resource*;accesss;wirtschaftliche Ressourcen*;Zugang;ressource économique*;accèss;risorsa economica*;accessi
 c23;food bank*;NA;Lebensmittelbank*;NA;banque alimentaire*;NA;banco alimentare*;NA
-c24;vulnerable;NA;vulnerable;NOT rauchfreie Spielplätze;vulnérable;NA;vulnerabile;NA
-c25;vulnerable;NOT historical linguists;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c26;vulnerable;growth;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c28;vulnerable;NOT sensor failure*;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c29;vulnerable;occupational justice;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c30;vulnerable;NOT anxiety;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c31;vulnerable;disadvantaged;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c32;vulnerable;NOT hydropeaking;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c33;vulnerable;NOT respiratory;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c34;vulnerable;NA;vulnerable;NOT Frühentlassung*;vulnérable;NA;vulnerabile;NA
-c35;vulnerable;farmer*;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c36;vulnerable;NOT cybermobbing;vulnerable;NOT cybermobbing;vulnérable;NOT cybermobbing;vulnerabile;NOT cybermobbing
-c37;vulnerable;NOT resilience engineering;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c38;vulnerable;NOT cybermobbing;Gefährdet;NICHT cybermobbing;vulnérable;NA;vulnerabile;NA
