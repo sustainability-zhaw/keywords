@@ -6,7 +6,7 @@ c5;international poverty line;NA;Internationale Armutsgrenze;NA;seuil de pauvret
 c6;financial aid;poverty;Finanzielle Hilfe;Armut;aide financière;pauvreté;aiuto finanziario;povertà
 c9;financial aid;poor;Finanzielle Hilfe;NA;aide financière;pauvres;aiuto finanziario;poveri
 c10;financial aid;north-south divide;Finanzielle Hilfe;Nord-Süd-Gefälle;aide financière;fracture nord-sud;aiuto finanziario;divario nord-sud
-c11;financial development ;poverty;Finanzielle Entwicklung ;Armut;développement financier ;pauvreté;sviluppo finanziario ;povertà
+c11;financial development;poverty;Finanzielle Entwicklung ;Armut;développement financier ;pauvreté;sviluppo finanziario ;povertà
 c12;financial empowerment;NA;finanzielle Befähigung;NA;autonomisation financière;NA;empowerment finanziario;NA
 c13;distributional effect*;NOT emissions trading;Verteilungseffekt*;NA;effet distributif*;NA;effetto distributivo*;NA
 c14;child labo*r;NA;Kinderarbeit*r;NA;travail des enfants;NA;lavoro minorile;NA
@@ -24,7 +24,7 @@ c25;vulnerable;NOT historical linguists;Gefährdet;NA;vulnérable;NA;vulnerabile
 c26;vulnerable;growth;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
 c28;vulnerable;NOT sensor failure*;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
 c29;vulnerable;occupational justice;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c30;vulnerable;AND NOT {{generalized anxiety}};Gefährdet;NA;vulnérable;NA;vulnerabile;NA
+c30;vulnerable;AND NOT  {generalized anxiety} ;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
 c31;vulnerable;disadvantaged;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
 c32;vulnerable;NOT hydropeaking;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
 c33;vulnerable;NOT respiratory health;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
