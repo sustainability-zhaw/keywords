@@ -18,11 +18,4 @@ c19;resilience of the poor;NA;Resilienz der Armen;NA;résilience des pauvres;NA;
 c20;safety net;poor;Sicherheitsnetz;schlecht;filet de sécurité;pauvre;rete di sicurezza;povero
 c22;economic resource*;accesss;wirtschaftliche Ressourcen*;Zugang;ressource économique*;accèss;risorsa economica*;accessi
 c23;food bank*;NA;Lebensmittelbank*;NA;banque alimentaire*;NA;banco alimentare*;NA
-c24;vulnerable;NOT anxiety;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c25;vulnerable;NA;vulnerable;NOT rauchfreie Spielplätze;vulnérable;NA;vulnerabile;NA
-c26;vulnerable;growth;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c29;vulnerable;occupational justice;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c31;vulnerable;disadvantaged;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c32;vulnerable;NOT hydropeaking;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c33;vulnerable;NOT respiratory;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c35;vulnerable;farmer*;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
+c24;vulnerable;NOT hydro*;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
