@@ -24,12 +24,13 @@ c25;vulnerable;NOT historical linguists;Gefährdet;NA;vulnérable;NA;vulnerabile
 c26;vulnerable;growth;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
 c28;vulnerable;NOT sensor failure*;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
 c29;vulnerable;occupational justice;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c30;vulnerable;AND NOT  {generalized anxiety} ;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
+c30;vulnerable;AND NOT  {generalized anciety} ;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
 c31;vulnerable;disadvantaged;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
 c32;vulnerable;NOT hydropeaking;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
 c33;vulnerable;NOT respiratory health;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
 c34;vulnerable;NA;vulnerable;NOT Frühentlassung*;vulnérable;NA;vulnerabile;NA
 c35;vulnerable;farmer*;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
-c36;vulnerable;NOT cybermobbing;vulnerable;NOT cybermobbing*;vulnérable;NOT cybermobbing;vulnerabile;NOT cybermobbing
+c36;vulnerable;NOT cybermobbing;vulnerable;NOT cybermobbing;vulnérable;NOT cybermobbing;vulnerabile;NOT cybermobbing
 c37;vulnerable;NOT resilience engineering;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
+c38;vulnerable;NOT;Gefährdet;NOT cybermobbing;vulnérable;NA;vulnerabile;NA
 
