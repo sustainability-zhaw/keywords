@@ -1,4 +1,4 @@
-﻿c1;extreme poverty;NOT;extreme Armut;NA;extrême pauvreté;NA;povertà estrema;NA
+﻿c1;extreme poverty;NA;extreme Armut;NA;extrême pauvreté;NA;povertà estrema;NA
 c2;poverty alleviation;NA;Linderung der Armut;NA;réduction de la pauvreté;NA;riduzione della povertà;NA
 c3;poverty eradication;NA;Ausrottung der Armut;NA;éradication de la pauvreté;NA;sradicamento della povertà;NA
 c4;poverty reduction;NA;Armutsbekämpfung;NA;réduction de la pauvreté;NA;riduzione della povertà;NA
@@ -16,6 +16,6 @@ c17;social protection;access;Sozialer Schutz;Zugang;protection sociale;accès;pr
 c18;micro*financ*;NA;Mikro*Finanzierung*;NA;micro*financement;NA;micro*finanza;NA
 c19;resilience of the poor;NA;Resilienz der Armen;NA;résilience des pauvres;NA;resilienza dei poveri;NA
 c20;safety net;poor;Sicherheitsnetz;schlecht;filet de sécurité;pauvre;rete di sicurezza;povero
-c21;vulnerable;NA;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
+c21;vulnerable;NOT anxiety;Gefährdet;NA;vulnérable;NA;vulnerabile;NA
 c22;economic resource*;accesss;wirtschaftliche Ressourcen*;Zugang;ressource économique*;accèss;risorsa economica*;accessi
 c23;food bank*;NA;Lebensmittelbank*;NA;banque alimentaire*;NA;banco alimentare*;NA
