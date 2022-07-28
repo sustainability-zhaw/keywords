@@ -53,21 +53,22 @@ docker exec -it devcaddy /bin/ash
 ```
 ## Keyword definition
 There are four ways in which priors and postiors can be defined.
+
 ### Prior
-A prior is always a non-empty string, e.g. `"vulnerable"`. 
+A prior is always a non-empty string, e.g. `vulnerable`. 
 
 ### Posteriors
 These are the ways to define posteriors.
 
 #### No posterior
-Do not leave the string empty. Define the posterior as "NA" (not available), e.g. `"vulnerable, NA"`. 
+Do not leave the string empty. Define the posterior as "NA" (not available), e.g. `vulnerable, NA`. 
 
 #### A posterior to be included
-This posterior must be in the same sentence as the prior to get a match, e.g. `"vulnerable, house*"` . In this example, `house*` represents a regular expression, i.e., any expression starting with `house`, such as `house` or `houseboat` will be found,  
+This posterior must be in the same sentence as the prior to get a match, e.g. `vulnerable, house*` . In this example, `house*` represents a regular expression, i.e., any expression starting with `house`, such as `house` or `houseboat` will be found,  
 
 #### One A posterior to be excluded
-This type of posterior means that once the corresponding prior is found in a sentence, the excluding posterior must not be found in the same sentence, ` vulnerable, ^house*"`.. 
+This type of posterior means that once the corresponding prior is found in a sentence, the excluding posterior must not be found in the same sentence, ` vulnerable, ^house*`.. 
 
 #### Multiple A posteriors to be excluded
-You may want to define more than one including or excluding posterior. This can be done by concatenating them in the following format: '"^housh*, disadvantage, ^mental illness"'. '"^housh*"` and `"^mental illness"` are exclusionary posteriors, while disadvantage is an inclusionary posterior.
-The interpretation of a prior-posterior combination such as `"vulnerable, ^house*, disadvantage, ^mental illness"` is: find all sentences that contain vulnerable as a main keyword. Reduce the found sentences to those containing the posteriors to be considered. Finally, match the sentences resulting from the last step with the posteriors to be excluded.  
+You may want to define more than one including or excluding posterior. This can be done by concatenating them in the following format: `^housh*, disadvantage, ^mental illness`. `^housh*` and `^mental illness` are exclusionary posteriors, while disadvantage is an inclusionary posterior.
+The interpretation of a prior-posterior combination such as `vulnerable, ^house*, disadvantage, ^mental illness` is: find all sentences that contain vulnerable as a main keyword. Reduce the found sentences to those containing the posteriors to be considered. Finally, match the sentences resulting from the last step with the posteriors to be excluded.  
