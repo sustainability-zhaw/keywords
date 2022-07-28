@@ -64,7 +64,7 @@ These are the ways to define posteriors.
 Do not leave the string empty. Define the posterior as "NA" (not available), e.g. `vulnerable, NA`. 
 
 #### A posterior to be included
-This posterior must be in the same sentence as the prior to get a match, e.g. `vulnerable, house*` . In this example, `house*` represents a regular expression, i.e., any expression starting with `house`, such as `house` or `houseboat` will be found,  
+This posterior must be in the same sentence as the prior to get a match, e.g. `vulnerable, house*` . In this example, `house*` represents a regular expression, i.e., any expression starting with `house`, such as `household` or `houseboat` will be found,  
 
 #### One A posterior to be excluded
 This type of posterior means that once the corresponding prior is found in a sentence, the excluding posterior must not be found in the same sentence, ` vulnerable, ^house*`.. 
