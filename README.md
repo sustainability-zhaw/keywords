@@ -51,3 +51,22 @@ The development environment mounts the frontend code into a caddy container.
 docker run --rm -d --network proxynetwork --name devcaddy multimico/caddyhelper:latest
 docker exec -it devcaddy /bin/ash
 ```
+## Keyword definition
+There are four ways in which priors and postiors can be defined.
+### Prior
+A prior is always a non-empty string, e.g. `"vulnerable"`. 
+
+### Posteriors
+These are the ways to define posteriors.
+
+#### No posterior
+Do not leave the string empty. Define the posterior as "NA" (not available), e.g. `"vulnerable, NA"`. 
+
+#### A matching posterior
+This posterior must be in the same sentence as the prior to get a match, e.g. `"vulnerable, house*"` . In this example, `house*` represents a regular expression, i.e., any expression starting with `house`, such as `house` or `houseboat` will be found,  
+
+#### An EXCLUSIVE Posterior
+This type of posterior means that once the corresponding prior is found in a sentence, the excluding posterior must not be found in the same sentence, ` vulnerable, ^house*"`.. 
+
+
+"^housh*, disadvantage, ^mental illness"
