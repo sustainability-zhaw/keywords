@@ -1,14 +1,12 @@
 c1;vulnerable;group*;housh*,mental illness
 c6;financial; aid,poverty,poor,north-south divide,development,empowerment; NA
 c1;extreme poverty;NA;NA
-c2;poverty alleviation;NA;NA
-c3;poverty eradication;NA;NA
-c4;poverty reduction;NA;NA
+c2;poverty; alleviation,eradication,reduction;NA
 c5;international poverty line;NA;NA
 c13;distributional effect*;NA;NA
 c14;child labo*r;NA;NA
 c15;development aid;NA;NA
-c17;social protection;access,system*;NA
+c17;social protection;access,system*;NA;NA
 c18;micro*financ*;NA;NA
 c19;resilience of the poor;NA;NA
 c20;safety net;poor;NA
