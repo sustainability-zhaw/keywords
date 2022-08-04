@@ -52,23 +52,41 @@ docker run --rm -d --network proxynetwork --name devcaddy multimico/caddyhelper:
 docker exec -it devcaddy /bin/ash
 ```
 ## Keyword definition
-There are four ways in which priors and postiors can be defined.
-
+Keywords are divided into three categories: Priors, Including and Excluding Posteriors. They are combined per prior into one csv. record for each prior. For example, `vulnerable;housh*,group*;mental illness` and reads as follows: Searches for all text passages containing `vulnerable` and either words beginning with `house`(e.g. household) or with `group`(e.g. groups) which do NOT contain mental illness.
 ### Prior
 A prior is always a non-empty string, e.g. `vulnerable`. 
 
-### Posteriors
-These are the ways to define posteriors.
+### Including Posteriors
+Inclusive posteriors include a string in which the individual terms are separated by a comma and can be written as a regular expression, e.g. `housh*, group*`. In the query logic the comma is replaced by an OR.  If no inclusive posterior is applied, the field must be EMPTY.  
 
-#### No posterior
-Do not leave the string empty. Define the posterior as "NA" (not available), e.g. `vulnerable, NA`. 
+#### Excluding posterior
+Excluding posteriors include a string in which the individual terms are also separated by a comma and can be written as a regular expression, e.g. `mental illness, stud*`. In the query logic the comma is replaced by an OR. If no inclusive posterior is applied, the field must be EMPTY.    
 
-#### A posterior to be included
-This posterior must be in the same sentence as the prior to get a match, e.g. `vulnerable, house*` . In this example, `house*` represents a regular expression, i.e., any expression starting with `house`, such as `household` or `houseboat` will be found,  
-
-#### One A posterior to be excluded
-This type of posterior means that once the corresponding prior is found in a sentence, the excluding posterior must not be found in the same sentence, ` vulnerable, ^house*`.. 
-
-#### Multiple A posteriors to be excluded
-You may want to define more than one including or excluding posterior. This can be done by concatenating them in the following format: `^housh*, disadvantage, ^mental illness`. `^housh*` and `^mental illness` are exclusionary posteriors, while disadvantage is an inclusionary posterior.
-The interpretation of a prior-posterior combination such as `vulnerable, ^house*, disadvantage, ^mental illness` is: find all sentences that contain vulnerable as a main keyword. Reduce the found sentences to those containing the posteriors to be considered. Finally, match the sentences resulting from the last step with the posteriors to be excluded.  
+### Query result
+A query returns 0 to n results. Each found prior-posterior combination returns a record with the following attributes: `handle` is the link to the original complete record; `authors` returns all authors involved in the document; `for_data_analysis` is a summarized text field consisting of title, summary and description"; `doc_id` represents the xth record, related to the imported raw data; `sdgX` defines the corresponding SDG with the Nmmer X(1-16) and returns the found keywords. The entire keyword set is displayed, regardless of the combination in which the posteriors contained in it were made. 
+```
+{
+    "handle": "https://digitalcollection.zhaw.ch/handle/11475/21885",
+    "authors": "Ayer, Jean-Marie; Pasquier, Bruno",
+    "for_data_analysis": "Crowdfunding and initial coin offerings;  Finanzwirtschaft;  
+    Rechtsvergleichung und ausländisches Recht; This chapter argues that blockchain technology 
+    enables start-ups and small and medium-sized companies to raise funds from a multitude of 
+    investors on a peer-to-peer basis without the involvement of an intermediary. 
+    It discusses the phenomenon of initial coin offerings (ICO), illustrates with concrete examples, 
+    and reviews the legal framework governing ICOs. Using the potential of distributed ledger technologies, 
+    ICOs have emerged as a novel mechanism for financing entrepreneurial ventures. 
+    One of the main challenges related to the legal regulation of ICOs is the functional diversity 
+    of the tokens issued in crowdfunding campaigns. Tokens can be linked to different types of rights, 
+    such as membership rights or property rights. A key aspect regarding the financial market regulations 
+    of ICOs is whether the tokens qualify as securities. A fundamental problem for the said qualification lies 
+    in the different definitions, depending on the applicable jurisdictions.",
+    "doc_id": 285,
+    "sdg1": [
+      {
+        "prior": "financial",
+        "posterior": "aid,poverty,poor,north-south divide,development,empowerment",
+        "posteriorNOT": "NA"
+      }
+    ]
+  }
+```
