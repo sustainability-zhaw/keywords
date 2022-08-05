@@ -30,5 +30,4 @@ COPY /src/. /usr/src
 RUN R -e "install.packages('libcurl:latest')"
 
 # launch the plumbered R file 
-CMD ["Rscript src/dc_sdgs_mapping.R"]
-# CMD ["Rscript src/hello.R"]
+CMD ["Rscript src/dc_sdg_mapping.R"]
