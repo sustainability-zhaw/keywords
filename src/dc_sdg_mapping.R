@@ -12,12 +12,10 @@ library(plumber)
 # Switch off warnings
 options(warn=-1)
 
-
 `%>%` = magrittr::`%>%` 
 
-setwd("/Users/bajk/Dropbox/Mac/Documents/GitHub/sustainability/keywords")
-
-# setwd('..')
+# setwd("/Users/bajk/Dropbox/Mac/Documents/GitHub/sustainability/keywords") # when used locally
+setwd('..') # when used for Git
 wd = getwd()
 
 # import config parameters
