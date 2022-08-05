@@ -14,8 +14,8 @@ options(warn=-1)
 
 `%>%` = magrittr::`%>%` 
 
-# setwd("/Users/bajk/Dropbox/Mac/Documents/GitHub/sustainability/keywords") # when used locally
-setwd('..') # when used for Git
+setwd("/Users/bajk/Dropbox/Mac/Documents/GitHub/sustainability/keywords") # when used locally
+# setwd('..') # when used for Git
 wd = getwd()
 
 # import config parameters
@@ -35,8 +35,8 @@ import_data <-
       jsonlite::fromJSON(., flatten = FALSE) %>%
       dplyr::as_tibble() %>%
       dplyr::mutate(doc_id = seq.int(nrow(.))) %>%
-      dplyr::ungroup() %>%
-      dplyr::filter(doc_id  %in% c(1:2000))
+      dplyr::ungroup() #%>%
+      # dplyr::filter(doc_id  %in% c(1:2000))
       # dplyr::filter(doc_id %in% c(1506))
       # dplyr::filter(doc_id %in% c(371, 1076, 1506, 1960, 4057))
 
@@ -52,13 +52,13 @@ import_sdgs_from_git <-
     sdg = 1
     list_with_posteriors = TRUE
     fconfig = config
-    
+
     fpath_git = fconfig$path$repo_git
     fpath_sdgs = fconfig$path$repo_sdgs
     fpath_git_sdg = stringr::str_c(fpath_git,fpath_sdgs)
     
     # Loop over all sdgs
-    prior_posterior_full_tibble <<-
+    prior_posterior_full_tibble <-
       sdg %>%
       purrr::map(., function(x){
         sdg_name <<- stringr::str_c("SDG", x)
@@ -295,6 +295,52 @@ function() {
   return(dataIn)
 }
 
+#* @get /dc_sdg_from_git
+#* @param sdg
+#* @param list_with_posteriors
+  function(sdg=1, list_with_posteriors=TRUE) {
+ 
+# sdg = 1
+# list_with_posteriors = TRUE
+fconfig = config
+
+fpath_git = fconfig$path$repo_git
+fpath_sdgs = fconfig$path$repo_sdgs
+fpath_git_sdg = stringr::str_c(fpath_git,fpath_sdgs)
+
+# Loop over all sdgs
+prior_posterior_full_tibble <<-
+  sdg %>%
+  purrr::map(., function(x){
+    sdg_name <<- stringr::str_c("SDG", x)
+    # filename <- stringr::str_c("SDG", x, ".csv")
+    filename <- stringr::str_c("SDG", x, "_dev.csv")
+    if (list_with_posteriors == TRUE){
+      type = "with_posterior"
+    } else {
+      type = "no_posterior"
+    }
+    RCurl::getURL(stringr::str_c(fpath_git_sdg, type, "/", filename),
+                  .encoding = "UTF-8") %>%
+      read.csv(text = ., sep = ";", header = FALSE) %>%
+      tidyr::as_tibble(.name_repair = "minimal")
+  }) %>%
+  do.call(rbind.data.frame, .)
+
+  # extract priors, all languages and concatenate
+  single_sdg_prior <-
+    # prior_posterior_full_tibble[,c(2,4,6,8)] %>%
+    prior_posterior_full_tibble[,c(2)] %>%
+    naniar::replace_with_na(replace = list(x = "NA")) %>%
+    unlist() %>%
+    # stringr::str_replace_all("\\s{2,}", "") %>%
+    stringr::str_trim(side = "both")%>%
+    dplyr::tibble(prior = .)
+  
+  return(single_sdg_prior)
+  }
+
+
 #* @get /dc_mapping
 #* @param sdg
 #* @param list_with_posteriors
@@ -325,7 +371,7 @@ function() {
 
 #* @get /test
 function() {
-  return("code preparation succeded")
+  return(stringr::str_c("code preparation succeded: wd = ", wd))
 }
 
 # Offline debug
