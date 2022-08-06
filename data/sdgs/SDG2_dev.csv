@@ -1,0 +1,28 @@
+﻿c1;smallholder;farm,forestry,pastoral,agriculture,fishery,food producer*;;Kleinbauern;Bauernhof ;;petit propriétaire;ferme ;;piccolo proprietario;azienda agricola 
+c2;land tenure rights;farm,forestry,pastoral,agriculture,fishery,food producer*;;Landnutzungsrechte;Bauernhof ;;droits fonciers;ferme ;;diritti di proprietà fondiaria;azienda agricola 
+c15;malnourish*;NA;;Unterernährung*;NA;;malnutrition;NA;;malnutrizione*;NA
+c16;malnutrition;NA;;Unterernährung;NA;;malnutrition;NA;;malnutrizione;NA
+c17;undernourish*;NA;;unterernährt*;NA;;sous-nutrition;NA;;denutrizione*;NA
+c18;undernutrition;NA;;Unterernährung;NA;;dénutrition;NA;;denutrizione;NA
+c19;agricultural producti*;NA;;landwirtschaftliche Produkte*;NA;;produits agricoles;NA;;prodotti agricoli*;NA
+c20;agricultural practices;NA;;landwirtschaftliche Praktiken;NA;;pratiques agricoles;NA;;pratiche agricole;NA
+c21;agricultural management;NA;;Agrarmanagement;NA;;gestion agricole;NA;;gestione agricola;NA
+c22;food producti*;NA;;Nahrungsmittelproduktion*;NA;;production alimentaire;NA;;produzione alimentare*;NA
+c23;food *security;NA;;Ernährungs * sicherheit;NA;;sécurité alimentaire;NA;;sicurezza alimentare;NA
+c24;land right*;NA;;Bodenrecht*;NA;;droit foncier*;NA;;diritto alla terra*;NA
+c25;land reform*;NA;;Bodenreform*;NA;;réforme foncière*;NA;;riforma agraria*;NA
+c26;resilient agricultural practices;NA;;Widerstandsfähige landwirtschaftliche Praktiken;NA;;pratiques agricoles résilientes;NA;;pratiche agricole resilienti;NA
+c27;agriculture ;potassium;;Landwirtschaft ;Kalium;;agriculture ;potassium;;agricoltura ;potassio
+c28;fertili*er;NA;;Fertilität;NA;;fertilité;NA;;fertilizzazione;NA
+c29;food nutrition improvement;NA;;Verbesserung der Nahrungsmittelversorgung;NA;;amélioration de la nutrition alimentaire;NA;;miglioramento della nutrizione alimentare;NA
+c30;hidden hunger;NA;;Versteckter Hunger;NA;;faim cachée;NA;;fame nascosta;NA
+c31;genetically modified food;NA;;gentechnisch veränderte Lebensmittel;NA;;aliments génétiquement modifiés;NA;;cibo geneticamente modificato;NA
+c32;gmo ;food ;;gmo ;Lebensmittel ;;ogm ;aliments ;;ogm ;cibo 
+c33;agroforestry practices;NA;;agroforstwirtschaftliche Praktiken;NA;;pratiques agroforestières;NA;;pratiche agroforestali;NA
+c34;agroforestry management;NA;;agroforstwirtschaftliches Management;NA;;gestion de l'agroforesterie;NA;;gestione agroforestale;NA
+c35;agricultural innovation;NA;;landwirtschaftliche Innovation;NA;;innovation agricole;NA;;innovazione agricola;NA
+c36;food security;genetic diversity;;Ernährungssicherheit;genetische Vielfalt;;sécurité alimentaire;diversité génétique;;sicurezza alimentare;diversità genetica
+c37;food market;restriction,tariff,access,north south divide,development governance;;Lebensmittelmarkt;Einschränkung ;;marché alimentaire;restriction ;;mercato alimentare;restrizione 
+c42;food governance;NA;;Lebensmittel-Governance;NA;;gouvernance alimentaire;NA;;governance alimentare;NA
+c43;food supply chain;NA;;Lebensmittelversorgungskette;NA;;chaîne d'approvisionnement alimentaire;NA;;filiera alimentare;NA
+c44;food commodity market;NOT disease;;Markt für Lebensmittelrohstoffe;NOT Krankheit ;;marché des produits alimentaires;NOT maladie;;mercato delle materie prime alimentari;NOT malattia
