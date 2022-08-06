@@ -46,6 +46,10 @@ sdg" is a number from 1 to 16, which stands for the corresponding SDG
 Lang" is either E for English, D for German, F for French or I for Italien.
 If you enter only 'http://localhost/dc_mapping`, the default is `sdg=1` and `lang=E`.
 
+### SDG keyword definition format
+The easiest way is to edit the sdg keyword list in Excel.
+The first column is reserved for the index. Each language uses 3 columns: 'Prior, Posterior included, Posterior excluded'. This means that for all four languages 'E,D,F,I' and in that order a total of 12 columns are used. Together with the index this makes 13 columns. Empty columns, e.g. if no `Posterior excluded` is defined, this empty column must be added anyway. Regardless of which columns are occupied or not, the total of 13 columns must always be present in the specified order.
+
 ## Keyword definition
 Keywords are divided into three categories: Priors, Including and Excluding Posteriors. They are combined per prior into one csv. record for each prior. For example, `vulnerable;housh*,group*;mental illness` and reads as follows: Searches for all text passages containing `vulnerable` and either words beginning with `house`(e.g. household) or with `group`(e.g. groups) which do NOT contain mental illness.
 ### Prior
