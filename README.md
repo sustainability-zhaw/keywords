@@ -42,8 +42,8 @@ The second way to start the SDG mapping service is from Docker Desktop. Select `
 
 ## Run the SDG mapping service
 Open a browser window and type 'http://localhost/dc_mapping?sdg=(1:16)&lang=(E,D,F,I)&output=console'.
-sdg" is a number from 1 to 16, which stands for the corresponding SDG
-Lang" is either E for English, D for German, F for French or I for Italien.
+`sdg` is a number from 1 to 16, which stands for the corresponding SDG
+`lang` is either `E` for English, `D` for German, `F` for French or `I` for Italien.
 If you enter only 'http://localhost/dc_mapping`, the default is `sdg=1` and `lang=E`.
 
 ### SDG keyword definition format
