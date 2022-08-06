@@ -41,16 +41,8 @@ docker run --rm -d -p 80:8000 --name sdgmapping ghcr.io/sustainability-zhaw/sdg-
 The second way to start the SDG mapping service is from Docker Desktop. Select `Images` in the left vertical bar of Docker Desktop and select the row with the image you want to create a container from. On the right side of the selected row, you will see a blue button named `Run`. Click on it and expand the `Optional settings`. Enter a suitable container name and type `80` as `host port`. To verify that the container is running, switch from `Images` to `Containers`. You should see a container with the chosen name running on port 80 and specifying a time in the `Started` field.
 
 ## Run the SDG mapping service
-Open a Browser Window and enter http://localhost/dc_mapping?sdg=1&list_with_posteriors=TRUE&output=console
+Open a Browser Window and enter ´http://localhost/dc_mapping?sdg=(1:16)&lang=(E,D,F,I)&output=console´
 
-## Development 
-
-The development environment mounts the frontend code into a caddy container. 
-
-```
-docker run --rm -d --network proxynetwork --name devcaddy multimico/caddyhelper:latest
-docker exec -it devcaddy /bin/ash
-```
 ## Keyword definition
 Keywords are divided into three categories: Priors, Including and Excluding Posteriors. They are combined per prior into one csv. record for each prior. For example, `vulnerable;housh*,group*;mental illness` and reads as follows: Searches for all text passages containing `vulnerable` and either words beginning with `house`(e.g. household) or with `group`(e.g. groups) which do NOT contain mental illness.
 ### Prior
@@ -89,4 +81,13 @@ A query returns 0 to n results. Each found prior-posterior combination returns a
       }
     ]
   }
+```
+
+## Development 
+
+The development environment mounts the frontend code into a caddy container. 
+
+```
+docker run --rm -d --network proxynetwork --name devcaddy multimico/caddyhelper:latest
+docker exec -it devcaddy /bin/bash
 ```
