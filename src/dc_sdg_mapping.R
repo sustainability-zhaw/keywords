@@ -36,7 +36,7 @@ import_sdgs_from_git <-
   function(sdg = 1, lang = "E") {
 
     sdg = 2
-    lang = "D"
+    lang = "F"
     fconfig = config
     fpath_git = fconfig$path$repo_git
     fpath_sdgs = fconfig$path$repo_sdgs
