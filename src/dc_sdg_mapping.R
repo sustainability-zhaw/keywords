@@ -33,10 +33,11 @@ import_data <-
 
 ####################################################
 import_sdgs_from_git <- 
-  function(sdg = 1) {
+  function(sdg = 1, lang = "E") {
 
+    sdg = 2
+    lang = "D"
     fconfig = config
-
     fpath_git = fconfig$path$repo_git
     fpath_sdgs = fconfig$path$repo_sdgs
     fpath_git_sdg = stringr::str_c(fpath_git,fpath_sdgs)
@@ -62,32 +63,66 @@ import_sdgs_from_git <-
     }
     names(prior_posterior_full_tibble) <- c("V1", "V2","V3","V4","V5","V6","V7","V8","V9","V10","V11","V12","V13")
     
+    # Load one language at a time
+    sdg_lang <- list("E"=c("V2","V3","V4"),
+                     "D"=c("V5","V6","V7"),
+                     "F"=c("V8","V9","V10"),
+                     "I"=c("V11","V12","V13"),
+                     "ALL"=c("V1", "V2","V3","V4","V5","V6","V7","V8","V9","V10","V11","V12","V13")
+                     )
+    
+    prior_posterior_full_tibble <-
+      prior_posterior_full_tibble[, sdg_lang[toupper(lang)] %>% unlist()]
+    
+    
     # extract priors, all languages and concatenate
     single_sdg_prior <-
-      prior_posterior_full_tibble[,c("V2","V5","V8","V11")] %>%
-      # prior_posterior_full_tibble[,"V2"] %>%
-      unlist() %>%
-      stringr::str_trim(side = "both") %>%
-      dplyr::tibble(prior = .) %>%
-      tidyr::drop_na()
+      if(toupper(lang) == "ALL"){
+        prior_posterior_full_tibble[, c(2,5,8,11)] %>%     
+          unlist() %>%
+          stringr::str_trim(side = "both") %>%
+          dplyr::tibble(prior = .) %>%
+          tidyr::drop_na()
+      }else{
+        prior_posterior_full_tibble[, 1] %>%
+          unlist() %>%
+          stringr::str_trim(side = "both") %>%
+          dplyr::tibble(prior = .) %>%
+          tidyr::drop_na()
+      } 
     
     # extract posteriors, all languages and concatenate
     single_sdg_posterior <-
-      prior_posterior_full_tibble[,c("V3","V6","V9","V12")] %>%
-      # prior_posterior_full_tibble[,"V3"] %>%
-      unlist() %>%
-      stringr::str_trim(side = "both")%>%
-      dplyr::tibble(posterior = .) %>%
-      dplyr::slice_head(n = single_sdg_prior %>% nrow())
+      if(toupper(lang) == "ALL"){
+        prior_posterior_full_tibble[, c(3,6,9,12)] %>%     
+          unlist() %>%
+          stringr::str_trim(side = "both")%>%
+          dplyr::tibble(posterior = .) %>%
+          dplyr::slice_head(n = single_sdg_prior %>% nrow())
+      }else{
+        prior_posterior_full_tibble[, 2] %>%
+          unlist() %>%
+          stringr::str_trim(side = "both")%>%
+          dplyr::tibble(posterior = .) %>%
+          dplyr::slice_head(n = single_sdg_prior %>% nrow())    
+      }
+    
     
     # extract posteriors, all languages and concatenate
     single_sdg_posterior_NOT <-
-      prior_posterior_full_tibble[,c("V4","V7","V10","V13")] %>%
-      # prior_posterior_full_tibble[,"V4"] %>%
-      unlist() %>%
-      stringr::str_trim(side = "both") %>%
-      dplyr::tibble(posteriorNOT = .) %>%
-      dplyr::slice_head(n = single_sdg_prior %>% nrow())
+      if(toupper(lang) == "ALL"){
+        prior_posterior_full_tibble[, c(4,7,10,13)] %>%     
+          unlist() %>%
+          stringr::str_trim(side = "both")%>%
+          dplyr::tibble(posterior = .) %>%
+          dplyr::slice_head(n = single_sdg_prior %>% nrow())
+      }else{
+        prior_posterior_full_tibble[, 3] %>%
+          unlist() %>%
+          stringr::str_trim(side = "both")%>%
+          dplyr::tibble(posterior = .) %>%
+          dplyr::slice_head(n = single_sdg_prior %>% nrow())    
+      }
     
     # Adjusting two dataframes to the same dimensions
     n <- max(length(single_sdg_prior),
@@ -96,7 +131,13 @@ import_sdgs_from_git <-
     length(single_sdg_prior) <- n
     length(single_sdg_posterior) <- n
     length(single_sdg_posterior_NOT) <- n
+      
     
+    cbind(prior = single_sdg_prior$prior,
+                  posterior = single_sdg_posterior$posterior,
+                  posteriorNOT = single_sdg_posterior_NOT$posteriorNOT)
+
+
     return(list(sdg_name = sdg_name,
                 value = cbind(prior = single_sdg_prior$prior,
                               posterior = single_sdg_posterior$posterior,
@@ -117,7 +158,7 @@ mapping_data <-
     
     # ##################
     # dataIn = import_data()
-    # sdgIn = import_sdgs_from_git(sdg = 1, list_with_posteriors = TRUE)
+    # sdgIn = import_sdgs_from_git(sdg = 2, lang = "F")
     # fconfig = config
     # sentence_based = FALSE
     # fpath_transformed = fconfig$path$path_data_transformed;
@@ -139,7 +180,6 @@ mapping_data <-
       text2analyse %>% 
       dplyr::tibble(text = .,) %>%
       dplyr::mutate(doc_id = dataIn$doc_id)
-    # dplyr::mutate(doc_id = 1:dplyr::n())
     
     # Basic corpus creation
     corp <- quanteda::corpus(text2analyse_as_tibble,
@@ -227,8 +267,7 @@ mapping_data <-
                  by="doc_id") %>%
     dplyr::select(handle, authors, for_data_analysis, doc_id, {{sdg_name}} := kw)
     
-  
-    # View(data_matched_result)
+    View(data_matched_result)
     
     return(data_matched_result)
   }
@@ -277,99 +316,20 @@ function() {
   return(dataIn)
 }
 
-#* @get /dc_sdg_git
-#* @param sdg
-  function(sdg=1) {
- 
-sdg = 1
-fconfig = config
-
-fpath_git = fconfig$path$repo_git
-fpath_sdgs = fconfig$path$repo_sdgs
-fpath_git_sdg = stringr::str_c(fpath_git,fpath_sdgs)
-
-# Loop over all sdgs
-prior_posterior_full_tibble <-
-  sdg %>%
-  purrr::map(., function(x){
-    sdg_name <<- stringr::str_c("SDG", x)
-    filename <- stringr::str_c("SDG", x, "_dev.csv")
-    RCurl::getURL(stringr::str_c(fpath_git_sdg, filename),
-                  .encoding = "UTF-8") %>%
-      read.csv(text = ., sep = ";", header = FALSE, na = c("","na","NA")) %>%
-      tidyr::as_tibble(.name_repair = "minimal") #%>%
-  }) %>%
-  do.call(rbind.data.frame, .)
-
-  # Fill up empty columns
-  for (i in (prior_posterior_full_tibble %>% length() + 1):13){
-    prior_posterior_full_tibble <- 
-      prior_posterior_full_tibble %>% 
-      tibble::add_column(V = NA, .name_repair = "minimal")
-  }
-  names(prior_posterior_full_tibble) <- c("V1", "V2","V3","V4","V5","V6","V7","V8","V9","V10","V11","V12","V13")
- 
-  # extract priors, all languages and concatenate
-  single_sdg_prior <-
-    prior_posterior_full_tibble[,c("V2","V5","V8","V11")] %>%
-    # prior_posterior_full_tibble[,"V2"] %>%
-    unlist() %>%
-    stringr::str_trim(side = "both") %>%
-    dplyr::tibble(prior = .) %>%
-    tidyr::drop_na()
-
-  # extract posteriors, all languages and concatenate
-  single_sdg_posterior <-
-    prior_posterior_full_tibble[,c("V3","V6","V9","V12")] %>%
-    # prior_posterior_full_tibble[,"V3"] %>%
-    unlist() %>%
-    stringr::str_trim(side = "both")%>%
-    dplyr::tibble(posterior = .) %>%
-    dplyr::slice_head(n = single_sdg_prior %>% nrow())
-
-  # extract posteriors, all languages and concatenate
-  single_sdg_posterior_NOT <-
-    prior_posterior_full_tibble[,c("V4","V7","V10","V13")] %>%
-    # prior_posterior_full_tibble[,"V4"] %>%
-    unlist() %>%
-    stringr::str_trim(side = "both") %>%
-    dplyr::tibble(posteriorNOT = .) %>%
-    dplyr::slice_head(n = single_sdg_prior %>% nrow())
-
-  # Adjusting two dataframes to the same dimensions
-  n <- max(length(single_sdg_prior),
-           length(single_sdg_posterior),
-           length(single_sdg_posterior_NOT))
-  length(single_sdg_prior) <- n
-  length(single_sdg_posterior) <- n
-  length(single_sdg_posterior_NOT) <- n
-
-  return(list(sdg_name = sdg_name,
-              value = cbind(prior = single_sdg_prior$prior,
-                            posterior = single_sdg_posterior$posterior,
-                            posteriorNOT = single_sdg_posterior_NOT$posteriorNOT)
-              )
-         )
-
-  # return(single_sdg_prior)
-  }
-
-
 #* @get /dc_mapping
 #* @param sdg
 #* @param sentence_based
+#* @param lang
 #* @param output
   function(sdg = 1,
            sentence_based = FALSE,
+           lang = "E",
            output = "console") {
 
     fconfig = config
     dataIn = import_data()
-    sdgIn = import_sdgs_from_git(sdg)
-    data_mapped <- mapping_data(dataIn,
-                                sdgIn,
-                                fconfig,
-                                sentence_based)
+    sdgIn = import_sdgs_from_git(sdg, lang)
+    data_mapped <- mapping_data(dataIn, sdgIn, fconfig, sentence_based)
     
     return(data_mapped)
     
@@ -391,21 +351,3 @@ function() {
   import <- import_sdgs_from_git()
   return(import)
 }
-
-# Offline debug
-# dc <- function(sdg = 1,
-#          list_with_posteriors = TRUE,
-#          sentence_based = FALSE,
-#          output = "console") {
-#   
-#   fconfig = config
-#   dataIn = import_data()
-#   sdgIn = import_sdgs_from_git(sdg, list_with_posteriors)
-#   data_mapped <- mapping_data(dataIn,
-#                               sdgIn,
-#                               fconfig,
-#                               sentence_based)
-#   
-#   return(data_mapped)
-# }
-# dc()

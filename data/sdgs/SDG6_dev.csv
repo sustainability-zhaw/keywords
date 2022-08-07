@@ -1,0 +1,53 @@
+﻿c1;safe;water access;;sicher;Zugang zu Wasser;;sûr;accès à l'eau;;sicuro;accesso all'acqua
+c2;safe;drinking water;;sicher;trinkwasser;;sûr;eau potable;;sicuro;acqua potabile
+c3;clean;drinking water;;sauber;trinkwasser;;propre;eau potable;;pulito;acqua potabile
+c4;clean;water source;;sauber;Wasserquelle;;propre;source d'eau;;pulito;fonte d'acqua
+c5;water;NA;;Wasser;NA;;eau;NA;;acqua;NA
+c6;water;sanitation * hygiene;;Wasser;Abwasserentsorgung * Hygiene;;eau;assainissement * hygiène;;acqua;servizi igienici * igiene
+c7;water;quality;;Wasser;Qualität;;eau;qualité;;acqua;qualità
+c8;water;resource;;Wasser;Ressource;;eau;ressource;;acqua;risorsa
+c9;water;management;;Wasser;Bewirtschaftung;;eau;gestion;;acqua;gestione
+c10;water;eco*system;;Wasser;Öko*system;;eau;éco*système;;acqua;eco*sistema
+c11;water availability;NA;;Wasserverfügbarkeit;NA;;disponibilité de l'eau;NA;;disponibilità di acqua;NA
+c12;water-use efficiency;NA;;Effizienz der Wassernutzung;NA;;efficacité de l'utilisation de l'eau;NA;;efficienza nell'uso dell'acqua;NA
+c13;water suppl*;NA;;Wasserversorgung*;NA;;approvisionnement en eau;NA;;approvvigionamento idrico;NA
+c14;clean water;NA;;sauberes Wasser;NA;;eau propre;NA;;acqua pulita;NA
+c15;hygienic toilet*;NA;;hygienische Toilette*;NA;;toilettes hygiéniques;NA;;toilette igienica*;NA
+c16;antifouling membrane*;NA;;Antifouling-Membran*;NA;;membrane antisalissure;NA;;membrana antivegetativa*;NA
+c17;anti-fouling membrane*;NA;;Antifouling-Membran*;NA;;membrane antisalissure;NA;;membrana antivegetativa*;NA
+c18;water management;NA;;Wasserwirtschaft;NA;;gestion de l'eau;NA;;gestione dell'acqua;NA
+c19;aquatic toxicology;NA;;Wassertoxikologie;NA;;toxicologie aquatique;NA;;tossicologia acquatica;NA
+c20;water toxicology;NA;;Wassertoxikologie;NA;;toxicologie de l'eau;NA;;tossicologia dell'acqua;NA
+c21;aquatic ecotoxicology;NA;;Aquatische Ökotoxikologie;NA;;écotoxicologie aquatique;NA;;ecotossicologia acquatica;NA
+c22;water ecotoxicology;NA;;Gewässerökotoxikologie;NA;;écotoxicologie de l'eau;NA;;ecotossicologia dell'acqua;NA
+c23;fresh*water;water quality;;Trinkwasser;Wasserqualität;;eau*douce;qualité de l'eau;;acqua dolce;qualità dell'acqua
+c24;fresh*water;pollutant;;Trinkwasser;Schadstoff;;eau douce;polluant;;acqua dolce;inquinante
+c25;fresh*water;pollution;;Trinkwasser;Verschmutzung;;eau douce;pollution;;acqua dolce;inquinamento
+c26;fresh*water;contamina*;;Trinkwasser;Verunreinigung*;;eau*douce;contaminé;;acqua dolce;contaminazioni*
+c27;fresh*water;water security;;Trinkwasser;Wassersicherheit;;eau*douce;sécurité de l'eau;;acqua dolce;sicurezza dell'acqua
+c28;fresh*water;water shortage;;Trinkwasser;Wasserknappheit;;eau*douce;pénurie d'eau;;acqua dolce;carenza d'acqua
+c29;waste*water;treatment;;abwasser;Behandlung;;eaux usées;traitement;;acqua di scarico;trattamento
+c30;water conservation;NA;;Wasserschutz;NA;;conservation de l'eau;NA;;conservazione dell'acqua;NA
+c31;water footprint;NA;;Wasser-Fußabdruck;NA;;empreinte de l'eau;NA;;impronta idrica;NA
+c32;water infrastructure;NA;;Wasserinfrastruktur;NA;;infrastructure de l'eau;NA;;infrastruttura idrica;NA
+c33;water pollution;NA;;Wasserverschmutzung;NA;;pollution de l'eau;NA;;inquinamento dell'acqua;NA
+c34;water purification;NA;;Wasseraufbereitung;NA;;épuration de l'eau;NA;;depurazione dell'acqua;NA
+c35;water use*;NA;;Wassernutzung*;NA;;utilisation de l'eau;NA;;uso dell'acqua*;NA
+c36;sanit*;NA;;Sanitär*;NA;;hygiène*;NA;;igiene*;NA
+c37;eco*system;protection of endocrine disruptor*;;Öko*system;Schutz vor endokrinen Disruptoren*;;éco*système;protection des perturbateurs endocriniens;;ecosistema;protezione degli interferenti endocrini*
+c38;water management;pollution remediation;;Wasserwirtschaft;Sanierung der Umweltverschmutzung;;gestion de l'eau;dépollution;;gestione dell'acqua;bonifica dell'inquinamento
+c39;water management;pollutant removal;;Wasserbewirtschaftung;Beseitigung von Schadstoffen;;gestion de l'eau;élimination des polluants;;gestione dell'acqua;rimozione degli inquinanti
+c40;ground*water;freshwater;;Grund*wasser;Trinkwasser;;eau* souterraine;eau douce;;acqua sotterranea;acqua dolce
+c41;freshwater;NA;;Trinkwasser;NA;;eau douce;NA;;acqua dolce;NA
+c42;water pollution;NA;;Wasserverschmutzung;NA;;pollution de l'eau;NA;;inquinamento dell'acqua;NA
+c43;water pollutant;NA;;Wasserverschmutzung;NA;;polluant de l'eau;NA;;acqua inquinante;NA
+c44;waste water;treatment;;abwasser;Behandlung;;eaux usées;traitement;;acque reflue;trattamento
+c45;waste water;wastewater;;Abwässer;Abwasser;;eau usée;eaux usées;;acqua di scarico;acque reflue
+c46;waste water;treatment;;Abwässer;Behandlung;;eau usée;traitement;;acqua di scarico;trattamento
+c47;fresh*water availability;NA;;Verfügbarkeit von Trinkwasser;NA;;disponibilité de l'eau* douce;NA;;disponibilità di acqua dolce;NA
+c48;water scarcity;NA;;Wasserknappheit;NA;;pénurie d'eau;NA;;scarsità d'acqua;NA
+c49;open defecation;NA;;Offene Defäkation;NA;;défécation en plein air;NA;;defecazione aperta;NA
+c50;blue water;NA;;blaues Wasser;NA;;eau bleue;NA;;acqua blu;NA
+c51;green water;NA;;grünes Wasser;NA;;eau verte;NA;;acqua verde;NA
+c52;grey water;NA;;graues Wasser;NA;;eau grise;NA;;acqua grigia;NA
+c53;black water;NA;;schwarzes Wasser;NA;;eau noire;NA;;acqua nera;NA
