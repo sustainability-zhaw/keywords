@@ -65,29 +65,23 @@ Excluding posteriors include a string in which the individual terms are also sep
 A query returns 0 to n results. Each found prior-posterior combination returns a record with the following attributes: `handle` is the link to the original complete record; `authors` returns all authors involved in the document; `for_data_analysis` is a summarized text field consisting of title, summary and description"; `doc_id` represents the xth record, related to the imported raw data; `sdgX` defines the corresponding SDG with the Nmmer X(1-16) and returns the found keywords. The entire keyword set is displayed, regardless of the combination in which the posteriors contained in it were made. 
 ```
 {
-    "handle": "https://digitalcollection.zhaw.ch/handle/11475/21885",
-    "authors": "Ayer, Jean-Marie; Pasquier, Bruno",
-    "for_data_analysis": "Crowdfunding and initial coin offerings;  Finanzwirtschaft;  
-    Rechtsvergleichung und ausländisches Recht; This chapter argues that blockchain technology 
-    enables start-ups and small and medium-sized companies to raise funds from a multitude of 
-    investors on a peer-to-peer basis without the involvement of an intermediary. 
-    It discusses the phenomenon of initial coin offerings (ICO), illustrates with concrete examples, 
-    and reviews the legal framework governing ICOs. Using the potential of distributed ledger technologies, 
-    ICOs have emerged as a novel mechanism for financing entrepreneurial ventures. 
-    One of the main challenges related to the legal regulation of ICOs is the functional diversity 
-    of the tokens issued in crowdfunding campaigns. Tokens can be linked to different types of rights, 
-    such as membership rights or property rights. A key aspect regarding the financial market regulations 
-    of ICOs is whether the tokens qualify as securities. A fundamental problem for the said qualification lies 
-    in the different definitions, depending on the applicable jurisdictions.",
-    "doc_id": 285,
-    "sdg1": [
-      {
-        "prior": "financial",
-        "posterior": "aid,poverty,poor,north-south divide,development,empowerment",
-        "posteriorNOT": "NA"
-      }
-    ]
-  }
+"handle": "https://digitalcollection.zhaw.ch/handle/11475/20957",
+"authors": "Meyer, Julia",
+"for_data_analysis": "Outreach and performance of microfinance institutions : the importance of portfolio yield; Microfinance; Financial return; Outreach; Operating expense; Portfolio yield;  Banken; In this paper, we examine the interaction between social outreach and financial return in microfinance. Running multivariate regression models and using , observations of microfinance institutions between  and , we find strong evidence suggesting that institutions with more social engagement – in terms of outreach to the poor – earn higher portfolio yields. We also find that measures of outreach are associated with increased operating expenses. As return figures are influenced by both costs and yield, and because both increase to a similar degree with the depth of outreach, these two effects lead to a zero sum result on return measures. This finding could explain why existing studies assessing the interaction between social outreach and different measures of financial performance in microfinance (such as return on assets/equity, operating expenses, operational self-sufficiency) have not produced consistent results.",
+"doc_id": 1076,
+"sdg1": [
+{
+"prior": "financial",
+"posterior": "aid,poverty,poor,north-south divide,development,empowerment",
+"posteriorNOT": "NA"
+},
+{
+"prior": "micro?financ*"
+}
+],
+"distinct": 2,
+"counts": 8
+}
 ```
 
 ## Development 
