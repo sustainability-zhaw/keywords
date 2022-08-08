@@ -67,7 +67,16 @@ A query returns 0 to n results. Each found prior-posterior combination returns a
 {
 "handle": "https://digitalcollection.zhaw.ch/handle/11475/20957",
 "authors": "Meyer, Julia",
-"for_data_analysis": "Outreach and performance of microfinance institutions : the importance of portfolio yield; Microfinance; Financial return; Outreach; Operating expense; Portfolio yield;  Banken; In this paper, we examine the interaction between social outreach and financial return in microfinance. Running multivariate regression models and using , observations of microfinance institutions between  and , we find strong evidence suggesting that institutions with more social engagement – in terms of outreach to the poor – earn higher portfolio yields. We also find that measures of outreach are associated with increased operating expenses. As return figures are influenced by both costs and yield, and because both increase to a similar degree with the depth of outreach, these two effects lead to a zero sum result on return measures. This finding could explain why existing studies assessing the interaction between social outreach and different measures of financial performance in microfinance (such as return on assets/equity, operating expenses, operational self-sufficiency) have not produced consistent results.",
+"for_data_analysis": "Outreach and performance of microfinance institutions : the importance of portfolio yield; 
+Microfinance; Financial return; Outreach; Operating expense; Portfolio yield;  Banken; In this paper, we examine 
+the interaction between social outreach and financial return in microfinance. Running multivariate regression 
+models and using , observations of microfinance institutions between  and , we find strong evidence suggesting 
+that institutions with more social engagement – in terms of outreach to the poor – earn higher portfolio yields. 
+We also find that measures of outreach are associated with increased operating expenses. As return figures are 
+influenced by both costs and yield, and because both increase to a similar degree with the depth of outreach, 
+these two effects lead to a zero sum result on return measures. This finding could explain why existing studies 
+assessing the interaction between social outreach and different measures of financial performance in microfinance 
+(such as return on assets/equity, operating expenses, operational self-sufficiency) have not produced consistent results.",
 "doc_id": 1076,
 "sdg1": [
 {
