@@ -1,10 +1,10 @@
 ﻿c1;smallholder;farm,forestry,pastoral,agriculture,fishery,food producer*;;Kleinbauern;Landwirtschaft, Forstwirtschaft, Weidewirtschaft, Lebensmittel, Ernährung;;petit propriétaire;ferme ;;piccolo proprietario;azienda agricola ;
 c2;land tenure rights;farm,forestry,pastoral,agriculture,fishery,food producer*;;Landnutzungsrechte;Landwirtschaft, Forstwirtschaft, Weidewirtschaft, Lebensmittel, Ernährung;;droits fonciers;ferme ;;diritti di proprietà fondiaria;azienda agricola ;
-c3;agriculture;sustainability,sustainable,resilience,resilience,ecosystem,resilient;NA;Landwirtschaft;Nachhaltigkeit, nachhaltig, Widerstandsfähigkeit, Resilienz, Ökosystem, widerstandsfähig, biologische Bekämpfungsstrategie, biologisch* Bekämpfung;NA;NA;NA;NA;NA;NA;NA
+c3;agriculture;sustainability,sustainable,resilience,resilience,ecosystem,resilient;NA;Landwirtschaft;Nachhaltigkeit, nachhaltig, Widerstandsfähigkeit, Resilienz, Ökosystem, widerstandsfähig, biologische Bekämpfungsstrategie, biologisch* Bekämpfung;Schokolade, Wein, Bier, Kaffee, Trüffel, Thunfisch, Kaviar, Alkohol;NA;NA;NA;NA;NA;NA
 c4;malnourish*;NA;;Unterernährung*;NA;;malnutrition;NA;;malnutrizione*;NA;
-c5;malnutrition;NA;;Unterernährung;NA;;malnutrition;NA;;malnutrizione;NA;
+c5;malnutrition;NA;;;NA;;malnutrition;NA;;malnutrizione;NA;
 c6;undernourish*;NA;;unterernährt*;NA;;sous-nutrition;NA;;denutrizione*;NA;
-c7;undernutrition;NA;;Unterernährung;NA;;dénutrition;NA;;denutrizione;NA;
+c7;undernutrition;NA;;;NA;;dénutrition;NA;;denutrizione;NA;
 c8;agricultural producti*;NA;;landwirtschaftliche Produkte;NA;;produits agricoles;NA;;prodotti agricoli*;NA;
 c9;agricultural practices;NA;;landwirtschaftliche Praktiken;NA;;pratiques agricoles;NA;;pratiche agricole;NA;
 c10;agricultural management;NA;;Agrarmanagement;NA;;gestion agricole;NA;;gestione agricola;NA;
@@ -105,7 +105,7 @@ c104;millennium seed bank partnership;agriculture;NA;Millennium Seed Bank Partne
 c105;sustainable agriculture;NA;NA;Nachhaltige Landwirtschaft;NA;NA;agriculture durable;NA;NA;agricoltura sostenibile;NA;NA
 c106;sustainable food production;children;NA;nachhaltige Lebensmittelproduktion;NA;NA;production alimentaire durable;NA;NA;produzione alimentare sostenibile;NA;NA
 c107;sustainable seafood;NA;NA;nachhaltige Meeresfrüchte;NA;NA;produits de la mer durables;NA;NA;frutti di mare sostenibili;NA;NA
-c108;sustainable production;NA;NA;nachhaltige Produktion;NA;NA;production durable;NA;NA;produzione sostenibile;NA;NA
+c108;sustainable production;NA;NA;nachhaltige Produktion;NA;Schokolade, Wein, Bier, Kaffee, Trüffel, Thunfisch, Kaviar, Alkohol;production durable;NA;NA;produzione sostenibile;NA;NA
 c109;sustainable management;NA;NA;nachhaltiges Management;NA;NA;gestion durable;NA;NA;gestione sostenibile;NA;NA
 c110;nutritious food;NA;NA;nahrhaftes Essen;NA;NA;aliments nutritifs;NA;NA;cibo nutriente;NA;NA
 c111;nutritional deficiencies;NA;NA;Nährstoffmängel;NA;NA;carences nutritionnelles;NA;NA;carenze nutrizionali;NA;NA
@@ -137,8 +137,8 @@ c136;;NA;NA;;NA;NA;;NA;NA;;NA;NA
 c137;overgrazing;NA;NA;Überweidung;NA;NA;surpâturage;NA;NA;pascolo eccessivo;NA;NA
 c138;undernourished;NA;NA;unterernährt;NA;NA;sous-alimentation;NA;NA;denutrito;NA;NA
 c139;malnourishment;NA;NA;Mangelernährung;NA;NA;malnutrition;NA;NA;malnutrizione;NA;NA
-c140;under-nutrition;NA;NA;Fehlernährung;NA;NA;sous-nutrition;NA;NA;sotto-nutrizione;NA;NA
-c141;undernutrition;agriculture;NA;Unterernährung;NA;NA;dénutrition;NA;NA;denutrizione;NA;NA
+c140;under-nutrition;NA;NA;Fehlernährung;Gesundheit,Armut;NA;sous-nutrition;NA;NA;sotto-nutrizione;NA;NA
+c141;undernutrition;agriculture;NA;;NA;NA;dénutrition;NA;NA;denutrizione;NA;NA
 c142;starvation;agriculture;NA;Verhungern;NA;NA;famine;NA;NA;inedia;NA;NA
 c143;stunted growth;NA;NA;verkümmertes Wachstum;NA;NA;retard de croissance;NA;NA;crescita stentata;NA;NA
 c144;stunting growth;NA;NA;verkümmertes Wachstum;NA;NA;retard de croissance;NA;NA;crescita stentata;NA;NA
@@ -159,5 +159,4 @@ c158;NA;NA;NA;feed-no-food;;NA;NA;NA;NA;NA;NA;NA
 c159;NA;NA;NA;Mischkultur;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;NA;NA;NA;NA;NA;NA;NA
 c160;NA;NA;NA;vegan;Landwirtschaft,Ertrag;NA;NA;NA;NA;NA;NA;NA
 c161;NA;NA;NA;vegetarisch;Landwirtschaft,Ertrag;NA;NA;NA;NA;NA;NA;NA
-c162;NA;NA;NA;Fehlernährung;Gesundheit,Armut;NA;NA;NA;NA;NA;NA;NA
-c163;;;;Dünger;Umwelt*;NA;NA;NA;NA;NA;NA;NA
+c162;;;;Dünger;Umwelt*;NA;NA;NA;NA;NA;NA;NA
