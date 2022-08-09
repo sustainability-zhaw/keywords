@@ -12,7 +12,7 @@ c23;food *security;NA;;Ernährungs * sicherheit;NA;;sécurité alimentaire;NA;;s
 c24;land right*;NA;;Bodenrecht*;NA;;droit foncier*;NA;;diritto alla terra*;NA;
 c25;land reform*;NA;;Bodenreform*;NA;;réforme foncière*;NA;;riforma agraria*;NA;
 c26;resilient agricultural practices;NA;;Widerstandsfähige landwirtschaftliche Praktiken;NA;;pratiques agricoles résilientes;NA;;pratiche agricole resilienti;NA;
-c27;agriculture ;potassium;;Landwirtschaft ;Kalium;;agriculture ;potassium;;agricoltura ;potassio;
+c27;;;;;;;;;;;;
 c28;fertili*er;NA;;Fertilität;NA;;fertilité;NA;;fertilizzazione;NA;
 c29;food nutrition improvement;NA;;Verbesserung der Nahrungsmittelversorgung;NA;;amélioration de la nutrition alimentaire;NA;;miglioramento della nutrizione alimentare;NA;
 c30;hidden hunger;NA;;Versteckter Hunger;NA;;faim cachée;NA;;fame nascosta;NA;
@@ -75,7 +75,7 @@ c90;child hunger;NA;NA;Kinderhunger;NA;NA;faim des enfants;NA;NA;fame infantile;
 c91;child malnutrition;NA;NA;Mangelernährung bei Kindern;NA;NA;malnutrition infantile;NA;NA;malnutrizione infantile;NA;NA
 c92;childhood malnutrition;NA;NA;Fehlernährung bei Kindern;NA;NA;malnutrition infantile;NA;NA;malnutrizione infantile;NA;NA
 c93;small farm;NA;NA;kleine Farm;NA;NA;;NA;NA;piccola fattoria;NA;NA
-c94;conservation agriculture;NA;NA;Naturschutz Landwirtschaft;NA;NA;;NA;NA;agricoltura conservativa;NA;NA
+c94;conservation agriculture;NA;NA;regenerative Landwirtschaft;NA;NA;;NA;NA;agricoltura conservativa;NA;NA
 c95;controlled traffic farming;NA;NA;controlled traffic farming;NA;NA;;NA;NA;agricoltura a traffico controllato;NA;NA
 c96;crop diversity;NA;NA;Kulturpflanzenvielfalt;NA;NA;;NA;NA;diversità delle colture;NA;NA
 c97;land quality;NA;NA;Landqualität;NA;NA;qualité des terres;NA;NA;qualità della terra;NA;NA
