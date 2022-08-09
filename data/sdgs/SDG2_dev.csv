@@ -49,7 +49,7 @@ c48;soil productivity;NA;NA;Bodenproduktivität;NA;NA;semences diversifiées;NA;
 c49;soil quality;NA;NA;Bodenqualität;NA;NA;cycle de développement de doha;NA;NA;malnutrizione cronica;NA;NA
 c50;chronic malnutrition;NA;NA;chronische Mangelernährung;NA;NA;revenu des agriculteurs;NA;NA;irrigazione deficitaria;NA;NA
 c51;deficit irrigation;;NA;Defizitbewässerung;NA;NA;revenu des petits producteurs alimentaires;NA;NA;pianta diversificata;NA;NA
-c52;diversified plant;NA;NA;diversifizierte Anlage;;NA;inégalité de revenus;NA;NA;sementi diversificate;NA;NA
+c52;diversified plant;NA;NA;diversifizierte Anlage;NA;NA;inégalité de revenus;NA;NA;sementi diversificate;NA;NA
 c53;diversified seed;NA;NA;diversifiziertes Saatgut;NA;NA;maintien des écosystèmes;NA;NA;ciclo di sviluppo di doha;NA;NA
 c54;doha development round;NA;NA;Doha Entwicklungsrunde;NA;NA;crise alimentaire;NA;NA;reddito degli agricoltori;NA;NA
 c55;farmers' income;NA;NA;Einkommen der Landwirte;NA;NA;sécurité alimentaire;NA;NA;reddito dei piccoli produttori alimentari;NA;NA
@@ -130,33 +130,29 @@ c129;regenerative agriculture;NA;NA;regenerative Landwirtschaft;NA;NA;retard de 
 c130;rice yield;food production,climate change;NA;Reisertrag;NA;NA;banques de gènes du bétail;NA;NA;produzione di riso;NA;NA
 c131;rice production;food production,climate change;NA;Reisproduktion;NA;NA;accès à la nourriture;NA;NA;agricoltura resiliente;NA;NA
 c132;resilient agriculture;food production,climate change;NA;Resiliente Landwirtschaft;NA;NA;cultures intercalaires;NA;NA;risparmio di semi;NA;NA
-c133;seed saving;food production,climate change;NA;Saatguteinsparung;NA;NA;;NA;NA;malnutrizione grave;NA;NA
-c134;severe malnutrition;food,agriculture,crop;NA;schwere Mangelernährung;NA;NA;;NA;NA;cibo sicuro;NA;NA
-c135;safe food;food production,climate change;NA;sichere Lebensmittel;NA;NA;;NA;NA;pascolo eccessivo;NA;NA
-c136;intercropping;NA;NA;feed-no-food;;NA;;NA;NA;denutrito;NA;NA
-c137;overgrazing;NA;NA;Überweidung;NA;NA;;NA;NA;malnutrizione;NA;NA
-c138;undernourished;NA;NA;unterernährt;NA;NA;;NA;NA;sotto-nutrizione;NA;NA
-c139;malnourishment;NA;NA;Mangelernährung;NA;NA;;NA;NA;denutrizione;NA;NA
-c140;under-nutrition;NA;NA;Fehlernährung;Gesundheit,Armut;NA;;NA;NA;inedia;NA;NA
-c141;undernutrition;agriculture;NA;Dünger;Umwelt*;NA;;NA;NA;crescita stentata;NA;NA
-c142;starvation;agriculture;NA;Verhungern;NA;NA;;NA;NA;crescita stentata;NA;NA
-c143;stunted growth;NA;NA;verkümmertes Wachstum;NA;NA;;NA;NA;banche genetiche del bestiame;NA;NA
-c144;stunting growth;NA;NA;verkümmertes Wachstum;NA;NA;;NA;NA;accesso al cibo;NA;NA
-c145;livestock gene banks;NA;NA;Genbanken für Nutztiere;NA;NA;;NA;NA;coltura intercalare;NA;NA
-c146;food access;NA;NA;Zugang zu Nahrungsmitteln;NA;NA;;NA;NA;;NA;NA
-c147;;NA;NA;Zwischenkulturen;NA;NA;;NA;NA;;NA;NA
-c148;NA;NA;NA;akute Fehlernährung;NA;NA;NA;NA;NA;NA;NA;NA
-c149;NA;NA;NA;chronische Fehlernährung;NA;NA;NA;NA;NA;NA;NA;NA
-c150;NA;NA;NA;verunreinigte Lebensmittel;NA;NA;NA;NA;NA;NA;NA;NA
-c151;NA;NA;NA;landwirtschaftliche Flächen;NA;NA;NA;NA;NA;NA;NA;NA
-c152;NA;NA;NA;Open-Source-Saatgut-Initiative;NA;NA;NA;NA;NA;NA;NA;NA
-c153;NA;NA;NA;Ernteproduktivität;NA;NA;NA;NA;NA;NA;NA;NA
-c154;NA;NA;NA;Millennium-Saatgutbank-Partnerschaft;NA;NA;NA;NA;NA;NA;NA;NA
-c155;NA;NA;NA;Bio;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;Schokolade, Wein, Bier, Kaffee, Trüffel, Thunfisch, Kaviar, Alkohol;NA;NA;NA;NA;NA;NA
-c156;NA;NA;NA;Mischkultur;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;NA;NA;NA;NA;NA;NA;NA
-c157;NA;NA;NA;vegan;Landwirtschaft,Ertrag;NA;NA;NA;NA;NA;NA;NA
-c158;NA;NA;NA;vegetarisch;Landwirtschaft,Ertrag;NA;NA;NA;NA;NA;NA;NA
-c159;NA;NA;NA;;;NA;NA;NA;NA;NA;NA;NA
-c160;NA;NA;NA;;;NA;NA;NA;NA;NA;NA;NA
-c161;NA;NA;NA;;;NA;NA;NA;NA;NA;NA;NA
-c162;;;;;;NA;NA;NA;NA;NA;NA;NA
+c133;seed saving;food production,climate change;NA;Saatguteinsparung;NA;NA;xxxxxxxxxxxxxxx;NA;NA;malnutrizione grave;NA;NA
+c134;severe malnutrition;food,agriculture,crop;NA;schwere Mangelernährung;NA;NA;xxxxxxxxxxxxxxx;NA;NA;cibo sicuro;NA;NA
+c135;safe food;food production,climate change;NA;sichere Lebensmittel;NA;NA;xxxxxxxxxxxxxxx;NA;NA;pascolo eccessivo;NA;NA
+c136;intercropping;NA;NA;feed-no-food;NA;NA;xxxxxxxxxxxxxxx;NA;NA;denutrito;NA;NA
+c137;overgrazing;NA;NA;Überweidung;NA;NA;xxxxxxxxxxxxxxx;NA;NA;malnutrizione;NA;NA
+c138;undernourished;NA;NA;unterernährt;NA;NA;xxxxxxxxxxxxxxx;NA;NA;sotto-nutrizione;NA;NA
+c139;malnourishment;NA;NA;Mangelernährung;NA;NA;xxxxxxxxxxxxxxx;NA;NA;denutrizione;NA;NA
+c140;under-nutrition;NA;NA;Fehlernährung;Gesundheit,Armut;NA;xxxxxxxxxxxxxxx;NA;NA;inedia;NA;NA
+c141;undernutrition;agriculture;NA;Dünger;Umwelt*;NA;xxxxxxxxxxxxxxx;NA;NA;crescita stentata;NA;NA
+c142;starvation;agriculture;NA;Verhungern;NA;NA;xxxxxxxxxxxxxxx;NA;NA;crescita stentata;NA;NA
+c143;stunted growth;NA;NA;verkümmertes Wachstum;NA;NA;xxxxxxxxxxxxxxx;NA;NA;banche genetiche del bestiame;NA;NA
+c144;stunting growth;NA;NA;verkümmertes Wachstum;NA;NA;xxxxxxxxxxxxxxx;NA;NA;accesso al cibo;NA;NA
+c145;livestock gene banks;NA;NA;Genbanken für Nutztiere;NA;NA;xxxxxxxxxxxxxxx;NA;NA;coltura intercalare;NA;NA
+c146;food access;NA;NA;Zugang zu Nahrungsmitteln;NA;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
+c147;xxxxxxxxxxxxxxx;NA;NA;Zwischenkulturen;NA;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
+c148;xxxxxxxxxxxxxxx;NA;NA;akute Fehlernährung;NA;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
+c149;xxxxxxxxxxxxxxx;NA;NA;chronische Fehlernährung;NA;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
+c150;xxxxxxxxxxxxxxx;NA;NA;verunreinigte Lebensmittel;NA;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
+c151;xxxxxxxxxxxxxxx;NA;NA;landwirtschaftliche Flächen;NA;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
+c152;xxxxxxxxxxxxxxx;NA;NA;Open-Source-Saatgut-Initiative;NA;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
+c153;xxxxxxxxxxxxxxx;NA;NA;Ernteproduktivität;NA;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
+c154;xxxxxxxxxxxxxxx;NA;NA;Millennium-Saatgutbank-Partnerschaft;NA;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
+c155;xxxxxxxxxxxxxxx;NA;NA;Bio;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;Schokolade, Wein, Bier, Kaffee, Trüffel, Thunfisch, Kaviar, Alkohol;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
+c156;xxxxxxxxxxxxxxx;NA;NA;Mischkultur;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
+c157;xxxxxxxxxxxxxxx;NA;NA;vegan;Landwirtschaft,Ertrag;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
+c158;xxxxxxxxxxxxxxx;NA;NA;vegetarisch;Landwirtschaft,Ertrag;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
