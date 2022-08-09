@@ -1,163 +1,163 @@
-﻿c1;smallholder;farm,forestry,pastoral,agriculture,fishery,food producer*;;Kleinbauern;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;petit propriétaire;ferme ;;piccolo proprietario;azienda agricola ;
-c2;land tenure rights;farm,forestry,pastoral,agriculture,fishery,food producer*;;Landnutzungsrechte;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;droits fonciers;ferme ;;diritti di proprietà fondiaria;azienda agricola ;
-c15;malnourish*;NA;;Unterernährung*;NA;;malnutrition;NA;;malnutrizione*;NA;
-c16;malnutrition;NA;;Unterernährung;NA;;malnutrition;NA;;malnutrizione;NA;
-c17;undernourish*;NA;;unterernährt*;NA;;sous-nutrition;NA;;denutrizione*;NA;
-c18;undernutrition;NA;;Unterernährung;NA;;dénutrition;NA;;denutrizione;NA;
-c19;agricultural producti*;NA;;landwirtschaftliche Produkte;NA;;produits agricoles;NA;;prodotti agricoli*;NA;
-c20;agricultural practices;NA;;landwirtschaftliche Praktiken;NA;;pratiques agricoles;NA;;pratiche agricole;NA;
-c21;agricultural management;NA;;Agrarmanagement;NA;;gestion agricole;NA;;gestione agricola;NA;
-c22;food producti*;NA;;Nahrungsmittelproduktion*;NA;;production alimentaire;NA;;produzione alimentare*;NA;
-c23;food *security;NA;;Ernährungs * sicherheit;NA;;sécurité alimentaire;NA;;sicurezza alimentare;NA;
-c24;land right*;NA;;Bodenrecht*;NA;;droit foncier*;NA;;diritto alla terra*;NA;
-c25;land reform*;NA;;Bodenreform*;NA;;réforme foncière*;NA;;riforma agraria*;NA;
-c26;resilient agricultural practices;NA;;Widerstandsfähige landwirtschaftliche Praktiken;NA;;pratiques agricoles résilientes;NA;;pratiche agricole resilienti;NA;
-c27;;;;;;;;;;;;
-c28;fertili*er;NA;;Fertilität;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;fertilité;NA;;fertilizzazione;NA;
-c29;food nutrition improvement;NA;;Verbesserung der Nahrungsmittelversorgung;NA;;amélioration de la nutrition alimentaire;NA;;miglioramento della nutrizione alimentare;NA;
-c30;hidden hunger;NA;;Versteckter Hunger;NA;;faim cachée;NA;;fame nascosta;NA;
-c31;genetically modified food;NA;;gentechnisch veränderte Lebensmittel;NA;;aliments génétiquement modifiés;NA;;cibo geneticamente modificato;NA;
-c32;gmo ;food ;;gmo ;Lebensmittel ;;ogm ;aliments ;;ogm ;cibo ;
-c33;agroforestry practices;NA;;agroforstwirtschaftliche Praktiken;NA;;pratiques agroforestières;NA;;pratiche agroforestali;NA;
-c34;agroforestry management;NA;;agroforstwirtschaftliches Management;NA;;gestion de l'agroforesterie;NA;;gestione agroforestale;NA;
-c35;agricultural innovation;NA;;landwirtschaftliche Innovation;NA;;innovation agricole;NA;;innovazione agricola;NA;
-c36;food security;genetic diversity;;Ernährungssicherheit;genetische Vielfalt;;sécurité alimentaire;diversité génétique;;sicurezza alimentare;diversità genetica;
-c37;food market;restriction,tariff,access,north south divide,development governance;;Lebensmittelmarkt;Einschränkung ;;marché alimentaire;restriction ;;mercato alimentare;restrizione ;
-c42;food governance;NA;;Lebensmittel-Governance;NA;;gouvernance alimentaire;NA;;governance alimentare;NA;
-c43;food supply chain;NA;;Lebensmittelversorgungskette;NA;;chaîne d'approvisionnement alimentaire;NA;;filiera alimentare;NA;
-c44;agricultural research;NA;NA;Agrarforschung;NA;NA;recherche agricole;NA;NA;ricerca agricola;NA;NA
-c45;agroecology;NA;NA;Agrarökologie;NA;NA;agroécologie;NA;NA;agroecologia;NA;NA
-c46;agroecological restoration;NA;NA;agroökologische Restaurierung;NA;NA;restauration agroécologique;NA;NA;restauro agroecologico;NA;NA
-c47;agricultural robot;NA;NA;landwirtschaftlicher Roboter;NA;NA;robot agricole;NA;NA;robot agricolo;NA;NA
-c48;agritech;NA;NA;agritech;NA;NA;agritech;NA;NA;agritech;NA;NA
-c49;agribusiness;NA;NA;Agrobusiness;NA;NA;agribusiness;NA;NA;agribusiness;NA;NA
-c50;acute malnutrition;NA;NA;akute Mangelernährung;NA;NA;malnutrition aiguë;NA;NA;malnutrizione acuta;NA;NA
-c51;anaemia;NA;NA;Anämie;NA;NA;anémie;NA;NA;anemia;NA;NA
-c52;poverty;food,hunger,nutrition;NA;Armut;Lebensmittel,Hunger,Ernährung;NA;pauvreté;NA;NA;povertà;NA;NA
-c53;enough food;NA;NA;genug zu essen;NA;NA;nourriture suffisante;NA;NA;cibo sufficiente;NA;NA
-c54;sufficient food;NA;NA;ausreichend Nahrung;NA;NA;nourriture suffisante;NA;NA;cibo sufficiente;NA;NA
-c55;civic agriculture;NA;NA;Ertrag;Lebensmittel,Hunger,Ernährung,Landwirtschaft;NA;agriculture pour l'éducation pour l'environnement;NA;NA;agricoltura civica;NA;NA
-c56;biofertilizer;NA;NA;Bio-Dünger;NA;NA;biofertilisant;NA;NA;biofertilizzante;NA;NA
-c57;organic egg production;NA;NA;Bio-Eierproduktion;NA;NA;;NA;NA;produzione di uova biologiche;NA;NA
-c58;organic horticulture;NA;NA;Bio-Gartenbau;NA;NA;horticulture biologique;NA;NA;orticoltura biologica;NA;NA
-c59;organic food;policy;NA;Bio-Lebensmittel;NA;NA;;NA;NA;cibo biologico;NA;NA
-c60;soil management;NA;NA;Bodenbewirtschaftung;NA;NA;;NA;NA;gestione del suolo;NA;NA
-c61;soil properties;NA;NA;Bodeneigenschaften;NA;NA;propriétés du sol;NA;NA;proprietà del suolo;NA;NA
-c62;soil fertility;NA;NA;Bodenfruchtbarkeit;NA;NA;;NA;NA;fertilità del suolo;NA;NA
-c63;soil health;NA;NA;Bodengesundheit;NA;NA;santé des sols;NA;NA;salute del suolo;NA;NA
-c64;soil productivity;NA;NA;Bodenproduktivität;NA;NA;productivité des sols;NA;NA;produttività del suolo;NA;NA
-c65;soil quality;NA;NA;Bodenqualität;NA;NA;qualité des sols;NA;NA;qualità del suolo;NA;NA
-c66;chronic malnutrition;NA;NA;chronische Mangelernährung;NA;NA;malnutrition chronique;NA;NA;malnutrizione cronica;NA;NA
-c67;deficit irrigation;;NA;Defizitbewässerung;NA;NA;irrigation déficitaire;NA;NA;irrigazione deficitaria;NA;NA
-c68;diversified plant;NA;NA;diversifizierte Anlage;;NA;plante diversifiée;NA;NA;pianta diversificata;NA;NA
-c69;diversified seed;NA;NA;diversifiziertes Saatgut;NA;NA;semences diversifiées;NA;NA;sementi diversificate;NA;NA
-c70;doha development round;NA;NA;Doha Entwicklungsrunde;NA;NA;cycle de développement de doha;NA;NA;ciclo di sviluppo di doha;NA;NA
-c71;farmers' income;NA;NA;Einkommen der Landwirte;NA;NA;revenu des agriculteurs;NA;NA;reddito degli agricoltori;NA;NA
-c72;small-scale food producers income;NA;NA;Einkommen der kleinen Lebensmittelproduzenten;NA;NA;revenu des petits producteurs alimentaires;NA;NA;reddito dei piccoli produttori alimentari;NA;NA
-c73;income inequality;NA;NA;Einkommensungleichheit;NA;NA;inégalité de revenus;NA;NA;disuguaglianza di reddito;NA;NA
-c74;maintain ecosystems;NA;NA;Ökosysteme erhalten;NA;NA;maintien des écosystèmes;NA;NA;mantenere gli ecosistemi;NA;NA
-c75;food crisis;NA;NA;Nahrungsmittelkrise;NA;NA;crise alimentaire;NA;NA;crisi alimentare;NA;NA
-c76;nutrition security;NA;NA;Ernährungssicherheit;NA;NA;sécurité alimentaire;NA;NA;sicurezza alimentare;NA;NA
-c77;food insecurity;NA;NA;Ernährungsunsicherheit;NA;NA;insécurité alimentaire;NA;NA;insicurezza alimentare;NA;NA
-c78;crop yield;NA;NA;Ernteertrag;NA;NA;rendement des cultures;NA;NA;resa dei raccolti;NA;NA
-c79;crop yields;NA;NA;Ernteerträge;NA;NA;rendement des cultures;NA;NA;resa delle colture;NA;NA
-c80;crop rotation;NA;NA;Fruchtfolge;NA;NA;rotation des cultures;NA;NA;rotazione delle colture;NA;NA
-c81;genetic diversity of seeds;NA;NA;Genetische Vielfalt von Saatgut;NA;NA;diversité génétique des semences;NA;NA;diversità genetica delle sementi;NA;NA
-c82;adulterated food;NA;NA;gepanschte Lebensmittel;NA;NA;aliments frelatés;NA;NA;cibo adulterato;NA;NA
-c83;healthy food;NA;NA;gesundes Essen;NA;NA;aliments sains;NA;NA;cibo sano;NA;NA
-c84;grain production;NA;NA;Getreideproduktion;NA;NA;production de céréales;NA;NA;produzione di cereali;NA;NA
-c85;equal access to land;NA;NA;gleichberechtigter Zugang zu Land;NA;NA;accès égal à la terre;NA;NA;uguale accesso alla terra;NA;NA
-c86;hunger;NA;NA;Hunger;Lebensmittel,Ernährung;NA;faim;NA;NA;fame;NA;NA
-c87;hungry people;NA;NA;hungrige Menschen;NA;NA;;NA;NA;persone affamate;NA;NA
-c88;famine;NA;NA;Hungersnot;NA;NA;famine;NA;NA;carestia;NA;NA
-c89;beetle bank;NA;NA;Käferbank;NA;NA;banque de scarabées;NA;NA;banca degli scarabei;NA;NA
-c90;child hunger;NA;NA;Kinderhunger;NA;NA;faim des enfants;NA;NA;fame infantile;NA;NA
-c91;child malnutrition;NA;NA;Mangelernährung bei Kindern;NA;NA;malnutrition infantile;NA;NA;malnutrizione infantile;NA;NA
-c92;childhood malnutrition;NA;NA;Fehlernährung bei Kindern;NA;NA;malnutrition infantile;NA;NA;malnutrizione infantile;NA;NA
-c93;small farm;NA;NA;kleine Farm;NA;NA;;NA;NA;piccola fattoria;NA;NA
-c94;conservation agriculture;NA;NA;regenerative Landwirtschaft;NA;NA;;NA;NA;agricoltura conservativa;NA;NA
-c95;controlled traffic farming;NA;NA;controlled traffic farming;NA;NA;;NA;NA;agricoltura a traffico controllato;NA;NA
-c96;crop diversity;NA;NA;Kulturpflanzenvielfalt;NA;NA;;NA;NA;diversità delle colture;NA;NA
-c97;land quality;NA;NA;Landqualität;NA;NA;qualité des terres;NA;NA;qualità della terra;NA;NA
-c98;agriculture for impact;NA;NA;Landwirtschaft mit Wirkung;NA;NA;agriculture d'impact;NA;NA;agricoltura d'impatto;NA;NA
-c99;agricultural biodiversity;NA;NA;landwirtschaftliche Artenvielfalt;NA;NA;biodiversité agricole;NA;NA;biodiversità agricola;NA;NA
-c100;agricultural biotechnology;NA;NA;Agrarbiotechnologie;NA;NA;biotechnologie agricole;NA;NA;biotecnologia agricola;NA;NA
-c101;agricultural soil science;NA;NA;landwirtschaftliche Bodenkunde;NA;NA;science des sols agricoles;NA;NA;scienza del suolo agricolo;NA;NA
-c102;agricultural drone;sustainability,sustainable,resilience,resilient,ecosystem,resilience;NA;landwirtschaftliche Drohne;NA;NA;drone agricole;NA;NA;drone agricolo;NA;NA
-c103;agricultural development;NA;NA;landwirtschaftliche Entwicklung;Nachhaltigkeit,nachhaltig,Widerstandsfähigkeit,Resilienz,Ökosystem,widerstandsfähig;NA;développement agricole;NA;NA;sviluppo agricolo;NA;NA
-c104;agricultural export subsidies;NA;NA;Agrarexportsubventionen;NA;NA;subventions aux exportations agricoles;NA;NA;sussidi alle esportazioni agricole;NA;NA
-c105;agricultural land;NA;NA;Agrarland;NA;NA;terres agricoles;NA;NA;terreni agricoli;NA;NA
-c106;agricultural cooperative;hunger;NA;landwirtschaftliche Genossenschaft;NA;NA;coopérative agricole;NA;NA;cooperativa agricola;NA;NA
-c107;agricultural intensification;NA;NA;landwirtschaftliche Intensivierung;NA;NA;intensification agricole;NA;NA;intensificazione agricola;NA;NA
-c108;agricultural sustainability;NA;NA;landwirtschaftliche Nachhaltigkeit;NA;NA;développement agricole;NA;NA;sostenibilità agricola;NA;NA
-c109;agricultural production;NA;NA;landwirtschaftliche Produktion;NA;NA;production agricole;NA;NA;produzione agricola;NA;NA
-c110;agricultural productivity;NA;NA;landwirtschaftliche Produktivität;NA;NA;productivité agricole;NA;NA;produttività agricola;NA;NA
-c111;agricultural growth;NA;NA;landwirtschaftliches Wachstum;NA;NA;croissance agricole;NA;NA;crescita agricola;NA;NA
-c112;food price;NA;NA;Lebensmittelpreis;NA;NA;prix des aliments;NA;NA;prezzo degli alimenti;NA;NA
-c113;food prices;food,agriculture,famine;NA;Lebensmittelpreise;NA;NA;prix des aliments;NA;NA;prezzi degli alimenti;NA;NA
-c114;food production;NA;NA;Lebensmittelproduktion;NA;NA;production alimentaire;NA;NA;produzione alimentare;NA;NA
-c115;food quality;food,agriculture,hunger;NA;Lebensmittelqualität;NA;NA;qualité des aliments;NA;NA;qualità degli alimenti;NA;NA
-c116;food reserves;NA;NA;Nahrungsreserven;NA;NA;réserves alimentaires;NA;NA;riserve alimentari;NA;NA
-c117;food safety;food production,climate change;NA;Lebensmittelsicherheit;NA;NA;sécurité alimentaire;NA;NA;sicurezza alimentare;NA;NA
-c118;food poisoning;NA;NA;Lebensmittelvergiftung;NA;NA;intoxication alimentaire;NA;NA;intossicazione alimentare;NA;NA
-c119;local food;NA;NA;lokales Essen;NA;NA;alimentation locale;NA;NA;cibo locale;NA;NA
-c120;millennium seed bank partnership;agriculture;NA;Millennium Seed Bank Partnerschaft;NA;NA;partenariat avec la banque de semences du millénaire;NA;NA;partenariato della banca dei semi del millennio;NA;NA
-c121;sustainable agriculture;NA;NA;Nachhaltige Landwirtschaft;NA;NA;agriculture durable;NA;NA;agricoltura sostenibile;NA;NA
-c122;sustainable food production;children;NA;nachhaltige Lebensmittelproduktion;NA;NA;production alimentaire durable;NA;NA;produzione alimentare sostenibile;NA;NA
-c123;sustainable seafood;NA;NA;nachhaltige Meeresfrüchte;NA;NA;produits de la mer durables;NA;NA;frutti di mare sostenibili;NA;NA
-c124;sustainable production;NA;NA;nachhaltige Produktion;NA;NA;production durable;NA;NA;produzione sostenibile;NA;NA
-c125;sustainable management;NA;NA;nachhaltiges Management;NA;NA;gestion durable;NA;NA;gestione sostenibile;NA;NA
-c126;nutritious food;NA;NA;nahrhaftes Essen;NA;NA;aliments nutritifs;NA;NA;cibo nutriente;NA;NA
-c127;nutritional deficiencies;NA;NA;Nährstoffmängel;NA;NA;carences nutritionnelles;NA;NA;carenze nutrizionali;NA;NA
-c128;food inflation;NA;NA;Nahrungsmittelinflation;NA;NA;inflation alimentaire;NA;NA;inflazione alimentare;NA;NA
-c129;food deprivation;NA;NA;Nahrungsentzug;NA;NA;privation de nourriture;NA;NA;privazione alimentare;NA;NA
-c130;food insufficiency;NA;NA;Nahrungsmittelknappheit;NA;NA;insuffisance alimentaire;NA;NA;insufficienza alimentare;NA;NA
-c131;food demand;NA;NA;Nahrungsmittelnachfrage;NA;NA;demande alimentaire;NA;NA;domanda di cibo;NA;NA
-c132;food sovereignty;NA;NA;Ernährungssouveränität;NA;NA;souveraineté alimentaire;NA;NA;sovranità alimentare;NA;NA
-c133;food speculation;NA;NA;Lebensmittelspekulation;NA;NA;spéculation alimentaire;NA;NA;speculazione alimentare;NA;NA
-c134;food supply;NA;NA;Ernährungsversorgung;NA;NA;approvisionnement alimentaire;NA;NA;offerta di cibo;NA;NA
-c135;food distribution;NA;NA;Essenspende;NA;NA;distribution alimentaire;NA;NA;distribuzione alimentare;NA;NA
-c136;ecological farming;food,agriculture,hunger;NA;ökologische Landwirtschaft;NA;NA;;NA;NA;agricoltura ecologica;NA;NA
-c137;organic agriculture;NA;NA;Bio-Landwirtschaft;NA;NA;;NA;NA;agricoltura biologica;NA;NA
-c138;organic farming;NA;NA;biologischer Anbau;NA;NA;agriculture biologique;NA;NA;agricoltura biologica;NA;NA
-c139;open source seed initiative;NA;NA;Open Source Seed Initiative;NA;NA;initiative de semences open source;NA;NA;iniziativa dei semi open source;NA;NA
-c140;permaculture;NA;NA;Permakultur;NA;NA;permaculture;NA;NA;permacultura;NA;NA
-c141;crop production;NA;NA;Pflanzenbau;NA;NA;production végétale;NA;NA;produzione vegetale;NA;NA
-c142;plant gene banks;NA;NA;Pflanzengenbanken;NA;NA;banques de gènes végétaux;NA;NA;banche di geni vegetali;NA;NA
-c143;crop productivity;NA;NA;Anbauproduktivität;NA;NA;productivité des cultures;NA;NA;produttività delle colture;NA;NA
-c144;protein energy malnutrition;NA;NA;Protein-Energie-Mangelernährung;NA;NA;malnutrition protéino-énergétique;NA;NA;malnutrizione proteico-energetica;NA;NA
-c145;regenerative agriculture;NA;NA;regenerative Landwirtschaft;NA;NA;agriculture régénérative;NA;NA;agricoltura rigenerativa;NA;NA
-c146;rice yield;food production,climate change;NA;Reisertrag;NA;NA;;NA;NA;resa del riso;NA;NA
-c147;rice production;food production,climate change;NA;Reisproduktion;NA;NA;production de riz;NA;NA;produzione di riso;NA;NA
-c148;resilient agriculture;food production,climate change;NA;Resiliente Landwirtschaft;NA;NA;;NA;NA;agricoltura resiliente;NA;NA
-c149;seed saving;food production,climate change;NA;Saatguteinsparung;NA;NA;conservation des semences;NA;NA;risparmio di semi;NA;NA
-c150;severe malnutrition;food,agriculture,crop;NA;schwere Mangelernährung;NA;NA;malnutrition sévère;NA;NA;malnutrizione grave;NA;NA
-c151;safe food;food production,climate change;NA;sichere Lebensmittel;NA;NA;nourriture sûre;NA;NA;cibo sicuro;NA;NA
-c152;;NA;NA;;NA;NA;;NA;NA;;NA;NA
-c153;overgrazing;NA;NA;Überweidung;NA;NA;surpâturage;NA;NA;pascolo eccessivo;NA;NA
-c154;undernourished;NA;NA;unterernährt;NA;NA;sous-alimentation;NA;NA;denutrito;NA;NA
-c155;malnourishment;NA;NA;Mangelernährung;NA;NA;malnutrition;NA;NA;malnutrizione;NA;NA
-c156;under-nutrition;NA;NA;Fehlernährung;NA;NA;sous-nutrition;NA;NA;sotto-nutrizione;NA;NA
-c157;undernutrition;agriculture;NA;Unterernährung;NA;NA;dénutrition;NA;NA;denutrizione;NA;NA
-c158;starvation;agriculture;NA;Verhungern;NA;NA;famine;NA;NA;inedia;NA;NA
-c159;stunted growth;NA;NA;verkümmertes Wachstum;NA;NA;retard de croissance;NA;NA;crescita stentata;NA;NA
-c160;stunting growth;NA;NA;verkümmertes Wachstum;NA;NA;retard de croissance;NA;NA;crescita stentata;NA;NA
-c161;livestock gene banks;NA;NA;Genbanken für Nutztiere;NA;NA;banques de gènes du bétail;NA;NA;banche genetiche del bestiame;NA;NA
-c162;food access;NA;NA;Zugang zu Nahrungsmitteln;NA;NA;accès à la nourriture;NA;NA;accesso al cibo;NA;NA
-c163;intercropping;NA;NA;Zwischenkulturen;NA;NA;cultures intercalaires;NA;NA;coltura intercalare;NA;NA
-c164;NA;NA;NA;akute Fehlernährung;NA;NA;NA;NA;NA;NA;NA;NA
-c165;NA;NA;NA;chronische Fehlernährung;NA;NA;NA;NA;NA;NA;NA;NA
-c166;NA;NA;NA;verunreinigte Lebensmittel;NA;NA;NA;NA;NA;NA;NA;NA
-c167;NA;NA;NA;landwirtschaftliche Flächen;NA;NA;NA;NA;NA;NA;NA;NA
-c168;NA;NA;NA;Open-Source-Saatgut-Initiative;NA;NA;NA;NA;NA;NA;NA;NA
-c169;NA;NA;NA;Ernteproduktivität;NA;NA;NA;NA;NA;NA;NA;NA
-c170;NA;NA;NA;Millennium-Saatgutbank-Partnerschaft;NA;NA;NA;NA;NA;NA;NA;NA
-c171;NA;NA;NA;Lebensmittelkrise;NA;NA;NA;NA;NA;NA;NA;NA
-c172;Landwirtschaft;Sustainability,sustainable,resilience,resilience,ecosystem,resilient;NA;Landwirtschaft;Nachhaltigkeit,nachhaltig,Widerstandsfähigkeit,Resilienz,Ökosystem,widerstandsfähig;;;;;;;
-c173;NA;NA;NA;Bio;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;;;;;;
-c174;NA;NA;NA;Gesundheit;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;;;;;;
-c175;NA;NA;NA;feed-no-food;;;;;;;;
-c176;NA;NA;NA;Mischkultur;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;;;;;;
-c177;NA;NA;NA;vegan;Landwirtschaft,Ertrag;;;;;;;
-c178;NA;NA;NA;vegetarisch;Landwirtschaft,Ertrag;;;;;;;
-c179;NA;NA;NA;Fehlernährung;Gesundheit,Armut;;;;;;;
+﻿c1;smallholder;farm,forestry,pastoral,agriculture,fishery,food producer*;;Kleinbauern;Landwirtschaft, Forstwirtschaft, Weidewirtschaft, Lebensmittel, Ernährung;;petit propriétaire;ferme ;;piccolo proprietario;azienda agricola ;
+c2;land tenure rights;farm,forestry,pastoral,agriculture,fishery,food producer*;;Landnutzungsrechte;Landwirtschaft, Forstwirtschaft, Weidewirtschaft, Lebensmittel, Ernährung;;droits fonciers;ferme ;;diritti di proprietà fondiaria;azienda agricola ;
+c3;malnourish*;NA;;Unterernährung*;NA;;malnutrition;NA;;malnutrizione*;NA;
+c4;malnutrition;NA;;Unterernährung;NA;;malnutrition;NA;;malnutrizione;NA;
+c5;undernourish*;NA;;unterernährt*;NA;;sous-nutrition;NA;;denutrizione*;NA;
+c6;undernutrition;NA;;Unterernährung;NA;;dénutrition;NA;;denutrizione;NA;
+c7;agricultural producti*;NA;;landwirtschaftliche Produkte;NA;;produits agricoles;NA;;prodotti agricoli*;NA;
+c8;agricultural practices;NA;;landwirtschaftliche Praktiken;NA;;pratiques agricoles;NA;;pratiche agricole;NA;
+c9;agricultural management;NA;;Agrarmanagement;NA;;gestion agricole;NA;;gestione agricola;NA;
+c10;food producti*;NA;;Nahrungsmittelproduktion*;NA;;production alimentaire;NA;;produzione alimentare*;NA;
+c11;food *security;NA;;Ernährungs * sicherheit;NA;;sécurité alimentaire;NA;;sicurezza alimentare;NA;
+c12;land right*;NA;;Bodenrecht*;NA;;droit foncier*;NA;;diritto alla terra*;NA;
+c13;land reform*;NA;;Bodenreform*;NA;;réforme foncière*;NA;;riforma agraria*;NA;
+c14;resilient agricultural practices;NA;;Widerstandsfähige landwirtschaftliche Praktiken;NA;;pratiques agricoles résilientes;NA;;pratiche agricole resilienti;NA;
+c15;fertili*er;NA;;Fertilität;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;fertilité;NA;;fertilizzazione;NA;
+c16;food nutrition improvement;NA;;Verbesserung der Nahrungsmittelversorgung;NA;;amélioration de la nutrition alimentaire;NA;;miglioramento della nutrizione alimentare;NA;
+c17;hidden hunger;NA;;Versteckter Hunger;NA;;faim cachée;NA;;fame nascosta;NA;
+c18;genetically modified food;NA;;gentechnisch veränderte Lebensmittel;NA;;aliments génétiquement modifiés;NA;;cibo geneticamente modificato;NA;
+c19;gmo ;food ;;gmo ;Lebensmittel ;;ogm ;aliments ;;ogm ;cibo ;
+c20;agroforestry practices;NA;;agroforstwirtschaftliche Praktiken;NA;;pratiques agroforestières;NA;;pratiche agroforestali;NA;
+c21;agroforestry management;NA;;agroforstwirtschaftliches Management;NA;;gestion de l'agroforesterie;NA;;gestione agroforestale;NA;
+c22;agricultural innovation;NA;;landwirtschaftliche Innovation;NA;;innovation agricole;NA;;innovazione agricola;NA;
+c23;food security;genetic diversity;;Ernährungssicherheit;genetische Vielfalt;;sécurité alimentaire;diversité génétique;;sicurezza alimentare;diversità genetica;
+c24;food market;restriction,tariff,access,north south divide,development governance;;Lebensmittelmarkt;Einschränkung ;;marché alimentaire;restriction ;;mercato alimentare;restrizione ;
+c25;food governance;NA;;Lebensmittel-Governance;NA;;gouvernance alimentaire;NA;;governance alimentare;NA;
+c26;food supply chain;NA;;Lebensmittelversorgungskette;NA;;chaîne d'approvisionnement alimentaire;NA;;filiera alimentare;NA;
+c27;agricultural research;NA;NA;Agrarforschung;NA;NA;recherche agricole;NA;NA;ricerca agricola;NA;NA
+c28;agroecology;NA;NA;Agrarökologie;NA;NA;agroécologie;NA;NA;agroecologia;NA;NA
+c29;agroecological restoration;NA;NA;agroökologische Restaurierung;NA;NA;restauration agroécologique;NA;NA;restauro agroecologico;NA;NA
+c30;agricultural robot;NA;NA;landwirtschaftlicher Roboter;NA;NA;robot agricole;NA;NA;robot agricolo;NA;NA
+c31;agritech;NA;NA;agritech;NA;NA;agritech;NA;NA;agritech;NA;NA
+c32;agribusiness;NA;NA;Agrobusiness;NA;NA;agribusiness;NA;NA;agribusiness;NA;NA
+c33;acute malnutrition;NA;NA;akute Mangelernährung;NA;NA;malnutrition aiguë;NA;NA;malnutrizione acuta;NA;NA
+c34;anaemia;NA;NA;Anämie;NA;NA;anémie;NA;NA;anemia;NA;NA
+c35;poverty;food,hunger,nutrition;NA;Armut;Lebensmittel,Hunger,Ernährung;NA;pauvreté;NA;NA;povertà;NA;NA
+c36;enough food;NA;NA;genug zu essen;NA;NA;nourriture suffisante;NA;NA;cibo sufficiente;NA;NA
+c37;sufficient food;NA;NA;ausreichend Nahrung;NA;NA;nourriture suffisante;NA;NA;cibo sufficiente;NA;NA
+c38;civic agriculture;NA;NA;Ertrag;Lebensmittel,Hunger,Ernährung,Landwirtschaft;NA;agriculture pour l'éducation pour l'environnement;NA;NA;agricoltura civica;NA;NA
+c39;biofertilizer;NA;NA;Bio-Dünger;NA;NA;biofertilisant;NA;NA;biofertilizzante;NA;NA
+c40;organic egg production;NA;NA;Bio-Eierproduktion;NA;NA;;NA;NA;produzione di uova biologiche;NA;NA
+c41;organic horticulture;NA;NA;Bio-Gartenbau;NA;NA;horticulture biologique;NA;NA;orticoltura biologica;NA;NA
+c42;organic food;policy;NA;Bio-Lebensmittel;NA;NA;;NA;NA;cibo biologico;NA;NA
+c43;soil management;NA;NA;Bodenbewirtschaftung;NA;NA;;NA;NA;gestione del suolo;NA;NA
+c44;soil properties;NA;NA;Bodeneigenschaften;NA;NA;propriétés du sol;NA;NA;proprietà del suolo;NA;NA
+c45;soil fertility;NA;NA;Bodenfruchtbarkeit;NA;NA;;NA;NA;fertilità del suolo;NA;NA
+c46;soil health;NA;NA;Bodengesundheit;NA;NA;santé des sols;NA;NA;salute del suolo;NA;NA
+c47;soil productivity;NA;NA;Bodenproduktivität;NA;NA;productivité des sols;NA;NA;produttività del suolo;NA;NA
+c48;soil quality;NA;NA;Bodenqualität;NA;NA;qualité des sols;NA;NA;qualità del suolo;NA;NA
+c49;chronic malnutrition;NA;NA;chronische Mangelernährung;NA;NA;malnutrition chronique;NA;NA;malnutrizione cronica;NA;NA
+c50;deficit irrigation;;NA;Defizitbewässerung;NA;NA;irrigation déficitaire;NA;NA;irrigazione deficitaria;NA;NA
+c51;diversified plant;NA;NA;diversifizierte Anlage;;NA;plante diversifiée;NA;NA;pianta diversificata;NA;NA
+c52;diversified seed;NA;NA;diversifiziertes Saatgut;NA;NA;semences diversifiées;NA;NA;sementi diversificate;NA;NA
+c53;doha development round;NA;NA;Doha Entwicklungsrunde;NA;NA;cycle de développement de doha;NA;NA;ciclo di sviluppo di doha;NA;NA
+c54;farmers' income;NA;NA;Einkommen der Landwirte;NA;NA;revenu des agriculteurs;NA;NA;reddito degli agricoltori;NA;NA
+c55;small-scale food producers income;NA;NA;Einkommen der kleinen Lebensmittelproduzenten;NA;NA;revenu des petits producteurs alimentaires;NA;NA;reddito dei piccoli produttori alimentari;NA;NA
+c56;income inequality;NA;NA;Einkommensungleichheit;NA;NA;inégalité de revenus;NA;NA;disuguaglianza di reddito;NA;NA
+c57;maintain ecosystems;NA;NA;Ökosysteme erhalten;NA;NA;maintien des écosystèmes;NA;NA;mantenere gli ecosistemi;NA;NA
+c58;food crisis;NA;NA;Nahrungsmittelkrise;NA;NA;crise alimentaire;NA;NA;crisi alimentare;NA;NA
+c59;nutrition security;NA;NA;Ernährungssicherheit;NA;NA;sécurité alimentaire;NA;NA;sicurezza alimentare;NA;NA
+c60;food insecurity;NA;NA;Ernährungsunsicherheit;NA;NA;insécurité alimentaire;NA;NA;insicurezza alimentare;NA;NA
+c61;crop yield;NA;NA;Ernteertrag;NA;NA;rendement des cultures;NA;NA;resa dei raccolti;NA;NA
+c62;crop yields;NA;NA;Ernteerträge;NA;NA;rendement des cultures;NA;NA;resa delle colture;NA;NA
+c63;crop rotation;NA;NA;Fruchtfolge;NA;NA;rotation des cultures;NA;NA;rotazione delle colture;NA;NA
+c64;genetic diversity of seeds;NA;NA;Genetische Vielfalt von Saatgut;NA;NA;diversité génétique des semences;NA;NA;diversità genetica delle sementi;NA;NA
+c65;adulterated food;NA;NA;gepanschte Lebensmittel;NA;NA;aliments frelatés;NA;NA;cibo adulterato;NA;NA
+c66;healthy food;NA;NA;gesundes Essen;NA;NA;aliments sains;NA;NA;cibo sano;NA;NA
+c67;grain production;NA;NA;Getreideproduktion;NA;NA;production de céréales;NA;NA;produzione di cereali;NA;NA
+c68;equal access to land;NA;NA;gleichberechtigter Zugang zu Land;NA;NA;accès égal à la terre;NA;NA;uguale accesso alla terra;NA;NA
+c69;hunger;NA;NA;Hunger;Lebensmittel,Ernährung;NA;faim;NA;NA;fame;NA;NA
+c70;hungry people;NA;NA;hungrige Menschen;NA;NA;;NA;NA;persone affamate;NA;NA
+c71;famine;NA;NA;Hungersnot;NA;NA;famine;NA;NA;carestia;NA;NA
+c72;beetle bank;NA;NA;Käferbank;NA;NA;banque de scarabées;NA;NA;banca degli scarabei;NA;NA
+c73;child hunger;NA;NA;Kinderhunger;NA;NA;faim des enfants;NA;NA;fame infantile;NA;NA
+c74;child malnutrition;NA;NA;Mangelernährung bei Kindern;NA;NA;malnutrition infantile;NA;NA;malnutrizione infantile;NA;NA
+c75;childhood malnutrition;NA;NA;Fehlernährung bei Kindern;NA;NA;malnutrition infantile;NA;NA;malnutrizione infantile;NA;NA
+c76;small farm;NA;NA;kleine Farm;NA;NA;;NA;NA;piccola fattoria;NA;NA
+c77;conservation agriculture;NA;NA;regenerative Landwirtschaft;NA;NA;;NA;NA;agricoltura conservativa;NA;NA
+c78;controlled traffic farming;NA;NA;controlled traffic farming;NA;NA;;NA;NA;agricoltura a traffico controllato;NA;NA
+c79;crop diversity;NA;NA;Kulturpflanzenvielfalt;NA;NA;;NA;NA;diversità delle colture;NA;NA
+c80;land quality;NA;NA;Landqualität;NA;NA;qualité des terres;NA;NA;qualità della terra;NA;NA
+c81;agriculture for impact;NA;NA;Landwirtschaft mit Wirkung;NA;NA;agriculture d'impact;NA;NA;agricoltura d'impatto;NA;NA
+c82;agricultural biodiversity;NA;NA;landwirtschaftliche Artenvielfalt;NA;NA;biodiversité agricole;NA;NA;biodiversità agricola;NA;NA
+c83;agricultural biotechnology;NA;NA;Agrarbiotechnologie;NA;NA;biotechnologie agricole;NA;NA;biotecnologia agricola;NA;NA
+c84;agricultural soil science;NA;NA;landwirtschaftliche Bodenkunde;NA;NA;science des sols agricoles;NA;NA;scienza del suolo agricolo;NA;NA
+c85;agricultural drone;sustainability,sustainable,resilience,resilient,ecosystem,resilience;NA;landwirtschaftliche Drohne;NA;NA;drone agricole;NA;NA;drone agricolo;NA;NA
+c86;agricultural development;NA;NA;landwirtschaftliche Entwicklung;Nachhaltigkeit,nachhaltig,Widerstandsfähigkeit,Resilienz,Ökosystem,widerstandsfähig;NA;développement agricole;NA;NA;sviluppo agricolo;NA;NA
+c87;agricultural export subsidies;NA;NA;Agrarexportsubventionen;NA;NA;subventions aux exportations agricoles;NA;NA;sussidi alle esportazioni agricole;NA;NA
+c88;agricultural land;NA;NA;Agrarland;NA;NA;terres agricoles;NA;NA;terreni agricoli;NA;NA
+c89;agricultural cooperative;hunger;NA;landwirtschaftliche Genossenschaft;NA;NA;coopérative agricole;NA;NA;cooperativa agricola;NA;NA
+c90;agricultural intensification;NA;NA;landwirtschaftliche Intensivierung;NA;NA;intensification agricole;NA;NA;intensificazione agricola;NA;NA
+c91;agricultural sustainability;NA;NA;landwirtschaftliche Nachhaltigkeit;NA;NA;développement agricole;NA;NA;sostenibilità agricola;NA;NA
+c92;agricultural production;NA;NA;landwirtschaftliche Produktion;NA;NA;production agricole;NA;NA;produzione agricola;NA;NA
+c93;agricultural productivity;NA;NA;landwirtschaftliche Produktivität;NA;NA;productivité agricole;NA;NA;produttività agricola;NA;NA
+c94;agricultural growth;NA;NA;landwirtschaftliches Wachstum;NA;NA;croissance agricole;NA;NA;crescita agricola;NA;NA
+c95;food price;NA;NA;Lebensmittelpreis;NA;NA;prix des aliments;NA;NA;prezzo degli alimenti;NA;NA
+c96;food prices;food,agriculture,famine;NA;Lebensmittelpreise;NA;NA;prix des aliments;NA;NA;prezzi degli alimenti;NA;NA
+c97;food production;NA;NA;Lebensmittelproduktion;NA;NA;production alimentaire;NA;NA;produzione alimentare;NA;NA
+c98;food quality;food,agriculture,hunger;NA;Lebensmittelqualität;NA;NA;qualité des aliments;NA;NA;qualità degli alimenti;NA;NA
+c99;food reserves;NA;NA;Nahrungsreserven;NA;NA;réserves alimentaires;NA;NA;riserve alimentari;NA;NA
+c100;food safety;food production,climate change;NA;Lebensmittelsicherheit;NA;NA;sécurité alimentaire;NA;NA;sicurezza alimentare;NA;NA
+c101;food poisoning;NA;NA;Lebensmittelvergiftung;NA;NA;intoxication alimentaire;NA;NA;intossicazione alimentare;NA;NA
+c102;local food;NA;NA;lokales Essen;NA;NA;alimentation locale;NA;NA;cibo locale;NA;NA
+c103;millennium seed bank partnership;agriculture;NA;Millennium Seed Bank Partnerschaft;NA;NA;partenariat avec la banque de semences du millénaire;NA;NA;partenariato della banca dei semi del millennio;NA;NA
+c104;sustainable agriculture;NA;NA;Nachhaltige Landwirtschaft;NA;NA;agriculture durable;NA;NA;agricoltura sostenibile;NA;NA
+c105;sustainable food production;children;NA;nachhaltige Lebensmittelproduktion;NA;NA;production alimentaire durable;NA;NA;produzione alimentare sostenibile;NA;NA
+c106;sustainable seafood;NA;NA;nachhaltige Meeresfrüchte;NA;NA;produits de la mer durables;NA;NA;frutti di mare sostenibili;NA;NA
+c107;sustainable production;NA;NA;nachhaltige Produktion;NA;NA;production durable;NA;NA;produzione sostenibile;NA;NA
+c108;sustainable management;NA;NA;nachhaltiges Management;NA;NA;gestion durable;NA;NA;gestione sostenibile;NA;NA
+c109;nutritious food;NA;NA;nahrhaftes Essen;NA;NA;aliments nutritifs;NA;NA;cibo nutriente;NA;NA
+c110;nutritional deficiencies;NA;NA;Nährstoffmängel;NA;NA;carences nutritionnelles;NA;NA;carenze nutrizionali;NA;NA
+c111;food inflation;NA;NA;Nahrungsmittelinflation;NA;NA;inflation alimentaire;NA;NA;inflazione alimentare;NA;NA
+c112;food deprivation;NA;NA;Nahrungsentzug;NA;NA;privation de nourriture;NA;NA;privazione alimentare;NA;NA
+c113;food insufficiency;NA;NA;Nahrungsmittelknappheit;NA;NA;insuffisance alimentaire;NA;NA;insufficienza alimentare;NA;NA
+c114;food demand;NA;NA;Nahrungsmittelnachfrage;NA;NA;demande alimentaire;NA;NA;domanda di cibo;NA;NA
+c115;food sovereignty;NA;NA;Ernährungssouveränität;NA;NA;souveraineté alimentaire;NA;NA;sovranità alimentare;NA;NA
+c116;food speculation;NA;NA;Lebensmittelspekulation;NA;NA;spéculation alimentaire;NA;NA;speculazione alimentare;NA;NA
+c117;food supply;NA;NA;Ernährungsversorgung;NA;NA;approvisionnement alimentaire;NA;NA;offerta di cibo;NA;NA
+c118;food distribution;NA;NA;Essenspende;NA;NA;distribution alimentaire;NA;NA;distribuzione alimentare;NA;NA
+c119;ecological farming;food,agriculture,hunger;NA;ökologische Landwirtschaft;NA;NA;;NA;NA;agricoltura ecologica;NA;NA
+c120;organic agriculture;NA;NA;Bio-Landwirtschaft;NA;NA;;NA;NA;agricoltura biologica;NA;NA
+c121;organic farming;NA;NA;biologischer Anbau;NA;NA;agriculture biologique;NA;NA;agricoltura biologica;NA;NA
+c122;open source seed initiative;NA;NA;Open Source Seed Initiative;NA;NA;initiative de semences open source;NA;NA;iniziativa dei semi open source;NA;NA
+c123;permaculture;NA;NA;Permakultur;NA;NA;permaculture;NA;NA;permacultura;NA;NA
+c124;crop production;NA;NA;Pflanzenbau;NA;NA;production végétale;NA;NA;produzione vegetale;NA;NA
+c125;plant gene banks;NA;NA;Pflanzengenbanken;NA;NA;banques de gènes végétaux;NA;NA;banche di geni vegetali;NA;NA
+c126;crop productivity;NA;NA;Anbauproduktivität;NA;NA;productivité des cultures;NA;NA;produttività delle colture;NA;NA
+c127;protein energy malnutrition;NA;NA;Protein-Energie-Mangelernährung;NA;NA;malnutrition protéino-énergétique;NA;NA;malnutrizione proteico-energetica;NA;NA
+c128;regenerative agriculture;NA;NA;regenerative Landwirtschaft;NA;NA;agriculture régénérative;NA;NA;agricoltura rigenerativa;NA;NA
+c129;rice yield;food production,climate change;NA;Reisertrag;NA;NA;;NA;NA;resa del riso;NA;NA
+c130;rice production;food production,climate change;NA;Reisproduktion;NA;NA;production de riz;NA;NA;produzione di riso;NA;NA
+c131;resilient agriculture;food production,climate change;NA;Resiliente Landwirtschaft;NA;NA;;NA;NA;agricoltura resiliente;NA;NA
+c132;seed saving;food production,climate change;NA;Saatguteinsparung;NA;NA;conservation des semences;NA;NA;risparmio di semi;NA;NA
+c133;severe malnutrition;food,agriculture,crop;NA;schwere Mangelernährung;NA;NA;malnutrition sévère;NA;NA;malnutrizione grave;NA;NA
+c134;safe food;food production,climate change;NA;sichere Lebensmittel;NA;NA;nourriture sûre;NA;NA;cibo sicuro;NA;NA
+c135;;NA;NA;;NA;NA;;NA;NA;;NA;NA
+c136;overgrazing;NA;NA;Überweidung;NA;NA;surpâturage;NA;NA;pascolo eccessivo;NA;NA
+c137;undernourished;NA;NA;unterernährt;NA;NA;sous-alimentation;NA;NA;denutrito;NA;NA
+c138;malnourishment;NA;NA;Mangelernährung;NA;NA;malnutrition;NA;NA;malnutrizione;NA;NA
+c139;under-nutrition;NA;NA;Fehlernährung;NA;NA;sous-nutrition;NA;NA;sotto-nutrizione;NA;NA
+c140;undernutrition;agriculture;NA;Unterernährung;NA;NA;dénutrition;NA;NA;denutrizione;NA;NA
+c141;starvation;agriculture;NA;Verhungern;NA;NA;famine;NA;NA;inedia;NA;NA
+c142;stunted growth;NA;NA;verkümmertes Wachstum;NA;NA;retard de croissance;NA;NA;crescita stentata;NA;NA
+c143;stunting growth;NA;NA;verkümmertes Wachstum;NA;NA;retard de croissance;NA;NA;crescita stentata;NA;NA
+c144;livestock gene banks;NA;NA;Genbanken für Nutztiere;NA;NA;banques de gènes du bétail;NA;NA;banche genetiche del bestiame;NA;NA
+c145;food access;NA;NA;Zugang zu Nahrungsmitteln;NA;NA;accès à la nourriture;NA;NA;accesso al cibo;NA;NA
+c146;intercropping;NA;NA;Zwischenkulturen;NA;NA;cultures intercalaires;NA;NA;coltura intercalare;NA;NA
+c147;NA;NA;NA;akute Fehlernährung;NA;NA;NA;NA;NA;NA;NA;NA
+c148;NA;NA;NA;chronische Fehlernährung;NA;NA;NA;NA;NA;NA;NA;NA
+c149;NA;NA;NA;verunreinigte Lebensmittel;NA;NA;NA;NA;NA;NA;NA;NA
+c150;NA;NA;NA;landwirtschaftliche Flächen;NA;NA;NA;NA;NA;NA;NA;NA
+c151;NA;NA;NA;Open-Source-Saatgut-Initiative;NA;NA;NA;NA;NA;NA;NA;NA
+c152;NA;NA;NA;Ernteproduktivität;NA;NA;NA;NA;NA;NA;NA;NA
+c153;NA;NA;NA;Millennium-Saatgutbank-Partnerschaft;NA;NA;NA;NA;NA;NA;NA;NA
+c154;NA;NA;NA;Lebensmittelkrise;NA;NA;NA;NA;NA;NA;NA;NA
+c155;Agriculture;Sustainability,sustainable,resilience,resilience,ecosystem,resilient;NA;Landwirtschaft;Nachhaltigkeit, nachhaltig, Widerstandsfähigkeit, Resilienz, Ökosystem, widerstandsfähig, biologische Bekämpfungsstrategie, biologisch* Bekämpfung;NA;NA;NA;NA;NA;NA;NA
+c156;NA;NA;NA;Bio;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;NA;NA;NA;NA;NA;NA;NA
+c157;NA;NA;NA;Gesundheit;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;NA;NA;NA;NA;NA;NA;NA
+c158;NA;NA;NA;feed-no-food;;NA;NA;NA;NA;NA;NA;NA
+c159;NA;NA;NA;Mischkultur;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;NA;NA;NA;NA;NA;NA;NA
+c160;NA;NA;NA;vegan;Landwirtschaft,Ertrag;NA;NA;NA;NA;NA;NA;NA
+c161;NA;NA;NA;vegetarisch;Landwirtschaft,Ertrag;NA;NA;NA;NA;NA;NA;NA
+c162;NA;NA;NA;Fehlernährung;Gesundheit,Armut;NA;NA;NA;NA;NA;NA;NA
+c163;;;;Dünger;Umwelt*;NA;NA;NA;NA;NA;NA;NA
