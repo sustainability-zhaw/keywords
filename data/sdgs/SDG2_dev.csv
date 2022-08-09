@@ -1,5 +1,5 @@
-﻿c1;smallholder;farm,forestry,pastoral,agriculture,fishery,food producer*;;Kleinbauern;Land- und Forstwirtschaft, Weidewirtschaft, Landwirtschaft, Fischerei, Lebensmittelhersteller*;;petit propriétaire;ferme ;;piccolo proprietario;azienda agricola ;
-c2;land tenure rights;farm,forestry,pastoral,agriculture,fishery,food producer*;;Landnutzungsrechte;Land- und Forstwirtschaft, Weidewirtschaft, Landwirtschaft, Fischerei, Lebensmittelhersteller*;;droits fonciers;ferme ;;diritti di proprietà fondiaria;azienda agricola ;
+﻿c1;smallholder;farm,forestry,pastoral,agriculture,fishery,food producer*;;Kleinbauern;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;petit propriétaire;ferme ;;piccolo proprietario;azienda agricola ;
+c2;land tenure rights;farm,forestry,pastoral,agriculture,fishery,food producer*;;Landnutzungsrechte;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;droits fonciers;ferme ;;diritti di proprietà fondiaria;azienda agricola ;
 c15;malnourish*;NA;;Unterernährung*;NA;;malnutrition;NA;;malnutrizione*;NA;
 c16;malnutrition;NA;;Unterernährung;NA;;malnutrition;NA;;malnutrizione;NA;
 c17;undernourish*;NA;;unterernährt*;NA;;sous-nutrition;NA;;denutrizione*;NA;
@@ -13,7 +13,7 @@ c24;land right*;NA;;Bodenrecht*;NA;;droit foncier*;NA;;diritto alla terra*;NA;
 c25;land reform*;NA;;Bodenreform*;NA;;réforme foncière*;NA;;riforma agraria*;NA;
 c26;resilient agricultural practices;NA;;Widerstandsfähige landwirtschaftliche Praktiken;NA;;pratiques agricoles résilientes;NA;;pratiche agricole resilienti;NA;
 c27;;;;;;;;;;;;
-c28;fertili*er;NA;;Fertilität;NA;;fertilité;NA;;fertilizzazione;NA;
+c28;fertili*er;NA;;Fertilität;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;fertilité;NA;;fertilizzazione;NA;
 c29;food nutrition improvement;NA;;Verbesserung der Nahrungsmittelversorgung;NA;;amélioration de la nutrition alimentaire;NA;;miglioramento della nutrizione alimentare;NA;
 c30;hidden hunger;NA;;Versteckter Hunger;NA;;faim cachée;NA;;fame nascosta;NA;
 c31;genetically modified food;NA;;gentechnisch veränderte Lebensmittel;NA;;aliments génétiquement modifiés;NA;;cibo geneticamente modificato;NA;
@@ -153,5 +153,11 @@ c168;NA;NA;NA;Open-Source-Saatgut-Initiative;NA;NA;NA;NA;NA;NA;NA;NA
 c169;NA;NA;NA;Ernteproduktivität;NA;NA;NA;NA;NA;NA;NA;NA
 c170;NA;NA;NA;Millennium-Saatgutbank-Partnerschaft;NA;NA;NA;NA;NA;NA;NA;NA
 c171;NA;NA;NA;Lebensmittelkrise;NA;NA;NA;NA;NA;NA;NA;NA
-c172;;;;Einkommen der Kleinproduzenten von Lebensmitteln;NA;;;;;;;
-c173;;;;Landwirtschaft;Nachhaltigkeit,nachhaltig,Widerstandsfähigkeit,Resilienz,Ökosystem,widerstandsfähig;;;;;;;
+c172;NA;NA;NA;Landwirtschaft;Nachhaltigkeit,nachhaltig,Widerstandsfähigkeit,Resilienz,Ökosystem,widerstandsfähig;;;;;;;
+c173;NA;NA;NA;Bio;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;;;;;;
+c174;NA;NA;NA;Gesundheit;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;;;;;;
+c175;NA;NA;NA;feed-no-food;;;;;;;;
+c176;NA;NA;NA;Mischkultur;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;;;;;;
+c177;NA;NA;NA;vegan;Landwirtschaft,Ertrag;;;;;;;
+c178;NA;NA;NA;vegetarisch;Landwirtschaft,Ertrag;;;;;;;
+c179;NA;NA;NA;Fehlernährung;Gesundheit,Armut;;;;;;;
