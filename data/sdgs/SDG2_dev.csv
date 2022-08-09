@@ -1,6 +1,6 @@
 ﻿c1;smallholder;farm,forestry,pastoral,agriculture,fishery,food producer*;;Kleinbauern;Landwirtschaft, Forstwirtschaft, Weidewirtschaft, Lebensmittel, Ernährung;;petit propriétaire;ferme ;;piccolo proprietario;azienda agricola ;
 c2;land tenure rights;farm,forestry,pastoral,agriculture,fishery,food producer*;;Landnutzungsrechte;Landwirtschaft, Forstwirtschaft, Weidewirtschaft, Lebensmittel, Ernährung;;droits fonciers;ferme ;;diritti di proprietà fondiaria;azienda agricola ;
-c3;agriculture;sustainability,sustainable,resilience,resilience,ecosystem,resilient;NA;Landwirtschaft;Nachhaltigkeit, nachhaltig, Widerstandsfähigkeit, Resilienz, Ökosystem, widerstandsfähig, biologische Bekämpfungsstrategie, biologisch* Bekämpfung;Schokolade, Wein, Bier, Kaffee, Trüffel, Thunfisch, Kaviar, Alkohol;malnutrition;NA;NA;malnutrizione*;NA;NA
+c3;agriculture;sustainability,sustainable,resilience,resilience,ecosystem,resilient;NA;Landwirtschaft;Nachhaltigkeit,nachhaltig,Widerstandsfähigkeit,Resilienz,Ökosystem,widerstandsfähig,biologische Bekämpfungsstrategie,biologisch* Bekämpfung;Schokolade, Wein, Bier, Kaffee, Trüffel, Thunfisch, Kaviar, Alkohol;malnutrition;NA;NA;malnutrizione*;NA;NA
 c4;malnourish*;NA;;Unterernährung*;NA;;malnutrition;NA;;malnutrizione;NA;
 c5;malnutrition;NA;;Lebensmittelkrise;NA;;sous-nutrition;NA;;denutrizione*;NA;
 c6;undernourish*;NA;;unterernährt*;NA;;dénutrition;NA;;denutrizione;NA;
