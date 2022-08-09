@@ -4,7 +4,7 @@ c15;malnourish*;NA;;Unterernährung*;NA;;malnutrition;NA;;malnutrizione*;NA;
 c16;malnutrition;NA;;Unterernährung;NA;;malnutrition;NA;;malnutrizione;NA;
 c17;undernourish*;NA;;unterernährt*;NA;;sous-nutrition;NA;;denutrizione*;NA;
 c18;undernutrition;NA;;Unterernährung;NA;;dénutrition;NA;;denutrizione;NA;
-c19;agricultural producti*;NA;;landwirtschaftliche Produkte*;NA;;produits agricoles;NA;;prodotti agricoli*;NA;
+c19;agricultural producti*;NA;;landwirtschaftliche Produkte;NA;;produits agricoles;NA;;prodotti agricoli*;NA;
 c20;agricultural practices;NA;;landwirtschaftliche Praktiken;NA;;pratiques agricoles;NA;;pratiche agricole;NA;
 c21;agricultural management;NA;;Agrarmanagement;NA;;gestion agricole;NA;;gestione agricola;NA;
 c22;food producti*;NA;;Nahrungsmittelproduktion*;NA;;production alimentaire;NA;;produzione alimentare*;NA;
@@ -153,3 +153,5 @@ c168;NA;NA;NA;Ernteproduktivität;NA;NA;NA;NA;NA;NA;NA;NA
 c169;NA;NA;NA;Millennium-Saatgutbank-Partnerschaft;NA;NA;NA;NA;NA;NA;NA;NA
 c170;NA;NA;NA;Lebensmittelkrise;NA;NA;NA;NA;NA;NA;NA;NA
 c171;NA;NA;NA;Einkommen der Kleinproduzenten von Lebensmitteln;NA;NA;NA;NA;NA;NA;NA;NA
+;;;;Landwirtschaft;Nachhaltigkeit,nachhaltig,Widerstandsfähigkeit,Resilienz,Ökosystem,widerstandsfähig;;;;;;;
+;;;;Von;;;;;;;;
