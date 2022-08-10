@@ -42,7 +42,7 @@ c41;organic egg production;NA;NA;Bio-Eierproduktion;NA;NA;propriétés du sol;NA
 c42;organic horticulture;NA;NA;Bio-Gartenbau;NA;NA;santé des sols;NA;NA;cibo biologico;NA;NA
 c43;organic food;policy;NA;Bio-Lebensmittel;NA;NA;productivité des sols;NA;NA;gestione del suolo;NA;NA
 c44;soil management;NA;NA;Bodenbewirtschaftung;NA;NA;qualité des sols;NA;NA;proprietà del suolo;NA;NA
-c45;soil properties;NA;NA;Bodeneigenschaften;NA;NA;malnutrition chronique;NA;NA;fertilità del suolo;NA;NA
+c45;soil properties;NA;NA;Bodeneigenschaften;Landwirtschaft,Weidewirtschaft,Lebensmittel;NA;malnutrition chronique;NA;NA;fertilità del suolo;NA;NA
 c46;soil fertility;NA;NA;Bodenfruchtbarkeit;NA;NA;irrigation déficitaire;NA;NA;salute del suolo;NA;NA
 c47;soil health;NA;NA;Bodengesundheit;NA;NA;plante diversifiée;NA;NA;produttività del suolo;NA;NA
 c48;soil productivity;NA;NA;Bodenproduktivität;NA;NA;semences diversifiées;NA;NA;qualità del suolo;NA;NA
