@@ -4,7 +4,7 @@ c3;agriculture;sustainability,sustainable,resilience,resilience,ecosystem,resili
 c4;malnourish*;NA;;Unterernährung*;NA;;malnutrition;NA;;malnutrizione;NA;
 c5;malnutrition;NA;;Lebensmittelkrise;NA;;sous-nutrition;NA;;denutrizione*;NA;
 c6;undernourish*;NA;;unterernährt*;NA;;dénutrition;NA;;denutrizione;NA;
-c7;undernutrition;NA;;Gesundheit;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;produits agricoles;NA;;prodotti agricoli*;NA;
+c7;undernutrition;NA;;Gesundheit;Landwirtschaft,Weidewirtschaft,nachhaltig,ressourcenschon*;;produits agricoles;NA;;prodotti agricoli*;NA;
 c8;agricultural producti*;NA;;landwirtschaftliche Produkte;NA;;pratiques agricoles;NA;;pratiche agricole;NA;
 c9;agricultural practices;NA;;landwirtschaftliche Praktiken;NA;;gestion agricole;NA;;gestione agricola;NA;
 c10;agricultural management;NA;;Agrarmanagement;NA;;production alimentaire;NA;;produzione alimentare*;NA;
@@ -13,7 +13,7 @@ c12;food *security;NA;;Ernährungs * sicherheit;NA;;droit foncier*;NA;;diritto a
 c13;land right*;NA;;Bodenrecht*;NA;;réforme foncière*;NA;;riforma agraria*;NA;
 c14;land reform*;NA;;Bodenreform*;NA;;pratiques agricoles résilientes;NA;;pratiche agricole resilienti;NA;
 c15;resilient agricultural practices;NA;;Widerstandsfähige landwirtschaftliche Praktiken;NA;;fertilité;NA;;fertilizzazione;NA;
-c16;fertili*er;NA;;Fertilität;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;;amélioration de la nutrition alimentaire;NA;;miglioramento della nutrizione alimentare;NA;
+c16;fertili*er;NA;;Fertilität;Landwirtschaft,Weidewirtschaft,Lebensmittel,;;amélioration de la nutrition alimentaire;NA;;miglioramento della nutrizione alimentare;NA;
 c17;food nutrition improvement;NA;;Verbesserung der Nahrungsmittelversorgung;NA;;faim cachée;NA;;fame nascosta;NA;
 c18;hidden hunger;NA;;Versteckter Hunger;NA;;aliments génétiquement modifiés;NA;;cibo geneticamente modificato;NA;
 c19;genetically modified food;NA;;gentechnisch veränderte Lebensmittel;NA;;ogm ;aliments ;;ogm ;cibo ;
@@ -23,8 +23,8 @@ c22;agroforestry management;NA;;agroforstwirtschaftliches Management;NA;;innovat
 c23;agricultural innovation;NA;;landwirtschaftliche Innovation;NA;;sécurité alimentaire;diversité génétique;;sicurezza alimentare;diversità genetica;
 c24;food security;genetic diversity;;Ernährungssicherheit;genetische Vielfalt;;marché alimentaire;restriction ;;mercato alimentare;restrizione ;
 c25;food market;restriction,tariff,access,north south divide,development governance;;Lebensmittelmarkt;Einschränkung ;;gouvernance alimentaire;;;governance alimentare;;
-c26;food governance;NA;;Lebensmittel-Governance;NA;;chaîne d'approvisionnement alimentaire;NA;;filiera alimentare;NA;
-c27;food supply chain;NA;;Lebensmittelversorgungskette;NA;;recherche agricole;NA;;ricerca agricola;NA;
+c26;food governance;NA;;Lebensmittel-Governance;nachhaltig;;chaîne d'approvisionnement alimentaire;NA;;filiera alimentare;NA;
+c27;food supply chain;NA;;Lebensmittelversorgungskette;nachhaltig;;recherche agricole;NA;;ricerca agricola;NA;
 c28;agricultural research;NA;NA;Agrarforschung;NA;NA;agroécologie;NA;NA;agroecologia;NA;NA
 c29;agroecology;NA;NA;Agrarökologie;NA;NA;restauration agroécologique;NA;NA;restauro agroecologico;NA;NA
 c30;agroecological restoration;NA;NA;agroökologische Restaurierung;NA;NA;robot agricole;NA;NA;robot agricolo;NA;NA
@@ -95,8 +95,8 @@ c94;agricultural productivity;NA;NA;landwirtschaftliche Produktivität;NA;NA;par
 c95;agricultural growth;NA;NA;landwirtschaftliches Wachstum;NA;NA;agriculture durable;NA;NA;prezzo degli alimenti;NA;NA
 c96;food price;NA;NA;Lebensmittelpreis;NA;NA;production alimentaire durable;NA;NA;prezzi degli alimenti;NA;NA
 c97;food prices;food,agriculture,famine;NA;Lebensmittelpreise;NA;NA;produits de la mer durables;NA;NA;produzione alimentare;NA;NA
-c98;food production;NA;NA;Lebensmittelproduktion;NA;NA;production durable;NA;NA;qualità degli alimenti;NA;NA
-c99;food quality;food,agriculture,hunger;NA;Lebensmittelqualität;NA;NA;gestion durable;NA;NA;riserve alimentari;NA;NA
+c98;food production;NA;NA;Lebensmittelproduktion;nachhaltig;NA;production durable;NA;NA;qualità degli alimenti;NA;NA
+c99;food quality;food,agriculture,hunger;NA;Lebensmittelqualität;nachhaltig;NA;gestion durable;NA;NA;riserve alimentari;NA;NA
 c100;food reserves;NA;NA;Nahrungsreserven;NA;NA;aliments nutritifs;NA;NA;sicurezza alimentare;NA;NA
 c101;food safety;food production,climate change;NA;Lebensmittelsicherheit;NA;NA;carences nutritionnelles;NA;NA;intossicazione alimentare;NA;NA
 c102;food poisoning;NA;NA;Lebensmittelvergiftung;NA;NA;inflation alimentaire;NA;NA;cibo locale;NA;NA
@@ -127,7 +127,7 @@ c126;plant gene banks;NA;NA;Pflanzengenbanken;NA;NA;dénutrition;NA;NA;produttiv
 c127;crop productivity;NA;NA;Anbauproduktivität;NA;NA;famine;NA;NA;malnutrizione proteico-energetica;NA;NA
 c128;protein energy malnutrition;NA;NA;Protein-Energie-Mangelernährung;NA;NA;retard de croissance;NA;NA;agricoltura rigenerativa;NA;NA
 c129;regenerative agriculture;NA;NA;regenerative Landwirtschaft;NA;NA;retard de croissance;NA;NA;resa del riso;NA;NA
-c130;rice yield;food production,climate change;NA;Reisertrag;NA;NA;banques de gènes du bétail;NA;NA;produzione di riso;NA;NA
+c130;rice yield;food production,climate change;NA;Reisertrag;nachhaltig;NA;banques de gènes du bétail;NA;NA;produzione di riso;NA;NA
 c131;rice production;food production,climate change;NA;Reisproduktion;NA;NA;accès à la nourriture;NA;NA;agricoltura resiliente;NA;NA
 c132;resilient agriculture;food production,climate change;NA;Resiliente Landwirtschaft;NA;NA;cultures intercalaires;NA;NA;risparmio di semi;NA;NA
 c133;seed saving;food production,climate change;NA;Saatguteinsparung;NA;NA;xxxxxxxxxxxxxxx;NA;NA;malnutrizione grave;NA;NA
@@ -152,7 +152,7 @@ c151;xxxxxxxxxxxxxxx;NA;NA;landwirtschaftliche Flächen;NA;NA;xxxxxxxxxxxxxxx;NA
 c152;xxxxxxxxxxxxxxx;NA;NA;Open-Source-Saatgut-Initiative;NA;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
 c153;xxxxxxxxxxxxxxx;NA;NA;Ernteproduktivität;NA;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
 c154;xxxxxxxxxxxxxxx;NA;NA;Millennium-Saatgutbank-Partnerschaft;NA;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
-c155;xxxxxxxxxxxxxxx;NA;NA;Bio;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;Schokolade, Wein, Bier, Kaffee, Trüffel, Thunfisch, Kaviar, Alkohol;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
-c156;xxxxxxxxxxxxxxx;NA;NA;Mischkultur;Landwirtschaft,Forstwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
+c155;xxxxxxxxxxxxxxx;NA;NA;Bio;Landwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;Schokolade, Wein, Bier, Kaffee, Trüffel, Thunfisch, Kaviar, Alkohol;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
+c156;xxxxxxxxxxxxxxx;NA;NA;Mischkultur;Landwirtschaft,Weidewirtschaft,Lebensmittel,Ernährung;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
 c157;xxxxxxxxxxxxxxx;NA;NA;vegan;Landwirtschaft,Ertrag;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
 c158;xxxxxxxxxxxxxxx;NA;NA;vegetarisch;Landwirtschaft,Ertrag;NA;xxxxxxxxxxxxxxx;NA;NA;xxxxxxxxxxxxxxx;NA;NA
