@@ -48,7 +48,7 @@ You should see the following message:
 ```
 [ "code preparation succeded: wd = /usr"]
 ```
-#### Retrieve the list of priors, included posteriors and excluded posteriors of a particular SDG.
+#### Retrieve the list of priors, included posteriors and excluded posteriors of a particular SDG
 Open a browser window and enter your command based on this common command: `http://localhost/get_single_sdg?sdg=(1:16)&lang=(E,D,F,I)`.
 
 For example, if you type: `http://localhost/get_single_sdg?sdg=2&lang=E` you should get:
@@ -56,11 +56,15 @@ For example, if you type: `http://localhost/get_single_sdg?sdg=2&lang=E` you sho
 [{"E1":"smallholder","E2":"farm,forestry,pastoral,agriculture,fishery,food producer*"},{"E1":"land tenure rights","E2":"farm,forestry,pastoral,agriculture,fishery,food producer*"} ...]
 ```
 
-#### Check communication and data access
-Open a browser window and type 'http://localhost/get_docs_per_language'
+#### Retrieve the list of documents found in the Digital Collection per language 
+Open a browser window and type `http://localhost/get_docs_per_language`
+You should see a message similar to: 
+```
+[{"language":"de","n":13520},{"language":"en","n":9571},{"language":"fr","n":163},{"language":"other","n":73},{"language":"it","n":42},{"language":"de; fr","n":41},{"language":"de; en","n":30},{"language":"fi","n":14},{"language":"de; fr; it","n":8},{"language":"es","n":5},{"language":"en; de","n":3},{"language":"de; en; fr; it","n":2},{"language":"en; other","n":2},{"language":"pl","n":2},{"language":"de; en; es","n":1},{"language":"de; en; fr","n":1},{"language":"de; it","n":1},{"language":"fr; en","n":1},{"language":"zh","n":1}]
+```
 
-#### Check communication and data access
-Open a browser window and type 'http://localhost/dc_mapping?sdg=(1:16)&lang=(E,D,F,I)'
+#### Retrieve the list of documents mapped to a given sgd
+Since this is the main routine of this API, it is described in detail later in the chapter: "Running the SDG Mapping Service".
 
 ## Run the SDG mapping service
 Open a browser window and type 'http://localhost/dc_mapping?sdg=(1:16)&lang=(E,D,F,I)'.
