@@ -40,8 +40,16 @@ docker run --rm -d -p 80:8000 --name sdgmapping ghcr.io/sustainability-zhaw/sdg-
 ```
 The second way to start the SDG mapping service is from Docker Desktop. Select `Images` in the left vertical bar of Docker Desktop and select the row with the image you want to create a container from. On the right side of the selected row, you will see a blue button named `Run`. Click on it and expand the `Optional settings`. Enter a suitable container name and type `80` as `host port`. To verify that the container is running, switch from `Images` to `Containers`. You should see a container with the chosen name running on port 80 and specifying a time in the `Started` field.
 
+## API Endpoints
+The following api endpoints are currentl available:
+### Check communication and data access
+Open a browser window and type `http://localhost/test`
+Open a browser window and type 'http://localhost/get_single_sdg?sdg=(1:16)&lang=(E,D,F,I)'
+Open a browser window and type 'http://localhost/get_docs_per_language'
+Open a browser window and type 'http://localhost/dc_mapping?sdg=(1:16)&lang=(E,D,F,I)'
+
 ## Run the SDG mapping service
-Open a browser window and type 'http://localhost/dc_mapping?sdg=(1:16)&lang=(E,D,F,I)&output=console'.
+Open a browser window and type 'http://localhost/dc_mapping?sdg=(1:16)&lang=(E,D,F,I)'.
 `sdg` is a number from 1 to 16, which stands for the corresponding SDG
 `lang` is either `E` for English, `D` for German, `F` for French or `I` for Italien.
 If you enter only 'http://localhost/dc_mapping`, the default is `sdg=1` and `lang=E`.
