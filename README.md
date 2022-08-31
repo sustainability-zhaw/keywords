@@ -40,12 +40,26 @@ docker run --rm -d -p 80:8000 --name sdgmapping ghcr.io/sustainability-zhaw/sdg-
 ```
 The second way to start the SDG mapping service is from Docker Desktop. Select `Images` in the left vertical bar of Docker Desktop and select the row with the image you want to create a container from. On the right side of the selected row, you will see a blue button named `Run`. Click on it and expand the `Optional settings`. Enter a suitable container name and type `80` as `host port`. To verify that the container is running, switch from `Images` to `Containers`. You should see a container with the chosen name running on port 80 and specifying a time in the `Started` field.
 
-## API Endpoints
+## API endpoints
 The following api endpoints are currentl available:
-### Check communication and data access
-Open a browser window and type `http://localhost/test`
-Open a browser window and type 'http://localhost/get_single_sdg?sdg=(1:16)&lang=(E,D,F,I)'
+#### Checking communication and data access
+Open a browser window and type `http://localhost/test`.
+You should see the following message: 
+```
+[ "code preparation succeded: wd = /usr"]
+```
+#### Retrieve the list of priors, included posteriors and excluded posteriors of a particular SDG.
+Open a browser window and enter your command based on this common command: `http://localhost/get_single_sdg?sdg=(1:16)&lang=(E,D,F,I)`.
+
+For example, if you type: `http://localhost/get_single_sdg?sdg=2&lang=E` you should get:
+```
+[{"E1":"smallholder","E2":"farm,forestry,pastoral,agriculture,fishery,food producer*"},{"E1":"land tenure rights","E2":"farm,forestry,pastoral,agriculture,fishery,food producer*"} ...]
+```
+
+#### Check communication and data access
 Open a browser window and type 'http://localhost/get_docs_per_language'
+
+#### Check communication and data access
 Open a browser window and type 'http://localhost/dc_mapping?sdg=(1:16)&lang=(E,D,F,I)'
 
 ## Run the SDG mapping service
