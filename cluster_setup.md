@@ -1,15 +1,15 @@
-## Setup a Docker Swarm on the Multimico Cluster
+## Setting up a Docker Swarm on the Multimico Cluster
 
 ### Purpose
-This page describes the steps necessary to setup a stack with Docker Swarm within the Multimico cluster.
+This page describes the steps necessary to set up a stack using Docker Swarm within the Multimico cluster.
 
-#### Connect to the multimico cluster
-Enter `ssh multimico@clt-lab-n-1171.zhaw.ch` in a terminal window.
+#### Connection to the multimico cluster
+In a terminal window, type `ssh multimico@clt-lab-n-1171.zhaw.ch`.
 
-You should see the following command prompt: **`multimico@clt-lab-n-1171:~$`**
+You should see the following prompt: **`multimico@clt-lab-n-1171:~$`**
 
-#### Getting the inventory of the docker nodes
-Enter **`multimico@clt-lab-n-1171:~$`**`docker node ls` to get a table showing basic nodes information.
+#### Retrieve the inventory of Docker nodes.
+Type **`multimico@clt-lab-n-1171:~$`**`docker node ls` to get a table with basic information about the nodes.
 ```
 ID                            HOSTNAME         STATUS    AVAILABILITY   MANAGER STATUS   ENGINE VERSION
 3gt2xdfletulgfag7exfu89up *   clt-lab-n-1171   Ready     Active         Leader           20.10.17
