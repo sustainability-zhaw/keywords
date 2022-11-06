@@ -1,0 +1,67 @@
+[
+  {
+    "id" : "1",
+    "handle" : "https://digitalcollection.zhaw.ch/handle/11475/19143",
+    "date" : "2020",
+    "language" : "de",
+    "title" : "Stadt- und Sportevents im öffentlichen Raum : Inklusion durch Breitensport oder Kommerzalisierung des Sports",
+    "authors" : "Muri Koller, Gabriela",
+    "subject" : " Kultur",
+    "type" : "Buchbeitrag",
+    "bid" : "306",
+    "year" : "2019",
+    "for_data_analysis" : "Stadt- und Sportevents im öffentlichen Raum : Inklusion durch Breitensport oder Kommerzalisierung des Sports;  Kultur"
+  },
+  {
+    "id" : "2",
+    "handle" : "https://digitalcollection.zhaw.ch/handle/11475/2210",
+    "date" : "2018",
+    "language" : "en",
+    "title" : "Advances in 3D focused ion beam tomography",
+    "authors" : "Cantoni, Marco; Holzer, Lorenz",
+    "subject" : "Map;  Werkstoffe",
+    "type" : "Beitrag in wissenschaftlicher Zeitschrift",
+    "bid" : "620.11",
+    "year" : "2014",
+    "for_data_analysis" : "Advances in D focused ion beam tomography; Map;  Werkstoffe; Erworben im Rahmen der Schweizer Nationallizenzen (http://www.nationallizenzen.ch); This article summarizes recent technological improvements of focused ion beam tomography. New in-lens (in-column) detectors have a higher sensitivity for low energy electrons. In combination with energy filtering, this leads to better results for phase segmentation and quantitative analysis. The quality of the D reconstructions is also improved with a refined drift correction procedure. In addition, the new scanning strategies can increase the acquisition speed significantly. Furthermore, fast spectral and elemental mappings with silicon drift detectors open up new possibilities in chemical analysis. Examples of a porous superconductor and a solder with various precipitates are presented, which illustrate that combined analysis of two simultaneous detector signals (secondary and backscattered electrons) provides reliable segmentation results even for very complex D microstructures. In addition, high throughput elemental analysis is illustrated for a multi-phase Ni-Ti stainless steel. Overall, the improvements in resolution, contrast, stability, and throughput open new possibilities for D analysis of nanostructured materials."
+  },
+  {
+    "id" : "3",
+    "handle" : "https://digitalcollection.zhaw.ch/handle/11475/20324",
+    "date" : "2020",
+    "language" : "de",
+    "title" : "Potenziale von Lean Management in der Hausarztmedizin : die Praxis der Zukunft",
+    "authors" : "Hollenstein, Eva; Marquard, Jeannine; Steiner, Markus; Angerer, Alfred",
+    "subject" : " Gesundheits- und Sozialdienste;  Leitendes Management",
+    "type" : "Beitrag in wissenschaftlicher Zeitschrift",
+    "bid" : "362, 658.4",
+    "year" : "2020",
+    "for_data_analysis" : "Potenziale von Lean Management in der Hausarztmedizin : die Praxis der Zukunft;  Gesundheits- und Sozialdienste;  Leitendes Management; Die komplexe Patientenbetreuung in Hausarztpraxen erfordert stetige Prozessoptimierungen. Eine etablierte Methode, nachhaltige Verbesserungen zu erzielen, ist Lean. Die Methode zur Effizienz- und Qualitätssteigerung hat mittlerweile im Spital Einzug gefunden, wird aber erst in wenigen Arztpraxen praktiziert. Das Potenzial für den Einsatz von Lean insbesondere in Arztpraxen ist jedoch vorhanden: Studien zeigen, dass es auch in hausärztlichen Praxen viele Routinetätigkeiten gibt, deren Verbesserung und Standardisierung zu einem reibungsloseren und stressfreieren Praxisablauf beitragen."
+  },
+  {
+    "id" : "4",
+    "handle" : "https://digitalcollection.zhaw.ch/handle/11475/7113",
+    "date" : "2018",
+    "language" : "de",
+    "title" : "Aus- und Weiterbildungsfachleute von morgen : der Learning Consultant",
+    "authors" : "Negri, Christoph; Moser, Barbara",
+    "subject" : "Weiterbildung; Organisation; Ausbildung;  Bildung und Erziehung",
+    "type" : "Beitrag in Magazin oder Zeitung",
+    "bid" : "370",
+    "year" : "2010",
+    "for_data_analysis" : "Aus- und Weiterbildungsfachleute von morgen : der Learning Consultant; Weiterbildung; Organisation; Ausbildung;  Bildung und Erziehung"
+  },
+  {
+    "id" : "5",
+    "handle" : "https://digitalcollection.zhaw.ch/handle/11475/1892",
+    "date" : "2017",
+    "language" : "en",
+    "title" : "A path layer for the internet : enabling network operations on encrypted protocols",
+    "authors" : "Kühlewind, Mirja; Bühler, Tobias; Trammell, Brian; Neuhaus, Stephan; Müntener, Roman; Fairhurst, Gorry",
+    "subject" : "Networking; Measurement; Encryption; Middlebox;  Informatik",
+    "type" : "Konferenz: Paper",
+    "bid" : "004",
+    "year" : "2017",
+    "for_data_analysis" : "A path layer for the internet : enabling network operations on encrypted protocols; Networking; Measurement; Encryption; Middlebox;  Informatik; The deployment of encrypted transport protocols imposes new challenges for network operations. Key in-network functions such as those implemented by firewalls and passive measurement devices currently rely on information exposed by the transport layer. Encryption, in addition to improving privacy, helps to address ossification of network protocols caused by middleboxes that assume certain information to be present in the clear. However, “encrypting it all” risks diminishing the utility of these middleboxes for the traffic management tasks for which they were designed. A middlebox cannot use what it cannot see.We propose an architectural solution to this issue, by introducing a new “path layer” for transport-independent, in-band signaling between Internet endpoints and network elements on the paths between them, and using this layer to reinforce the boundary between the hop-by-hop network layer and the end-to- end transport layer. We define a path layer header on top of UDP to provide a common wire image for new, encrypted transports. This path layer header provides information to a transport- independent on-path state machine that replaces stateful handling currently based on exposed header flags and fields in TCP; it enables explicit measurability of transport layer performance; and offers extensibility by sender-to-path and path-to-receiver communications for diagnostics and management. This provides not only a replacement for signals that are not available with encrypted traffic, but also allows integrity-protected, enhanced signaling under endpoint control. We present an implementation of this wire image integrated with the QUIC protocol, as well as a basic stateful middlebox built on Vector Packet Processing (VPP) provided by FD.io."
+  }
+]
