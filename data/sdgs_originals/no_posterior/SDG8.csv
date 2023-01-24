@@ -1,4 +1,5 @@
-﻿c1;access to banking;NA;Zugang zu Bankdienstleistungen;NA;accès aux services bancaires;NA;accesso alle banche;NA
+﻿id;keyword_en;required_context_en;keyword_de;required_context_de;keyword_fr;required_context_fr;keyword_it;required_context_it
+c1;access to banking;NA;Zugang zu Bankdienstleistungen;NA;accès aux services bancaires;NA;accesso alle banche;NA
 c2;access to financial service;NA;Zugang zu Finanzdienstleistungen;NA;accès aux services financiers;NA;accesso al servizio finanziario;NA
 c3;access to insurance service;NA;Zugang zu Versicherungsdienstleistungen;NA;accès aux services d'assurance;NA;accesso al servizio assicurativo;NA
 c4;added worker effect;NA;Effekt der zusätzlichen Arbeitskräfte;NA;effet du travailleur supplémentaire;NA;effetto lavoratore aggiunto;NA

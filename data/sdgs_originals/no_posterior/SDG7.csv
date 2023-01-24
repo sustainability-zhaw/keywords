@@ -1,4 +1,5 @@
-﻿c1;absorption heat pump;NA;Absorptionswärmepumpe;NA;pompe à chaleur à absorption;NA;pompa di calore ad assorbimento;NA
+﻿id;keyword_en;required_context_en;keyword_de;required_context_de;keyword_fr;required_context_fr;keyword_it;required_context_it
+c1;absorption heat pump;NA;Absorptionswärmepumpe;NA;pompe à chaleur à absorption;NA;pompa di calore ad assorbimento;NA
 c2;agrivoltaic;NA;agrivoltaisch;NA;agrivoltaïque;NA;agrivoltaico;NA
 c3;air source heat pumps;NA;Luft-Wärmepumpen;NA;pompes à chaleur à air;NA;pompe di calore ad aria;NA
 c4;airborne wind turbine;NA;Windturbine in der Luft;NA;éolienne aéroportée;NA;turbina eolica ad aria;NA

@@ -1,4 +1,5 @@
-﻿c1;abortion clinic;NA;Abtreibungsklinik;NA;clinique d'avortement;NA;clinica dell'aborto;NA
+﻿id;keyword_en;required_context_en;keyword_de;required_context_de;keyword_fr;required_context_fr;keyword_it;required_context_it
+c1;abortion clinic;NA;Abtreibungsklinik;NA;clinique d'avortement;NA;clinica dell'aborto;NA
 c2;abortion rights;NA;Abtreibungsrechte;NA;droit à l'avortement;NA;diritti di aborto;NA
 c3;adoption;NA;Adoption;NA;adoption;NA;adozione;NA
 c4;artificial insemination;NA;künstliche Befruchtung;NA;insémination artificielle;NA;inseminazione artificiale;NA

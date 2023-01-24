@@ -1,4 +1,5 @@
-﻿c1;economic growth;NA;Wirtschaftswachstum;NA;la croissance économique;NA;crescita economica;NA
+﻿id;keyword_en;required_context_en;keyword_de;required_context_de;keyword_fr;required_context_fr;keyword_it;required_context_it
+c1;economic growth;NA;Wirtschaftswachstum;NA;la croissance économique;NA;crescita economica;NA
 c2;economic development policy;NA;Politik der wirtschaftlichen Entwicklung;NA;politique de développement économique;NA;politica di sviluppo economico;NA
 c3;employment policy;NA;Beschäftigungspolitik;NA;politique de l'emploi;NA;politica per l'occupazione;NA
 c4;inclusive economic growth;NA;integratives Wirtschaftswachstum;NA;croissance économique inclusive;NA;crescita economica inclusiva;NA

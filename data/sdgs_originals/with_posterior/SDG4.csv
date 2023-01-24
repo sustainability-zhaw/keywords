@@ -1,4 +1,5 @@
-﻿c1;school;attendance;Schule;Anwesenheit;école;présence;scuola;frequenza
+﻿id;keyword_en;required_context_en;keyword_de;required_context_de;keyword_fr;required_context_fr;keyword_it;required_context_it
+c1;school;attendance;Schule;Anwesenheit;école;présence;scuola;frequenza
 c2;education*;enrol*ment;Ausbildung*;Einschreibung*;l'éducation;inscription;istruzione*;iscrizione
 c3;school attendance;inclusive education;Schulbesuch;inklusive Bildung;fréquentation scolaire;éducation inclusive;frequenza scolastica;educazione inclusiva
 c4;school enrol*ment;NA;Einschulung*;NA;inscription à l'école;NA;iscrizione a scuola;NA

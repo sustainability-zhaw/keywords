@@ -1,4 +1,5 @@
-﻿c1;environmental pollution;NA;Umweltverschmutzung;NA;pollution environnementale;NA;inquinamento ambientale;NA
+﻿id;keyword_en;required_context_en;keyword_de;required_context_de;keyword_fr;required_context_fr;keyword_it;required_context_it
+c1;environmental pollution;NA;Umweltverschmutzung;NA;pollution environnementale;NA;inquinamento ambientale;NA
 c2;hazardous waste;NA;gefährlicher Abfall;NA;déchets dangereux;NA;rifiuti pericolosi;NA
 c3;hazardous chemical*;NA;gefährliche Chemikalie*;NA;produit chimique dangereux;NA;prodotto chimico pericoloso*;NA
 c5;toxic chemical;NA;giftige Chemikalie;NA;produit chimique toxique;NA;prodotto chimico tossico;NA
