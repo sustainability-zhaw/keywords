@@ -2,7 +2,7 @@ import * as CSVParser from "csv-parse";
 import fs from "fs";
 import { finished } from "stream/promises";
 
-const targetHost = "http://localhost:8081/api"
+const targetHost = "http://localhost:8081/api/"
 
 const RequestController = new AbortController();
 
@@ -57,7 +57,7 @@ const matcher = (await Promise.all(files.map(async (idx) => {
                 construct: `${id}_${mapping[rid].language}`,
                 language: mapping[rid].language,
                 sdg: {
-                    sdg: `sdg_${idx}`
+                    id: `sdg_${idx}`
                 }
             };  
 
@@ -81,24 +81,26 @@ const headers = {
     'Content-Type': 'application/json'
 };
 
-
-
 const query = "mutation addSdgMatch($matcher: [AddSdgMatchInput!]!) { addSdgMatch(input: $matcher, upsert: true) { sdgMatch { construct } } }";
 const variables = { matcher };
 const body = JSON.stringify({ query, variables }, null, "  ");
 
-console.log(body);
+// console.log(body);
 
-console
+console.log("pre request");
 
-// const response = await fetch(targetHost, {
-//     signal,
-//     method,
-//     headers,
-//     cache,
-//     body
-// });
+const response = await fetch(targetHost, {
+    signal,
+    method,
+    headers,
+    cache,
+    body
+});
 
-// const result = await response.json();
+console.log("post request");
 
-// console.log(JSON.stringify(result));
+const result = await response.json();
+
+console.log("request results");
+
+console.log(JSON.stringify(result));
