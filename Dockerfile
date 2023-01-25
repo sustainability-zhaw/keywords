@@ -1,33 +1,10 @@
-# FROM docker
-# COPY --from=docker/buildx-bin:latest /buildx /usr/libexec/docker/cli-plugins/docker-buildx
-# RUN docker buildx version
+FROM node:19-slim
 
-# start from rstudio/plumber image 
-FROM rstudio/plumber:latest
+WORKDIR /app
 
-# general update check, additional installation needed 
-RUN apt-get update -qq \
-  && apt-get install -y \ 
-     libssl-dev \ 
-     libcurl4-gnutls-dev \ 
-  && rm -rf /var/lib/apt/lists/*
+COPY data /app/data
+COPY tools /app
 
-# R packages needed by the services 
-RUN R -e 'install.packages(c("magrittr", "yaml", "RCurl", "plumber", "here", "forcats", "dplyr", "stringr", "jsonlite", "readr", "tidyr", "quanteda", "openxlsx"))' \
- && rm -rf /tmp/*
+RUN npm install
 
-# set the container work directory 
-WORKDIR /usr
-
-# Volume definition on the host and within the container 
-COPY config.yml /usr
-COPY /data/. /usr/data 
-COPY /src/. /usr/src 
-
-# VOLUME ["/usr/src"]
-# CMD Rscript plumber.R
-
-RUN R -e "install.packages('libcurl:latest')"
-
-# launch the plumbered R file 
-CMD ["Rscript src/dc_sdg_mapping.R"]
+CMD /usr/local/bin/node --experimental-fetch /app/csv2gql.mjs ${DB_URI}
