@@ -2,7 +2,14 @@ import * as CSVParser from "csv-parse";
 import fs from "fs";
 import { finished } from "stream/promises";
 
-const targetHost = "http://localhost:8081/api/"
+let argHost = process.argv.pop();
+
+if (process.argv.length < 2 && argHost.slice(0,3) !== "http") {
+    argHost = null;
+}
+
+// The default target is localhost to match the dev environment
+const targetHost = argHost? argHost : "http://localhost:8081/api/";
 
 const RequestController = new AbortController();
 
@@ -87,7 +94,7 @@ const body = JSON.stringify({ query, variables }, null, "  ");
 
 // console.log(body);
 
-console.log("pre request");
+// console.log(">>> pre request");
 
 const response = await fetch(targetHost, {
     signal,
@@ -97,10 +104,10 @@ const response = await fetch(targetHost, {
     body
 });
 
-console.log("post request");
+// console.log(">>> post request");
 
 const result = await response.json();
 
-console.log("request results");
+// console.log(">>> request results");
 
-console.log(JSON.stringify(result));
+console.log(JSON.stringify(result, null, "  "));
