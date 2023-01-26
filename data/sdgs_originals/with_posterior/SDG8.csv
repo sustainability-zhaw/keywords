@@ -1,70 +1,70 @@
-id;keyword_en;required_context_en;forbidden_context_en;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
-c1;economic growth;;;Wirtschaftswachstum;;;la croissance économique;;;crescita economica;;
-c2;economic development policy;;;Politik der wirtschaftlichen Entwicklung;;;politique de développement économique;;;politica di sviluppo economico;;
-c3;employment policy;;;Beschäftigungspolitik;;;politique de l'emploi;;;politica per l'occupazione;;
-c4;inclusive economic growth;;;integratives Wirtschaftswachstum;;;croissance économique inclusive;;;crescita economica inclusiva;;
-c5;sustainable growth;;;Nachhaltiges Wachstum;;;croissance durable;;;crescita sostenibile;;
-c6;economic development;;;Wirtschaftliche Entwicklung;;;développement économique;;;sviluppo economico;;
-c7;economic globaliation;;;wirtschaftliche Globalisierung;;;mondialisation de l'économie;;;globalizzazione economica;;
-c8;economic productivity;;;wirtschaftliche Produktivität;;;productivité économique;;;produttività economica;;
-c9;low-carbon economy;;;kohlenstoffarme Wirtschaft;;;économie à faible émission de carbone;;;economia a basse emissioni di carbonio;;
-c10;inclusive growth;;;integratives Wachstum;;;croissance inclusive;;;crescita inclusiva;;
-c11;microfinanc;;;MikroFinanzierung;;;microfinancement;;;microfinanza;;
-c12;microcredit;;;MikroKredit;;;microcrédit;;;microcredito;;
-c13;equal income;;;gleiches Einkommen;;;revenu égal;;;reddito uguale;;
-c14;equal wages;;;gleiche Löhne;;;salaires égaux;;;salari uguali;;
-c15;decent job;;;Angemessene Arbeit;;;emploi décent;;;lavoro dignitoso;;
-c16;quality job;;;hochwertige Arbeit;;;emploi de qualité;;;lavoro di qualità;;
-c17;job creation;;;Schaffung von Arbeitsplätzen;;;création d'emplois;;;creazione di posti di lavoro;;
-c18;full employment;;;Vollbeschäftigung;;;plein emploi;;;piena occupazione;;
-c19;employment protection;;;Schutz der Beschäftigung;;;protection de l'emploi;;;protezione dell'occupazione;;
-c20;informal employment;;;informelle Beschäftigung;;;emploi informel;;;occupazione informale;;
-c21;precarious employment;;;Prekäre Beschäftigung;;;emploi précaire;;;occupazione precaria;;
-c22;unemployment;;;Arbeitslosigkeit;;;chômage;;;disoccupazione;;
-c23;precarious job;;;prekäre Beschäftigung;;;emploi précaire;;;lavoro precario;;
-c24;microenterprise;;;MikroUnternehmen;;;microentreprise;;;microimpresa;;
-c25;small enterprise;;;Kleinunternehmen;;;petite entreprise;;;piccola impresa;;
-c26;medium enterprise;;;mittleres Unternehmen;;;moyenne entreprise;;;media impresa;;
-c27;small entrepreneur;;;Kleinunternehmer;;;petit entrepreneur;;;piccolo imprenditore;;
-c28;starting entrepreneur;;;Jungunternehmer;;;entrepreneur débutant;;;imprenditore iniziale;;
-c29;medium entrepreneur;;;mittleres Unternehmen;;;moyenne entreprise;;;medio imprenditore;;
-c30;social entrepreneurship;;;soziales Unternehmertum;;;entrepreneuriat social;;;imprenditoria sociale;;
-c31;safe working environment;;;sicheres Arbeitsumfeld;;;environnement de travail sûr;;;ambiente di lavoro sicuro;;
-c32;labor market institution;;;Arbeitsmarktinstitution;;;institution du marché du travail;;;istituzione del mercato del lavoro;;
-c33;labour market institution;;;Arbeitsmarktinstitution;;;institution du marché du travail;;;istituzione del mercato del lavoro;;
-c34;forced labor;;;Zwangsarbeitr;;;travail forcé;;;lavoro forzato;;
-c35;child labor;;;Kinderarbeitr;;;labor enfant;;;lavoro minorile;;
-c36;labor right;;;Arbeitsrecht;;;droit de labor;;;diritto al lavoro;;
-c37;modern slavery;;;moderne Sklaverei;;;esclavage moderne;;;schiavitù moderna;;
-c38;human trafficking;;;Menschenhandel;;;trafic d'êtres humains;;;traffico di esseri umani;;
-c39;child soldier;;;Kindersoldatin;;;enfant soldat;;;bambino soldato;;
-c40;global jobs;;;globale Arbeitsplätze;;;emplois mondiaux;;;lavoro globale;;
-c41;living wage;;;existenzsichernder Lohn;;;salaire de subsistance;;;salario di sussistenza;;
-c42;minimum wage;;;Mindestlohn;;;salaire minimum;;;salario minimo;;
-c43;circular economy;;;Kreislaufwirtschaft;;;économie circulaire;;;economia circolare;;
-c44;inclusive economy;;;integrative Wirtschaft;;;économie inclusive;;;economia inclusiva;;
-c45;rural economy;;;ländliche Wirtschaft;;;économie rurale;;;economia rurale;;
-c46;Foreign Development Investment;;;Ausländische Entwicklungsinvestitionen;;;Investissement étranger de développement;;;Investimenti esteri per lo sviluppo;;
-c47;Aid for Trade;;;Hilfe für den Handel;;;Aide au commerce;;;Aiuto al commercio;;
-c48;trade union;;;Gewerkschaft;;;syndicat;;;sindacato;;
-c49;working poor;;;arbeitende Arme;;;travailleurs pauvres;;;lavoratori poveri;;
-c50;Not in Education;;;Nicht in Bildung;;;Pas dans l'éducation;;;Non nell'istruzione;;
-c51;Employment;;;Beschäftigung;;;Emploi;;;Occupazione;;
-c52;or Training;;;oder Ausbildung;;;ou formation;;;o formazione;;
-c53;carbon offset;;;Kohlenstoffausgleich;;;compensation carbone;;;compensazione di carbonio;;
-c54;carbon offsetting;;;Kompensation von Kohlenstoff;;;compensation carbone;;;compensazione di carbonio;;
-c55;offset project;;;Ausgleichsprojekt;;;projet de compensation;;;progetto di compensazione;;
-c56;economic diversification;;;wirtschaftliche Diversifizierung;;;diversification économique;;;diversificazione economica;;
-c57;material footprint;;;materieller Fußabdruck;;;empreinte matérielle;;;impronta materiale;;
-c58;resource efficiency;;;Ressourceneffizienz;;;efficacité des ressources;;;efficienza delle risorse;;
-c59;cradle to cradle;economy;;Von der Wiege zur Wiege;Wirtschaft;;du berceau au berceau;économie;;dalla culla alla culla;economia;
-c60;economic decoupling;;;wirtschaftliche Entkopplung;;;découplage économique;;;disaccoppiamento economico;;
-c61;labour market disparities;;;Ungleichheiten auf dem Arbeitsmarkt;;;disparités sur le marché du travail;;;disparità del mercato del lavoro;;
-c62;sustainable tourism;;;Nachhaltiger Tourismus;;;tourisme durable;;;turismo sostenibile;;
-c63;ecotourism;;;Ökotourismus;;;écotourisme;;;ecoturismo;;
-c64;community-based tourism;;;gemeindebasierter Tourismus;;;tourisme communautaire;;;turismo comunitario;;
-c65;tourism employment;;;Beschäftigung im Tourismus;;;emploi dans le tourisme;;;occupazione turistica;;
-c66;sustainable tourism policy;;;Nachhaltige Tourismuspolitik;;;politique de tourisme durable;;;politica del turismo sostenibile;;
-c67;financial access;;;Finanzieller Zugang;;;accès financier;;;accesso finanziario;;
-c68;financial inclusion;;;finanzielle Eingliederung;;;inclusion financière;;;inclusione finanziaria;;
-c69;access to banking;;health;Zugang zum Bankwesen;;Gesundheit;accès aux services bancaires;;santé;accesso all'attività bancaria;;salute
+﻿id;keyword_en;required_context_en;keyword_de;required_context_de;keyword_fr;required_context_fr;keyword_it;required_context_it
+c1;economic growth;NA;Wirtschaftswachstum;NA;la croissance économique;NA;crescita economica;NA
+c2;economic development policy;NA;Politik der wirtschaftlichen Entwicklung;NA;politique de développement économique;NA;politica di sviluppo economico;NA
+c3;employment policy;NA;Beschäftigungspolitik;NA;politique de l'emploi;NA;politica per l'occupazione;NA
+c4;inclusive economic growth;NA;integratives Wirtschaftswachstum;NA;croissance économique inclusive;NA;crescita economica inclusiva;NA
+c5;sustainable growth;NA;Nachhaltiges Wachstum;NA;croissance durable;NA;crescita sostenibile;NA
+c6;economic development;NA;Wirtschaftliche Entwicklung;NA;développement économique;NA;sviluppo economico;NA
+c7;economic globali*ation;NA;wirtschaftliche Globalisierung;NA;mondialisation de l'économie;NA;globalizzazione economica;NA
+c8;economic productivity;NA;wirtschaftliche Produktivität;NA;productivité économique;NA;produttività economica;NA
+c9;low-carbon economy;NA;kohlenstoffarme Wirtschaft;NA;économie à faible émission de carbone;NA;economia a basse emissioni di carbonio;NA
+c10;inclusive growth;NA;integratives Wachstum;NA;croissance inclusive;NA;crescita inclusiva;NA
+c11;micro*financ*;NA;Mikro*Finanzierung*;NA;micro*financement;NA;micro*finanza;NA
+c12;micro*credit*;NA;Mikro*Kredit*;NA;micro*crédit;NA;micro*credito;NA
+c13;equal income;NA;gleiches Einkommen;NA;revenu égal;NA;reddito uguale;NA
+c14;equal wages;NA;gleiche Löhne;NA;salaires égaux;NA;salari uguali;NA
+c15;decent job*;NA;Angemessene Arbeit*;NA;emploi décent;NA;lavoro dignitoso*;NA
+c16;quality job*;NA;hochwertige Arbeit*;NA;emploi de qualité;NA;lavoro di qualità*;NA
+c17;job creation;NA;Schaffung von Arbeitsplätzen;NA;création d'emplois;NA;creazione di posti di lavoro;NA
+c18;full employment;NA;Vollbeschäftigung;NA;plein emploi;NA;piena occupazione;NA
+c19;employment protection;NA;Schutz der Beschäftigung;NA;protection de l'emploi;NA;protezione dell'occupazione;NA
+c20;informal employment;NA;informelle Beschäftigung;NA;emploi informel;NA;occupazione informale;NA
+c21;precarious employment;NA;Prekäre Beschäftigung;NA;emploi précaire;NA;occupazione precaria;NA
+c22;unemployment;NA;Arbeitslosigkeit;NA;chômage;NA;disoccupazione;NA
+c23;precarious job*;NA;prekäre Beschäftigung*;NA;emploi précaire*;NA;lavoro precario*;NA
+c24;micro*enterprise*;NA;Mikro*Unternehmen*;NA;micro*entreprise*;NA;micro*impresa*;NA
+c25;small enterprise*;NA;Kleinunternehmen*;NA;petite entreprise*;NA;piccola impresa*;NA
+c26;medium enterprise;NA;mittleres Unternehmen;NA;moyenne entreprise;NA;media impresa;NA
+c28;small entrepreneur*;NA;Kleinunternehmer*;NA;petit entrepreneur*;NA;piccolo imprenditore*;NA
+c29;starting entrepreneur*;NA;Jungunternehmer*;NA;entrepreneur* débutant;NA;imprenditore iniziale*;NA
+c30;medium entrepreneur*;NA;mittleres Unternehmen*;NA;moyenne entreprise*;NA;medio imprenditore*;NA
+c31;social entrepreneurship;NA;soziales Unternehmertum;NA;entrepreneuriat social;NA;imprenditoria sociale;NA
+c32;safe working environment;NA;sicheres Arbeitsumfeld;NA;environnement de travail sûr;NA;ambiente di lavoro sicuro;NA
+c33;labor market institution*;NA;Arbeitsmarktinstitution*;NA;institution du marché du travail;NA;istituzione del mercato del lavoro*;NA
+c34;labour market institution*;NA;Arbeitsmarktinstitution*;NA;institution du marché du travail;NA;istituzione del mercato del lavoro*;NA
+c35;forced labo*r;NA;Zwangsarbeit*r;NA;travail forcé;NA;lavoro forzato;NA
+c36;child labo*r;NA;Kinderarbeit*r;NA;labo*r enfant;NA;lavoro minorile;NA
+c37;labo*r right*;NA;Arbeitsrecht*;NA;droit de labo*r;NA;diritto al lavoro*;NA
+c38;modern slavery;NA;moderne Sklaverei;NA;esclavage moderne;NA;schiavitù moderna;NA
+c39;human trafficking;NA;Menschenhandel;NA;trafic d'êtres humains;NA;traffico di esseri umani;NA
+c40;child soldier*;NA;Kindersoldat*in;NA;enfant soldat;NA;bambino soldato*;NA
+c41;global jobs;NA;globale Arbeitsplätze;NA;emplois mondiaux;NA;lavoro globale;NA
+c42;living wage;NA;existenzsichernder Lohn;NA;salaire de subsistance;NA;salario di sussistenza;NA
+c43;minimum wage;NA;Mindestlohn;NA;salaire minimum;NA;salario minimo;NA
+c44;circular economy;NA;Kreislaufwirtschaft;NA;économie circulaire;NA;economia circolare;NA
+c45;inclusive economy;NA;integrative Wirtschaft;NA;économie inclusive;NA;economia inclusiva;NA
+c46;rural economy;NA;ländliche Wirtschaft;NA;économie rurale;NA;economia rurale;NA
+c47;Foreign Development Investment;NA;Ausländische Entwicklungsinvestitionen;NA;Investissement étranger de développement;NA;Investimenti esteri per lo sviluppo;NA
+c48;Aid for Trade;NA;Hilfe für den Handel;NA;Aide au commerce;NA;Aiuto al commercio;NA
+c49;trade union*;NA;Gewerkschaft*;NA;syndicat;NA;sindacato*;NA
+c50;working poor;NA;arbeitende Arme;NA;travailleurs pauvres;NA;lavoratori poveri;NA
+c51;Not in Education;NA;Nicht in Bildung;NA;Pas dans l'éducation;NA;Non nell'istruzione;NA
+c52; Employment;NA; Beschäftigung;NA; Emploi;NA; Occupazione;NA
+c53; or Training;NA; oder Ausbildung;NA; ou formation;NA; o formazione;NA
+c54;carbon offset*;NA;Kohlenstoffausgleich*;NA;compensation carbone*;NA;compensazione di carbonio*;NA
+c55;carbon offsetting;NA;Kompensation von Kohlenstoff;NA;compensation carbone;NA;compensazione di carbonio;NA
+c56;offset project*;NA;Ausgleichsprojekt*;NA;projet de compensation*;NA;progetto di compensazione*;NA
+c57;economic diversification;NA;wirtschaftliche Diversifizierung;NA;diversification économique;NA;diversificazione economica;NA
+c58;material footprint;NA;materieller Fußabdruck;NA;empreinte matérielle;NA;impronta materiale;NA
+c59;resource efficiency;NA;Ressourceneffizienz;NA;efficacité des ressources;NA;efficienza delle risorse;NA
+c60;cradle to cradle;economy;Von der Wiege zur Wiege;Wirtschaft;du berceau au berceau;économie;dalla culla alla culla;economia
+c61;economic decoupling;NA;wirtschaftliche Entkopplung;NA;découplage économique;NA;disaccoppiamento economico;NA
+c62;labour market disparities;NA;Ungleichheiten auf dem Arbeitsmarkt;NA;disparités sur le marché du travail;NA;disparità del mercato del lavoro;NA
+c63;sustainable tourism;NA;Nachhaltiger Tourismus;NA;tourisme durable;NA;turismo sostenibile;NA
+c64;ecotourism;NA;Ökotourismus;NA;écotourisme;NA;ecoturismo;NA
+c65;community-based tourism;NA;gemeindebasierter Tourismus;NA;tourisme communautaire;NA;turismo comunitario;NA
+c66;tourism employment;NA;Beschäftigung im Tourismus;NA;emploi dans le tourisme;NA;occupazione turistica;NA
+c67;sustainable tourism policy;NA;Nachhaltige Tourismuspolitik;NA;politique de tourisme durable;NA;politica del turismo sostenibile;NA
+c68;financial access;NA;Finanzieller Zugang;NA;accès financier;NA;accesso finanziario;NA
+c69;financial inclusion;NA;finanzielle Eingliederung;NA;inclusion financière;NA;inclusione finanziaria;NA
+c70;access to banking;NOT  health;Zugang zum Bankwesen;NICHT Gesundheit;accès aux services bancaires;PAS santé;accesso all'attività bancaria;NON salute

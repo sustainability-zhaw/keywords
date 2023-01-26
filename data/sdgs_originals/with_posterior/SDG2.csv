@@ -1,159 +1,45 @@
-id;keyword_en;required_context_en;forbidden_context_en;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
-c1;smallholder;farm, forestry, pastoral, agriculture, fishery, food producer;;Kleinbauern;Landwirtschaft,  Forstwirtschaft,  Weidewirtschaft,  Lebensmittel,  Ernährung;;petit propriétaire;ferme;;piccolo proprietario;azienda agricola;
-c2;land tenure rights;farm, forestry, pastoral, agriculture, fishery, food producer;;Landnutzungsrechte;Landwirtschaft,  Forstwirtschaft,  Weidewirtschaft,  Lebensmittel,  Ernährung;;droits fonciers;ferme;;diritti di proprietà fondiaria;azienda agricola;
-c3;agriculture;sustainability, sustainable, resilience, resilience, ecosystem, resilient;;Landwirtschaft;Nachhaltigkeit, nachhaltig, Widerstandsfähigkeit, Resilienz, Ökosystem, widerstandsfähig, biologische Bekämpfungsstrategie, biologisch Bekämpfung;Schokolade,  Wein,  Bier,  Kaffee,  Trüffel,  Thunfisch,  Kaviar,  Alkohol;malnutrition;;;malnutrizione;;
-c4;malnourish;;;Unterernährung;;;malnutrition;;;malnutrizione;;
-c5;malnutrition;;;Lebensmittelkrise;;;sous-nutrition;;;denutrizione;;
-c6;undernourish;;;unterernährt;;;dénutrition;;;denutrizione;;
-c7;undernutrition;;;Gesundheit;Landwirtschaft, Weidewirtschaft, ressourcenschon;;produits agricoles;;;prodotti agricoli;;
-c8;agricultural producti;;;landwirtschaftliche Produkte;;;pratiques agricoles;;;pratiche agricole;;
-c9;agricultural practices;;;landwirtschaftliche Praktiken;;;gestion agricole;;;gestione agricola;;
-c10;agricultural management;;;Agrarmanagement;;;production alimentaire;;;produzione alimentare;;
-c11;food producti;;;Nahrungsmittelproduktion;;;sécurité alimentaire;;;sicurezza alimentare;;
-c12;food security;;;Ernährungs  sicherheit;;;droit foncier;;;diritto alla terra;;
-c13;land right;;;Bodenrecht;;;réforme foncière;;;riforma agraria;;
-c14;land reform;;;Bodenreform;;;pratiques agricoles résilientes;;;pratiche agricole resilienti;;
-c15;resilient agricultural practices;;;Widerstandsfähige landwirtschaftliche Praktiken;;;fertilité;;;fertilizzazione;;
-c16;fertilier;;;Fertilität;Landwirtschaft, Weidewirtschaft, Lebensmittel, ;;amélioration de la nutrition alimentaire;;;miglioramento della nutrizione alimentare;;
-c17;food nutrition improvement;;;Verbesserung der Nahrungsmittelversorgung;;;faim cachée;;;fame nascosta;;
-c18;hidden hunger;;;Versteckter Hunger;;;aliments génétiquement modifiés;;;cibo geneticamente modificato;;
-c19;genetically modified food;;;gentechnisch veränderte Lebensmittel;;;ogm;aliments;;ogm;cibo;
-c20;gmo;food;;gmo;Lebensmittel;;pratiques agroforestières;;;pratiche agroforestali;;
-c21;agroforestry practices;;;agroforstwirtschaftliche Praktiken;;;gestion de l'agroforesterie;;;gestione agroforestale;;
-c22;agroforestry management;;;agroforstwirtschaftliches Management;;;innovation agricole;;;innovazione agricola;;
-c23;agricultural innovation;;;landwirtschaftliche Innovation;;;sécurité alimentaire;diversité génétique;;sicurezza alimentare;diversità genetica;
-c24;food security;genetic diversity;;Ernährungssicherheit;genetische Vielfalt;;marché alimentaire;restriction;;mercato alimentare;restrizione;
-c25;food market;restriction, tariff, access, north south divide, development governance;;Lebensmittelmarkt;Einschränkung;;gouvernance alimentaire;;;governance alimentare;;
-c26;food governance;;;Lebensmittel-Governance;nachhaltig;;chaîne d'approvisionnement alimentaire;;;filiera alimentare;;
-c27;food supply chain;;;Lebensmittelversorgungskette;nachhaltig;;recherche agricole;;;ricerca agricola;;
-c28;agricultural research;;;Agrarforschung;;;agroécologie;;;agroecologia;;
-c29;agroecology;;;Agrarökologie;;;restauration agroécologique;;;restauro agroecologico;;
-c30;agroecological restoration;;;agroökologische Restaurierung;;;robot agricole;;;robot agricolo;;
-c31;agricultural robot;;;landwirtschaftlicher Roboter;;;agritech;;;agritech;;
-c32;agritech;;;agritech;;;agribusiness;;;agribusiness;;
-c33;agribusiness;;;Agrobusiness;;;malnutrition aiguë;;;malnutrizione acuta;;
-c34;acute malnutrition;;;akute Mangelernährung;;;anémie;;;anemia;;
-c35;anaemia;;;Anämie;;;pauvreté;;;povertà;;
-c36;poverty;food, hunger, nutrition;;Armut;Lebensmittel, Hunger, Ernährung;;nourriture suffisante;;;cibo sufficiente;;
-c37;enough food;;;genug zu essen;;;nourriture suffisante;;;cibo sufficiente;;
-c38;sufficient food;;;ausreichend Nahrung;;;agriculture pour l'éducation pour l'environnement;;;agricoltura civica;;
-c39;civic agriculture;;;Ertrag;Lebensmittel, Hunger, Ernährung, Landwirtschaft;;biofertilisant;;;biofertilizzante;;
-c40;biofertilizer;;;Bio-Dünger;;;horticulture biologique;;;produzione di uova biologiche;;
-c41;organic egg production;;;Bio-Eierproduktion;;;propriétés du sol;;;orticoltura biologica;;
-c42;organic horticulture;;;Bio-Gartenbau;;;santé des sols;;;cibo biologico;;
-c43;organic food;policy;;Bio-Lebensmittel;;;productivité des sols;;;gestione del suolo;;
-c44;soil management;;;Bodenbewirtschaftung;;;qualité des sols;;;proprietà del suolo;;
-c45;soil properties;;;Bodeneigenschaften;Landwirtschaft, Weidewirtschaft, Lebensmittel;;malnutrition chronique;;;fertilità del suolo;;
-c46;soil fertility;;;Bodenfruchtbarkeit;;;irrigation déficitaire;;;salute del suolo;;
-c47;soil health;;;Bodengesundheit;;;plante diversifiée;;;produttività del suolo;;
-c48;soil productivity;;;Bodenproduktivität;;;semences diversifiées;;;qualità del suolo;;
-c49;soil quality;;;Bodenqualität;;;cycle de développement de doha;;;malnutrizione cronica;;
-c50;chronic malnutrition;;;chronische Mangelernährung;;;revenu des agriculteurs;;;irrigazione deficitaria;;
-c51;deficit irrigation;;;Defizitbewässerung;;;revenu des petits producteurs alimentaires;;;pianta diversificata;;
-c52;diversified plant;;;diversifizierte Anlage;;;inégalité de revenus;;;sementi diversificate;;
-c53;diversified seed;;;diversifiziertes Saatgut;;;maintien des écosystèmes;;;ciclo di sviluppo di doha;;
-c54;doha development round;;;Doha Entwicklungsrunde;;;crise alimentaire;;;reddito degli agricoltori;;
-c55;farmers' income;;;Einkommen der Landwirte;;;sécurité alimentaire;;;reddito dei piccoli produttori alimentari;;
-c56;small-scale food producers income;;;Einkommen der kleinen Lebensmittelproduzenten;;;insécurité alimentaire;;;disuguaglianza di reddito;;
-c57;income inequality;;;Einkommensungleichheit;;;rendement des cultures;;;mantenere gli ecosistemi;;
-c58;maintain ecosystems;;;Ökosysteme erhalten;;;rendement des cultures;;;crisi alimentare;;
-c59;food crisis;;;Nahrungsmittelkrise;;;rotation des cultures;;;sicurezza alimentare;;
-c60;nutrition security;;;Ernährungssicherheit;;;diversité génétique des semences;;;insicurezza alimentare;;
-c61;food insecurity;;;Ernährungsunsicherheit;;;aliments frelatés;;;resa dei raccolti;;
-c62;crop yield;;;Ernteertrag;;;aliments sains;;;resa delle colture;;
-c63;crop yields;;;Ernteerträge;;;production de céréales;;;rotazione delle colture;;
-c64;crop rotation;;;Fruchtfolge;;;accès égal à la terre;;;diversità genetica delle sementi;;
-c65;genetic diversity of seeds;;;Genetische Vielfalt von Saatgut;;;faim;;;cibo adulterato;;
-c66;adulterated food;;;gepanschte Lebensmittel;;;famine;;;cibo sano;;
-c67;healthy food;;;gesundes Essen;;;banque de scarabées;;;produzione di cereali;;
-c68;grain production;;;Getreideproduktion;;;faim des enfants;;;uguale accesso alla terra;;
-c69;equal access to land;;;gleichberechtigter Zugang zu Land;;;malnutrition infantile;;;fame;;
-c70;hunger;;;Hunger;Lebensmittel, Ernährung;;malnutrition infantile;;;persone affamate;;
-c71;hungry people;;;hungrige Menschen;;;qualité des terres;;;carestia;;
-c72;famine;;;Hungersnot;;;agriculture d'impact;;;banca degli scarabei;;
-c73;beetle bank;;;Käferbank;;;biodiversité agricole;;;fame infantile;;
-c74;child hunger;;;Kinderhunger;;;biotechnologie agricole;;;malnutrizione infantile;;
-c75;child malnutrition;;;Mangelernährung bei Kindern;;;science des sols agricoles;;;malnutrizione infantile;;
-c76;childhood malnutrition;;;Fehlernährung bei Kindern;;;drone agricole;;;piccola fattoria;;
-c77;small farm;;;kleine Farm;;;développement agricole;;;agricoltura conservativa;;
-c78;conservation agriculture;;;regenerative Landwirtschaft;;;subventions aux exportations agricoles;;;agricoltura a traffico controllato;;
-c79;controlled traffic farming;;;controlled traffic farming;;;terres agricoles;;;diversità delle colture;;
-c80;crop diversity;;;Kulturpflanzenvielfalt;;;coopérative agricole;;;qualità della terra;;
-c81;land quality;;;Landqualität;;;intensification agricole;;;agricoltura d'impatto;;
-c82;agriculture for impact;;;Landwirtschaft mit Wirkung;;;développement agricole;;;biodiversità agricola;;
-c83;agricultural biodiversity;;;landwirtschaftliche Artenvielfalt;;;production agricole;;;biotecnologia agricola;;
-c84;agricultural biotechnology;;;Agrarbiotechnologie;;;productivité agricole;;;scienza del suolo agricolo;;
-c85;agricultural soil science;;;landwirtschaftliche Bodenkunde;;;croissance agricole;;;drone agricolo;;
-c86;agricultural drone;sustainability, sustainable, resilience, resilient, ecosystem, resilience;;landwirtschaftliche Drohne;;;prix des aliments;;;sviluppo agricolo;;
-c87;agricultural development;;;landwirtschaftliche Entwicklung;Nachhaltigkeit, nachhaltig, Widerstandsfähigkeit, Resilienz, Ökosystem, widerstandsfähig;;prix des aliments;;;sussidi alle esportazioni agricole;;
-c88;agricultural export subsidies;;;Agrarexportsubventionen;;;production alimentaire;;;terreni agricoli;;
-c89;agricultural land;;;Agrarland;;;qualité des aliments;;;cooperativa agricola;;
-c90;agricultural cooperative;hunger;;landwirtschaftliche Genossenschaft;;;réserves alimentaires;;;intensificazione agricola;;
-c91;agricultural intensification;;;landwirtschaftliche Intensivierung;;;sécurité alimentaire;;;sostenibilità agricola;;
-c92;agricultural sustainability;;;landwirtschaftliche Nachhaltigkeit;;;intoxication alimentaire;;;produzione agricola;;
-c93;agricultural production;;;landwirtschaftliche Produktion;;;alimentation locale;;;produttività agricola;;
-c94;agricultural productivity;;;landwirtschaftliche Produktivität;;;partenariat avec la banque de semences du millénaire;;;crescita agricola;;
-c95;agricultural growth;;;landwirtschaftliches Wachstum;;;agriculture durable;;;prezzo degli alimenti;;
-c96;food price;;;Lebensmittelpreis;;;production alimentaire durable;;;prezzi degli alimenti;;
-c97;food prices;food, agriculture, famine;;Lebensmittelpreise;;;produits de la mer durables;;;produzione alimentare;;
-c98;food production;;;Lebensmittelproduktion;nachhaltig;;production durable;;;qualità degli alimenti;;
-c99;food quality;food, agriculture, hunger;;Lebensmittelqualität;nachhaltig;;gestion durable;;;riserve alimentari;;
-c100;food reserves;;;Nahrungsreserven;;;aliments nutritifs;;;sicurezza alimentare;;
-c101;food safety;food production, climate change;;Lebensmittelsicherheit;;;carences nutritionnelles;;;intossicazione alimentare;;
-c102;food poisoning;;;Lebensmittelvergiftung;;;inflation alimentaire;;;cibo locale;;
-c103;local food;;;lokales Essen;;;privation de nourriture;;;partenariato della banca dei semi del millennio;;
-c104;millennium seed bank partnership;agriculture;;Millennium Seed Bank Partnerschaft;;;insuffisance alimentaire;;;agricoltura sostenibile;;
-c105;sustainable agriculture;;;Nachhaltige Landwirtschaft;;;demande alimentaire;;;produzione alimentare sostenibile;;
-c106;sustainable food production;children;;nachhaltige Lebensmittelproduktion;;;souveraineté alimentaire;;;frutti di mare sostenibili;;
-c107;sustainable seafood;;;nachhaltige Meeresfrüchte;;;spéculation alimentaire;;;produzione sostenibile;;
-c108;sustainable production;;;nachhaltige Produktion;;Schokolade,  Wein,  Bier,  Kaffee,  Trüffel,  Thunfisch,  Kaviar,  Alkohol;approvisionnement alimentaire;;;gestione sostenibile;;
-c109;sustainable management;;;nachhaltiges Management;;;distribution alimentaire;;;cibo nutriente;;
-c110;nutritious food;;;nahrhaftes Essen;;;agriculture biologique;;;carenze nutrizionali;;
-c111;nutritional deficiencies;;;Nährstoffmängel;;;initiative de semences open source;;;inflazione alimentare;;
-c112;food inflation;;;Nahrungsmittelinflation;;;permaculture;;;privazione alimentare;;
-c113;food deprivation;;;Nahrungsentzug;;;production végétale;;;insufficienza alimentare;;
-c114;food insufficiency;;;Nahrungsmittelknappheit;;;banques de gènes végétaux;;;domanda di cibo;;
-c115;food demand;;;Nahrungsmittelnachfrage;;;productivité des cultures;;;sovranità alimentare;;
-c116;food sovereignty;;;Ernährungssouveränität;;;malnutrition protéino-énergétique;;;speculazione alimentare;;
-c117;food speculation;;;Lebensmittelspekulation;;;agriculture régénérative;;;offerta di cibo;;
-c118;food supply;;;Ernährungsversorgung;;;production de riz;;;distribuzione alimentare;;
-c119;food distribution;;;Essenspende;;;conservation des semences;;;agricoltura ecologica;;
-c120;ecological farming;food, agriculture, hunger;;ökologische Landwirtschaft;;;malnutrition sévère;;;agricoltura biologica;;
-c121;organic agriculture;;;Bio-Landwirtschaft;;;nourriture sûre;;;agricoltura biologica;;
-c122;organic farming;;;biologischer Anbau;;;surpâturage;;;iniziativa dei semi open source;;
-c123;open source seed initiative;;;Open Source Seed Initiative;;;sous-alimentation;;;permacultura;;
-c124;permaculture;;;Permakultur;;;malnutrition;;;produzione vegetale;;
-c125;crop production;;;Pflanzenbau;;;sous-nutrition;;;banche di geni vegetali;;
-c126;plant gene banks;;;Pflanzengenbanken;;;dénutrition;;;produttività delle colture;;
-c127;crop productivity;;;Anbauproduktivität;;;famine;;;malnutrizione proteico-energetica;;
-c128;protein energy malnutrition;;;Protein-Energie-Mangelernährung;;;retard de croissance;;;agricoltura rigenerativa;;
-c129;regenerative agriculture;;;regenerative Landwirtschaft;;;retard de croissance;;;resa del riso;;
-c130;rice yield;food production, climate change;;Reisertrag;nachhaltig;;banques de gènes du bétail;;;produzione di riso;;
-c131;rice production;food production, climate change;;Reisproduktion;;;accès à la nourriture;;;agricoltura resiliente;;
-c132;resilient agriculture;food production, climate change;;Resiliente Landwirtschaft;;;cultures intercalaires;;;risparmio di semi;;
-c133;seed saving;food production, climate change;;Saatguteinsparung;;;;;;malnutrizione grave;;
-c134;severe malnutrition;food, agriculture, crop;;schwere Mangelernährung;;;;;;cibo sicuro;;
-c135;safe food;food production, climate change;;sichere Lebensmittel;;;;;;pascolo eccessivo;;
-c136;intercropping;;;feed-no-food;;;;;;denutrito;;
-c137;overgrazing;;;Überweidung;;;;;;malnutrizione;;
-c138;undernourished;;;unterernährt;;;;;;sotto-nutrizione;;
-c139;malnourishment;;;Mangelernährung;;;;;;denutrizione;;
-c140;under-nutrition;;;Fehlernährung;Gesundheit, Armut;;;;;inedia;;
-c141;undernutrition;agriculture;;Dünger;Umwelt;;;;;crescita stentata;;
-c142;starvation;agriculture;;Verhungern;;;;;;crescita stentata;;
-c143;stunted growth;;;verkümmertes Wachstum;;;;;;banche genetiche del bestiame;;
-c144;stunting growth;;;verkümmertes Wachstum;;;;;;accesso al cibo;;
-c145;livestock gene banks;;;Genbanken für Nutztiere;;;;;;coltura intercalare;;
-c146;food access;;;Zugang zu Nahrungsmitteln;;;;;;;;
-c147;;;;Zwischenkulturen;;;;;;;;
-c148;;;;akute Fehlernährung;;;;;;;;
-c149;;;;chronische Fehlernährung;;;;;;;;
-c150;;;;verunreinigte Lebensmittel;;;;;;;;
-c151;;;;landwirtschaftliche Flächen;;;;;;;;
-c152;;;;Open-Source-Saatgut-Initiative;;;;;;;;
-c153;;;;Ernteproduktivität;;;;;;;;
-c154;;;;Millennium-Saatgutbank-Partnerschaft;;;;;;;;
-c155;;;;Bio;Landwirtschaft, Weidewirtschaft, Lebensmittel, Ernährung;Schokolade,  Wein,  Bier,  Kaffee,  Trüffel,  Thunfisch,  Kaviar,  Alkohol;;;;;;
-c156;;;;Mischkultur;Landwirtschaft, Weidewirtschaft, Lebensmittel, Ernährung;;;;;;;
-c157;;;;vegan;Landwirtschaft, Ertrag;;;;;;;
-c158;;;;vegetarisch;Landwirtschaft, Ertrag;;;;;;;
+﻿id;keyword_en;required_context_en;keyword_de;required_context_de;keyword_fr;required_context_fr;keyword_it;required_context_it
+c1;smallholder;farm ;Kleinbauern;Bauernhof ;petit propriétaire;ferme ;piccolo proprietario;azienda agricola 
+c2;smallholder;forestry  ;Kleinbauern;Forstwirtschaft  ;petit propriétaire;foresterie  ;piccolo proprietario;silvicoltura  
+c3;smallholder;pastoral  ;Kleinbauern;Weidewirtschaft  ;petit propriétaire;pastorale  ;piccolo proprietario;pastorale  
+c4;smallholder;agriculture  ;Kleinbauern;Landwirtschaft  ;petit propriétaire;agriculture  ;piccolo proprietario;agricoltura  
+c5;smallholder;fishery  ;Kleinbauern;Fischerei  ;petit propriétaire;pêche  ;piccolo proprietario;pesca  
+c6;smallholder;food producer  ;Kleinbauern;Lebensmittelhersteller  ;petit propriétaire;producteur alimentaire  ;piccolo proprietario;produttore di cibo  
+c7;smallholder;food producers;Kleinbauern;Lebensmittelproduzenten;petit propriétaire;producteurs d'aliments;piccolo proprietario;produttori di cibo
+c8;land tenure rights;farm ;Landnutzungsrechte;Bauernhof ;droits fonciers;ferme ;diritti di proprietà fondiaria;azienda agricola 
+c9;land tenure rights;forestry  ;Landnutzungsrechte;Forstwirtschaft  ;droits fonciers;foresterie  ;diritti di proprietà fondiaria;silvicoltura  
+c10;land tenure rights;pastoral  ;Landnutzungsrechte;Viehzucht  ;droits fonciers;pastoral  ;diritti di proprietà fondiaria;pastorale  
+c11;land tenure rights;agriculture  ;Landnutzungsrechte;Landwirtschaft  ;droits fonciers;agriculture  ;diritti di proprietà fondiaria;agricoltura  
+c12;land tenure rights;fishery  ;Landnutzungsrechte;Fischerei  ;droits fonciers;pêche  ;diritti di proprietà fondiaria;pesca  
+c13;land tenure rights;food producer  ;Landnutzungsrechte;Lebensmittelhersteller  ;droits fonciers;producteur alimentaire  ;diritti di proprietà fondiaria;produttore di cibo  
+c14;land tenure rights;food producers;Landnutzungsrechte;Nahrungsmittelproduzenten;droits fonciers;producteurs d'aliments;diritti di proprietà fondiaria;produttori di cibo
+c15;malnourish*;NA;Unterernährung*;NA;malnutrition;NA;malnutrizione*;NA
+c16;malnutrition;NA;Unterernährung;NA;malnutrition;NA;malnutrizione;NA
+c17;undernourish*;NA;unterernährt*;NA;sous-nutrition;NA;denutrizione*;NA
+c18;undernutrition;NA;Unterernährung;NA;dénutrition;NA;denutrizione;NA
+c19;agricultural producti*;NA;landwirtschaftliche Produkte*;NA;produits agricoles;NA;prodotti agricoli*;NA
+c20;agricultural practices;NA;landwirtschaftliche Praktiken;NA;pratiques agricoles;NA;pratiche agricole;NA
+c21;agricultural management;NA;Agrarmanagement;NA;gestion agricole;NA;gestione agricola;NA
+c22;food producti*;NA;Nahrungsmittelproduktion*;NA;production alimentaire;NA;produzione alimentare*;NA
+c23;food *security;NA;Ernährungs * sicherheit;NA;sécurité alimentaire;NA;sicurezza alimentare;NA
+c24;land right*;NA;Bodenrecht*;NA;droit foncier*;NA;diritto alla terra*;NA
+c25;land reform*;NA;Bodenreform*;NA;réforme foncière*;NA;riforma agraria*;NA
+c26;resilient agricultural practices;NA;Widerstandsfähige landwirtschaftliche Praktiken;NA;pratiques agricoles résilientes;NA;pratiche agricole resilienti;NA
+c27;agriculture ;potassium;Landwirtschaft ;Kalium;agriculture ;potassium;agricoltura ;potassio
+c28;fertili*er;NA;Fertilität;NA;fertilité;NA;fertilizzazione;NA
+c29;food nutrition improvement;NA;Verbesserung der Nahrungsmittelversorgung;NA;amélioration de la nutrition alimentaire;NA;miglioramento della nutrizione alimentare;NA
+c30;hidden hunger;NA;Versteckter Hunger;NA;faim cachée;NA;fame nascosta;NA
+c31;genetically modified food;NA;gentechnisch veränderte Lebensmittel;NA;aliments génétiquement modifiés;NA;cibo geneticamente modificato;NA
+c32;gmo ;food ;gmo ;Lebensmittel ;ogm ;aliments ;ogm ;cibo 
+c33;agroforestry practices;NA;agroforstwirtschaftliche Praktiken;NA;pratiques agroforestières;NA;pratiche agroforestali;NA
+c34;agroforestry management;NA;agroforstwirtschaftliches Management;NA;gestion de l'agroforesterie;NA;gestione agroforestale;NA
+c35;agricultural innovation;NA;landwirtschaftliche Innovation;NA;innovation agricole;NA;innovazione agricola;NA
+c36;food security;genetic diversity;Ernährungssicherheit;genetische Vielfalt;sécurité alimentaire;diversité génétique;sicurezza alimentare;diversità genetica
+c37;food market;restriction ;Lebensmittelmarkt;Einschränkung ;marché alimentaire;restriction ;mercato alimentare;restrizione 
+c38;food market;tariff ;Lebensmittelmarkt;Tarif ;marché alimentaire;tarifaire ;mercato alimentare;tariffa 
+c39;food market;access ;Lebensmittelmarkt;Zugang ;marché alimentaire;accès ;mercato alimentare;accesso 
+c40;food market;north south divide;Lebensmittelmarkt;Nord-Süd-Gefälle;marché alimentaire;fracture nord-sud;mercato alimentare;divario nord-sud
+c41;food market;development governance;Lebensmittelmarkt;Entwicklung Governance;marché alimentaire;développement gouvernance;mercato alimentare;sviluppo governance
+c42;food governance;NA;Lebensmittel-Governance;NA;gouvernance alimentaire;NA;governance alimentare;NA
+c43;food supply chain;NA;Lebensmittelversorgungskette;NA;chaîne d'approvisionnement alimentaire;NA;filiera alimentare;NA
+c44;food commodity market;NOT disease;Markt für Lebensmittelrohstoffe;NOT Krankheit ;marché des produits alimentaires;NOT maladie;mercato delle materie prime alimentari;NOT malattia

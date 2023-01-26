@@ -13,7 +13,8 @@ const targetHost = argHost? argHost : "http://localhost:8081/api/";
 
 const RequestController = new AbortController();
 
-const parentdir = "data/sdgs_originals/with_posterior";
+// const parentdir = "data/sdgs_originals/with_posterior";
+const parentdir = "data/sdgs";
 
 const files = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];
 

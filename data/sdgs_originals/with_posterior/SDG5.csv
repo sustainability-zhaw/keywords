@@ -1,71 +1,71 @@
-id;keyword_en;required_context_en;forbidden_context_en;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
-c1;gender inequality;;;Ungleichheit der Geschlechter;;;inégalité de genre;;;disuguaglianza di genere;;
-c2;gender equality;;;Gleichstellung der Geschlechter;;;égalité des sexes;;;parità di genere;;
-c3;employment equity;;;Beschäftigungsgerechtigkeit;;;équité en matière d'emploi;;;equità nell'occupazione;;
-c4;gender wage gap;;;Lohngefälle zwischen den Geschlechtern;;;écart salarial entre les sexes;;;divario salariale di genere;;
-c5;female labor force participation;;;Beteiligung von Frauen an der Erwerbsbevölkerung;;;participation des femmes au marché du travail;;;partecipazione femminile alla forza lavoro;;
-c6;women labor force participation;;;Beteiligung von Frauen an der Erwerbsbevölkerung;;;participation des femmes au marché du travail;;;partecipazione delle donne alla forza lavoro;;
-c7;female employment;;;FrauenBeschäftigung;;;emploi des femmes;;;occupazione femminile;;
-c8;women employment;;;Frauen Beschäftigung;;;emploi des femmes;;;donne occupazione;;
-c9;access;family planning services;;Zugang;Familienplanungsdienste;;accès;services de planification familiale;;accesso;servizi di pianificazione familiare;
-c10;access;reproductive healthcare;;Zugang;Reproduktive Gesundheitsfürsorge;;accès;Soins de santé reproductive;;accesso;assistenza sanitaria riproduttiva;
-c11;forced marriage;;;Zwangsheirat;;;mariage forcé;;;matrimonio forzato;;
-c12;child marriage;;;Kinderheirat;;;mariage d'enfants;;;matrimonio infantile;;
-c13;occupational segregation;;;Berufliche Segregation;;;ségrégation professionnelle;;;segregazione occupazionale;;
-c14;women's empowerment;;;Empowerment von Frauen;;;autonomisation des femmes;;;emancipazione femminile;;
-c15;girls' empowerment;;;Empowerment von Mädchen;;;autonomisation des filles;;;emancipazione delle ragazze;;
-c16;female empowerment;;;Empowerment von Frauen;;;autonomisation des femmes;;;emancipazione femminile;;
-c17;female genital mutilation;;;weibliche Genitalverstümmelung;;;mutilation génitale féminine;;;mutilazione genitale femminile;;
-c18;female genital cutting;;;weibliche Genitalbeschneidung;;;mutilation génitale féminine;;;taglio genitale femminile;;
-c19;domestic violence;;;Häusliche Gewalt;;;violence domestique;;;violenza domestica;;
-c20;women;;;Frauen;;;femmes;;;donne;;
-c21;violence;;;Gewalt;;;violence;;;violenza;;
-c22;girl;;;Mädchen;;;fille;;;ragazza;;
-c23;violence;;;Gewalt;;;violence;;;violenza;;
-c24;sexual violence;;;sexuelle Gewalt;;;violence sexuelle;;;violenza sessuale;;
-c25;unpaid work;gender inequality;;Unbezahlte Arbeit;Geschlechterungleichheit;;travail non rémunéré;inégalité entre les sexes;;lavoro non retribuito;disuguaglianza di genere;
-c26;unpaid care work;gender inequality;;Unbezahlte Betreuungsarbeit;Geschlechterungleichheit;;travail de soins non rémunéré;inégalité entre les sexes;;lavoro di cura non retribuito;disuguaglianza di genere;
-c27;women's political participation;female political participation;;Politische Beteiligung von Frauen;Politische Partizipation von Frauen;;participation politique des femmes;participation politique des femmes;;partecipazione politica delle donne;partecipazione politica femminile;
-c28;female manager;;;Managerinnen;;;femmes dirigeantes;;;donne manager;;
-c29;women in leadership;;;Frauen in Führungspositionen;;;femmes dans le leadership;;;donne nella leadership;;
-c30;female leadership;;;weibliche Führung;;;leadership féminin;;;leadership femminile;;
-c31;intra-household allocation;;;haushaltsinterne Aufteilung;;;allocation intra-ménage;;;ripartizione intra-familiare;;
-c32;honor killing;;;Ehrenmord;;;meurtre honor;;;uccisione di honor;;
-c33;antiwomen;;;AntiFrauen;;;antifemmes;;;anti-donna;;
-c34;feminism;;;Feminismus;;;féminisme;;;femminismo;;
-c35;misogyny;;;Misogynie;;;misogynie;;;misoginia;;
-c36;female infanticide;;;Kindermord an Frauen;;;infanticide féminin;;;infanticidio femminile;;
-c37;human trafficking;;;Menschenhandel;;;trafic d'êtres humains;;;traffico di esseri umani;;
-c38;forced prostitution;;;Zwangsprostitution;;;prostitution forcée;;;prostituzione forzata;;
-c39;equality;sexual rights;;Gleichberechtigung;sexuelle Rechte;;égalité;droits sexuels;;uguaglianza;diritti sessuali;
-c40;equality;reproductive rights;;Gleichstellung;Reproduktive Rechte;;égalité;droits reproductifs;;uguaglianza;diritti riproduttivi;
-c41;equality;divorce rights;;Gleichstellung;Scheidungsrecht;;égalité;droits du divorce;;uguaglianza;diritti di divorzio;
-c42;women's rights;;;Frauenrechte;;;droits de la femme;;;diritti delle donne;;
-c43;gender injustice;;;Geschlechterungerechtigkeit;;;injustice de genre;;;ingiustizia di genere;;
-c44;gender discrimination;;;Geschlechterdiskriminierung;;;discrimination de genre;;;discriminazione di genere;;
-c45;gender disparities;;;geschlechtsspezifische Ungleichheiten;;;disparités entre les sexes;;;disparità di genere;;
-c46;gender gap;;;Geschlechterlücke;;;écart entre les sexes;;;divario di genere;;
-c47;female exploitation;;;Ausbeutung von Frauen;;;exploitation des femmes;;;sfruttamento femminile;;
-c48;household equity;;;Haushaltsgerechtigkeit;;;équité des ménages;;;equità domestica;;
-c49;female political participation;;;Politische Partizipation von Frauen;;;participation politique des femmes;;;partecipazione politica femminile;;
-c50;women's underrepresentation;;;Unterrepräsentation von Frauen;;;sous-représentation des femmes;;;sottorappresentazione delle donne;;
-c51;female entrepreneurship;;;weibliches Unternehmertum;;;entrepreneuriat féminin;;;imprenditorialità femminile;;
-c52;female ownership;;;weibliches Eigentum;;;propriété féminine;;;proprietà femminile;;
-c53;women's economic development;;;Wirtschaftliche Entwicklung von Frauen;;;développement économique des femmes;;;sviluppo economico delle donne;;
-c54;women's power;;;Macht der Frauen;;;pouvoir des femmes;;;potere delle donne;;
-c55;gender-responsive budgeting;;;Gender Responsive Budgeting;;;budgétisation sensible au genre;;;bilancio di genere;;
-c56;gender quota;foreign aid;;Geschlechterquote;Auslandshilfe;;quota de genre;aide étrangère;;quota di genere;aiuti esteri;
-c57;gender quota;women's empowerment;;Geschlechterquote;Stärkung der Rolle der Frau;;quota de genre;autonomisation des femmes;;quota di genere;emancipazione femminile;
-c58;gender segregation;;;Geschlechtertrennung;;;ségrégation de genre;;;segregazione di genere;;
-c59;gender-based violence;;;geschlechtsspezifische Gewalt;;;violence sexiste;;;violenza di genere;;
-c60;gender participation;;;Geschlechterbeteiligung;;;participation des femmes;;;partecipazione di genere;;
-c61;female politician;;;Frauenpolitikerin;;;femme politique;;;donna politica;;
-c62;female leader;;;weibliche Führungskraft;;;femme cadre;;;leader donna;;
-c63;contraceptive behaviour;;;Verhütungsverhalten;;;comportement contraceptif;;;comportamento contraccettivo;;
-c64;women's autonomy;;;Autonomie der Frauen;;;autonomie des femmes;;;autonomia delle donne;;
-c65;agrarian feminism;;;Agrarfeminismus;;;féminisme agraire;;;femminismo agrario;;
-c66;microfinance;;;Mikrofinanzierung;;;microfinance;;;microfinanza;;
-c67;women's livelihood;;;Lebensunterhalt der Frauen;;;moyens de subsistance des femmes;;;sostentamento delle donne;;
-c68;women's ownership;;;Eigentum der Frauen;;;propriété des femmes;;;proprietà delle donne;;
-c69;female smallholder;;;Kleinbäuerinnen;;;petite exploitation féminine;;;piccola impresa femminile;;
-c70;gender mainstreaming;;;Gender Mainstreaming;;;intégration de la dimension de genre;;;mainstreaming di genere;;
+﻿id;keyword_en;required_context_en;keyword_de;required_context_de;keyword_fr;required_context_fr;keyword_it;required_context_it
+c1;gender inequality;NA;Ungleichheit der Geschlechter;NA;inégalité de genre;NA;disuguaglianza di genere;NA
+c2;gender equality;NA;Gleichstellung der Geschlechter;NA;égalité des sexes;NA;parità di genere;NA
+c3;employment equity;NA;Beschäftigungsgerechtigkeit;NA;équité en matière d'emploi;NA;equità nell'occupazione;NA
+c4;gender wage gap;NA;Lohngefälle zwischen den Geschlechtern;NA;écart salarial entre les sexes;NA;divario salariale di genere;NA
+c5;female labo*r force participation;NA;Beteiligung von Frauen an der Erwerbsbevölkerung;NA;participation des femmes au marché du travail;NA;partecipazione femminile alla forza lavoro;NA
+c6;women labo*r force participation;NA;Beteiligung von Frauen an der Erwerbsbevölkerung;NA;participation des femmes au marché du travail;NA;partecipazione delle donne alla forza lavoro;NA
+c7;female *employment;NA;Frauen*Beschäftigung;NA;emploi des femmes;NA;occupazione femminile;NA
+c8;women* *employment;NA;Frauen* *Beschäftigung;NA;emploi des femmes;NA;donne *occupazione;NA
+c9;access;family planning services;Zugang;Familienplanungsdienste;accès;services de planification familiale;accesso;servizi di pianificazione familiare
+c31;access;reproductive healthcare;Zugang;Reproduktive Gesundheitsfürsorge;accès;Soins de santé reproductive;accesso;assistenza sanitaria riproduttiva
+c10;forced marriage*;NA;Zwangsheirat*;NA;mariage forcé;NA;matrimonio forzato*;NA
+c11;child marriage*;NA;Kinderheirat*;NA;mariage d'enfants*;NA;matrimonio infantile*;NA
+c12;occupational segregation;NA;Berufliche Segregation;NA;ségrégation professionnelle;NA;segregazione occupazionale;NA
+c13;women's empowerment;NA;Empowerment von Frauen;NA;autonomisation des femmes;NA;emancipazione femminile;NA
+c14;girls' empowerment;NA;Empowerment von Mädchen;NA;autonomisation des filles;NA;emancipazione delle ragazze;NA
+c15;female empowerment;NA;Empowerment von Frauen;NA;autonomisation des femmes;NA;emancipazione femminile;NA
+c16;female genital mutilation;NA;weibliche Genitalverstümmelung;NA;mutilation génitale féminine;NA;mutilazione genitale femminile;NA
+c17;female genital cutting;NA;weibliche Genitalbeschneidung;NA;mutilation génitale féminine;NA;taglio genitale femminile;NA
+c18;domestic violence;NA;Häusliche Gewalt;NA;violence domestique;NA;violenza domestica;NA
+c19;women;NA;Frauen;NA;femmes;NA;donne;NA
+c20;violence;NA;Gewalt;NA;violence;NA;violenza;NA
+c21;girl*;NA;Mädchen*;NA;fille;NA;ragazza*;NA
+c22;violence;NA;Gewalt;NA;violence;NA;violenza;NA
+c23;sexual violence;NA;sexuelle Gewalt;NA;violence sexuelle;NA;violenza sessuale;NA
+c24;unpaid work;gender inequality;Unbezahlte Arbeit;Geschlechterungleichheit;travail non rémunéré;inégalité entre les sexes;lavoro non retribuito;disuguaglianza di genere
+c25;unpaid care work;gender inequality;Unbezahlte Betreuungsarbeit;Geschlechterungleichheit;travail de soins non rémunéré;inégalité entre les sexes;lavoro di cura non retribuito;disuguaglianza di genere
+c26;women's political participation;female political participation;Politische Beteiligung von Frauen;Politische Partizipation von Frauen;participation politique des femmes;participation politique des femmes;partecipazione politica delle donne;partecipazione politica femminile
+c27;female manager*;NA;Manager*innen;NA;femmes dirigeantes;NA;donne manager*;NA
+c28;women in leadership;NA;Frauen in Führungspositionen;NA;femmes dans le leadership;NA;donne nella leadership;NA
+c29;female leadership;NA;weibliche Führung;NA;leadership féminin;NA;leadership femminile;NA
+c30;intra-household allocation;NA;haushaltsinterne Aufteilung;NA;allocation intra-ménage;NA;ripartizione intra-familiare;NA
+c32;hono*r killing*;NA;Ehrenmord*;NA;meurtre hono*r*;NA;uccisione di hono*r;NA
+c33;anti*women;NA;Anti*Frauen;NA;anti*femmes;NA;anti-donna;NA
+c34;feminism;NA;Feminismus;NA;féminisme;NA;femminismo;NA
+c35;misogyny;NA;Misogynie;NA;misogynie;NA;misoginia;NA
+c36;female infanticide*;NA;Kindermord an Frauen*;NA;infanticide* féminin;NA;infanticidio femminile;NA
+c37;human trafficking;NA;Menschenhandel;NA;trafic d'êtres humains;NA;traffico di esseri umani;NA
+c38;forced prostitution;NA;Zwangsprostitution;NA;prostitution forcée;NA;prostituzione forzata;NA
+c39;equality;sexual rights;Gleichberechtigung;sexuelle Rechte;égalité;droits sexuels;uguaglianza;diritti sessuali
+c40;equality;reproductive rights;Gleichstellung;Reproduktive Rechte;égalité;droits reproductifs;uguaglianza;diritti riproduttivi
+c41;equality;divorce rights;Gleichstellung;Scheidungsrecht;égalité;droits du divorce;uguaglianza;diritti di divorzio
+c42;women's rights;NA;Frauenrechte;NA;droits de la femme;NA;diritti delle donne;NA
+c43;gender injustice*;NA;Geschlechterungerechtigkeit*;NA;injustice de genre;NA;ingiustizia di genere*;NA
+c44;gender discrimination;NA;Geschlechterdiskriminierung;NA;discrimination de genre;NA;discriminazione di genere;NA
+c45;gender disparities;NA;geschlechtsspezifische Ungleichheiten;NA;disparités entre les sexes;NA;disparità di genere;NA
+c46;gender gap;NA;Geschlechterlücke;NA;écart entre les sexes;NA;divario di genere;NA
+c47;female exploitation;NA;Ausbeutung von Frauen;NA;exploitation des femmes;NA;sfruttamento femminile;NA
+c48;household equity;NA;Haushaltsgerechtigkeit;NA;équité des ménages;NA;equità domestica;NA
+c49;female political participation;NA;Politische Partizipation von Frauen;NA;participation politique des femmes;NA;partecipazione politica femminile;NA
+c50;women's underrepresentation;NA;Unterrepräsentation von Frauen;NA;sous-représentation des femmes;NA;sottorappresentazione delle donne;NA
+c51;female entrepreneurship;NA;weibliches Unternehmertum;NA;entrepreneuriat féminin;NA;imprenditorialità femminile;NA
+c52;female ownership;NA;weibliches Eigentum;NA;propriété féminine;NA;proprietà femminile;NA
+c53;women's economic development;NA;Wirtschaftliche Entwicklung von Frauen;NA;développement économique des femmes;NA;sviluppo economico delle donne;NA
+c54;women's power;NA;Macht der Frauen;NA;pouvoir des femmes;NA;potere delle donne;NA
+c55;gender-responsive budgeting;NA;Gender Responsive Budgeting;NA;budgétisation sensible au genre;NA;bilancio di genere;NA
+c56;gender quota;foreign aid;Geschlechterquote;Auslandshilfe;quota de genre;aide étrangère;quota di genere;aiuti esteri
+c57;gender quota;women's empowerment;Geschlechterquote;Stärkung der Rolle der Frau;quota de genre;autonomisation des femmes;quota di genere;emancipazione femminile
+c58;gender segregation;NA;Geschlechtertrennung;NA;ségrégation de genre;NA;segregazione di genere;NA
+c59;gender-based violence;NA;geschlechtsspezifische Gewalt;NA;violence sexiste;NA;violenza di genere;NA
+c60;gender participation;NA;Geschlechterbeteiligung;NA;participation des femmes;NA;partecipazione di genere;NA
+c61;female politician;NA;Frauenpolitikerin;NA;femme politique;NA;donna politica;NA
+c62;female leader;NA;weibliche Führungskraft;NA;femme cadre;NA;leader donna;NA
+c63;contraceptive behaviour;NA;Verhütungsverhalten;NA;comportement contraceptif;NA;comportamento contraccettivo;NA
+c64;women's autonomy;NA;Autonomie der Frauen;NA;autonomie des femmes;NA;autonomia delle donne;NA
+c65;agrarian feminism;NA;Agrarfeminismus;NA;féminisme agraire;NA;femminismo agrario;NA
+c66;microfinance;NA;Mikrofinanzierung;NA;microfinance;NA;microfinanza;NA
+c67;women's livelihood;NA;Lebensunterhalt der Frauen;NA;moyens de subsistance des femmes;NA;sostentamento delle donne;NA
+c68;women's ownership;NA;Eigentum der Frauen;NA;propriété des femmes;NA;proprietà delle donne;NA
+c69;female smallholder;NA;Kleinbäuerinnen;NA;petite exploitation féminine;NA;piccola impresa femminile;NA
+c70;gender mainstreaming;NA;Gender Mainstreaming;NA;intégration de la dimension de genre;NA;mainstreaming di genere;NA

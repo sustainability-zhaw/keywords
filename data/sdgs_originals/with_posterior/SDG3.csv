@@ -1,81 +1,81 @@
-id;keyword_en;required_context_en;forbidden_context_en;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
-c1;health;human;;Gesundheit;menschlich;;santé;humain;;salute;umano;
-c2;disease;human;;Krankheit;menschlich;;maladie;humain;;malattia;umano;
-c3;illness;human;;Krankheit;menschlich;;maladie;humain;;malattia;umano;
-c4;medicine;human;;Medizin;menschlich;;médecine;humain;;medicina;umano;
-c5;mortality;human;;Sterblichkeit;menschlich;;mortalité;humain;;mortalità;umano;
-c6;battered child syndrome;;;Syndrom des misshandelten Kindes;;;syndrome de l'enfant battu;;;sindrome del bambino maltrattato;;
-c7;cardiovascular disease;;;Herz-Kreislauf-Erkrankung;;;maladie cardiovasculaire;;;malattia cardiovascolare;;
-c8;chagas;;;Chagas;;;chagas;;;chagas;;
-c9;child abuse;;;Kindesmisshandlung;;;maltraitance des enfants;;;abuso infantile;;
-c10;child neglect;;;Vernachlässigung von Kindern;;;négligence envers les enfants;;;trascuratezza infantile;;
-c11;child well-being index;;;Index des Kindeswohls;;;indice de bien-être des enfants;;;indice di benessere dei bambini;;
-c12;youth well-being index;;;Index für das Wohlbefinden von Jugendlichen;;;indice de bien-être des jeunes;;;indice di benessere giovanile;;
-c13;child wellbeing index;;;Index für das Wohlergehen von Kindern;;;indice de bien-être des enfants;;;indice di benessere infantile;;
-c14;youth wellbeing index;;;Index des Wohlbefindens von Jugendlichen;;;indice de bien-être des jeunes;;;indice di benessere dei giovani;;
-c15;waterborne disease;;;Wasserübertragene Krankheit;;;maladies transmises par l'eau;;;malattie trasmesse dall'acqua;;
-c16;tropical disease;;;Tropenkrankheit;;;maladie tropicale;;;malattia tropicale;;
-c17;tropical diseases;;;Tropenkrankheiten;;;maladies tropicales;;;malattie tropicali;;
-c18;chronic respiratory disease;;;chronische Atemwegserkrankungen;;;maladies respiratoires chroniques;;;malattie respiratorie croniche;;
-c19;infectious disease;;;Infektionskrankheit;;;maladies infectieuses;;;malattia infettiva;;
-c20;sexuallytransmitted disease;;;sexuellübertragene Krankheit;;;maladies sexuellementtransmissibles;;;malattie sessualmentetrasmesse;;
-c21;communicable diseases;;;übertragbare Krankheiten;;;maladies transmissibles;;;malattie trasmissibili;;
-c22;aids;;;aids;;;sida;;;aids;;
-c23;hiv;;;hiv;;;vih;;;hiv;;
-c24;human immunodeficiency virus;;;Humanes Immundefizienz-Virus;;;virus de l'immunodéficience humaine;;;virus dell'immunodeficienza umana;;
-c25;tuberculosis;;;Tuberkulose;;;tuberculose;;;tubercolosi;;
-c26;malaria;;;malaria;;;malaria;;;malaria;;
-c27;hepatitis;;;Hepatitis;;;hépatite;;;epatite;;
-c28;polio;;;Polio;;;polio;;;poliomielite;;
-c29;vaccin;;;Impfstoff;;;vaccin;;;vaccino;;
-c30;cancer;;;Krebs;;;cancer;;;cancro;;
-c31;diabet;;;Diabetiker;;;diabète;;;diabete;;
-c32;maternal mortality;;;Müttersterblichkeit;;;mortalité maternelle;;;mortalità materna;;
-c33;child mortality;;;Kindersterblichkeit;;;mortalité infantile;;;mortalità infantile;;
-c34;childbirth complications;;;Komplikationen bei der Geburt;;;complications de l'accouchement;;;complicazioni del parto;;
-c35;neonatal mortality;;;Neonatale Sterblichkeit;;;mortalité néonatale;;;mortalità neonatale;;
-c36;premature mortality;;;Frühgeborenensterblichkeit;;;mortalité prématurée;;;mortalità prematura;;
-c37;infant mortality;;;Säuglingssterblichkeit;;;mortalité infantile;;;mortalità infantile;;
-c38;quality adjusted life year;;;Qualitätsbereinigtes Lebensjahr;;;année de vie ajustée sur la qualité;;;anno di vita aggiustato per la qualità;;
-c39;maternal health;;;Gesundheit von Müttern;;;santé maternelle;;;salute materna;;
-c40;preventable deaths;;;Vermeidbare Todesfälle;;;décès évitables;;;morti prevenibili;;
-c41;tobacco control;;;Eindämmung des Tabakkonsums;;;lutte contre le tabagisme;;;controllo del tabacco;;
-c42;substance abuse;;;Drogenmissbrauch;;;abus de substances;;;abuso di sostanze;;
-c43;drug abuse;;;Drogenmissbrauch;;;abus de drogues;;;abuso di droghe;;
-c44;tobacco use;;;Tabakkonsum;;;consommation de tabac;;;uso di tabacco;;
-c45;alcohol use;;;Alkoholkonsum;;;consommation d'alcool;;;uso di alcol;;
-c46;substance addiction;;;Substanzabhängigkeit;;;toxicomanie;;;dipendenza da sostanze;;
-c47;drug addiction;;;Drogenabhängigkeit;;;toxicomanie;;;dipendenza da droga;;
-c48;tobacco addiction;;;Tabakabhängigkeit;;;dépendance au tabac;;;dipendenza da tabacco;;
-c49;alcoholism;;;Alkoholismus;;;alcoolisme;;;alcolismo;;
-c50;suicid;;;Selbstmord;;;suicidaire;;;suicidio;;
-c51;postnatal depression;;;postnatale Depression;;;dépression postnatale;;;depressione postnatale;;
-c52;zika virus;;;Zika-Virus;;;virus zika;;;virus zika;;
-c53;dengue;;;Dengue-Virus;;;dengue;;;dengue;;
-c54;schistosomiasis;;;Schistosomiasis;;;schistosomiase;;;schistosomiasi;;
-c55;sleeping sickness;;;Schlafkrankheit;;;maladie du sommeil;;;malattia del sonno;;
-c56;ebola;;;Ebola;;;ebola;;;ebola;;
-c57;mental health;;;Psychische Gesundheit;;;santé mentale;;;salute mentale;;
-c58;mental disorder;;;psychische Störung;;;troubles mentaux;;;disturbo mentale;;
-c59;mental illnesse;;;Geisteskrankheit;;;maladie mentale;;;malattia mentale;;
-c60;measles;;;Masern;;;rougeole;;;morbillo;;
-c61;neglected disease;;;vernachlässigte Krankheit;;;maladie négligée;;;malattia trascurata;;
-c62;diarrhea;;;Diarrhöe;;;diarrhée;;;diarrea;;
-c63;diarrhoea;;;Diarrhöe;;;diarrhée;;;diarrea;;
-c64;cholera;;;Cholera;;;choléra;;;colera;;
-c65;dysentery;;;Dysenterie;;;dysenterie;;;dissenteria;;
-c66;typhoid fever;;;Typhus;;;fièvre typhoïde;;;febbre tifoidea;;
-c67;traffic accident;;;Verkehrsunfall;;;accident de la circulation;;;incidente stradale;;
-c68;healthy lifestyle;;;gesunde Lebensweise;;;hygiène de vie;;;stile di vita sano;;
-c69;life expectancy;;;Lebenserwartung;;;espérance de vie;;;aspettativa di vita;;
-c70;life expectancie;;;Lebenserwartung;;;espérance de vie;;;aspettativa di vita;;
-c71;health policy;;;Gesundheitspolitik;;;politique de santé;;;politica sanitaria;;
-c72;health system;access;;Gesundheitssystem;Zugang;;système de santé;accès;;sistema sanitario;accesso;
-c73;health system;accessible;;Gesundheitssystem;zugänglich;;système de santé;accessible;;sistema sanitario;accessibile;
-c74;health risk;;;Gesundheitsrisiko;;;risque sanitaire;;;rischio per la salute;;
-c75;inclusive health;;;Integrative Gesundheit;;;santé inclusive;;;salute inclusiva;;
-c76;obesity;;;Fettleibigkeit;;;obésité;;;obesità;;
-c77;social determinants of health;;;Soziale Determinanten der Gesundheit;;;déterminants sociaux de la santé;;;determinanti sociali della salute;;
-c78;psychological harm;;;Psychischer Schaden;;;préjudice psychologique;;;danno psicologico;;
-c79;psychological wellbeing;;;psychologisches Wohlbefinden;;;bien-être psychologique;;;benessere psicologico;;
-c80;public health;;;öffentliche Gesundheit;;;santé publique;;;salute pubblica;;
+﻿id;keyword_en;required_context_en;keyword_de;required_context_de;keyword_fr;required_context_fr;keyword_it;required_context_it
+c1;health*;human;Gesundheit*;menschlich;santé*;humain;salute*;umano
+c2;disease*;human;Krankheit*;menschlich;maladie*;humain;malattia*;umano
+c3;illness*;human;Krankheit*;menschlich;maladie*;humain;malattia*;umano
+c4;medicine*;human;Medizin*;menschlich;médecine*;humain;medicina*;umano
+c5;mortality;human;Sterblichkeit;menschlich;mortalité;humain;mortalità;umano
+c6;battered child syndrome;NA;Syndrom des misshandelten Kindes;NA;syndrome de l'enfant battu;NA;sindrome del bambino maltrattato;NA
+c7;cardiovascular disease*;NA;Herz-Kreislauf-Erkrankung*;NA;maladie cardiovasculaire*;NA;malattia cardiovascolare*;NA
+c8;chagas;NA;Chagas;NA;chagas;NA;chagas;NA
+c9;child abuse;NA;Kindesmisshandlung;NA;maltraitance des enfants;NA;abuso infantile;NA
+c10;child neglect;NA;Vernachlässigung von Kindern;NA;négligence envers les enfants;NA;trascuratezza infantile;NA
+c11;child well-being index;NA;Index des Kindeswohls;NA;indice de bien-être des enfants;NA;indice di benessere dei bambini;NA
+c12;youth well-being index;NA;Index für das Wohlbefinden von Jugendlichen;NA;indice de bien-être des jeunes;NA;indice di benessere giovanile;NA
+c13;child wellbeing index;NA;Index für das Wohlergehen von Kindern;NA;indice de bien-être des enfants;NA;indice di benessere infantile;NA
+c14;youth wellbeing index;NA;Index des Wohlbefindens von Jugendlichen;NA;indice de bien-être des jeunes;NA;indice di benessere dei giovani;NA
+c15;water*borne disease*;NA;Wasser*übertragene Krankheit*;NA;maladies transmises par l'eau;NA;malattie trasmesse dall'acqua;NA
+c16;tropical disease;NA;Tropenkrankheit;NA;maladie tropicale;NA;malattia tropicale;NA
+c17;tropical diseases;NA;Tropenkrankheiten;NA;maladies tropicales;NA;malattie tropicali;NA
+c18;chronic respiratory disease*;NA;chronische Atemwegserkrankungen*;NA;maladies respiratoires chroniques;NA;malattie respiratorie croniche*;NA
+c19;infectious disease*;NA;Infektionskrankheit*;NA;maladies infectieuses*;NA;malattia infettiva*;NA
+c20;sexually*transmitted disease*;NA;sexuell*übertragene Krankheit*;NA;maladies sexuellement*transmissibles*;NA;malattie sessualmente*trasmesse;NA
+c21;communicable diseases;NA;übertragbare Krankheiten;NA;maladies transmissibles;NA;malattie trasmissibili;NA
+c22;aids;NA;aids;NA;sida;NA;aids;NA
+c23;hiv;NA;hiv;NA;vih;NA;hiv;NA
+c24;human immunodeficiency virus;NA;Humanes Immundefizienz-Virus;NA;virus de l'immunodéficience humaine;NA;virus dell'immunodeficienza umana;NA
+c25;tuberculosis;NA;Tuberkulose;NA;tuberculose;NA;tubercolosi;NA
+c26;malaria;NA;malaria;NA;malaria;NA;malaria;NA
+c27;hepatitis;NA;Hepatitis;NA;hépatite;NA;epatite;NA
+c28;polio*;NA;Polio*;NA;polio*;NA;poliomielite*;NA
+c29;vaccin*;NA;Impfstoff*;NA;vaccin*;NA;vaccino*;NA
+c30;cancer*;NA;Krebs*;NA;cancer*;NA;cancro*;NA
+c31;diabet*;NA;Diabetiker*;NA;diabète*;NA;diabete*;NA
+c32;maternal mortality;NA;Müttersterblichkeit;NA;mortalité maternelle;NA;mortalità materna;NA
+c33;child mortality;NA;Kindersterblichkeit;NA;mortalité infantile;NA;mortalità infantile;NA
+c34;childbirth complications;NA;Komplikationen bei der Geburt;NA;complications de l'accouchement;NA;complicazioni del parto;NA
+c35;neo*natal mortality;NA;Neo*natale Sterblichkeit;NA;mortalité néo*natale;NA;mortalità neo*natale;NA
+c36;premature mortality;NA;Frühgeborenensterblichkeit;NA;mortalité prématurée;NA;mortalità prematura;NA
+c37;infant mortality;NA;Säuglingssterblichkeit;NA;mortalité infantile;NA;mortalità infantile;NA
+c38;quality adjusted life year;NA;Qualitätsbereinigtes Lebensjahr;NA;année de vie ajustée sur la qualité;NA;anno di vita aggiustato per la qualità;NA
+c39;maternal health;NA;Gesundheit von Müttern;NA;santé maternelle;NA;salute materna;NA
+c40;preventable deaths;NA;Vermeidbare Todesfälle;NA;décès évitables;NA;morti prevenibili;NA
+c41;tobacco control;NA;Eindämmung des Tabakkonsums;NA;lutte contre le tabagisme;NA;controllo del tabacco;NA
+c42;substance abuse;NA;Drogenmissbrauch;NA;abus de substances;NA;abuso di sostanze;NA
+c43;drug abuse;NA;Drogenmissbrauch;NA;abus de drogues;NA;abuso di droghe;NA
+c44;tobacco use;NA;Tabakkonsum;NA;consommation de tabac;NA;uso di tabacco;NA
+c45;alcohol use;NA;Alkoholkonsum;NA;consommation d'alcool;NA;uso di alcol;NA
+c46;substance addiction;NA;Substanzabhängigkeit;NA;toxicomanie;NA;dipendenza da sostanze;NA
+c47;drug addiction;NA;Drogenabhängigkeit;NA;toxicomanie;NA;dipendenza da droga;NA
+c48;tobacco addiction;NA;Tabakabhängigkeit;NA;dépendance au tabac;NA;dipendenza da tabacco;NA
+c49;alcoholism;NA;Alkoholismus;NA;alcoolisme;NA;alcolismo;NA
+c50;suicid*;NA;Selbstmord*;NA;suicidaire;NA;suicidio;NA
+c51;post*natal depression;NA;post*natale Depression;NA;dépression post*natale;NA;depressione post*natale;NA
+c52;zika virus;NA;Zika-Virus;NA;virus zika;NA;virus zika;NA
+c53;dengue;NA;Dengue-Virus;NA;dengue;NA;dengue;NA
+c54;schistosomiasis;NA;Schistosomiasis;NA;schistosomiase;NA;schistosomiasi;NA
+c55;sleeping sickness;NA;Schlafkrankheit;NA;maladie du sommeil;NA;malattia del sonno;NA
+c56;ebola;NA;Ebola;NA;ebola;NA;ebola;NA
+c57;mental health;NA;Psychische Gesundheit;NA;santé mentale;NA;salute mentale;NA
+c58;mental disorder;NA;psychische Störung;NA;troubles mentaux;NA;disturbo mentale;NA
+c59;mental illnesse*;NA;Geisteskrankheit*;NA;maladie mentale;NA;malattia mentale*;NA
+c60;measles;NA;Masern;NA;rougeole;NA;morbillo;NA
+c61;neglected disease*;NA;vernachlässigte Krankheit*;NA;maladie négligée*;NA;malattia trascurata*;NA
+c62;diarrhea;NA;Diarrhöe;NA;diarrhée;NA;diarrea;NA
+c63;diarrhoea;NA;Diarrhöe;NA;diarrhée;NA;diarrea;NA
+c64;cholera;NA;Cholera;NA;choléra;NA;colera;NA
+c65;dysentery;NA;Dysenterie;NA;dysenterie;NA;dissenteria;NA
+c66;typhoid fever;NA;Typhus;NA;fièvre typhoïde;NA;febbre tifoidea;NA
+c67;traffic accident*;NA;Verkehrsunfall*;NA;accident de la circulation*;NA;incidente stradale*;NA
+c68;healthy lifestyle;NA;gesunde Lebensweise;NA;hygiène de vie;NA;stile di vita sano;NA
+c69;life expectancy;NA;Lebenserwartung;NA;espérance de vie;NA;aspettativa di vita;NA
+c70;life expectancie*;NA;Lebenserwartung*;NA;espérance de vie;NA;aspettativa di vita*;NA
+c71;health policy;NA;Gesundheitspolitik;NA;politique de santé;NA;politica sanitaria;NA
+c72;health system;access;Gesundheitssystem;Zugang;système de santé;accès;sistema sanitario;accesso
+c73;health system;accessible;Gesundheitssystem;zugänglich;système de santé;accessible;sistema sanitario;accessibile
+c74;health risk*;NA;Gesundheitsrisiko*;NA;risque sanitaire*;NA;rischio per la salute*;NA
+c75;inclusive health;NA;Integrative Gesundheit;NA;santé inclusive;NA;salute inclusiva;NA
+c76;obesity;NA;Fettleibigkeit;NA;obésité;NA;obesità;NA
+c77;social determinants of health;NA;Soziale Determinanten der Gesundheit;NA;déterminants sociaux de la santé;NA;determinanti sociali della salute;NA
+c78;psychological harm;NA;Psychischer Schaden;NA;préjudice psychologique;NA;danno psicologico;NA
+c79;psychological well*being;NA;psychologisches Wohl*befinden;NA;bien-être psychologique;NA;benessere psicologico;NA
+c80;public health;NA;öffentliche Gesundheit;NA;santé publique;NA;salute pubblica;NA

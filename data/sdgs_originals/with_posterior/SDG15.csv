@@ -1,63 +1,63 @@
-id;keyword_en;required_context_en;forbidden_context_en;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
-c1;species richness;;;Artenreichtum;;;richesse des espèces;;;ricchezza di specie;;
-c2;bioeconom;;;BioÖkonomie;;;bioéconomie;;;bioeconomia;;
-c3;biological production;;;biologische Produktion;;;production biologique;;;produzione biologica;;
-c4;deforest;;;entwalden;;;déforestation;;;deforestazione;;
-c5;desertif;;;Wüstenf;;;désertification;;;desertificazione;;
-c6;earth system;;;Erdsystem;;;système terrestre;;;sistema terra;;
-c7;ecological resilience;;;ökologische Widerstandsfähigkeit;;;résilience écologique;;;resilienza ecologica;;
-c8;ecosystem;;;Ökosystem;;;écosystème;;;ecosistema;;
-c9;trophic cascade;;;trophische Kaskade;;;cascade trophique;;;cascata trofica;;
-c10;trophic level;;;trophische Ebene;;;niveau trophique;;;livello trofico;;
-c11;trophic web;;;trophisches Netz;;;réseau trophique;;;rete trofica;;
-c12;threatened species;;;bedrohte Arten;;;espèce men men menacée;;;specie minacciate;;
-c13;endangered species;;;gefährdete Arten;;;espèces en voie de disparition;;;specie in pericolo;;
-c14;extinction risk;;;Aussterberisiko;;;risque d'extinction;;;rischio di estinzione;;
-c15;poach;;;Wildern;;;braconnage;;;bracconaggio;;
-c16;wildlife product;;;Wildtierprodukt;;;produit de la faune sauvage;;;prodotto della fauna selvatica;;
-c17;wildlife traffic;;;Wildtierverkehr;;;trafic d'animaux sauvages;;;traffico di fauna selvatica;;
-c18;wildlife market;;;Wildtiermarkt;;;marché des espèces sauvages;;;mercato della fauna selvatica;;
-c19;wildlife trafficking;;;illegaler Handel mit Wildtieren;;;trafic d'espèces sauvages;;;traffico di fauna selvatica;;
-c20;invasive species;;;invasive Arten;;;espèce envahissante;;;specie invasive;;
-c21;alien species;;;gebietsfremde Arten;;;espèces exotiques;;;specie aliene;;
-c22;land use;;;Landnutzung;;;utilisation des sols;;;uso del suolo;;
-c23;land degradation;;;Bodendegradation;;;dégradation des sols;;;degrado del territorio;;
-c24;soil degradation;;;Verschlechterung der Bodenqualität;;;dégradation des sols;;;degrado del suolo;;
-c25;LULUCF;;;LULUCF;;;LULUCF;;;LULUCF;;
-c26;forest;;;Wald;;;forêt;;;foresta;;
-c27;land conservation;;;Bodenschutz;;;conservation des terres;;;conservazione del territorio;;
-c28;wetland;;;Feuchtgebiet;;;zones humides;;;zone umide;;
-c29;mountain;;;Gebirge;;;montagnes;;;montagna;;
-c30;dryland;;;Trockengebiet;;;zones sèches;;;terreni aridi;;
-c31;mountainous cover;;;Gebirgsbedeckung;;;couverture montagneuse;;;copertura montana;;
-c32;protected area;;;Schutzgebiet;;;zone protégée;;;area protetta;;
-c33;REDD;;;REDD;;;REDD;;;REDD;;
-c34;forest management;;;Waldbewirtschaftung;;;gestion forestière;;;gestione forestale;;
-c35;silviculture;;;Waldbau;;;sylviculture;;;selvicoltura;;
-c36;timber harvest;;;Holzernte;;;récolte du bois;;;raccolta di legname;;
-c37;illegal logging;;;illegaler Holzeinschlag;;;exploitation forestière illégale;;;disboscamento illegale;;
-c38;slash-and-burn;;;Brandrodung;;;culture sur brûlis;;;incuria e bruciatura;;
-c39;fire-fallow cultivation;;;Brandrodung;;;culture sur brûlis;;;coltivazione a fuoco;;
-c40;tree cover;;;Baumbewuchs;;;couverture végétale;;;copertura arborea;;
-c41;soil restoration;;;Bodensanierung;;;restauration des sols;;;ripristino del suolo;;
-c42;land restoration;;;Bodensanierung;;;restauration des terres;;;ripristino del terreno;;
-c43;drought;;;Dürre;;;sécheresse;;;siccità;;
-c44;sustainable land management;;;nachhaltige Landbewirtschaftung;;;gestion durable des terres;;;gestione sostenibile del territorio;;
-c45;mountain vegetation;;;Bergvegetation;;;végétation de montagne;;;vegetazione di montagna;;
-c46;habitat restoration;;;Wiederherstellung von Lebensräumen;;;restauration de l'habitat;;;ripristino dell'habitat;;
-c47;Red List species;;;Arten der Roten Liste;;;Espèces de la Liste Rouge;;;Specie della Lista Rossa;;
-c48;Red List Index;;;Index der Roten Liste;;;Indice Liste Rouge;;;Indice della Lista Rossa;;
-c49;extinction wave;;;Aussterbewelle;;;vague d'extinction;;;ondata di estinzione;;
-c50;habitat fragmentation;;;Lebensraumfragmentierung;;;fragmentation de l'habitat;;;frammentazione dell'habitat;;
-c51;habitat loss;;;Lebensraumverlust;;;perte d'habitat;;;perdita di habitat;;
-c52;Nagoya Protocol on Access to Genetic Resources;;;Nagoya-Protokoll über den Zugang zu genetischen Ressourcen;;;Protocole de Nagoya sur l'accès aux ressources génétiques;;;Protocollo di Nagoya sull'accesso alle risorse genetiche;;
-c53;genetic resources;;;genetische Ressourcen;;;ressources génétiques;;;risorse genetiche;;
-c54;biological invasion;;;biologische Invasion;;;invasion biologique;;;invasione biologica;;
-c55;biodiversity-inclusive;;;Einbeziehung der biologischen Vielfalt;;;inclusion de la biodiversité;;;biodiversità inclusiva;;
-c56;forest stewardship council;;;Forest Stewardship Council;;;conseil de bonne gérance de la forêt;;;consiglio per la gestione forestale;;
-c57;rainforest alliance;;;Rainforest Alliance;;;rainforest alliance;;;alleanza per la foresta pluviale;;
-c58;forest certification;;;Waldzertifizierung;;;certification forestière;;;certificazione forestale;;
-c59;forest auditing;;;Wald-Auditierung;;;audit forestier;;;audit forestale;;
-c60;ecotourism;;;Ökotourismus;;;écotourisme;;;ecoturismo;;
-c61;communitybased conservation;;;Gemeindebasierter Naturschutz;;;conservation à base communautaire;;;conservazione basata sulla comunità;;
-c62;humanwildlife conflict;;;MenschWildtier-Konflikt;;;conflit homme-faune;;;conflitto uomoanimale;;
+﻿id;keyword_en;required_context_en;keyword_de;required_context_de;keyword_fr;required_context_fr;keyword_it;required_context_it
+c1;species richness;NA;Artenreichtum;NA;richesse des espèces;NA;ricchezza di specie;NA
+c2;bio*econom*;NA;Bio*Ökonomie*;NA;bio*économie;NA;bio*economia;NA
+c3;biological production;NA;biologische Produktion;NA;production biologique;NA;produzione biologica;NA
+c4;deforest*;NA;entwalden*;NA;déforestation*;NA;deforestazione*;NA
+c5;desertif*;NA;Wüstenf*;NA;désertification;NA;desertificazione*;NA
+c6;earth system;NA;Erdsystem;NA;système terrestre;NA;sistema terra;NA
+c7;ecological resilience;NA;ökologische Widerstandsfähigkeit;NA;résilience écologique;NA;resilienza ecologica;NA
+c8;eco*system*;NA;Öko*system*;NA;éco*système*;NA;eco*sistema*;NA
+c9;trophic cascade;NA;trophische Kaskade;NA;cascade trophique;NA;cascata trofica;NA
+c10;trophic level;NA;trophische Ebene;NA;niveau trophique;NA;livello trofico;NA
+c11;trophic web;NA;trophisches Netz;NA;réseau trophique;NA;rete trofica;NA
+c12;threatened species;NA;bedrohte Arten;NA;espèce men men menacée;NA;specie minacciate;NA
+c13;endangered species;NA;gefährdete Arten;NA;espèces en voie de disparition;NA;specie in pericolo;NA
+c14;extinction risk*;NA;Aussterberisiko*;NA;risque d'extinction;NA;rischio di estinzione*;NA
+c15;poach*;NA;Wildern*;NA;braconnage*;NA;bracconaggio*;NA
+c16;wildlife product*;NA;Wildtierprodukt*;NA;produit de la faune sauvage*;NA;prodotto della fauna selvatica*;NA
+c17;wildlife traffic;NA;Wildtierverkehr;NA;trafic d'animaux sauvages;NA;traffico di fauna selvatica;NA
+c18;wildlife market*;NA;Wildtiermarkt*;NA;marché des espèces sauvages*;NA;mercato della fauna selvatica*;NA
+c19;wildlife trafficking;NA;illegaler Handel mit Wildtieren;NA;trafic d'espèces sauvages;NA;traffico di fauna selvatica;NA
+c20;invasive species;NA;invasive Arten;NA;espèce envahissante;NA;specie invasive;NA
+c21;alien species;NA;gebietsfremde Arten;NA;espèces exotiques;NA;specie aliene;NA
+c22;land use*;NA;Landnutzung*;NA;utilisation des sols*;NA;uso del suolo*;NA
+c23;land degradation;NA;Bodendegradation;NA;dégradation des sols;NA;degrado del territorio;NA
+c24;soil degradation;NA;Verschlechterung der Bodenqualität;NA;dégradation des sols;NA;degrado del suolo;NA
+c25;LULUCF;NA;LULUCF;NA;LULUCF;NA;LULUCF;NA
+c26;*forest*;NA;*Wald*;NA;*forêt*;NA;*foresta*;NA
+c27;land conservation;NA;Bodenschutz;NA;conservation des terres;NA;conservazione del territorio;NA
+c28;wetland*;NA;Feuchtgebiet*;NA;zones humides*;NA;zone umide*;NA
+c29;mountain*;NA;Gebirge*;NA;montagnes*;NA;montagna*;NA
+c30;dryland*;NA;Trockengebiet*;NA;zones sèches;NA;terreni aridi*;NA
+c31;mountainous cover;NA;Gebirgsbedeckung;NA;couverture montagneuse;NA;copertura montana;NA
+c32;protected area*;NA;Schutzgebiet*;NA;zone protégée;NA;area protetta*;NA
+c33;REDD;NA;REDD;NA;REDD;NA;REDD;NA
+c34;forest management;NA;Waldbewirtschaftung;NA;gestion forestière;NA;gestione forestale;NA
+c35;silviculture;NA;Waldbau;NA;sylviculture;NA;selvicoltura;NA
+c36;timber harvest;NA;Holzernte;NA;récolte du bois;NA;raccolta di legname;NA
+c37;illegal logging;NA;illegaler Holzeinschlag;NA;exploitation forestière illégale;NA;disboscamento illegale;NA
+c38;slash-and-burn;NA;Brandrodung;NA;culture sur brûlis;NA;incuria e bruciatura;NA
+c39;fire-fallow cultivation;NA;Brandrodung;NA;culture sur brûlis;NA;coltivazione a fuoco;NA
+c40;tree cover;NA;Baumbewuchs;NA;couverture végétale;NA;copertura arborea;NA
+c41;soil restoration;NA;Bodensanierung;NA;restauration des sols;NA;ripristino del suolo;NA
+c42;land restoration;NA;Bodensanierung;NA;restauration des terres;NA;ripristino del terreno;NA
+c43;drought;NA;Dürre;NA;sécheresse;NA;siccità;NA
+c44;sustainable land management;NA;nachhaltige Landbewirtschaftung;NA;gestion durable des terres;NA;gestione sostenibile del territorio;NA
+c45;mountain vegetation;NA;Bergvegetation;NA;végétation de montagne;NA;vegetazione di montagna;NA
+c46;habitat restoration;NA;Wiederherstellung von Lebensräumen;NA;restauration de l'habitat;NA;ripristino dell'habitat;NA
+c47;Red List species;NA;Arten der Roten Liste;NA;Espèces de la Liste Rouge;NA;Specie della Lista Rossa;NA
+c48;Red List Index;NA;Index der Roten Liste;NA;Indice Liste Rouge;NA;Indice della Lista Rossa;NA
+c49;extinction wave;NA;Aussterbewelle;NA;vague d'extinction;NA;ondata di estinzione;NA
+c50;habitat fragmentation;NA;Lebensraumfragmentierung;NA;fragmentation de l'habitat;NA;frammentazione dell'habitat;NA
+c51;habitat loss;NA;Lebensraumverlust;NA;perte d'habitat;NA;perdita di habitat;NA
+c52;Nagoya Protocol on Access to Genetic Resources;NA;Nagoya-Protokoll über den Zugang zu genetischen Ressourcen;NA;Protocole de Nagoya sur l'accès aux ressources génétiques;NA;Protocollo di Nagoya sull'accesso alle risorse genetiche;NA
+c53;genetic resources;NA;genetische Ressourcen;NA;ressources génétiques;NA;risorse genetiche;NA
+c54;biological invasion;NA;biologische Invasion;NA;invasion biologique;NA;invasione biologica;NA
+c55;biodiversity-inclusive;NA;Einbeziehung der biologischen Vielfalt;NA;inclusion de la biodiversité;NA;biodiversità inclusiva;NA
+c56;forest stewardship council;NA;Forest Stewardship Council;NA;conseil de bonne gérance de la forêt;NA;consiglio per la gestione forestale;NA
+c57;rainforest alliance;NA;Rainforest Alliance;NA;rainforest alliance;NA;alleanza per la foresta pluviale;NA
+c58;forest certification;NA;Waldzertifizierung;NA;certification forestière;NA;certificazione forestale;NA
+c59;forest auditing;NA;Wald-Auditierung;NA;audit forestier;NA;audit forestale;NA
+c60;ecotourism;NA;Ökotourismus;NA;écotourisme;NA;ecoturismo;NA
+c61;community*based conservation;NA;Gemeinde*basierter Naturschutz;NA;conservation à base communautaire;NA;conservazione basata sulla comunità;NA
+c62;human*wildlife conflict;NA;Mensch*Wildtier-Konflikt;NA;conflit homme-faune;NA;conflitto uomo*animale;NA
