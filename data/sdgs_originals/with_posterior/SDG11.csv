@@ -1,4 +1,4 @@
-id;keyword_en;required_context_en;forbidden_context_ex;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
+id;keyword_en;required_context_en;forbidden_context_en;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
 c1;city;human settlement;;stadt;menschliche Siedlung;;ville;établissement humain;;città;insediamento umano;
 c2;human settlement;urban;;menschliche Siedlung;städtisch;;établissement humain;urbain;;insediamento umano;urbano;
 c3;human settlement;metropoli;;menschliche Siedlung;Metropole;;établissement humain;métropoles;;insediamento umano;metropoli;

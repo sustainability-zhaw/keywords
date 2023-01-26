@@ -1,4 +1,4 @@
-id;keyword_en;required_context_en;forbidden_context_ex;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
+id;keyword_en;required_context_en;forbidden_context_en;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
 c1;economic growth;;;Wirtschaftswachstum;;;la croissance économique;;;crescita economica;;
 c2;economic development policy;;;Politik der wirtschaftlichen Entwicklung;;;politique de développement économique;;;politica di sviluppo economico;;
 c3;employment policy;;;Beschäftigungspolitik;;;politique de l'emploi;;;politica per l'occupazione;;

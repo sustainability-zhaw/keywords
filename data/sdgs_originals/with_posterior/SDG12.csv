@@ -1,4 +1,4 @@
-id;keyword_en;required_context_en;forbidden_context_ex;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
+id;keyword_en;required_context_en;forbidden_context_en;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
 c1;environmental pollution;;;Umweltverschmutzung;;;pollution environnementale;;;inquinamento ambientale;;
 c2;hazardous waste;;;gefährlicher Abfall;;;déchets dangereux;;;rifiuti pericolosi;;
 c3;hazardous chemical;;;gefährliche Chemikalie;;;produit chimique dangereux;;;prodotto chimico pericoloso;;
