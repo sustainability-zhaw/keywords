@@ -1,0 +1,45 @@
+﻿id;keyword_en;required_context_en;keyword_de;required_context_de;keyword_fr;required_context_fr;keyword_it;required_context_it
+c1;smallholder;farm ;Kleinbauern;Bauernhof ;petit propriétaire;ferme ;piccolo proprietario;azienda agricola 
+c2;smallholder;forestry  ;Kleinbauern;Forstwirtschaft  ;petit propriétaire;foresterie  ;piccolo proprietario;silvicoltura  
+c3;smallholder;pastoral  ;Kleinbauern;Weidewirtschaft  ;petit propriétaire;pastorale  ;piccolo proprietario;pastorale  
+c4;smallholder;agriculture  ;Kleinbauern;Landwirtschaft  ;petit propriétaire;agriculture  ;piccolo proprietario;agricoltura  
+c5;smallholder;fishery  ;Kleinbauern;Fischerei  ;petit propriétaire;pêche  ;piccolo proprietario;pesca  
+c6;smallholder;food producer  ;Kleinbauern;Lebensmittelhersteller  ;petit propriétaire;producteur alimentaire  ;piccolo proprietario;produttore di cibo  
+c7;smallholder;food producers;Kleinbauern;Lebensmittelproduzenten;petit propriétaire;producteurs d'aliments;piccolo proprietario;produttori di cibo
+c8;land tenure rights;farm ;Landnutzungsrechte;Bauernhof ;droits fonciers;ferme ;diritti di proprietà fondiaria;azienda agricola 
+c9;land tenure rights;forestry  ;Landnutzungsrechte;Forstwirtschaft  ;droits fonciers;foresterie  ;diritti di proprietà fondiaria;silvicoltura  
+c10;land tenure rights;pastoral  ;Landnutzungsrechte;Viehzucht  ;droits fonciers;pastoral  ;diritti di proprietà fondiaria;pastorale  
+c11;land tenure rights;agriculture  ;Landnutzungsrechte;Landwirtschaft  ;droits fonciers;agriculture  ;diritti di proprietà fondiaria;agricoltura  
+c12;land tenure rights;fishery  ;Landnutzungsrechte;Fischerei  ;droits fonciers;pêche  ;diritti di proprietà fondiaria;pesca  
+c13;land tenure rights;food producer  ;Landnutzungsrechte;Lebensmittelhersteller  ;droits fonciers;producteur alimentaire  ;diritti di proprietà fondiaria;produttore di cibo  
+c14;land tenure rights;food producers;Landnutzungsrechte;Nahrungsmittelproduzenten;droits fonciers;producteurs d'aliments;diritti di proprietà fondiaria;produttori di cibo
+c15;malnourish*;NA;Unterernährung*;NA;malnutrition;NA;malnutrizione*;NA
+c16;malnutrition;NA;Unterernährung;NA;malnutrition;NA;malnutrizione;NA
+c17;undernourish*;NA;unterernährt*;NA;sous-nutrition;NA;denutrizione*;NA
+c18;undernutrition;NA;Unterernährung;NA;dénutrition;NA;denutrizione;NA
+c19;agricultural producti*;NA;landwirtschaftliche Produkte*;NA;produits agricoles;NA;prodotti agricoli*;NA
+c20;agricultural practices;NA;landwirtschaftliche Praktiken;NA;pratiques agricoles;NA;pratiche agricole;NA
+c21;agricultural management;NA;Agrarmanagement;NA;gestion agricole;NA;gestione agricola;NA
+c22;food producti*;NA;Nahrungsmittelproduktion*;NA;production alimentaire;NA;produzione alimentare*;NA
+c23;food *security;NA;Ernährungs * sicherheit;NA;sécurité alimentaire;NA;sicurezza alimentare;NA
+c24;land right*;NA;Bodenrecht*;NA;droit foncier*;NA;diritto alla terra*;NA
+c25;land reform*;NA;Bodenreform*;NA;réforme foncière*;NA;riforma agraria*;NA
+c26;resilient agricultural practices;NA;Widerstandsfähige landwirtschaftliche Praktiken;NA;pratiques agricoles résilientes;NA;pratiche agricole resilienti;NA
+c27;agriculture ;potassium;Landwirtschaft ;Kalium;agriculture ;potassium;agricoltura ;potassio
+c28;fertili*er;NA;Fertilität;NA;fertilité;NA;fertilizzazione;NA
+c29;food nutrition improvement;NA;Verbesserung der Nahrungsmittelversorgung;NA;amélioration de la nutrition alimentaire;NA;miglioramento della nutrizione alimentare;NA
+c30;hidden hunger;NA;Versteckter Hunger;NA;faim cachée;NA;fame nascosta;NA
+c31;genetically modified food;NA;gentechnisch veränderte Lebensmittel;NA;aliments génétiquement modifiés;NA;cibo geneticamente modificato;NA
+c32;gmo ;food ;gmo ;Lebensmittel ;ogm ;aliments ;ogm ;cibo 
+c33;agroforestry practices;NA;agroforstwirtschaftliche Praktiken;NA;pratiques agroforestières;NA;pratiche agroforestali;NA
+c34;agroforestry management;NA;agroforstwirtschaftliches Management;NA;gestion de l'agroforesterie;NA;gestione agroforestale;NA
+c35;agricultural innovation;NA;landwirtschaftliche Innovation;NA;innovation agricole;NA;innovazione agricola;NA
+c36;food security;genetic diversity;Ernährungssicherheit;genetische Vielfalt;sécurité alimentaire;diversité génétique;sicurezza alimentare;diversità genetica
+c37;food market;restriction ;Lebensmittelmarkt;Einschränkung ;marché alimentaire;restriction ;mercato alimentare;restrizione 
+c38;food market;tariff ;Lebensmittelmarkt;Tarif ;marché alimentaire;tarifaire ;mercato alimentare;tariffa 
+c39;food market;access ;Lebensmittelmarkt;Zugang ;marché alimentaire;accès ;mercato alimentare;accesso 
+c40;food market;north south divide;Lebensmittelmarkt;Nord-Süd-Gefälle;marché alimentaire;fracture nord-sud;mercato alimentare;divario nord-sud
+c41;food market;development governance;Lebensmittelmarkt;Entwicklung Governance;marché alimentaire;développement gouvernance;mercato alimentare;sviluppo governance
+c42;food governance;NA;Lebensmittel-Governance;NA;gouvernance alimentaire;NA;governance alimentare;NA
+c43;food supply chain;NA;Lebensmittelversorgungskette;NA;chaîne d'approvisionnement alimentaire;NA;filiera alimentare;NA
+c44;food commodity market;NOT disease;Markt für Lebensmittelrohstoffe;NOT Krankheit ;marché des produits alimentaires;NOT maladie;mercato delle materie prime alimentari;NOT malattia
