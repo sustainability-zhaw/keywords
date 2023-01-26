@@ -1,4 +1,4 @@
-id;keyword_en;required_context_en;forbidden_context_ex;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
+id;keyword_en;required_context_en;forbidden_context_en;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
 c1;climate action;;;Klimamaßnahmen;;;action climatique;;;azione per il clima;;
 c2;climate adaptation;;;Klimaanpassung;;;adaptation climatique;;;adattamento al clima;;
 c3;climate change;;;Klimawandel;;;changement climatique;;;cambiamento climatico;;

@@ -1,4 +1,4 @@
-id;keyword_en;required_context_en;forbidden_context_ex;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
+id;keyword_en;required_context_en;forbidden_context_en;keyword_de;required_context_de;forbidden_context_de;keyword_fr;required_context_fr;forbidden_context_fr;keyword_it;required_context_it;forbidden_context_it
 c1;energy efficiency;;;Energie-Effizienz;;;l'efficacité énergétique;;;efficienza energetica;;
 c2;energy consumption;;;Energieverbrauch;;;consommation d'énergie;;;consumo energetico;;
 c3;energy transition;;;Energiewende;;;transition énergétique;;;transizione energetica;;
