@@ -60,7 +60,7 @@ const matcher = (await Promise.all(files.map(async (idx) => {
     return data.map(record => {
         const id = `${fileid.toLowerCase()}_${record[0].trim()}`;
 
-        return [1,3,5].map(rid => {
+        return [1,4,7,10].map(rid => {
             const obj = {
                 construct: `${id}_${mapping[rid].language}`,
                 language: mapping[rid].language,
@@ -73,6 +73,10 @@ const matcher = (await Promise.all(files.map(async (idx) => {
 
             if (record[rid + 1].trim() !== "NA") {              
                 obj[mapping[rid + 1].key] = record[rid + 1].replaceAll("*", " ").trim();
+            }
+
+            if (record[rid + 2].trim() !== "NA") {              
+                obj[mapping[rid + 2].key] = record[rid + 2].replaceAll("*", " ").trim();
             }
 
             return obj;
