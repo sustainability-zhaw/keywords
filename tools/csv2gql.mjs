@@ -82,7 +82,8 @@ const matcher = (await Promise.all(files.map(async (idx) => {
             return obj;
         });
     }).flat();
-}))).flat();
+}))).flat()
+.filter((r) => r.key.length);
 
 
 const method = "POST"; // all requests are POST requests
