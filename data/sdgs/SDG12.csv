@@ -10,8 +10,8 @@ c8;pesticide pollution;;;Verschmutzung durch Pestizide;;;pollution par les pesti
 c9;pesticide stress;;;Pestizidbelastung;;;stress dû aux pesticides;;;stress da pesticidi;;
 c10;pesticide reduction;;;Reduzierung von Pestiziden;;;réduction des pesticides;;;riduzione dei pesticidi;;
 c11;life cycle assessment;;;Ökobilanz;;;évaluation du cycle de vie;;;valutazione del ciclo di vita;;
-c12;lifecycle analysis;;;LebensKreislauf-Analyse;;;analyse du cycle de vie;;;analisi del ciclo di vita;;
-c13;lowcarbon economy;;;kohlenstoffarme Wirtschaft;;;économie à faible émission de carbone;;;economia a basso contenuto di carbonio;;
+c12;life cycle analysis;;;LebensKreislauf-Analyse;;;analyse du cycle de vie;;;analisi del ciclo di vita;;
+c13;low carbon economy;;;kohlenstoffarme Wirtschaft;;;économie à faible émission de carbone;;;economia a basso contenuto di carbonio;;
 c14;environmental footprint;;;ökologischer Fußabdruck;;;empreinte environnementale;;;impronta ambientale;;
 c15;material footprint;;;materieller Fußabdruck;;;empreinte matérielle;;;impronta dei materiali;;
 c16;harvest efficiency;;;Ernteeffizienz;;;efficacité de la récolte;;;efficienza del raccolto;;
@@ -23,10 +23,10 @@ c21;consumer behavior;;;Verbraucherverhaltenr;;;comportement du consommateur;;;c
 c22;waste recycling;;;Abfallrecycling;;;recyclage des déchets;;;riciclo dei rifiuti;;
 c23;resource recycling;;;Ressourcenrecycling;;;recyclage des ressources;;;riciclo delle risorse;;
 c24;resource reuse;;;Wiederverwendung von Ressourcen;;;réutilisation des ressources;;;riutilizzo delle risorse;;
-c25;biobased economy;;;biobasierte Wirtschaft;;;économie biosourcée;;;economia biobased;;
+c25;Bio based economy;;;biobasierte Wirtschaft;;;économie biosourcée;;;economia biobased;;
 c26;zero waste;;;Null Abfall;;;zéro déchet;;;rifiuti zero;;
 c27;sustainability label;;;Nachhaltigkeitskennzeichnung;;;label de durabilité;;;etichetta di sostenibilità;;
-c28;sustainability labelling;;;Nachhaltigkeitskennzeichnung;;;étiquetage de durabilité;;;etichettatura di sostenibilità;;
+c28;sustainability labeling;;;Nachhaltigkeitskennzeichnung;;;étiquetage de durabilité;;;etichettatura di sostenibilità;;
 c29;global resource extraction;;;Globale Ressourcengewinnung;;;extraction des ressources mondiales;;;estrazione globale delle risorse;;
 c30;material flow accounting;;;Materialflussrechnung;;;comptabilité des flux de matières;;;contabilità dei flussi di materiale;;
 c31;societal metabolism;;;gesellschaftlicher Stoffwechsel;;;métabolisme sociétal;;;metabolismo sociale;;
