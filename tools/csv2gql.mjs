@@ -9,7 +9,7 @@ if (process.argv.length < 2 && argHost.slice(0,3) !== "http") {
 }
 
 // The default target is localhost to match the dev environment
-const targetHost = argHost? argHost : "http://localhost:8081/api/";
+const targetHost = argHost? argHost : "http://localhost:8080/api/";
 
 const RequestController = new AbortController();
 
@@ -23,6 +23,8 @@ function getFilename(id) {
 }
 
 const matcher = (await Promise.all(files.map(async (idx) => {
+    await cleanup_all(true); 
+
     const parser = CSVParser.parse({
         delimiter: ";"
     });
@@ -117,3 +119,44 @@ const result = await response.json();
 // console.log(">>> request results");
 
 console.log(JSON.stringify(result, null, "  "));
+
+async function cleanup_all(force) {
+    if (!force) {
+        return;
+    }
+
+    const query = `mutation {
+        deleteSdgMatch(filter: {has: construct}) {
+          msg
+          sdgMatch {
+            construct
+          }
+        }
+      }`;
+      
+    const method = "POST"; // all requests are POST requests
+    const {signal} = RequestController;
+    const cache = "no-store";
+
+    const headers = {
+        'Content-Type': 'application/json'
+    };
+
+    const body = JSON.stringify({ query }, null, "  ");
+
+    const response = await fetch(targetHost, {
+        signal,
+        method,
+        headers,
+        cache,
+        body
+    });
+    
+    // console.log(">>> post request");
+    
+    const result = await response.json();
+    
+    // console.log(">>> request results");
+    
+    console.log(JSON.stringify(result, null, "  "));
+}
