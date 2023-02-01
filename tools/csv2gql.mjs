@@ -11,7 +11,7 @@ if (process.argv.length < 2 && argHost.slice(0,3) !== "http") {
 // The default target is localhost to match the dev environment
 const targetHost = argHost? argHost : "http://localhost:8080/api/";
 
-const RequestController = new AbortController();
+const forceClean = process.env.CLEANUP;
 
 // const parentdir = "data/sdgs_originals/with_posterior";
 const parentdir = "data/sdgs";
@@ -23,8 +23,6 @@ function getFilename(id) {
 }
 
 const matcher = (await Promise.all(files.map(async (idx) => {
-    await cleanup_all(true); 
-
     const parser = CSVParser.parse({
         delimiter: ";"
     });
@@ -73,20 +71,43 @@ const matcher = (await Promise.all(files.map(async (idx) => {
 
             obj[mapping[rid].key] = record[rid].replaceAll("*", " ").trim();
 
-            if (record[rid + 1].trim() !== "NA") {              
-                obj[mapping[rid + 1].key] = record[rid + 1].replaceAll("*", " ").trim();
+            const rctxt = record[rid + 1].trim();
+            const fctxt = record[rid + 2].trim();
+
+            if (rctxt && rctxt.length && rctxt !== "NA") {
+                obj[mapping[rid + 1].key] = rctxt.replaceAll("*", " ").trim();
             }
 
-            if (record[rid + 2].trim() !== "NA") {              
-                obj[mapping[rid + 2].key] = record[rid + 2].replaceAll("*", " ").trim();
+            if (fctxt && fctxt.length && fctxt !== "NA") {
+                obj[mapping[rid + 2].key] = fctxt.replaceAll("*", " ").trim();
             }
 
-            return obj;
+            if (!obj.keyword.length) {
+                return null;
+            }
+
+            return expandMatchingRecords(obj, "required_context")
+                .flat()
+                .map(o => expandMatchingRecords(o, "forbidden_context"));
         });
-    }).flat();
-}))).flat()
-.filter((r) => r.keyword.length);
+    });
+})))
+.flat(4)
+.filter((r) => r && r.keyword.length);
 
+const query = "mutation addSdgMatch($matcher: [AddSdgMatchInput!]!) { addSdgMatch(input: $matcher, upsert: true) { sdgMatch { construct } } }";
+const variables = { matcher };
+const body = JSON.stringify({ query, variables }, null, "  ");
+
+console.log(body);
+
+await cleanup_all(forceClean); 
+
+// await cleanup_missing(matcher); // TODO
+
+// console.log(">>> pre request");
+
+const RequestController = new AbortController();
 
 const method = "POST"; // all requests are POST requests
 const {signal} = RequestController;
@@ -95,14 +116,6 @@ const cache = "no-store";
 const headers = {
     'Content-Type': 'application/json'
 };
-
-const query = "mutation addSdgMatch($matcher: [AddSdgMatchInput!]!) { addSdgMatch(input: $matcher, upsert: true) { sdgMatch { construct } } }";
-const variables = { matcher };
-const body = JSON.stringify({ query, variables }, null, "  ");
-
-// console.log(body);
-
-// console.log(">>> pre request");
 
 const response = await fetch(targetHost, {
     signal,
@@ -159,4 +172,48 @@ async function cleanup_all(force) {
     // console.log(">>> request results");
     
     console.log(JSON.stringify(result, null, "  "));
+}
+
+function expandMatchingRecords(record, type) {
+
+    if (!record) {
+        console.log("no record");
+        return null;
+    }
+
+    const construct = record.construct;
+    const language = record.language;
+    const sdg = record.sdg;
+    const keyword = record.keyword;
+
+    const forbidden_context = record.forbidden_context;
+    const required_context = record.required_context;
+    
+    if (!record[type]) {
+        return [record];
+    }
+
+    const atransform = record[type].split(",").map(t => t.trim());
+    
+    if (!(atransform || atransform.length)) {
+        return [record];
+    }
+
+    return atransform.map((t, i) => {
+        if (!(t || t.length)) {
+            return null;
+        }
+
+        const retval = {
+            construct: `${construct}_${i}`,
+            language,
+            sdg,
+            keyword,
+            required_context,
+            forbidden_context
+        };
+
+        retval[type] = t; 
+        return retval;
+    });
 }
