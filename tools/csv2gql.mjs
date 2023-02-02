@@ -99,7 +99,7 @@ const query = "mutation addSdgMatch($matcher: [AddSdgMatchInput!]!) { addSdgMatc
 const variables = { matcher };
 const body = JSON.stringify({ query, variables }, null, "  ");
 
-console.log(body);
+// console.log(body);
 
 await cleanup_all(forceClean); 
 
