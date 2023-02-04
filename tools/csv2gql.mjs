@@ -101,8 +101,6 @@ const body = JSON.stringify({ query, variables }, null, "  ");
 
 // console.log(body);
 
-await cleanup_all(forceClean); 
-
 // await cleanup_missing(matcher); // TODO
 
 // console.log(">>> pre request");
@@ -116,6 +114,8 @@ const cache = "no-store";
 const headers = {
     'Content-Type': 'application/json'
 };
+
+await cleanup_all(forceClean); 
 
 const response = await fetch(targetHost, {
     signal,
