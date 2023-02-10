@@ -20,16 +20,15 @@ export function init(config) {
 }
 
 export async function handleFiles(files, refid) {
-    // TODO selective cleanup
-
-    // ignore passed files and run against all files
-    await Target.cleanup_all(setup.targetURL, true);
-    
-    files = sequence(16).map(i => `${setup.target_path}/SDG${i}.xlsx`);
-
     await Promise.all(files.map(handleOneFile));
 
     console.log(`${(new Date(Date.now())).toISOString()} -------- payload completed ${refid}`);
+}
+
+export async function handleAllFiles() {
+    const files = sequence(16).map(i => `${setup.target_path}/SDG${i}.xlsx`);
+
+    await handleFiles(files, "INIT");
 }
 
 async function handleOneFile(filename) {
@@ -64,8 +63,9 @@ async function handleOneFile(filename) {
     console.log(`process ${sdgid}`);
 
     const matcher = await Excel.loadOneBuffer(sdgid, contentBuffer);
-    
+
     if (matcher.length) {
+        await Target.cleanup_selective(setup.targetURL, sdgid.toLowerCase());
         await Target.injectData(setup.targetURL, {matcher});
         console.log(`data incjected for ${sdgid}`);
     }

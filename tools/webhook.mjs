@@ -6,11 +6,14 @@ import * as GHFiles from "./GHFiles.mjs";
 
 import * as Config from "./ConfigReader.mjs";
 
-const cfg = await Config.readConfig("./config.json");
+const cfg = await Config.readConfig(["./config.json", "./tools/config.json", "/etc/app/config.json"]);
 
 GHFiles.init(cfg);
 
 const hook = setup();
+
+// inject any existing data
+GHFiles.handleAllFiles();
 
 hook.run();
 
@@ -22,7 +25,12 @@ function setup() {
 
     router.post("/payload", koaBody.koaBody(), KoaCompose([
         startRequest,
+        handlePing,
+        checkPush,
+        checkFiles,
         handlePayload,
+        handleOther,
+        cleanup
         // renderOK
     ])); 
 
@@ -38,41 +46,43 @@ function setup() {
 }
 
 async function startRequest(ctx, next) {
-    const now = (new Date(Date.now())).toISOString();
-    console.log(`${now} -------- new payload`);
-    ctx.now = now;
+    console.log(`${(new Date(Date.now())).toISOString()} -------- new request ${ctx.request.body ? "with payload": ""}`);
     await next();
 }
 
-async function handlePayload(ctx, next) {
-    const payload = JSON.stringify(ctx.request.body, null, "  ");
-    const message = ctx.request.body;
-
-    if ("zen" in message) {
+async function handlePing(ctx, next) {
+    if ("zen" in ctx.request.body) {
         console.log("   GH ping");
         ctx.body = JSON.stringify({message: "Not being distracted at all."});
-        await next();
-        return;
     }
+    await next();
+}
 
-    if (!("ref" in message)) {
-        console.log(payload);
+async function handleOther(ctx, next) {
+    if (!ctx.body && !("ref" in ctx.request.body)) {
+        console.log(JSON.stringify(ctx.request.body, null, "  "));
         ctx.body = JSON.stringify({message: "thank you"});
-        await next();
-        return;
     }
+    await next();
+}
 
-    console.log(`${ctx.now} -- ${ctx.request.body.head_commit.id}`);
-    const branch = message.ref.replace("refs/heads/", "");
+async function checkPush(ctx, next) {
+    if (!ctx.body && "ref" in ctx.request.body) {
+        console.log(`${(new Date(Date.now())).toISOString()} -- ${ctx.request.body.head_commit.id}`);
+        
+        const branch = ctx.request.body.ref.replace("refs/heads/", "");
 
-    if (branch !== cfg.branch) {
-        console.log("push on other branch, ignored");
-        ctx.body = JSON.stringify({message: "thank you"});
-        await next();
-        return;
+        if (branch !== cfg.branch) {
+            console.log("push on other branch, ignored");
+            ctx.body = JSON.stringify({message: "thank you"});
+        }
     }
+    await next();
+}
 
-    const files  = message.commits
+async function checkFiles(ctx, next) {
+    if (!ctx.body && "ref" in ctx.request.body) {
+        const files = ctx.request.body.commits
                     // merge all available files that have changed.
                     .map((c) => c.modified.concat(c.added)).flat()
                     // focus on target path
@@ -87,20 +97,35 @@ async function handlePayload(ctx, next) {
                         return agg;
                     }, []);
   
-    if (!files.length) {
-        console.log("no relevant files have changed");
-        ctx.body = JSON.stringify({message: "done"});
-        await next();
-        return;
+        if (!files.length) {
+            console.log("no relevant files have changed");
+            ctx.body = JSON.stringify({message: "done"});
+        }
+
+        ctx.gh_files = files;
+    } 
+
+    await next();
+}
+
+async function handlePayload(ctx, next) {
+    if (!ctx.body && ctx.gh_files) {
+        console.log(`some files have changed: ${ctx.gh_files.join("; ")}`);
+
+        ctx.body = JSON.stringify({message: "accepted"});
+
+        GHFiles.handleFiles(ctx.gh_files, ctx.request.body.head_commit.id);
     }
-   
-    console.log(`some files have changed: ${files.join("; ")}`);
     
-    ctx.body = JSON.stringify({message: "accepted"});
+    await next();
+}
 
-    GHFiles.handleFiles(files, ctx.request.body.head_commit);
+async function cleanup(ctx, next) {
+    if (!ctx.body) {
+        ctx.body = JSON.stringify({message: "nothing to do"});
+    }
 
-    console.log(`${(new Date(Date.now())).toISOString()} -------- payload done`);
+    console.log(`${(new Date(Date.now())).toISOString()} -------- request done`);
 
     await next();
 }
