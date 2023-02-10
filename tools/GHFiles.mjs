@@ -33,11 +33,19 @@ async function handleOneFile(filename) {
 
     console.log(`handle ${filename} for ${sdgid}`);
 
-    const result = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
-        owner: 'sustainability-zhaw',
-        repo: 'keywords',
-        path: filename
-    });
+    let result; 
+
+    try {
+        result = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+            owner: 'sustainability-zhaw',
+            repo: 'keywords',
+            path: filename
+        });
+    }
+    catch (err) {
+        console.log(`ERROR for ${sdgid}: ${err.message}`);
+        return;
+    }
 
     const fileobject = result.data;
 
