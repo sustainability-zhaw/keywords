@@ -12,11 +12,13 @@ const targetHost = argHost? argHost : "http://localhost:8080/api/";
 
 const forceClean = process.env.CLEANUP || 1;
 
-await Target.cleanup_all(targetHost, forceClean);
+await Target.cleanup_all(targetHost, true);
+process.exit();
 
 const parentdir = "data/sdgs";
 
-const files = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];
+// const files = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];
+const files = Array(16).fill().map((_,i) => i + 1);
 
 const matchTerms = await Promise.all(files.map(Expander.loadOneFile));
 
