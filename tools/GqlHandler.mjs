@@ -11,7 +11,10 @@ export async function injectData(target, variables) {
 
     const result = await runRequest(target, { query, variables });
 
-    // console.log(JSON.stringify(result, null, "  "));
+    if (!("errors" in result)) {
+        console.log(JSON.stringify(result.errors, null, "  "));
+    }
+
     return result;
 }
 
@@ -19,7 +22,7 @@ export async function cleanup_all(target, force) {
     if (!force) {
         return;
     }
-    
+
     await Promise.all(["de", "en", "fr", "it"].map(async (lang) => {
         const query = `mutation {
             deleteSdgMatch(filter: {language: {eq: "${lang}"}}) {
@@ -32,8 +35,8 @@ export async function cleanup_all(target, force) {
           
         const result = await runRequest(target, { query });
         
-        if (!("data" in result && result.data.length)) {
-            console.log(JSON.stringify(result, null, "  "));
+        if (!("errors" in result)) {
+            console.log(JSON.stringify(result.errors, null, "  "));
         }
     }));
 }
@@ -50,19 +53,19 @@ async function runRequest(targetHost, bodyObject) {
 
     const body = JSON.stringify(bodyObject, null, "  ");
 
-    // console.log(body);
+    let result;
 
-    // return;
-
-    const response = await fetch(targetHost, {
-        signal,
-        method,
-        headers,
-        cache,
-        body
-    });
-        
-    const result = await response.json();
+    while (!result || ("errors" in  result && result.errors[0].message.endsWith("Please retry"))) {
+        const response = await fetch(targetHost, {
+            signal,
+            method,
+            headers,
+            cache,
+            body
+        });
+            
+        result = await response.json();
+    }
 
     return result;
 }

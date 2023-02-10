@@ -20,10 +20,8 @@ const parentdir = "data/sdgs";
 // const files = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];
 const files = Array(16).fill().map((_,i) => i + 1);
 
-const matchTerms = await Promise.all(files.map(Expander.loadOneFile));
+const matchTerms = await Promise.all(files.map(Expander.loadOneFile(parentdir)));
 
 const fresults = await Promise.all(matchTerms.filter(m => m.length > 0).map(matcher => Target.injectData(targetHost, {matcher})));
 
-console.log(JSON.stringify(fresults, null, "  "));
-
-/* ************** SUPPORT FUNCTIONS ************************* */
+// console.log(JSON.stringify(fresults, null, "  "));

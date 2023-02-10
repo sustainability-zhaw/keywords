@@ -1,10 +1,12 @@
 import Excel from "exceljs";
 
-export async function loadOneFile(id) {
-    const sdg = `SDG${id}`;
-    const worksheet = await readWorkbook(sdg);
+export function loadOneFile(parentdir) {
+    return async function loader(id) {
+        const sdg = `SDG${id}`;
+        const worksheet = await readWorkbook(parentdir, sdg);
 
-    return handleRows(worksheet, sdg);
+        return handleRows(worksheet, sdg);
+    };
 }
 
 export async function loadOneBuffer(sdg, buffer) {
@@ -49,7 +51,7 @@ function expandConstruct(obj, type) {
     return result;
 }
 
-async function readWorkbook(sdgid) {
+async function readWorkbook(parentdir, sdgid) {
     const workbook = new Excel.Workbook();
 
     await workbook.xlsx.readFile(`${parentdir}/${sdgid}.xlsx`);
