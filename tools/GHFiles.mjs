@@ -15,15 +15,23 @@ export function init(config) {
     });
 
     setup.targetURL = config.apiurl;
+    setup.target_path = config.target_path;
 }
 
-export function handleFiles(files) {
+export async function handleFiles(files) {
     // TODO selective cleanup
+
+    // ignore passed files and runn all files
+    await Target.cleanup_all(setup.targetURL);
+    files = sequence(16).map(i => `${setup.target_path}/SDG${i}.xlsx`);
+
     return Promise.all(files.map(handleOneFile));
 }
 
 async function handleOneFile(filename) {
     const sdgid = filename.split("/").pop().replace(".xlsx", "");
+
+    console.log(`handle ${filename} for ${sdgid}`);
 
     const result = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
         owner: 'sustainability-zhaw',
@@ -36,13 +44,23 @@ async function handleOneFile(filename) {
     const contentBuffer = Buffer.from(fileobject.content, "base64");
 
     if (!(contentBuffer && contentBuffer.length)) {
-        console.log("no content returned");
+        console.log(`no content returned for ${sdgid}`);
         return;
-    }    
+    }
+
+    console.log(`process ${sdgid}`);
 
     const matcher = await Excel.loadOneBuffer(sdgid, contentBuffer);
     
     if (matcher.length) {
         await Target.injectData(setup.targetURL, {matcher});
+        console.log(`data incjected for ${sdgid}`);
     }
+}
+
+function sequence(len, start) {
+    if (!start) {
+        start = 1;
+    }
+    return Array(len).fill().map((_, i) => i + start);
 }

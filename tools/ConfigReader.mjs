@@ -15,6 +15,10 @@ const defaults = {
 export async function readConfig(locations) {
     let result = {};
 
+    if ( typeof locations === "string" ) {
+        locations = [locations];
+    }
+
     const locs = await Promise.all(
         locations.map((afile) => fs.stat(afile)
             .then(() => afile)
