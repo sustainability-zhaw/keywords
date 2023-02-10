@@ -13,7 +13,7 @@ const targetHost = argHost? argHost : "http://localhost:8080/api/";
 const forceClean = process.env.CLEANUP || 1;
 
 await Target.cleanup_all(targetHost, true);
-process.exit();
+// process.exit();
 
 const parentdir = "data/sdgs";
 
