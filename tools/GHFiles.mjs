@@ -16,16 +16,19 @@ export function init(config) {
 
     setup.targetURL = config.apiurl;
     setup.target_path = config.target_path;
+    setup.branch = config.branch;
 }
 
-export async function handleFiles(files) {
+export async function handleFiles(files, refid) {
     // TODO selective cleanup
 
     // ignore passed files and runn all files
     await Target.cleanup_all(setup.targetURL);
     files = sequence(16).map(i => `${setup.target_path}/SDG${i}.xlsx`);
 
-    return Promise.all(files.map(handleOneFile));
+    await Promise.all(files.map(handleOneFile));
+
+    console.log(`${(new Date(Date.now())).toISOString()} -------- payload completed ${refid}`);
 }
 
 async function handleOneFile(filename) {
@@ -39,7 +42,8 @@ async function handleOneFile(filename) {
         result = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
             owner: 'sustainability-zhaw',
             repo: 'keywords',
-            path: filename
+            path: filename,
+            ref: setup.branch
         });
     }
     catch (err) {
