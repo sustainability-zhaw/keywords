@@ -22,8 +22,9 @@ export function init(config) {
 export async function handleFiles(files, refid) {
     // TODO selective cleanup
 
-    // ignore passed files and runn all files
-    await Target.cleanup_all(setup.targetURL);
+    // ignore passed files and run against all files
+    await Target.cleanup_all(setup.targetURL, true);
+    
     files = sequence(16).map(i => `${setup.target_path}/SDG${i}.xlsx`);
 
     await Promise.all(files.map(handleOneFile));

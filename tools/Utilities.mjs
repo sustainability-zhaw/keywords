@@ -92,7 +92,7 @@ function handleRows(ws, sdg) {
         }
 
         const obj = {
-            id: `${sdg.toLowerCase()}_c${rid}`
+            id: `${sdg.toLowerCase()}`
         };
 
         row.eachCell((cell, cid) => {
@@ -104,7 +104,7 @@ function handleRows(ws, sdg) {
 
             if (!(headings[cid].lang in obj)) {
                 obj[headings[cid].lang] = {
-                    construct: `${obj.id}_${headings[cid].lang}`,
+                    construct: `${obj.id}_${headings[cid].lang}_c${rid}`,
                     language: headings[cid].lang,
                     sdg: {
                         id: `sdg_${id}`

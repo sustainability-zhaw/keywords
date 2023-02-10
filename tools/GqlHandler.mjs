@@ -19,21 +19,23 @@ export async function cleanup_all(target, force) {
     if (!force) {
         return;
     }
-
-    const query = `mutation {
-        deleteSdgMatch(filter: {has: construct}) {
-          msg
-          sdgMatch {
-            construct
-          }
-        }
-      }`;
-      
-    const result = await runRequest(target, { query });
     
-    console.log(JSON.stringify(result, null, "  "));
-
-    return result;
+    await Promise.all(["de", "en", "fr", "it"].map(async (lang) => {
+        const query = `mutation {
+            deleteSdgMatch(filter: {language: {eq: "${lang}"}}) {
+              msg
+              sdgMatch {
+                construct
+              }
+            }
+          }`;
+          
+        const result = await runRequest(target, { query });
+        
+        if (!("data" in result && result.data.length)) {
+            console.log(JSON.stringify(result, null, "  "));
+        }
+    }));
 }
 
 async function runRequest(targetHost, bodyObject) {
