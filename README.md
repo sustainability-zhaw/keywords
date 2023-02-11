@@ -4,7 +4,7 @@ SDG identifying keywords for sdg labelling
 
 ## Purpose
 
-The sustainability keywords mapping  provides the means for relating information objects to the UN Sustainable Development Goals (SDG). These keywords are used to prime the [indexing system]() of the [SDG-Dashboard]().
+The sustainability keywords mapping  provides the means for relating information objects to the UN Sustainable Development Goals (SDG). These keywords are used to prime the [indexing system](https://github.com/sustainability-zhaw/sdg-indexer) of the [SDG-Dashboard](https://github.com/sustainability-zhaw/sustainability-dashboard).
 
 ## Organisation
 
@@ -43,6 +43,10 @@ Both fields MAY contain a comma separated list of terms. These terms are expande
 For English, each term is internally duplicated for UK and US-spelling. In the worst case this leads nine internal matches. These remain internal and are exposed as the same index term, so it is not needed to focus on the particular spelling. However, the indexer will not account for mixed uses of the spelling within the same record!
 
 This repo has **no functional component**. All files under any ˋsrcˋ or ˋarchˋ-folder are tagged for removal.
+
+## Usage
+
+This repo updates the index terms in the dashboard everytime a spreadsheet changes on the main branch. The new terms are automatically loaded via [a webhook service](https://github.com/sustainability-zhaw/keyword-webhook).
 
 ## Limitations
 
