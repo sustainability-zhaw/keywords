@@ -40,13 +40,15 @@ The `forbidden_context` works exactly oposite: the provided term MUST not be pre
 
 Both fields MAY contain a comma separated list of terms. These terms are expanded into individual matching terms. Each individual term in these fileds is considered as is (same concept as in `keyword`).
 
+**Important** Sometimes some languages have multiple forms of spelling for the same keyword, while others do not. In such cases, only the keyword for the langauge with the differen spelling is repeated. If the translation is always the same in other languages, then the respective fields SHOULD NOT be repeated. Otherwise, the same keyword appears multiple times for a language. 
+
 For English, each term is internally duplicated for UK and US-spelling. In the worst case this leads nine internal matches. These remain internal and are exposed as the same index term, so it is not needed to focus on the particular spelling. However, the indexer will not account for mixed uses of the spelling within the same record!
 
 This repo has **no functional component**. All files under any ˋsrcˋ or ˋarchˋ-folder are tagged for removal.
 
 ## Usage
 
-This repo updates the index terms in the dashboard everytime a spreadsheet changes on the main branch. The new terms are automatically loaded via [a webhook service](https://github.com/sustainability-zhaw/keyword-webhook).
+This repo updates the index terms in the dashboard everytime a spreadsheet changes on the main branch. The new terms are automatically loaded via [the webhook service](https://github.com/sustainability-zhaw/keyword-webhook).
 
 ## Limitations
 
