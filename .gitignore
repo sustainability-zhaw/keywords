@@ -3,3 +3,4 @@ tools/node_modules
 **/.DS_Store
 tools/config.json
 data/sdgs/~$*.xlsx
+data/.DS_Store
